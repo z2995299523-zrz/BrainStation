@@ -1,0 +1,117 @@
+slug: object-clause
+subject: english
+title: "宾语从句"
+tier: trunk
+difficulty: 3
+prerequisites: ["tenses-basic"]
+estimated_min: 25
+
+trigger:
+  type: story
+  title: "把一句话塞进另一句话里"
+  content:
+    text: |
+      人类语言最神奇的能力之一是**递归**——无限嵌套：
+      "他说..."
+      "他说她认为..."
+      "他说她认为我知道..."
+      "他说她认为我知道你在想..."
+      可以一直嵌套下去！
+
+      宾语从句就是这种嵌套能力的语法体现。
+      它让你能把一个完整的句子变成另一个句子的"宾语"——
+      就像俄罗斯套娃。
+
+      中文也做同样的事："他说她明天会来。"
+      但英语的玩法不同——你必须处理词序、时态、连接词。
+    question: "你觉得语言为什么需要嵌套句子的能力？如果禁止嵌套会怎样？"
+
+content:
+  operation:
+    text: |
+      ## 宾语从句：用句子做宾语
+
+      **结构**：主句 + that/whether/wh-词 + 从句
+
+      ### 三种连接词
+
+      1. **that**（陈述事实，常可省略）
+         - I know **(that)** he is right.
+         - She said **(that)** she would come.
+
+      2. **whether / if**（是否，不确定）
+         - I don't know **whether/if** he will come.
+         - He asked me **if** I liked music.
+
+      3. **wh-词**（what/who/when/where/why/how）
+         - Do you know **where** he lives?
+         - I wonder **what** she wants.
+
+      ### 关键规则
+      - **词序**：从句永远用**陈述句语序**（主语+谓语）
+        - ✗ "I don't know where does he live."
+        - ✓ "I don't know where he lives."
+      - **时态呼应**：主句过去时 → 从句也过去时
+        - She said she **was** tired.
+    examples:
+      - input: "\"Do you know where does she live?\" 哪里错？"
+    output: "→ Do you know where she lives?（从句用陈述语序）"
+
+  understand:
+    text: |
+      ## 为什么从句不能用疑问句语序？
+
+      英语有一个铁律：**从句永远用陈述句语序**。
+
+      这其实很合理——从句是"嵌套在另一个句子里的陈述"，
+      它不是真正的问句，只是在提供信息。
+
+      对比：
+      - 直接问句：**Where does** he live? ← 主语和助动词倒装
+      - 宾语从句：I don't know **where he lives**. ← 陈述语序
+
+      **为什么英语要区分？**
+      因为英语用词序来标记句子类型。问句倒装是一个"信号"——
+      告诉听者"这是一个问题"。而从句是陈述的一部分，不需要这个信号。
+
+      **时态呼应的逻辑**：
+      She **said** she **was** tired.（主句过去 → 从句过去）
+      逻辑：她说话的时候是过去，她累也是当时——所以从句也用过去。
+    highlights:
+      - "从句永远用陈述语序 = 英语最铁的铁律之一"
+      - "主句过去 → 从句也过去（时态呼应）"
+
+  connect:
+    text: |
+      ## 嵌套句子的能力是语言进化的重要一步
+
+      人类是唯一能用语言递归嵌套的物种。动物可以发出警告信号，
+      但没有任何动物能说"我昨天看到的那个人告诉我明天会下雨"——
+      因为这需要在一个句子中嵌套时间、空间、和另一个人的视角。
+
+      **宾语从句的本质**：在说话者的视角中嵌入另一个人的视角。
+      这是人类独有的认知能力——心理理论（Theory of Mind）。
+
+      你能理解"他以为我不知道他知道"吗？
+      这就是三层嵌套——而你对宾语从句的掌握，正是这种认知能力的语言基础。
+    thought_seeds:
+      - "宾语从句 = 把一个完整句子当成一个名词来用"
+      - "从句用陈述语序，永远记住"
+
+feynman:
+  base_prompt: "用你自己的话解释：宾语从句有哪三种连接词？为什么从句不能用问句语序？"
+  key_elements:
+    - "that 连接陈述"
+    - "whether/if 表示'是否'"
+    - "wh-词引导特殊疑问"
+    - "从句用陈述语序"
+  deep_questions:
+    - "如果英语规则改成'从句也用问句语序'，你觉得会更容易还是更难？"
+    - "你能造一个三层嵌套的宾语从句吗？（例：I think that she knows that he said that...）"
+  missing_hints:
+    "that 连接陈述": "表达一个确定的事实时用什么连接词？可以省略吗？"
+    "whether/if 表示'是否'": "表达不确定/选择时用什么连接词？"
+    "wh-词引导特殊疑问": "要问'在哪里'/'什么时候'/'为什么'，用什么词引导从句？"
+    "从句用陈述语序": "主语和谓语在从句中应该是什么顺序？"
+
+thought_card: "今天学到的宾语从句规则中，哪一条你最需要记住？"

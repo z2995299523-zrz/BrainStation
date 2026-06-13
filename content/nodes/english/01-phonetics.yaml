@@ -1,0 +1,161 @@
+slug: phonetics
+subject: english
+title: "音标与拼读"
+tier: core
+difficulty: 1
+prerequisites: []
+estimated_min: 25
+
+trigger:
+  type: story
+  title: "你为什么能读出没见过的单词？"
+  content:
+    text: |
+      英语有 44 个音素，但只有 26 个字母。
+
+      这意味着同一个字母在不同单词里读不同的音——
+      "ghoti" 完全可以读成 "fish"：
+      - gh 像 enough 里的 /f/
+      - o 像 women 里的 /ɪ/
+      - ti 像 nation 里的 /ʃ/
+
+      这就是为什么你需要音标——它是英语发音的"拼音系统"。
+      一旦掌握，你就能读任何不认识的单词。
+    question: "为什么英语的拼写和发音常常不一致？"
+    spoken_phrases:
+      - { text: "enough", label: "gh → /f/" }
+      - { text: "women", label: "o → /ɪ/" }
+      - { text: "nation", label: "ti → /ʃ/" }
+      - { text: "fish", label: "ghoti = fish" }
+
+content:
+  operation:
+    text: |
+      ## 国际音标（IPA）基础
+
+      **48 个音标 = 20 个元音 + 28 个辅音**
+
+      **元音（Vowels）**：
+      - 单元音：/iː/ (see)、/ɪ/ (sit)、/e/ (bed)、/æ/ (cat)、/ʌ/ (cup)、/ɑː/ (car)、/ɒ/ (hot)、/ɔː/ (door)、/ʊ/ (book)、/uː/ (too)、/ɜː/ (bird)、/ə/ (about)
+      - 双元音：/aɪ/ (my)、/eɪ/ (day)、/ɔɪ/ (boy)、/aʊ/ (now)、/əʊ/ (go)、/ɪə/ (here)、/eə/ (hair)、/ʊə/ (tour)
+
+      **辅音（Consonants）**：
+      - 清辅音：/p/ /t/ /k/ /f/ /θ/ /s/ /ʃ/ /tʃ/ /tr/ /ts/ /h/
+      - 浊辅音：/b/ /d/ /g/ /v/ /ð/ /z/ /ʒ/ /dʒ/ /dr/ /dz/ /r/
+      - 鼻音和半元音：/m/ /n/ /ŋ/ /l/ /w/ /j/
+
+      **拼读规则**：
+      - 开音节（以元音结尾）：元音读本音，如 go、she、hi
+      - 闭音节（以辅音结尾）：元音读短音，如 cat、bed、sit
+    phonemes:
+      monophthongs:
+        - { symbol: "/iː/", speak_phoneme: "ee",   word: "see",   word_ipa: "/siː/",       speak_word: "see" }
+        - { symbol: "/ɪ/",  speak_phoneme: "i",    word: "sit",   word_ipa: "/sɪt/",       speak_word: "sit" }
+        - { symbol: "/e/",  speak_phoneme: "e",    word: "bed",   word_ipa: "/bed/",       speak_word: "bed" }
+        - { symbol: "/æ/",  speak_phoneme: "a",    word: "cat",   word_ipa: "/kæt/",       speak_word: "cat" }
+        - { symbol: "/ʌ/",  speak_phoneme: "uh",   word: "cup",   word_ipa: "/kʌp/",       speak_word: "cup" }
+        - { symbol: "/ɑː/", speak_phoneme: "ah",   word: "car",   word_ipa: "/kɑːr/",      speak_word: "car" }
+        - { symbol: "/ɒ/",  speak_phoneme: "o",    word: "hot",   word_ipa: "/hɒt/",       speak_word: "hot" }
+        - { symbol: "/ɔː/", speak_phoneme: "aw",   word: "door",  word_ipa: "/dɔːr/",      speak_word: "door" }
+        - { symbol: "/ʊ/",  speak_phoneme: "oo",   word: "book",  word_ipa: "/bʊk/",       speak_word: "book" }
+        - { symbol: "/uː/", speak_phoneme: "ooo",  word: "too",   word_ipa: "/tuː/",       speak_word: "too" }
+        - { symbol: "/ɜː/", speak_phoneme: "er",   word: "bird",  word_ipa: "/bɜːrd/",     speak_word: "bird" }
+        - { symbol: "/ə/",  speak_phoneme: "uh",   word: "about", word_ipa: "/əˈbaʊt/",    speak_word: "about" }
+      diphthongs:
+        - { symbol: "/aɪ/", speak_phoneme: "eye",  word: "my",   word_ipa: "/maɪ/",       speak_word: "my" }
+        - { symbol: "/eɪ/", speak_phoneme: "ay",   word: "day",  word_ipa: "/deɪ/",       speak_word: "day" }
+        - { symbol: "/ɔɪ/", speak_phoneme: "oy",   word: "boy",  word_ipa: "/bɔɪ/",       speak_word: "boy" }
+        - { symbol: "/aʊ/", speak_phoneme: "ow",   word: "now",  word_ipa: "/naʊ/",       speak_word: "now" }
+        - { symbol: "/əʊ/", speak_phoneme: "oh",   word: "go",   word_ipa: "/ɡəʊ/",       speak_word: "go" }
+        - { symbol: "/ɪə/", speak_phoneme: "ear",  word: "here", word_ipa: "/hɪər/",      speak_word: "here" }
+        - { symbol: "/eə/", speak_phoneme: "air",  word: "hair", word_ipa: "/heər/",      speak_word: "hair" }
+        - { symbol: "/ʊə/", speak_phoneme: "oor",  word: "tour", word_ipa: "/tʊər/",      speak_word: "tour" }
+      consonants_voiceless:
+        - { symbol: "/p/",  speak_phoneme: "p",    word: "pen",   word_ipa: "/pen/",       speak_word: "pen" }
+        - { symbol: "/t/",  speak_phoneme: "t",    word: "top",   word_ipa: "/tɒp/",       speak_word: "top" }
+        - { symbol: "/k/",  speak_phoneme: "k",    word: "cat",   word_ipa: "/kæt/",       speak_word: "cat" }
+        - { symbol: "/f/",  speak_phoneme: "f",    word: "fish",  word_ipa: "/fɪʃ/",       speak_word: "fish" }
+        - { symbol: "/θ/",  speak_phoneme: "th",   word: "think", word_ipa: "/θɪŋk/",      speak_word: "think" }
+        - { symbol: "/s/",  speak_phoneme: "s",    word: "sun",   word_ipa: "/sʌn/",       speak_word: "sun" }
+        - { symbol: "/ʃ/",  speak_phoneme: "sh",   word: "she",   word_ipa: "/ʃiː/",       speak_word: "she" }
+        - { symbol: "/tʃ/", speak_phoneme: "ch",   word: "chair", word_ipa: "/tʃeər/",     speak_word: "chair" }
+        - { symbol: "/tr/", speak_phoneme: "tr",   word: "tree",  word_ipa: "/triː/",      speak_word: "tree" }
+        - { symbol: "/ts/", speak_phoneme: "ts",   word: "cats",  word_ipa: "/kæts/",      speak_word: "cats" }
+        - { symbol: "/h/",  speak_phoneme: "h",    word: "hat",   word_ipa: "/hæt/",       speak_word: "hat" }
+      consonants_voiced:
+        - { symbol: "/b/",  speak_phoneme: "b",    word: "book",  word_ipa: "/bʊk/",       speak_word: "book" }
+        - { symbol: "/d/",  speak_phoneme: "d",    word: "dog",   word_ipa: "/dɒɡ/",       speak_word: "dog" }
+        - { symbol: "/g/",  speak_phoneme: "g",    word: "go",    word_ipa: "/ɡəʊ/",       speak_word: "go" }
+        - { symbol: "/v/",  speak_phoneme: "v",    word: "very",  word_ipa: "/ˈveri/",     speak_word: "very" }
+        - { symbol: "/ð/",  speak_phoneme: "thh",  word: "this",  word_ipa: "/ðɪs/",       speak_word: "this" }
+        - { symbol: "/z/",  speak_phoneme: "z",    word: "zoo",   word_ipa: "/zuː/",       speak_word: "zoo" }
+        - { symbol: "/ʒ/",  speak_phoneme: "zh",   word: "vision", word_ipa: "/ˈvɪʒən/",   speak_word: "vision" }
+        - { symbol: "/dʒ/", speak_phoneme: "j",    word: "jump",  word_ipa: "/dʒʌmp/",     speak_word: "jump" }
+        - { symbol: "/dr/", speak_phoneme: "dr",   word: "drive", word_ipa: "/draɪv/",     speak_word: "drive" }
+        - { symbol: "/dz/", speak_phoneme: "dz",   word: "beds",  word_ipa: "/bedz/",      speak_word: "beds" }
+        - { symbol: "/r/",  speak_phoneme: "r",    word: "red",   word_ipa: "/red/",       speak_word: "red" }
+      consonants_nasal:
+        - { symbol: "/m/",  speak_phoneme: "m",    word: "man",   word_ipa: "/mæn/",       speak_word: "man" }
+        - { symbol: "/n/",  speak_phoneme: "n",    word: "no",    word_ipa: "/nəʊ/",       speak_word: "no" }
+        - { symbol: "/ŋ/",  speak_phoneme: "ng",   word: "sing",  word_ipa: "/sɪŋ/",       speak_word: "sing" }
+        - { symbol: "/l/",  speak_phoneme: "l",    word: "like",  word_ipa: "/laɪk/",      speak_word: "like" }
+        - { symbol: "/w/",  speak_phoneme: "w",    word: "we",    word_ipa: "/wiː/",       speak_word: "we" }
+        - { symbol: "/j/",  speak_phoneme: "y",    word: "yes",   word_ipa: "/jes/",       speak_word: "yes" }
+    examples:
+      - input: "name 为什么读 /neɪm/？"
+        output: "末尾有 e → 开音节 → a 读 /eɪ/"
+      - input: "cat 为什么读 /kæt/？"
+        output: "以辅音 t 结尾 → 闭音节 → a 读 /æ/"
+
+  understand:
+    text: |
+      ## 为什么"音标"和"字母"不是一回事？
+
+      英语在历史上被多次"入侵"——日耳曼语、拉丁语、法语、希腊语——
+      每次入侵都带来新的单词和拼写规则。
+
+      结果就是：英语的拼写大约定型于 15 世纪（印刷术出现），
+      但发音一直在变化。所以写和读脱节了。
+
+      **Great Vowel Shift（元音大推移）**：
+      14-18 世纪，英语长元音的发音发生了系统性变化：
+      - name 原本读 /naːmə/ → 现在读 /neɪm/
+      - feet 原本读 /feːt/ → 现在读 /fiːt/
+
+      拼写没跟上发音的变化——这就是一切混乱的根源。
+    highlights:
+      - "英语拼写混乱是因为拼写在 500 年前就定型了，发音却一直在变"
+      - "音标是'作弊码'——学会就能读任何单词"
+
+  connect:
+    text: |
+      ## 音标不只是学英语的工具
+
+      - **语言学**：所有语言都可以用 IPA 来记音
+      - **演戏/播音**：演员和播音员需要音标来学习方言和外语口音
+      - **AI 语音**：Siri/Alexa 用音素序列来合成语音
+      - **语言康复**：听力障碍者通过音标视觉线索学习发音
+
+      **更深一层**：音标让你意识到——发音是可以被看见的。
+      把声音变成视觉符号，这是人类的一大发明。
+    thought_seeds:
+      - "国际音标可以标注世界上任何一种语言的发音"
+      - "你的手机里的语音助手就是一个音标引擎"
+
+feynman:
+  base_prompt: "用你自己的话解释：什么是音标？为什么英语需要音标而中文不需要？"
+  key_elements:
+    - "音标记录发音"
+    - "英语拼写和发音不一致"
+    - "开音节/闭音节规律"
+    - "学会音标能读任何新单词"
+  deep_questions:
+    - "如果要你设计一套新的英语拼写系统（完全照读音写），你会怎么设计？会遇到什么问题？"
+    - "你觉得中文为什么不需要音标（拼音是后来发明的）？"
+  missing_hints:
+    "音标记录发音": "音标的作用是什么？和字母有什么区别？"
+    "英语拼写和发音不一致": "同一个字母在不同单词里读法一样吗？举例。"
+    "开音节/闭音节规律": "结尾的 e 会影响前面的元音发音吗？"
+    "学会音标能读任何新单词": "遇到不认识单词，你有音标就能做到什么？"
+
+thought_card: "你今天学到了什么以前不知道的发音规律？"

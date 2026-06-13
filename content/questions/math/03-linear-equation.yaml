@@ -1,0 +1,94 @@
+node_slug: linear-equation
+questions:
+  - id: "leq-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: math
+    content:
+      stem: "解方程：$2x + 3 = 11$，则 $x = ?$"
+      options: ["$4$", "$7$", "$-4$", "$5$"]
+    answer: { correct: 0, explanation: "移项：2x=11-3=8, x=4" }
+    variants:
+      - stem: "$3x - 5 = 10$"
+        options: ["$5$", "$15$", "$-5$", "$3$"]
+        answer_correct: 0
+  - id: "leq-op-002"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: math
+    content:
+      stem: "$x/2 + 3 = 7$，则 $x = ?$"
+      options: ["$2$", "$8$", "$20$", "$5$"]
+    answer: { correct: 1, explanation: "移项：x/2=4, x=8" }
+  - id: "leq-op-003"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content: { stem: "解：$5x - 3 = 2x + 6$，$x =$ ___" }
+    answer: { correct: "3", explanation: "移项：5x-2x=6+3 → 3x=9 → x=3" }
+    variants:
+      - stem: "$4x + 7 = x - 2$"
+        answer_correct: "-3"
+  - id: "leq-op-004"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: math
+    content:
+      stem: "$3(x-1) + 2(x+1) = 19$，则 $x = ?$"
+      options: ["$3$", "$4$", "$5$", "$6$"]
+    answer: { correct: 1, explanation: "展开：3x-3+2x+2=19 → 5x-1=19 → 5x=20 → x=4" }
+  - id: "leq-op-005"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content: { stem: "解方程：$x/3 - x/4 = 1$，$x =$ ___" }
+    answer: { correct: "12", explanation: "×12：4x-3x=12 → x=12" }
+  - id: "leq-op-006"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: math
+    content:
+      stem: "小明今年 12 岁，爸爸今年 36 岁。几年后爸爸年龄是小明的 2 倍？设 x 年，方程为：$36 + x = 2(12 + x)$"
+      options: ["$6$", "$8$", "$12$", "$10$"]
+    answer: { correct: 2, explanation: "36+x=24+2x → 36-24=2x-x → x=12" }
+  - id: "leq-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: math
+    content:
+      stem: |
+        解方程 $2x + 3 = x - 5$ 时，把 x 移到左边，3 移到右边，
+        变成 $2x - x = -5 - 3$。为什么 3 移到右边变成了 -3？
+      options:
+        - "因为移动的规则就是变号"
+        - "因为两边同时减 3：2x+3-3 = x-5-3 → 2x = x-8"
+        - "因为右边-3比左边+3小"
+        - "这是随意规定的"
+    answer: { correct: 1, explanation: "移项变号的本质是等式两边同时做相同操作。" }
+  - id: "leq-und-002"
+    layer: understand
+    q_type: fill
+    difficulty: 3
+    subject: math
+    content:
+      stem: "方程 $2x=10$ 的解是 5。如果两边同时除以 2，左边=x，右边=___"
+    answer: { correct: "5", explanation: "等式两边同时除以同一个非零数，等号依然成立。" }
+  - id: "leq-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 4
+    subject: math
+    content:
+      stem: |
+        方程就像一架天平。
+        你能想出一个生活中的场景，你在不知不觉中就用了方程思维吗？
+        描述一下这个场景和你在求的未知数是什么。
+    answer:
+      rubric: "合理答案示例：算零花钱（每周存 x 元，几周能买一个 200 元的耳机）→ 方程 x·周数=200"

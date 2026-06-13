@@ -1,0 +1,89 @@
+node_slug: present-perfect
+questions:
+  - id: "prp-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "I ___ my homework. Now I can play."
+      options: ["finished", "have finished", "finish", "am finishing"]
+    answer: { correct: 1, explanation: "强调过去完成的事对现在有影响（now I can play）→ 现在完成时" }
+  - id: "prp-op-002"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "She ___ in Shanghai since 2018."
+      options: ["lived", "has lived", "lives", "is living"]
+    answer: { correct: 1, explanation: "since 2018 → 从过去持续到现在 → 现在完成时" }
+  - id: "prp-op-003"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: english
+    content: { stem: "___ you ever ___ (be) to Japan?" }
+    answer: { correct: "Have, been", explanation: "ever → 经历用法 → 现在完成时" }
+  - id: "prp-op-004"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "I saw that movie last night. —— 为什么不是现在完成时？"
+      options:
+        - "因为是昨天晚上看的"
+        - "因为有具体过去时间 'last night'，不能和现在完成时连用"
+        - "因为是第一人称"
+        - "因为 movie 是不可数名词"
+    answer: { correct: 1, explanation: "有具体过去时间（last night）→ 必须用一般过去时。" }
+  - id: "prp-op-005"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: english
+    content: { stem: "He has ___ (go) to the library. He'll be back soon." }
+    answer: { correct: "gone", explanation: "has gone to = 去了还没回来；has been to = 去过已回来" }
+  - id: "prp-op-006"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "I ___ my key. Can you help me look for it?"
+      options: ["lost", "have lost", "lose", "am losing"]
+    answer: { correct: 1, explanation: "丢了钥匙→现在还在找→过去影响现在→现在完成时" }
+  - id: "prp-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: english
+    content:
+      stem: |
+        "He has gone to Beijing" 和 "He has been to Beijing" 有什么区别？
+      options:
+        - "没区别"
+        - "gone = 去了还没回来，been = 去过已经回来了"
+        - "gone 用于过去，been 用于现在"
+        - "gone 是错的，应该用 been"
+    answer: { correct: 1, explanation: "have gone = 在目的地还没回来；have been = 去过已经回来了。" }
+  - id: "prp-und-002"
+    layer: understand
+    q_type: fill
+    difficulty: 3
+    subject: english
+    content:
+      stem: "为什么不能说 'I have bought a car yesterday'？因为 ___"
+    answer: { correct: "有具体过去时间yesterday", explanation: "现在完成时不能和具体过去时间连用。" }
+  - id: "prp-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 4
+    subject: english
+    content:
+      stem: |
+        中文用了、英语用 have+V3。它们都能表达完成的概念。
+        你觉得如果中文必须像英语一样在动词上标记时间，那会是怎样的体验？
+    answer:
+      rubric: "合理答案：如'我昨天吃-了-饭'标记了过去完成。中文的了主要标记完成（aspect）而非时间（tense），而英语必须同时标记两者。"

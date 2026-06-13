@@ -1,0 +1,111 @@
+slug: present-perfect
+subject: english
+title: "现在完成时"
+tier: trunk
+difficulty: 3
+prerequisites: ["tenses-basic"]
+estimated_min: 25
+
+trigger:
+  type: story
+  title: "一种让英语母语者也解释不清的时态"
+  content:
+    text: |
+      如果问一个英国人"现在完成时是什么"，他很可能会说
+      "I have no idea, I just use it."
+
+      这就是母语者的秘密——他们用语法但从不想语法。
+
+      但对学习者来说，现在完成时是英语时态中最微妙的一个：
+      它不是过去，也不是现在——而是过去对现在的影响。
+
+      比如：
+      "I lost my key"（过去某个时候丢了）——可能已经找回来了
+      "I have lost my key"（已经丢了）——现在还在找
+
+      两句话描述的是同一件事，但现在完成时把过去和现在连在了一起。
+    question: "你能感觉到 I lost 和 I have lost 的区别吗？"
+
+content:
+  operation:
+    text: |
+      ## 现在完成时（Present Perfect）
+
+      **形式**：have/has + 过去分词（V3）
+
+      **三种核心用法**：
+
+      ### 1. 完成用法（Result）：过去动作对现在有结果/影响
+      - I have lost my key.（现在钥匙还没找到）
+      - She has finished her homework.（现在作业已经完成了）
+
+      ### 2. 经历用法（Experience）：到目前为止的经历
+      - I have been to Beijing three times.（到目前为止去过 3 次）
+      - Have you ever eaten sushi?（你这辈子吃过寿司吗？）
+
+      ### 3. 持续用法（Duration）：从过去持续到现在
+      - I have lived here for 10 years.（10 年前开始住，现在还在住）
+      - She has known him since 2015.（2015 年认识，现在还认识）
+    examples:
+      - input: "I lost my key vs I have lost my key"
+        output: "前者=过去丢了（可能找到了），后者=已经丢了（现在还在找）"
+      - input: "for 10 years 用什么时态？"
+        output: "现在完成时 → I have studied English for 10 years."
+
+  understand:
+    text: |
+      ## 现在完成时 vs 一般过去时 —— 终极区别
+
+      | 时态 | 聚焦 | 时间词示例 |
+      |------|------|-----------|
+      | 一般过去时 | 过去的动作 | yesterday, last week, in 2010 |
+      | 现在完成时 | 过去到现在的连接 | just, already, yet, since, for |
+
+      **关键判别法**：问自己 —— 这个动作和现在有关吗？
+
+      - "I ate breakfast at 7am." → 现在中午了，和现在无关 → 一般过去时
+      - "I have already eaten breakfast." → 现在不饿了，和现在有关 → 现在完成时
+
+      **中式英语常见错误**：
+      ✗ "I have seen him yesterday." → 有具体过去时间 yesterday → 必须用一般过去时
+      ✓ "I saw him yesterday."
+    highlights:
+      - "现在完成时 = 过去和现在之间的桥梁"
+      - "有具体过去时间（yesterday/ago）永远不用现在完成时"
+
+  connect:
+    text: |
+      ## 为什么每种语言都需要表达完成的概念？
+
+      几乎每种语言都有完成体（perfective aspect），只是实现方式不同：
+      - 英语：have + V3
+      - 中文：了（动态助词）
+      - 日语：〜た形
+      - 西班牙语：haber + participio
+
+      深层的认知需求：人类需要区分事情本身和事情的后果。
+      我丢了钥匙可以是告诉你一个过去的事件，
+      也可以是在解释为什么我现在进不了门——这是两个完全不同的沟通目的。
+
+      现在完成时就是后者的语法化。
+    thought_seeds:
+      - "现在完成时关注的是结果和影响"
+      - "有具体过去时间 → 绝不能用现在完成时"
+
+feynman:
+  base_prompt: "用你自己的话解释：现在完成时和一般过去时有什么本质区别？什么时候必须用现在完成时？"
+  key_elements:
+    - "have/has + 过去分词"
+    - "强调过去对现在的影响"
+    - "和 already/just/ever/never/for/since 搭配"
+    - "有具体过去时间时不能用"
+  deep_questions:
+    - "如果你来给现在完成时取一个更直觉的中文名字，你会叫什么？"
+    - "你觉得中文的了和英语的现在完成时有什么相同和不同？"
+  missing_hints:
+    "have/has + 过去分词": "现在完成时由什么助动词 + 什么形式？"
+    "强调过去对现在的影响": "I have lost my key 和 I lost my key 感觉有什么不同？"
+    "和 already/just/ever/never/for/since 搭配": "看到哪些词最常用现在完成时？"
+    "有具体过去时间时不能用": "I have seen him yesterday 为什么是错的？"
+
+thought_card: "今天你学会了哪个以前一直混淆的现在完成时用法？"

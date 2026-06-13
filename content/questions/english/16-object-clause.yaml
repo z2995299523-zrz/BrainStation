@@ -1,0 +1,89 @@
+node_slug: object-clause
+questions:
+  - id: "obj-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "I know ___ he is right."
+      options: ["what", "that", "which", "how"]
+    answer: { correct: 1, explanation: "he is right 是一个完整的陈述 → 用 that 连接" }
+  - id: "obj-op-002"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "I don't know ___ he will come."
+      options: ["that", "whether", "what", "who"]
+    answer: { correct: 1, explanation: "不确定 → 用 whether 或 if" }
+  - id: "obj-op-003"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "Which is correct?（哪句正确？）"
+      options:
+        - "I don't know where does he live."
+        - "I don't know where he lives."
+        - "I don't know where lives he."
+        - "I don't know where he does live."
+    answer: { correct: 1, explanation: "从句必须用陈述语序：主语 he + 谓语 lives。" }
+  - id: "obj-op-004"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: english
+    content: { stem: "She said (that) she ___ (be) busy." }
+    answer: { correct: "was", explanation: "主句 said 是过去时 → 从句也用过去时 was" }
+  - id: "obj-op-005"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: english
+    content: { stem: "Do you know ___ she wants?" }
+    answer: { correct: "what", explanation: "want 后面缺宾语 → 用 what 补全" }
+  - id: "obj-op-006"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "He asked me ___ I liked the movie."
+      options: ["if", "that", "what", "where"]
+    answer: { correct: 0, explanation: "问是否喜欢 → if/whether" }
+  - id: "obj-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: english
+    content:
+      stem: |
+        为什么 "Do you know what time is it?" 是错的？
+      options:
+        - "因为 what time 应该在句首"
+        - "因为从句必须用陈述语序：what time it is"
+        - "因为没有用 that"
+        - "英文没有这种表达"
+    answer: { correct: 1, explanation: "从句 = 陈述语序 → what time it is，不是 what time is it。" }
+  - id: "obj-und-002"
+    layer: understand
+    q_type: fill
+    difficulty: 3
+    subject: english
+    content:
+      stem: "什么时候 that 可以省略？当从句是 ___ 的时候"
+    answer: { correct: "完整陈述句", explanation: "that 在宾语从句中引导完整陈述句时常可省略，尤其在口语中。" }
+  - id: "obj-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 4
+    subject: english
+    content:
+      stem: |
+        嵌套句子是人类语言独有的能力。试着用中文造一个包含至少两层嵌套的句子
+        （例如"他说她认为..."），然后尝试把它翻译成英文。
+    answer:
+      rubric: "合理要点：中文和英文的嵌套策略不同——中文靠语序和的，英文靠连接词和时态。翻译时可能需要处理时态呼应问题。"

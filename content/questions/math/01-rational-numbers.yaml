@@ -1,0 +1,123 @@
+node_slug: rational-numbers
+questions:
+  - id: "rat-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: math
+    content:
+      stem: "(-3) + (-5) = ?"
+      options: ["8", "-8", "2", "-2"]
+    answer:
+      correct: 1
+      explanation: "同号相加：绝对值 3+5=8，取负号 → -8"
+    variants:
+      - stem: "(-4) + (-7) = ?"
+        options: ["11", "-11", "3", "-3"]
+        answer_correct: 1
+  - id: "rat-op-002"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: math
+    content:
+      stem: "(-3) × 4 = ?"
+      options: ["12", "-12", "7", "-7"]
+    answer:
+      correct: 1
+      explanation: "异号得负：3×4=12 → -12"
+    variants:
+      - stem: "5 × (-6) = ?"
+        options: ["30", "-30", "11", "-11"]
+        answer_correct: 1
+  - id: "rat-op-003"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content:
+      stem: "(-12) ÷ (-3) = ___"
+    answer:
+      correct: "4"
+      explanation: "同号得正：12÷3=4"
+  - id: "rat-op-004"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: math
+    content:
+      stem: "下列哪个数不是有理数？"
+      options: ["3", "1/3", "0.5", "π"]
+    answer:
+      correct: 3
+      explanation: "π 是无限不循环小数，不能写成分数形式。"
+    variants:
+      - stem: "下列哪个数是有理数？"
+        options: ["√2", "π", "0.333...", "e"]
+        answer_correct: 2
+  - id: "rat-op-005"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content:
+      stem: "|-5| + |3| = ___"
+    answer:
+      correct: "8"
+      explanation: "绝对值：|-5|=5, |3|=3, 5+3=8"
+  - id: "rat-op-006"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: math
+    content:
+      stem: "(-2)³ = ?"
+      options: ["-8", "8", "-6", "6"]
+    answer:
+      correct: 0
+      explanation: "(-2)³ = (-2)×(-2)×(-2) = 4×(-2) = -8"
+  - id: "rat-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: math
+    content:
+      stem: |
+        小明说："-3 × -4 应该等于 -12，因为两个负数相乘，
+        结果还是负数，这样比较自然。"
+
+        如果负负得负，会发生什么问题？
+      options:
+        - "没有任何问题，只是个习惯问题"
+        - "分配律会失效，比如 (-1)×(1-1) 用两种算法得到不同结果"
+        - "计算机会崩溃"
+        - "方程无解会比现在多"
+    answer:
+      correct: 1
+      explanation: "如果负负得负，(-1)×(1-1) 用分配律会得到 -2，用先算括号得到 0——矛盾！"
+  - id: "rat-und-002"
+    layer: understand
+    q_type: fill
+    difficulty: 3
+    subject: math
+    content:
+      stem: "0.333... 是无限循环小数，它可以写成分数：___ / 3"
+    answer:
+      correct: "1"
+      explanation: "0.333... = 1/3。无限循环小数一定是有理数。"
+  - id: "rat-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 4
+    subject: math
+    content:
+      stem: |
+        除了欠钱（-200 元），你能举出 3 个生活中用到负数的例子吗？
+        每个例子用一句话说明负数在这里表示什么。
+    answer:
+      rubric: |
+        合理答案示例：
+        - 温度：-5°C 表示零下 5 度
+        - 海拔：-430 米表示低于海平面 430 米
+        - 游戏积分：-100 分表示扣分
+      example: "温度 -5°C、海拔 -430m、游戏积分 -100"

@@ -1,0 +1,90 @@
+node_slug: factorization
+questions:
+  - id: "fac-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: math
+    content:
+      stem: "分解因式：$3x^2 + 6x = ?$"
+      options: ["$3x(x + 2)$", "$x(3x + 6)$", "$3(x^2 + 2x)$", "$3x^2(1 + 2/x)$"]
+    answer: { correct: 0, explanation: "提公因式 3x：3x(x+2)" }
+    variants:
+      - stem: "$4a^2 + 2a$"
+        options: ["$2a(2a+1)$", "$4a(a+0.5)$", "$a(4a+2)$", "$2(2a^2+a)$"]
+        answer_correct: 0
+  - id: "fac-op-002"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: math
+    content:
+      stem: "$x^2 - 9 = ?$"
+      options: ["$(x+3)(x-3)$", "$(x-3)^2$", "$x(x-9)$", "$(x+9)(x-1)$"]
+    answer: { correct: 0, explanation: "平方差公式：x²-9 = (x+3)(x-3)" }
+  - id: "fac-op-003"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content: { stem: "$x^2 + 6x + 9 = (x +$ ___ $)^2$" }
+    answer: { correct: "3", explanation: "完全平方公式：x²+2·3·x+3² = (x+3)²" }
+  - id: "fac-op-004"
+    layer: operation
+    q_type: fill
+    difficulty: 3
+    subject: math
+    content: { stem: "$x^2 + 7x + 12 = (x+3)(x+$___$)$" }
+    answer: { correct: "4", explanation: "十字相乘：3+4=7, 3×4=12" }
+  - id: "fac-op-005"
+    layer: operation
+    q_type: choice
+    difficulty: 3
+    subject: math
+    content:
+      stem: "分解：$4a^2 - 25b^2 = ?$"
+      options: ["$(2a+5b)(2a-5b)$", "$(4a+5b)(a-5b)$", "$2(2a^2-25b^2)$", "$(2a-5b)^2$"]
+    answer: { correct: 0, explanation: "平方差：(2a)²-(5b)² = (2a+5b)(2a-5b)" }
+  - id: "fac-op-006"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content: { stem: "分解：$x^2 - 4x + 4 = (x -$ ___$)^2$" }
+    answer: { correct: "2", explanation: "完全平方：x²-2·2·x+2² = (x-2)²" }
+  - id: "fac-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: math
+    content:
+      stem: |
+        老师说："$x^2 - 5x + 6 = 0$ 的解是 $x=2$ 或 $x=3$。"
+        为什么因式分解能帮我们解方程？
+      options:
+        - "因为因式分解让式子变美观"
+        - "因为积为 0 意味着至少一个因子为 0，化为 (x-2)(x-3)=0 后一目了然"
+        - "因为因式分解是一个规定"
+        - "其实不能，需要用求根公式"
+    answer: { correct: 1, explanation: "ab=0 ⇔ a=0 或 b=0，因式分解把二次方程化成两个一次方程的乘积。" }
+  - id: "fac-und-002"
+    layer: understand
+    q_type: fill
+    difficulty: 3
+    subject: math
+    content:
+      stem: "为什么 $a^2-b^2$ 可以分解而 $a^2+b^2$ 不能（在实数范围内）？因为 ___"
+    answer: { correct: "平方差公式需要减号", explanation: "a²-b²=(a+b)(a-b)但a²+b²没有类似的实数分解。" }
+  - id: "fac-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 5
+    subject: math
+    content:
+      stem: |
+        RSA 加密靠的是大数分解困难。
+        假如有一天量子计算机把大数分解变简单了——
+        你觉得这会给世界带来什么变化？
+      options: []
+    answer:
+      rubric: "合理答案：所有网银/微信支付都不安全了 → 需要新的加密方法（量子加密）。"

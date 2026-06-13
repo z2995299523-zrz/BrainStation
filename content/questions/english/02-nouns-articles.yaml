@@ -1,0 +1,87 @@
+node_slug: nouns-articles
+questions:
+  - id: "nou-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: english
+    content:
+      stem: "I have ___ book."
+      options: ["a", "an", "the", "(不填)"]
+    answer: { correct: 0, explanation: "book 以辅音开头，第一次提到用 a" }
+  - id: "nou-op-002"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: english
+    content:
+      stem: "She is ___ honest person."
+      options: ["a", "an", "the", "(不填)"]
+    answer: { correct: 1, explanation: "honest 的 h 不发音，以元音 /ɒ/ 开头 → 用 an" }
+  - id: "nou-op-003"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "___ water is necessary for life."
+      options: ["a", "an", "the", "(不填)"]
+    answer: { correct: 3, explanation: "water 是不可数名词，泛指时用零冠词" }
+  - id: "nou-op-004"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: english
+    content: { stem: "I saw ___ dog. ___ dog was very cute." }
+    answer: { correct: "a,The", explanation: "第一次提到用 a，第二次提到（已知的狗）用 the" }
+  - id: "nou-op-005"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "Which is correct?"
+      options: ["He gave me an advice.", "He gave me advice.", "He gave me a good advices.", "He gave me the advices."]
+    answer: { correct: 1, explanation: "advice 是不可数名词，不能说 an advice 或 advices" }
+  - id: "nou-op-006"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "___ university"
+      options: ["a", "an"]
+    answer: { correct: 0, explanation: "university 以辅音 /j/ 开头（不是元音），用 a。" }
+  - id: "nou-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: english
+    content:
+      stem: |
+        "I go to school" 和 "I go to the school" 有什么区别？
+      options:
+        - "没区别，the 加不加都行"
+        - "go to school 表示去上学，go to the school 表示去学校那个建筑（不一定是上学）"
+        - "go to the school 是错的"
+        - "go to school 是美式英语，go to the school 是英式英语"
+    answer: { correct: 1, explanation: "零冠词表示抽象功能（上学），the 表示具体地点（那个学校建筑）。" }
+  - id: "nou-und-002"
+    layer: understand
+    q_type: fill
+    difficulty: 3
+    subject: english
+    content:
+      stem: "为什么 furniture 不可数？因为它在英语中被视为 ___（整体概念/具体物件）"
+    answer: { correct: "整体概念", explanation: "家具在英语中被视为一个整体的类别概念，不说 a furniture 而说 a piece of furniture。" }
+  - id: "nou-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 4
+    subject: english
+    content:
+      stem: |
+        如果你的手机输入法在你写英文时每次都帮你检查冠词错误——
+        你希望它怎么提示你？描述一个你觉得最有帮助的提示方式。
+    answer:
+      rubric: "合理要点：显示规则解释而不只是纠错、给出中文对比说明、显示类似用法的正确例子。"

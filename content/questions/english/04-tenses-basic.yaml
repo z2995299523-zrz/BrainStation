@@ -1,0 +1,85 @@
+node_slug: tenses-basic
+questions:
+  - id: "ten-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: english
+    content:
+      stem: "She ___ to school every day."
+      options: ["go", "goes", "is going", "went"]
+    answer: { correct: 1, explanation: "every day → 一般现在时，三单 she → goes" }
+  - id: "ten-op-002"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: english
+    content:
+      stem: "They ___ football yesterday."
+      options: ["play", "played", "are playing", "will play"]
+    answer: { correct: 1, explanation: "yesterday → 一般过去时" }
+  - id: "ten-op-003"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: english
+    content: { stem: "Look! The bus ___ (come)." }
+    answer: { correct: "is coming", explanation: "Look! → 正在进行 → 现在进行时" }
+  - id: "ten-op-004"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "I ___ my homework tomorrow."
+      options: ["do", "did", "will do", "am doing"]
+    answer: { correct: 2, explanation: "tomorrow → 一般将来时" }
+  - id: "ten-op-005"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: english
+    content: { stem: "He ___ (not/eat) meat. He is a vegetarian." }
+    answer: { correct: "doesn't eat", explanation: "习惯/事实 → 一般现在时，三单 → doesn't + 动词原形" }
+  - id: "ten-op-006"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "I have a plan. I ___ visit my grandparents this weekend."
+      options: ["will", "am going to", "am visiting", "visit"]
+    answer: { correct: 1, explanation: "事先计划好的 → be going to" }
+  - id: "ten-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: english
+    content:
+      stem: |
+        "The train leaves at 8pm tomorrow." —— 为什么用一般现在时表示将来？
+      options:
+        - "这是语法错误"
+        - "火车时刻表是固定的，英语用一般现在时表示按时刻表发生的将来事件"
+        - "因为说话人不太确定火车会不会准点"
+        - "这只在口语中才正确"
+    answer: { correct: 1, explanation: "固定时刻表（timetable）事件用一般现在时表将来。同类：The movie starts at 7." }
+  - id: "ten-und-002"
+    layer: understand
+    q_type: fill
+    difficulty: 3
+    subject: english
+    content:
+      stem: "为什么 'I am knowing the answer' 是错的？因为 know 是 ___ 动词，通常不用于进行时态"
+    answer: { correct: "状态", explanation: "状态动词（know, like, believe）表示状态而非动作，一般不用于进行时。" }
+  - id: "ten-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 4
+    subject: english
+    content:
+      stem: |
+        英语有 12 种时态，而中文动词本身没有时态变化。
+        你觉得这种语言差异会影响说这两种语言的人思考时间的方式吗？为什么？
+    answer:
+      rubric: "合理要点：英语强制标记时间可能让说话者对时间顺序更敏感；中文省略时间标记可能让说话者更关注事件间的关联。"

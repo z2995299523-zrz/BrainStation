@@ -1,0 +1,93 @@
+node_slug: polynomials
+questions:
+  - id: "pol-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: math
+    content:
+      stem: "合并同类项：$3x + 5x = ?$"
+      options: ["$8x$", "$15x$", "$8x^2$", "$3x + 5x$"]
+    answer: { correct: 0, explanation: "系数相加：3+5=8，字母部分不变 → 8x" }
+    variants:
+      - stem: "$7y - 2y = ?$"
+        options: ["$5y$", "$9y$", "$5$", "$7y-2y$"]
+        answer_correct: 0
+  - id: "pol-op-002"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: math
+    content:
+      stem: "$-(x - 3) = ?$"
+      options: ["$-x - 3$", "$-x + 3$", "$x + 3$", "$x - 3$"]
+    answer: { correct: 1, explanation: "负号去括号：-x + (-)(-3) = -x + 3" }
+    variants:
+      - stem: "$-(2a + b) = ?$"
+        options: ["$-2a + b$", "$2a - b$", "$-2a - b$", "$2a + b$"]
+        answer_correct: 2
+  - id: "pol-op-003"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content: { stem: "合并：$7ab - 3ab + ab =$ ___" }
+    answer: { correct: "5ab", explanation: "7-3+1 = 5，字母部分 ab 不变" }
+  - id: "pol-op-004"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: math
+    content:
+      stem: "$3(x+2) - 2(x-1) = ?$"
+      options: ["$x+8$", "$x+4$", "$5x+4$", "$x-4$"]
+    answer: { correct: 0, explanation: "展开：3x+6-2x+2 = x+8" }
+  - id: "pol-op-005"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content: { stem: "化简：$(2a+3b) + (a-b) =$ ___" }
+    answer: { correct: "3a+2b", explanation: "去括号：2a+3b+a-b = 3a+2b" }
+  - id: "pol-op-006"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content: { stem: "化简：$4x - (2x + 5) =$ ___" }
+    answer: { correct: "2x-5", explanation: "4x - 2x - 5 = 2x - 5" }
+  - id: "pol-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: math
+    content:
+      stem: |
+        小红说："- (x + 3) = -x + 3，因为去括号就把括号拿掉就行。"
+        她的错误在哪里？
+      options:
+        - "她没有错，-x+3 是对的"
+        - "括号前是负号时，括号里的+要变成-，所以应该是 -x-3"
+        - "去括号必须保留括号"
+        - "这个不能去括号"
+    answer: { correct: 1, explanation: "-(x+3) 里的 +3 也要变号成 -3。" }
+  - id: "pol-und-002"
+    layer: understand
+    q_type: fill
+    difficulty: 3
+    subject: math
+    content:
+      stem: "$3x^2y$ 和 $5xy^2$ 为什么不是同类项？因为一个是 ___，另一个是 ___"
+    answer: { correct: "x^2y,xy^2", explanation: "x²y 中 x 的指数是 2，xy² 中 y 的指数是 2。指数不同 → 不是同类项。" }
+  - id: "pol-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 4
+    subject: math
+    content:
+      stem: |
+        代数用字母代表数，让规律可以一般化表达。
+        比如速度=路程÷时间写成 $v=s/t$。
+        你能再举一个例子，说明用字母表示比用具体数字更好吗？
+    answer:
+      rubric: "合理答案示例：勾股定理 a²+b²=c² 适用于所有直角三角形，而 3²+4²=5² 只适用于一组数。"

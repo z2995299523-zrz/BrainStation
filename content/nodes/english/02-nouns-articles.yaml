@@ -1,0 +1,106 @@
+slug: nouns-articles
+subject: english
+title: "名词与冠词"
+tier: core
+difficulty: 1
+prerequisites: ["phonetics"]
+estimated_min: 25
+
+trigger:
+  type: story
+  title: "the 是英语中最常用的词——但你用对了吗？"
+  content:
+    text: |
+      英语中最常见的词不是 I、you 或 hello，而是——**the**。
+
+      这个只有三个字母的小词，每天被全球数十亿人使用。
+      但它背后的逻辑却让无数学习者困惑：
+
+      "the sun" 但不说 "a sun"（因为只有一个太阳）
+      "I saw a dog" 但不说 "I saw the dog"（除非你知道是哪只狗）
+
+      中文没有冠词，所以中国学习者尤其需要建立一种新直觉。
+      好消息是：一旦学会，你就再也不会用错了。
+    question: "你能感受到 the 和 a/an 的区别吗？试着用中文解释一下？"
+
+content:
+  operation:
+    text: |
+      ## 名词分类和冠词使用
+
+      **名词分类**：
+
+      1. **可数名词**：有单复数
+         - book → books, child → children
+         - 单数可数名词不能单独出现 → 必须加 a/an/the
+         - ✗ "I have book" → ✓ "I have a book"
+
+      2. **不可数名词**：没有复数形式
+         - water, information, music, furniture
+         - 不可数名词前面不加 a/an
+         - ✗ "a water" → ✓ "water" 或 "some water"
+
+      **冠词规则**：
+
+      | 冠词 | 用法 | 例子 |
+      |------|------|------|
+      | a/an | 泛指、第一次提到、单数可数 | a book, an apple |
+      | the | 特指、双方都知道的、唯一的 | the sun, the book I bought |
+      | 零冠词 (ø) | 不可数泛指、复数泛指 | ø water, ø books |
+    examples:
+      - input: "\"I saw dog in park\" 哪里错？"
+    output: "→ I saw a dog in the park（第一次提到狗用 a，公园是特定的用 the）"
+
+  understand:
+    text: |
+      ## 为什么中文没有冠词而英语必须有？
+
+      英语冠词做了一件事：**标记信息的新旧**。
+
+      - **a/an** = "注意！这是我第一次提到这个东西"（新信息）
+      - **the** = "你应该知道我说的是哪个"（已知信息）
+
+      中文没有这种语法标记，但我们会用"那个"、"一个"来表达类似的含义。
+      区别是：在英语中，这不是可选的——是语法要求。
+
+      **有趣的事实**：
+      英语是少数有冠词的语言。世界上大多数语言（包括汉语、日语、俄语、
+      印地语）都没有冠词。有冠词的语言主要分布在欧洲。
+    highlights:
+      - "a/an 标记'新信息'，the 标记'已知信息'"
+      - "冠词是强制性的——不能用'听起来自然'来判断"
+
+  connect:
+    text: |
+      ## 冠词错误能改变意思
+
+      - "Go to school"（去上学）vs "Go to the school"（去学校那个建筑——可能是去接人）
+      - "in hospital"（住院治疗）vs "in the hospital"（在医院里——可能是访客）
+      - "out of question"（毫无疑问）vs "out of the question"（绝不可能）
+
+      这些细微差别的冠词能让意思完全反转！
+
+      **更深一层**：冠词系统反映了语言如何编码"共有知识"——
+      一个社群中大家都知道的事不需要特别标记，新信息则需要。
+      这其实是人类认知的基本模式。
+    thought_seeds:
+      - "the 用来标记'我们双方都知道的东西'"
+      - "冠词错误是最常见的中式英语特征之一"
+
+feynman:
+  base_prompt: "用你自己的话解释：a/an 和 the 的本质区别是什么？为什么 a water 是错的？"
+  key_elements:
+    - "a/an 用于泛指/第一次提到"
+    - "the 用于特指/已知的"
+    - "不可数名词不加 a/an"
+    - "中文没有冠词系统"
+  deep_questions:
+    - "如果让你教一个外星人学英语冠词，第一个例子你会用什么？"
+    - "你觉得是中文'不需要'冠词，还是中文用其他方式表达了同样的意思？"
+  missing_hints:
+    "a/an 用于泛指/第一次提到": "第一次说一只狗时用 a 还是 the？"
+    "the 用于特指/已知的": "说到太阳时为什么用 the？"
+    "不可数名词不加 a/an": "为什么不能说 a water？water 是什么类型的名词？"
+    "中文没有冠词系统": "中文怎么表达'一个'和'那个'？这和英语冠词有什么不同？"
+
+thought_card: "今天你学会了哪个冠词用法是以前用错的？"

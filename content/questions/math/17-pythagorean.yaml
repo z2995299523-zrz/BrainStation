@@ -1,0 +1,85 @@
+node_slug: pythagorean
+questions:
+  - id: "pyt-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: math
+    content:
+      stem: "直角边为 3 和 4 的直角三角形，斜边长是多少？"
+      options: ["$6$", "$5$", "$7$", "$4.5$"]
+    answer: { correct: 1, explanation: "c = √(3²+4²) = √25 = 5" }
+  - id: "pyt-op-002"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content: { stem: "直角三角形直角边为 5 和 12，斜边 = ___" }
+    answer: { correct: "13", explanation: "c = √(25+144) = √169 = 13" }
+  - id: "pyt-op-003"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content: { stem: "斜边为 10，一条直角边为 6，另一条直角边 = ___" }
+    answer: { correct: "8", explanation: "b = √(10²-6²) = √64 = 8" }
+  - id: "pyt-op-004"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: math
+    content:
+      stem: "以下哪组数可以构成直角三角形？"
+      options: ["$3,4,6$", "$5,12,13$", "$7,8,9$", "$2,3,4$"]
+    answer: { correct: 1, explanation: "5²+12²=25+144=169=13² ✓" }
+  - id: "pyt-op-005"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: math
+    content:
+      stem: "等腰直角三角形的直角边为 $a$，斜边为多少？"
+      options: ["$a$", "$2a$", "$a\\sqrt{2}$", "$a\\sqrt{3}$"]
+    answer: { correct: 2, explanation: "c = √(a²+a²) = a√2" }
+  - id: "pyt-op-006"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: math
+    content: { stem: "一个梯子长 10m，底部离墙 6m，顶端到地面 ___m" }
+    answer: { correct: "8", explanation: "h = √(10²-6²) = √64 = 8" }
+  - id: "pyt-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: math
+    content:
+      stem: |
+        古埃及人用一根绳子打 12 个等距的结，拉成 3-4-5 的三角形，
+        就能得到一个直角。为什么这可行？
+      options:
+        - "因为绳结有魔法"
+        - "因为 3-4-5 恰好满足勾股定理，3²+4²=5²，所以三角形必是直角三角形"
+        - "因为绳子足够长"
+        - "这只是巧合"
+    answer: { correct: 1, explanation: "勾股定理的逆定理：满足 a²+b²=c² 的三角形必是直角三角形。" }
+  - id: "pyt-und-002"
+    layer: understand
+    q_type: fill
+    difficulty: 3
+    subject: math
+    content:
+      stem: "如果一个三角形的三边是 9, 12, 15，它是直角三角形吗？___（是/否），因为 ___"
+    answer: { correct: "是", explanation: "9²+12²=81+144=225=15²" }
+  - id: "pyt-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 4
+    subject: math
+    content:
+      stem: |
+        GPS 定位用勾股定理计算你和卫星的距离。
+        如果你正在设计一个室内导航 App，勾股定理会在哪里派上用场？
+      options: []
+    answer:
+      rubric: "合理答案：已知用户坐标(x1,y1)和目的地坐标(x2,y2)，距离=√((x2-x1)²+(y2-y1)²)。"

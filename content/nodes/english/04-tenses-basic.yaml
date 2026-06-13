@@ -1,0 +1,112 @@
+slug: tenses-basic
+subject: english
+title: "四大基础时态"
+tier: core
+difficulty: 2
+prerequisites: ["nouns-articles"]
+estimated_min: 25
+
+trigger:
+  type: story
+  title: "中文没有时态——那你怎么知道事情发生在什么时候？"
+  content:
+    text: |
+      中文用了、过、正在、将来表示时间，但动词本身不变：
+      - 我吃了饭 / 我吃过饭 / 我正在吃饭 / 我要吃饭
+
+      英语完全不同——动词本身要变形：
+      - I ate / I have eaten / I am eating / I will eat
+
+      这意味着说英语时，你每说一个动词就要考虑时间。
+      听起来很累？但一旦内化，你就有了一个时间GPS，
+      能精确表达任何时刻的动作。
+    question: "你觉得中文用时间词、英语用动词变形——哪种更聪明？为什么？"
+
+content:
+  operation:
+    text: |
+      ## 四大基础时态
+
+      ### 1. 一般现在时（Present Simple）
+      - 用法：习惯、事实、规律
+      - 形式：do/does + 动词原形（三单+s/es）
+      - 标志：always, usually, every day
+      - 例：I go to school every day. She goes to school every day.
+
+      ### 2. 一般过去时（Past Simple）
+      - 用法：过去完成的动作
+      - 形式：动词过去式（规则+ed、不规则变化）
+      - 标志：yesterday, last week, in 2020
+      - 例：I went to school yesterday.
+
+      ### 3. 现在进行时（Present Continuous）
+      - 用法：正在进行的动作
+      - 形式：am/is/are + V-ing
+      - 标志：now, at the moment
+      - 例：I am studying now.
+
+      ### 4. 一般将来时（Future Simple）
+      - 用法：将要发生的动作
+      - 形式：will + 动词原形 / be going to + 动词原形
+      - 标志：tomorrow, next week
+      - 例：I will go to school tomorrow.
+    examples:
+      - input: "every day 用哪个时态？"
+        output: "一般现在时 → I play basketball every day."
+      - input: "yesterday + 动作 → 什么时态？"
+        output: "一般过去时 → I played basketball yesterday."
+
+  understand:
+    text: |
+      ## will 和 be going to 有什么区别？
+
+      两者都表示将来，但细微区别很重要：
+
+      - **will**：说话时当场决定的、预测的
+        - "It's cold" → "I will close the window."（刚才决定的）
+
+      - **be going to**：事先计划好的、有迹象的
+        - "I am going to visit my grandma tomorrow."（已经计划好了）
+        - "Look at the clouds! It is going to rain."（有迹象）
+
+      为什么英语需要这么多时态？
+      因为英语缺少中文那样的时间状语灵活性——
+      中文说我明天去学校，动词去不需要变。
+      英语必须在动词上体现时间信息。
+    highlights:
+      - "will = 当场决定，be going to = 事先计划"
+      - "时间标志词是判断时态的最快方法"
+
+  connect:
+    text: |
+      ## 时间语法与思维方式
+
+      语言学家发现：语言如何表达时间，会影响人们如何感知时间。
+
+      英语强制标记时间（每个动词都要有时态），英语母语者
+      普遍对时间的点和段更敏感。
+
+      而中文不必标记时间，中文母语者更容易看到事件的关联性而不是先后性。
+
+      这不是谁好谁坏——而是不同的思维工具。
+    thought_seeds:
+      - "语言影响思维——强制标记时间的语言使用者在时间感知上更精确"
+      - "12 种时态其实只有 3 个时间×4 个状态，记忆时用矩阵法更高效"
+
+feynman:
+  base_prompt: "用你自己的话解释：四大基础时态分别什么时候用？will 和 be going to 有什么区别？"
+  key_elements:
+    - "一般现在时表习惯和事实"
+    - "一般过去时表过去的动作"
+    - "现在进行时表正在发生"
+    - "一般将来时表将要发生"
+  deep_questions:
+    - "如果英语取消时态，改用时间词（like 中文），你觉得会更简单还是更复杂？"
+    - "你觉得时态最难的地方在哪里？你用什么方法克服？"
+  missing_hints:
+    "一般现在时表习惯和事实": "I ___ (get) up at 7 every day. 用什么时态？"
+    "一般过去时表过去的动作": "yesterday 出现通常用什么时态？"
+    "现在进行时表正在发生": "look!/now 出现通常用什么时态？"
+    "一般将来时表将要发生": "tomorrow/next week 出现通常用什么时态？"
+
+thought_card: "今天学到的哪个时态细节是你以前没注意到的？"

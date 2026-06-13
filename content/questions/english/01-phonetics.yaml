@@ -1,0 +1,83 @@
+node_slug: phonetics
+questions:
+  - id: "pho-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: english
+    content:
+      stem: "哪一个单词中的字母 a 发音不同？"
+      options: ["cat", "hat", "name", "map"]
+    answer: { correct: 2, explanation: "name 是开音节，a 读 /eɪ/；其余是闭音节，a 读 /æ/" }
+  - id: "pho-op-002"
+    layer: operation
+    q_type: fill
+    difficulty: 1
+    subject: english
+    content: { stem: "cat 中 a 的音标是 ___" }
+    answer: { correct: "/æ/", explanation: "闭音节，a 发短音 /æ/" }
+  - id: "pho-op-003"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "以下哪个字母组合常发 /ʃ/ 音？"
+      options: ["ch", "sh", "th", "ph"]
+    answer: { correct: 1, explanation: "sh 发 /ʃ/（如 she, fish）；ch 发 /tʃ/；th 发 /θ/ 或 /ð/；ph 发 /f/" }
+  - id: "pho-op-004"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: english
+    content: { stem: "think 中 th 发什么音？___" }
+    answer: { correct: "/θ/", explanation: "清辅音 /θ/，舌头放在上下牙之间送气" }
+  - id: "pho-op-005"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "哪个单词含有双元音 /eɪ/？"
+      options: ["sit", "make", "hot", "bus"]
+    answer: { correct: 1, explanation: "make 中 a-e 结构发 /eɪ/" }
+  - id: "pho-op-006"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: english
+    content: { stem: "she 中 e 发 ___" }
+    answer: { correct: "/iː/", explanation: "开音节，e 读本音 /iː/（长音）" }
+  - id: "pho-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: english
+    content:
+      stem: |
+        为什么 Chinese 中的 ch 读 /tʃ/，而 chemistry 中的 ch 读 /k/？
+      options:
+        - "没有规律，随便读"
+        - "chemistry 来自希腊语，ch 在希腊词源中常读 /k/"
+        - "第一个 ch 是错的"
+        - "取决于后面接什么字母"
+    answer: { correct: 1, explanation: "词源影响发音：ch 在日耳曼词中读 /tʃ/，在希腊词源中常读 /k/。" }
+  - id: "pho-und-002"
+    layer: understand
+    q_type: fill
+    difficulty: 3
+    subject: english
+    content:
+      stem: "为什么 go 中的 o 读 /əʊ/（其本音），而 got 中的 o 读 /ɒ/（短音）？因为 go 是 ___ 音节"
+    answer: { correct: "开", explanation: "go 以元音结尾（开音节）→ o 读本音。got 以辅音 t 结尾（闭音节）→ o 读短音。" }
+  - id: "pho-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 4
+    subject: english
+    content:
+      stem: |
+        如果你要给一个完全不会英语的人设计一套拼音系统来学英语，
+        你会怎么设计？至少提 3 个设计决策，并解释为什么。
+    answer:
+      rubric: "合理要点：1) 用符号对应声音而不是字母；2) 标注重音；3) 区分长音和短音；4) 尽量用常见符号而非特殊符号。"
