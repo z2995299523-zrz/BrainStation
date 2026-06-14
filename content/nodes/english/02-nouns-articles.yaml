@@ -3,7 +3,7 @@ subject: english
 title: "名词与冠词"
 tier: core
 difficulty: 1
-prerequisites: ["phonetics"]
+prerequisites: ["vocabulary-core"]
 estimated_min: 25
 
 trigger:
@@ -22,6 +22,12 @@ trigger:
       中文没有冠词，所以中国学习者尤其需要建立一种新直觉。
       好消息是：一旦学会，你就再也不会用错了。
     question: "你能感受到 the 和 a/an 的区别吗？试着用中文解释一下？"
+    spoken_phrases:
+      - { text: "the", label: "定冠词" }
+      - { text: "a book", label: "不定冠词" }
+      - { text: "an apple", label: "元音前用 an" }
+      - { text: "the sun", label: "独一无二" }
+      - { text: "water", label: "不可数名词" }
 
 content:
   operation:
@@ -47,6 +53,12 @@ content:
       | a/an | 泛指、第一次提到、单数可数 | a book, an apple |
       | the | 特指、双方都知道的、唯一的 | the sun, the book I bought |
       | 零冠词 (ø) | 不可数泛指、复数泛指 | ø water, ø books |
+    spoken_examples:
+      - { text: "a book", label: "单数可数" }
+      - { text: "an apple", label: "元音前" }
+      - { text: "the sun", label: "特指" }
+      - { text: "water", label: "不可数" }
+      - { text: "books", label: "复数泛指" }
     examples:
       - input: "\"I saw dog in park\" 哪里错？"
     output: "→ I saw a dog in the park（第一次提到狗用 a，公园是特定的用 the）"

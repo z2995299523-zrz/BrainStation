@@ -1,0 +1,122 @@
+node_slug: vocabulary-core
+questions:
+  - id: "voc-op-001"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: english
+    content:
+      stem: "🔈 听发音，选择你听到的单词（点击按钮播放）"
+      options: ["school", "student", "small", "sun"]
+      spoken_words:
+        - { text: "school", label: "/skuːl/" }
+    answer: { correct: 0, explanation: "听到的是 school /skuːl/（学校）。注意 ch 在这里发 /k/，oo 发 /uː/。" }
+
+  - id: "voc-op-002"
+    layer: operation
+    q_type: choice
+    difficulty: 1
+    subject: english
+    content:
+      stem: "🔈 听发音，选择你听到的单词"
+      options: ["eat", "eye", "play", "rain"]
+      spoken_words:
+        - { text: "eat", label: "/iːt/" }
+    answer: { correct: 0, explanation: "听到的是 eat /iːt/（吃）。长元音 /iː/ 出现在 see、tea、eat 等词中。" }
+
+  - id: "voc-op-003"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "单词 water 的正确音标是哪个？"
+      options: ["/ˈwɔːtər/", "/ˈweɪtər/", "/ˈwɒtər/", "/ˈwaʊtər/"]
+      spoken_words:
+        - { text: "water", label: "听发音" }
+    answer: { correct: 0, explanation: "water 的音标是 /ˈwɔːtər/。/ɔː/ 是长元音，类似 'aw' 的发音。" }
+
+  - id: "voc-op-004"
+    layer: operation
+    q_type: fill
+    difficulty: 2
+    subject: english
+    content:
+      stem: "看音标写出正确单词：/frend/ → ___"
+      spoken_words:
+        - { text: "friend", label: "/frend/" }
+    answer: { correct: "friend", explanation: "friend（朋友）。ie 发 /e/，d 发 /d/。" }
+
+  - id: "voc-op-005"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "🔈 听发音，这个单词的音标是哪个？"
+      options: ["/bʊk/", "/bʌk/", "/bæk/", "/baɪk/"]
+      spoken_words:
+        - { text: "book", label: "听发音" }
+    answer: { correct: 0, explanation: "book 的音标是 /bʊk/。/ʊ/ 是短元音（像'呜'的短音），不要和 /ʌ/ 混淆。" }
+
+  - id: "voc-op-006"
+    layer: operation
+    q_type: choice
+    difficulty: 2
+    subject: english
+    content:
+      stem: "中文'美丽的'对应哪个英语单词？"
+      options: ["beautiful", "wonderful", "careful", "helpful"]
+      spoken_words:
+        - { text: "beautiful", label: "/ˈbjuːtɪfl/" }
+    answer: { correct: 0, explanation: "beautiful = 美丽的。注意 eau 发 /juː/，tiful 发 /tɪfl/。" }
+
+  - id: "voc-und-001"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: english
+    content:
+      stem: |
+        下面哪个单词中包含了双元音 /aɪ/？
+      options: ["time", "sit", "tree", "bed"]
+      spoken_words:
+        - { text: "time", label: "/taɪm/" }
+        - { text: "sit", label: "/sɪt/" }
+        - { text: "tree", label: "/triː/" }
+        - { text: "bed", label: "/bed/" }
+    answer:
+      correct: 0
+      explanation: "time /taɪm/ 包含双元音 /aɪ/（ai 从 /a/ 滑到 /ɪ/）。sit 是短元音 /ɪ/，tree 是长元音 /iː/，bed 是短元音 /e/。"
+
+  - id: "voc-und-002"
+    layer: understand
+    q_type: choice
+    difficulty: 3
+    subject: english
+    content:
+      stem: |
+        下面哪个选项的音标和单词不匹配？
+      options:
+        - "book — /bʊk/"
+        - "house — /haʊs/"
+        - "come — /kəʊm/"
+        - "play — /pleɪ/"
+      spoken_words:
+        - { text: "come", label: "/kʌm/ 正确读音" }
+    answer:
+      correct: 2
+      explanation: "come 的正确音标是 /kʌm/（短元音 /ʌ/），不是 /kəʊm/。/ʌ/ 是短元音，/əʊ/ 是双元音（如 go 中的 o）。"
+
+  - id: "voc-con-001"
+    layer: connect
+    q_type: open
+    difficulty: 3
+    subject: english
+    content:
+      stem: |
+        从本课学的 30 个词中选 3 个你以前不认识的词。
+        写出每个词的音标、中文意思，并用它造一个简单的英语句子。
+      spoken_words: []
+    answer:
+      rubric: "评分要点：1) 音标拼写正确；2) 中文意思准确；3) 句子语法基本正确（可用简单句如 I like ___. / This is a ___.）；4) 音标和单词拼写对应关系正确。"

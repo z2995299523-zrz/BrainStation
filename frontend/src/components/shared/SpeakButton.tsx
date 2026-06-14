@@ -31,12 +31,15 @@ export default function SpeakButton({ text, label, size = 'sm', variant = 'word'
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
-    utterance.rate = 0.9;
-    utterance.pitch = 1;
+    // 音素用更慢的速度 + 稍低音调，让细节更清晰
+    utterance.rate = variant === 'phoneme' ? 0.5 : 0.85;
+    utterance.pitch = variant === 'phoneme' ? 0.85 : 1;
 
     setPlaying(true);
     if (timerRef.current) clearTimeout(timerRef.current);
-    timerRef.current = setTimeout(() => setPlaying(false), 10000);
+    // 音素播放时间更长（重复发音）
+    const timeout = variant === 'phoneme' ? 15000 : 10000;
+    timerRef.current = setTimeout(() => setPlaying(false), timeout);
 
     utterance.onend = () => {
       setPlaying(false);

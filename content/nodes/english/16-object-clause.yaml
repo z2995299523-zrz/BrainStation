@@ -25,6 +25,11 @@ trigger:
       中文也做同样的事："他说她明天会来。"
       但英语的玩法不同——你必须处理词序、时态、连接词。
     question: "你觉得语言为什么需要嵌套句子的能力？如果禁止嵌套会怎样？"
+    spoken_phrases:
+      - { text: "I know that he is right.", label: "that从句" }
+      - { text: "I don't know if he will come.", label: "whether/if" }
+      - { text: "Do you know where he lives?", label: "wh-从句" }
+      - { text: "She said she was tired.", label: "时态呼应" }
 
 content:
   operation:
@@ -53,6 +58,11 @@ content:
         - ✓ "I don't know where he lives."
       - **时态呼应**：主句过去时 → 从句也过去时
         - She said she **was** tired.
+    spoken_examples:
+      - { text: "I know that he is right.", label: "that陈述" }
+      - { text: "I don't know whether he will come.", label: "whether/if" }
+      - { text: "Do you know where he lives?", label: "wh-词" }
+      - { text: "She said she was tired.", label: "时态呼应" }
     examples:
       - input: "\"Do you know where does she live?\" 哪里错？"
     output: "→ Do you know where she lives?（从句用陈述语序）"

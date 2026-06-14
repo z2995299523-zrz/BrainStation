@@ -42,6 +42,19 @@ export default function LearnStep() {
   const highlights = (currentContent?.highlights as string[]) || [];
   const thoughtSeeds = (currentContent?.thought_seeds as string[]) || [];
 
+  // 解析英语口语示例
+  interface SpokenExample { text: string; label: string; }
+  const spokenExamples: SpokenExample[] = Array.isArray(currentContent?.spoken_examples)
+    ? (currentContent!.spoken_examples as SpokenExample[])
+    : [];
+
+  // 解析词汇表（用于词汇节点）
+  interface VocabWord { word: string; ipa: string; zh: string; speak: string; }
+  interface VocabGroup { title: string; words: VocabWord[]; }
+  const wordGroups: VocabGroup[] = Array.isArray(currentContent?.word_groups)
+    ? (currentContent!.word_groups as VocabGroup[])
+    : [];
+
   // 解析音素数据（用于音标节点）
   const rawPhonemes = (currentContent?.phonemes as Record<string, unknown>) || {};
   const phonemeGroups: PhonemeGroup[] = [];
@@ -88,6 +101,49 @@ export default function LearnStep() {
           {(currentContent?.text as string) || ''}
         </div>
       </div>
+
+      {/* Spoken examples — 英语例句发音 */}
+      {spokenExamples.length > 0 && (
+        <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden">
+          <div className="bg-emerald-50 dark:bg-emerald-900/30 px-4 py-2 border-b border-gray-200 dark:border-gray-800">
+            <span className="text-sm font-semibold text-emerald-700 dark:text-emerald-300">🔈 例句发音</span>
+          </div>
+          <div className="p-3 flex flex-wrap gap-2">
+            {spokenExamples.map((ex, i) => (
+              <div key={i} className="flex items-center gap-2 bg-gray-50 dark:bg-gray-800 rounded-lg px-3 py-2">
+                <SpeakButton text={ex.text} label={ex.label} size="sm" />
+                <div className="flex flex-col">
+                  <span className="text-sm font-medium text-gray-800 dark:text-gray-200">{ex.text}</span>
+                  <span className="text-xs text-gray-400">{ex.label}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Word groups — 分类词汇表（用于词汇节点） */}
+      {tab === 'operation' && wordGroups.length > 0 && (
+        <div className="space-y-3">
+          {wordGroups.map((group) => (
+            <div key={group.title} className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden">
+              <div className="bg-sky-50 dark:bg-sky-900/30 px-4 py-2 border-b border-gray-200 dark:border-gray-800">
+                <span className="text-sm font-semibold text-sky-700 dark:text-sky-300">{group.title}</span>
+              </div>
+              <div className="p-2 grid grid-cols-1 sm:grid-cols-2 gap-1">
+                {group.words.map((w, i) => (
+                  <div key={i} className="flex items-center gap-2 px-2 py-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+                    <SpeakButton text={w.speak} label={`发音: ${w.word}`} size="sm" variant="word" />
+                    <span className="text-sm font-semibold text-gray-800 dark:text-gray-200">{w.word}</span>
+                    <span className="text-xs font-mono text-amber-600 dark:text-amber-400">{w.ipa}</span>
+                    <span className="text-xs text-gray-500 dark:text-gray-400 ml-auto">{w.zh}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
 
       {/* Phoneme table — 音标交互式发音表 */}
       {tab === 'operation' && phonemeGroups.length > 0 && (

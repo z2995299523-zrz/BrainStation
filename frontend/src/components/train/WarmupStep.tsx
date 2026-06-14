@@ -23,9 +23,10 @@ export default function WarmupStep() {
   }
 
   const question = questions[currentIdx];
+  const [lastAnswer, setLastAnswer] = useState<unknown>(null);
 
-  const handleAnswer = (answer: unknown) => {
-    // Determine correctness
+  const handleAnswer = async (answer: unknown) => {
+    setLastAnswer(answer);
     const qAnswer = (question as unknown as Record<string, unknown>).answer as Record<string, unknown> | undefined;
     const correct = qAnswer?.correct as number | string | undefined;
     let isCorrect: boolean | null = null;
@@ -35,6 +36,8 @@ export default function WarmupStep() {
       isCorrect = String(answer).trim().toLowerCase() === String(correct).trim().toLowerCase();
     }
     setFeedback({ is_correct: isCorrect, explanation: (qAnswer?.explanation as string) || '' });
+    // 同时提交到后端
+    await submitAnswer(question.id, answer, 3, 'warmup');
   };
 
   const handleNext = () => {
@@ -51,9 +54,10 @@ export default function WarmupStep() {
       <h2 className="text-xl font-bold">🔄 预热检索</h2>
       <p className="text-sm text-gray-500">第 {currentIdx + 1}/{questions.length} 题</p>
       <QuestionCard
+        key={question.id}
         question={question}
         onAnswer={handleAnswer}
-        onConfidence={(c) => submitAnswer(question.id, { choice: 0 }, c, 'warmup')}
+        onConfidence={(c) => submitAnswer(question.id, lastAnswer ?? '', c, 'warmup')}
         showFeedback={feedback !== null}
         feedback={feedback}
       />

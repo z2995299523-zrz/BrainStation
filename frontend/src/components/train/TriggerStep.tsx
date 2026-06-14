@@ -42,7 +42,7 @@ export default function TriggerStep() {
       {/* 语音示例 */}
       {spokenPhrases && spokenPhrases.length > 0 && (
         <div className="bg-white dark:bg-gray-900 rounded-xl p-4 border border-gray-200 dark:border-gray-800">
-          <p className="text-sm font-medium text-gray-500 mb-3">🔈 点击发音，感受英语拼写的"不规则"</p>
+          <p className="text-sm font-medium text-gray-500 mb-3">🔈 点击按钮听发音，跟读练习</p>
           <div className="flex flex-wrap gap-3">
             {spokenPhrases.map((p, i) => (
               <div key={i} className="flex items-center gap-2 bg-gray-50 dark:bg-gray-800 rounded-lg px-3 py-2">

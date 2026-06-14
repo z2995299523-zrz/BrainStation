@@ -23,8 +23,10 @@ export default function TrainingStep() {
   }
 
   const question = questions[currentIdx];
+  const [lastAnswer, setLastAnswer] = useState<unknown>(null);
 
-  const handleAnswer = (answer: unknown) => {
+  const handleAnswer = async (answer: unknown) => {
+    setLastAnswer(answer);
     const qAnswer = (question as unknown as Record<string, unknown>).answer as Record<string, unknown> | undefined;
     const correct = qAnswer?.correct as number | string | undefined;
     let isCorrect: boolean | null = null;
@@ -34,6 +36,8 @@ export default function TrainingStep() {
       isCorrect = String(answer).trim().toLowerCase() === String(correct).trim().toLowerCase();
     }
     setFeedback({ is_correct: isCorrect, explanation: (qAnswer?.explanation as string) || '' });
+    // 同时提交到后端
+    await submitAnswer(question.id, answer, 3, 'training');
   };
 
   const handleNext = () => {
@@ -50,9 +54,10 @@ export default function TrainingStep() {
       <h2 className="text-xl font-bold">🎯 混合训练</h2>
       <p className="text-sm text-gray-500">第 {currentIdx + 1}/{questions.length} 题</p>
       <QuestionCard
+        key={question.id}
         question={question}
         onAnswer={handleAnswer}
-        onConfidence={(c) => submitAnswer(question.id, { choice: 0 }, c, 'training')}
+        onConfidence={(c) => submitAnswer(question.id, lastAnswer ?? '', c, 'training')}
         showFeedback={feedback !== null}
         feedback={feedback}
       />

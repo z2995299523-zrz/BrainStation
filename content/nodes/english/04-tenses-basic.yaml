@@ -21,6 +21,11 @@ trigger:
       听起来很累？但一旦内化，你就有了一个时间GPS，
       能精确表达任何时刻的动作。
     question: "你觉得中文用时间词、英语用动词变形——哪种更聪明？为什么？"
+    spoken_phrases:
+      - { text: "I ate", label: "过去式" }
+      - { text: "I have eaten", label: "完成时" }
+      - { text: "I am eating", label: "进行时" }
+      - { text: "I will eat", label: "将来时" }
 
 content:
   operation:
@@ -50,6 +55,12 @@ content:
       - 形式：will + 动词原形 / be going to + 动词原形
       - 标志：tomorrow, next week
       - 例：I will go to school tomorrow.
+    spoken_examples:
+      - { text: "I go to school every day.", label: "一般现在时" }
+      - { text: "She goes to school every day.", label: "三单+s" }
+      - { text: "I went to school yesterday.", label: "一般过去时" }
+      - { text: "I am studying now.", label: "现在进行时" }
+      - { text: "I will go to school tomorrow.", label: "一般将来时" }
     examples:
       - input: "every day 用哪个时态？"
         output: "一般现在时 → I play basketball every day."

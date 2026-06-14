@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import PhonemePanel from './shared/PhonemePanel';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -37,11 +38,14 @@ export default function Layout({ children, streak = 0 }: LayoutProps) {
             ))}
           </div>
 
-          {streak > 0 && (
-            <div className="flex items-center gap-1 text-sm text-orange-500 font-medium">
-              🔥 {streak} 天
-            </div>
-          )}
+          <div className="flex items-center gap-3">
+            <PhonemePanel />
+            {streak > 0 && (
+              <div className="flex items-center gap-1 text-sm text-orange-500 font-medium">
+                🔥 {streak} 天
+              </div>
+            )}
+          </div>
         </div>
       </nav>
 

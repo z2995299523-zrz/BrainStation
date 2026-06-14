@@ -1,0 +1,168 @@
+slug: vocabulary-core
+subject: english
+title: "初中核心词汇"
+tier: core
+difficulty: 1
+prerequisites: ["phonetics"]
+estimated_min: 25
+
+trigger:
+  type: story
+  title: "掌握这 30 个词，你就有了英语的起点"
+  content:
+    text: |
+      你知道英语有多少单词吗？超过 17 万个。
+
+      但好消息是：最常用的 300 个词覆盖了日常对话的 65%。
+      而初中阶段只需要牢固掌握约 500 个词，就能应对所有考试。
+
+      这里精选了 30 个最核心的初中词汇，分为 6 个主题。
+      每个词都配有音标——你刚刚学过的工具，现在要用上了。
+
+      规则很简单：
+      1. 先听发音（点 🔊 按钮）
+      2. 看音标，和你在音标课上学到的对照
+      3. 记单词 + 记中文意思
+      4. 大声跟读
+
+      当你拿下这 30 个词，你就有了英语的第一块基石。
+    question: "你觉得先学音标再背单词，和直接硬背单词——哪个更高效？"
+    spoken_phrases:
+      - { text: "school", label: "/skuːl/" }
+      - { text: "water", label: "/ˈwɔːtər/" }
+      - { text: "family", label: "/ˈfæməli/" }
+      - { text: "friend", label: "/frend/" }
+      - { text: "beautiful", label: "/ˈbjuːtɪfl/" }
+
+content:
+  operation:
+    text: |
+      ## 初中核心词汇表（30 词）
+
+      按主题分组学习，每组包含单词、音标和中文释义。
+      每学完一组，做相关练习巩固。
+
+    spoken_examples:
+      - { text: "school", label: "/skuːl/ 学校" }
+      - { text: "student", label: "/ˈstjuːdnt/ 学生" }
+      - { text: "teacher", label: "/ˈtiːtʃər/ 老师" }
+      - { text: "book", label: "/bʊk/ 书" }
+      - { text: "water", label: "/ˈwɔːtər/ 水" }
+      - { text: "family", label: "/ˈfæməli/ 家庭" }
+      - { text: "friend", label: "/frend/ 朋友" }
+      - { text: "beautiful", label: "/ˈbjuːtɪfl/ 美丽的" }
+
+    word_groups:
+      - title: "📚 学校与学习"
+        words:
+          - { word: "school", ipa: "/skuːl/", zh: "学校", speak: "school" }
+          - { word: "student", ipa: "/ˈstjuːdnt/", zh: "学生", speak: "student" }
+          - { word: "teacher", ipa: "/ˈtiːtʃər/", zh: "老师", speak: "teacher" }
+          - { word: "book", ipa: "/bʊk/", zh: "书", speak: "book" }
+          - { word: "pen", ipa: "/pen/", zh: "笔", speak: "pen" }
+      - title: "👨‍👩‍👧‍👦 家庭与人"
+        words:
+          - { word: "family", ipa: "/ˈfæməli/", zh: "家庭", speak: "family" }
+          - { word: "father", ipa: "/ˈfɑːðər/", zh: "父亲", speak: "father" }
+          - { word: "mother", ipa: "/ˈmʌðər/", zh: "母亲", speak: "mother" }
+          - { word: "brother", ipa: "/ˈbrʌðər/", zh: "兄弟", speak: "brother" }
+          - { word: "friend", ipa: "/frend/", zh: "朋友", speak: "friend" }
+      - title: "🏠 日常生活"
+        words:
+          - { word: "water", ipa: "/ˈwɔːtər/", zh: "水", speak: "water" }
+          - { word: "food", ipa: "/fuːd/", zh: "食物", speak: "food" }
+          - { word: "time", ipa: "/taɪm/", zh: "时间", speak: "time" }
+          - { word: "money", ipa: "/ˈmʌni/", zh: "钱", speak: "money" }
+          - { word: "house", ipa: "/haʊs/", zh: "房子", speak: "house" }
+      - title: "🏃 身体与动作"
+        words:
+          - { word: "head", ipa: "/hed/", zh: "头", speak: "head" }
+          - { word: "hand", ipa: "/hænd/", zh: "手", speak: "hand" }
+          - { word: "eye", ipa: "/aɪ/", zh: "眼睛", speak: "eye" }
+          - { word: "go", ipa: "/ɡəʊ/", zh: "去", speak: "go" }
+          - { word: "come", ipa: "/kʌm/", zh: "来", speak: "come" }
+          - { word: "eat", ipa: "/iːt/", zh: "吃", speak: "eat" }
+          - { word: "play", ipa: "/pleɪ/", zh: "玩；演奏", speak: "play" }
+      - title: "🌳 自然与世界"
+        words:
+          - { word: "tree", ipa: "/triː/", zh: "树", speak: "tree" }
+          - { word: "sun", ipa: "/sʌn/", zh: "太阳", speak: "sun" }
+          - { word: "rain", ipa: "/reɪn/", zh: "雨", speak: "rain" }
+          - { word: "bird", ipa: "/bɜːrd/", zh: "鸟", speak: "bird" }
+      - title: "✨ 常用描述"
+        words:
+          - { word: "big", ipa: "/bɪɡ/", zh: "大的", speak: "big" }
+          - { word: "small", ipa: "/smɔːl/", zh: "小的", speak: "small" }
+          - { word: "good", ipa: "/ɡʊd/", zh: "好的", speak: "good" }
+          - { word: "new", ipa: "/njuː/", zh: "新的", speak: "new" }
+
+  understand:
+    text: |
+      ## 为什么要在背单词的同时看音标？
+
+      很多同学背单词是这样背的：
+      "school — s-c-h-o-o-l — 学校 — s-c-h-o-o-l — 学校"
+      反复抄写 10 遍，但第二天还是忘。
+
+      问题出在：你只是在记字母排列，没有建立"音-形-义"三者的连接。
+
+      **正确的方法**：
+      1. **听音** → 点击 🔊 听这个单词的发音
+      2. **看音标** → 对照音标理解每个音素
+      3. **看拼写** → 把字母和音标对应起来
+      4. **说意思** → 说出中文含义
+      5. **跟读** → 大声模仿朗读
+
+      比如 `school`：
+      - 音标 `/skuːl/` — s 发 /s/，ch 发 /k/，oo 发 /uː/，l 发 /l/
+      - 知道了音标，你就知道为什么是 s-c-h-o-o-l 而不是 s-k-u-l
+
+      **音标是单词的"拼音"**。就像学会了拼音就能读出任何汉字，
+      学会了音标就能读出任何英语单词——即使你从没见过它。
+    highlights:
+      - "背单词 = 记音+记形+记义，三者缺一不可"
+      - "音标帮你理解'为什么这个单词这样拼'"
+      - "先听再读再写，顺序不能乱"
+
+  connect:
+    text: |
+      ## 词汇是打开英语世界的钥匙
+
+      想象你要建一栋房子：
+      - **词汇** = 砖块（没有砖什么都建不了）
+      - **语法** = 水泥和钢筋（把砖粘在一起形成结构）
+      - **音标** = 图纸（告诉你每块砖怎么放）
+
+      现在你已经有了：
+      - ✅ 音标（图纸）
+      - ✅ 基础词汇（第一批砖）
+
+      接下来要学的是语法——把单词组合成句子的规则。
+      你会用这些新学的词来造句、表达想法。
+
+      **更深一层**：
+      研究发现，要读懂一篇英语文章，你需要认识其中 95% 以上的词。
+      初中 500 词 + 高中 2000 词 = 能看懂大多数日常文本。
+      这 30 个词只是开始，但它们是最重要的 30 个。
+    thought_seeds:
+      - "你不需要认识所有单词才能开始——30 个核心词足够开始造句"
+      - "每个英语高手都是从这几十个词起步的"
+      - "音标 + 单词一起学 = 双重效率"
+
+feynman:
+  base_prompt: "从这 30 个词中任选 3 个你以前不会的，写出它们的音标和中文意思，然后各造一个句子。"
+  key_elements:
+    - "写出单词和音标"
+    - "写出中文意思"
+    - "每个词造一个简单句"
+    - "大声读出单词和句子"
+  deep_questions:
+    - "你觉得在 6 个主题中，哪个主题的单词对你最有实际用处？为什么？"
+    - "如果让你给另一个刚开始学英语的同学推荐学习方法，你会怎么说？"
+  missing_hints:
+    "写出单词和音标": "选 3 个你不熟的词，先听发音再看音标。"
+    "写出中文意思": "单词的中文意思是什么？"
+    "每个词造一个简单句": "用 I ___ 或 This is a ___ 开头造句。"
+    "大声读出单词和句子": "点 🔊 听发音，然后跟读。"
+
+thought_card: "今天你背下了几个新单词？其中哪个词的发音最让你印象深刻？"

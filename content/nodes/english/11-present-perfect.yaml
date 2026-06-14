@@ -25,6 +25,11 @@ trigger:
 
       两句话描述的是同一件事，但现在完成时把过去和现在连在了一起。
     question: "你能感觉到 I lost 和 I have lost 的区别吗？"
+    spoken_phrases:
+      - { text: "I lost my key.", label: "一般过去" }
+      - { text: "I have lost my key.", label: "现在完成" }
+      - { text: "I have been to Beijing.", label: "经历用法" }
+      - { text: "I have lived here for 10 years.", label: "持续用法" }
 
 content:
   operation:
@@ -46,6 +51,11 @@ content:
       ### 3. 持续用法（Duration）：从过去持续到现在
       - I have lived here for 10 years.（10 年前开始住，现在还在住）
       - She has known him since 2015.（2015 年认识，现在还认识）
+    spoken_examples:
+      - { text: "I have lost my key.", label: "完成/结果" }
+      - { text: "I have been to Beijing three times.", label: "经历" }
+      - { text: "I have lived here for 10 years.", label: "持续" }
+      - { text: "I ate breakfast at 7am.", label: "过去（对比）" }
     examples:
       - input: "I lost my key vs I have lost my key"
         output: "前者=过去丢了（可能找到了），后者=已经丢了（现在还在找）"

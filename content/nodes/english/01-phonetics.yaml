@@ -49,58 +49,58 @@ content:
       - 闭音节（以辅音结尾）：元音读短音，如 cat、bed、sit
     phonemes:
       monophthongs:
-        - { symbol: "/iː/", speak_phoneme: "ee",   word: "see",   word_ipa: "/siː/",       speak_word: "see" }
-        - { symbol: "/ɪ/",  speak_phoneme: "i",    word: "sit",   word_ipa: "/sɪt/",       speak_word: "sit" }
-        - { symbol: "/e/",  speak_phoneme: "e",    word: "bed",   word_ipa: "/bed/",       speak_word: "bed" }
-        - { symbol: "/æ/",  speak_phoneme: "a",    word: "cat",   word_ipa: "/kæt/",       speak_word: "cat" }
-        - { symbol: "/ʌ/",  speak_phoneme: "uh",   word: "cup",   word_ipa: "/kʌp/",       speak_word: "cup" }
-        - { symbol: "/ɑː/", speak_phoneme: "ah",   word: "car",   word_ipa: "/kɑːr/",      speak_word: "car" }
-        - { symbol: "/ɒ/",  speak_phoneme: "o",    word: "hot",   word_ipa: "/hɒt/",       speak_word: "hot" }
-        - { symbol: "/ɔː/", speak_phoneme: "aw",   word: "door",  word_ipa: "/dɔːr/",      speak_word: "door" }
-        - { symbol: "/ʊ/",  speak_phoneme: "oo",   word: "book",  word_ipa: "/bʊk/",       speak_word: "book" }
-        - { symbol: "/uː/", speak_phoneme: "ooo",  word: "too",   word_ipa: "/tuː/",       speak_word: "too" }
-        - { symbol: "/ɜː/", speak_phoneme: "er",   word: "bird",  word_ipa: "/bɜːrd/",     speak_word: "bird" }
-        - { symbol: "/ə/",  speak_phoneme: "uh",   word: "about", word_ipa: "/əˈbaʊt/",    speak_word: "about" }
+        - { symbol: "/iː/", speak_phoneme: "ee-ee-ee", word: "see",   word_ipa: "/siː/",       speak_word: "see" }
+        - { symbol: "/ɪ/",  speak_phoneme: "ih-ih-ih", word: "sit",   word_ipa: "/sɪt/",       speak_word: "sit" }
+        - { symbol: "/e/",  speak_phoneme: "eh-eh-eh", word: "bed",   word_ipa: "/bed/",       speak_word: "bed" }
+        - { symbol: "/æ/",  speak_phoneme: "a-a-a",    word: "cat",   word_ipa: "/kæt/",       speak_word: "cat" }
+        - { symbol: "/ʌ/",  speak_phoneme: "uh-uh-uh", word: "cup",   word_ipa: "/kʌp/",       speak_word: "cup" }
+        - { symbol: "/ɑː/", speak_phoneme: "ah-ah-ah", word: "car",   word_ipa: "/kɑːr/",      speak_word: "car" }
+        - { symbol: "/ɒ/",  speak_phoneme: "o-o-o",    word: "hot",   word_ipa: "/hɒt/",       speak_word: "hot" }
+        - { symbol: "/ɔː/", speak_phoneme: "aw-aw-aw", word: "door",  word_ipa: "/dɔːr/",      speak_word: "door" }
+        - { symbol: "/ʊ/",  speak_phoneme: "oo-oo-oo", word: "book",  word_ipa: "/bʊk/",       speak_word: "book" }
+        - { symbol: "/uː/", speak_phoneme: "ooo-ooo",  word: "too",   word_ipa: "/tuː/",       speak_word: "too" }
+        - { symbol: "/ɜː/", speak_phoneme: "er-er-er", word: "bird",  word_ipa: "/bɜːrd/",     speak_word: "bird" }
+        - { symbol: "/ə/",  speak_phoneme: "uh",       word: "about", word_ipa: "/əˈbaʊt/",    speak_word: "about" }
       diphthongs:
-        - { symbol: "/aɪ/", speak_phoneme: "eye",  word: "my",   word_ipa: "/maɪ/",       speak_word: "my" }
-        - { symbol: "/eɪ/", speak_phoneme: "ay",   word: "day",  word_ipa: "/deɪ/",       speak_word: "day" }
-        - { symbol: "/ɔɪ/", speak_phoneme: "oy",   word: "boy",  word_ipa: "/bɔɪ/",       speak_word: "boy" }
-        - { symbol: "/aʊ/", speak_phoneme: "ow",   word: "now",  word_ipa: "/naʊ/",       speak_word: "now" }
-        - { symbol: "/əʊ/", speak_phoneme: "oh",   word: "go",   word_ipa: "/ɡəʊ/",       speak_word: "go" }
-        - { symbol: "/ɪə/", speak_phoneme: "ear",  word: "here", word_ipa: "/hɪər/",      speak_word: "here" }
-        - { symbol: "/eə/", speak_phoneme: "air",  word: "hair", word_ipa: "/heər/",      speak_word: "hair" }
-        - { symbol: "/ʊə/", speak_phoneme: "oor",  word: "tour", word_ipa: "/tʊər/",      speak_word: "tour" }
+        - { symbol: "/aɪ/", speak_phoneme: "eye-eye",  word: "my",   word_ipa: "/maɪ/",       speak_word: "my" }
+        - { symbol: "/eɪ/", speak_phoneme: "ay-ay",    word: "day",  word_ipa: "/deɪ/",       speak_word: "day" }
+        - { symbol: "/ɔɪ/", speak_phoneme: "oy-oy",    word: "boy",  word_ipa: "/bɔɪ/",       speak_word: "boy" }
+        - { symbol: "/aʊ/", speak_phoneme: "ow-ow",    word: "now",  word_ipa: "/naʊ/",       speak_word: "now" }
+        - { symbol: "/əʊ/", speak_phoneme: "oh-oh",    word: "go",   word_ipa: "/ɡəʊ/",       speak_word: "go" }
+        - { symbol: "/ɪə/", speak_phoneme: "ear-ear",  word: "here", word_ipa: "/hɪər/",      speak_word: "here" }
+        - { symbol: "/eə/", speak_phoneme: "air-air",  word: "hair", word_ipa: "/heər/",      speak_word: "hair" }
+        - { symbol: "/ʊə/", speak_phoneme: "oor-oor",  word: "tour", word_ipa: "/tʊər/",      speak_word: "tour" }
       consonants_voiceless:
-        - { symbol: "/p/",  speak_phoneme: "p",    word: "pen",   word_ipa: "/pen/",       speak_word: "pen" }
-        - { symbol: "/t/",  speak_phoneme: "t",    word: "top",   word_ipa: "/tɒp/",       speak_word: "top" }
-        - { symbol: "/k/",  speak_phoneme: "k",    word: "cat",   word_ipa: "/kæt/",       speak_word: "cat" }
-        - { symbol: "/f/",  speak_phoneme: "f",    word: "fish",  word_ipa: "/fɪʃ/",       speak_word: "fish" }
-        - { symbol: "/θ/",  speak_phoneme: "th",   word: "think", word_ipa: "/θɪŋk/",      speak_word: "think" }
-        - { symbol: "/s/",  speak_phoneme: "s",    word: "sun",   word_ipa: "/sʌn/",       speak_word: "sun" }
-        - { symbol: "/ʃ/",  speak_phoneme: "sh",   word: "she",   word_ipa: "/ʃiː/",       speak_word: "she" }
-        - { symbol: "/tʃ/", speak_phoneme: "ch",   word: "chair", word_ipa: "/tʃeər/",     speak_word: "chair" }
-        - { symbol: "/tr/", speak_phoneme: "tr",   word: "tree",  word_ipa: "/triː/",      speak_word: "tree" }
-        - { symbol: "/ts/", speak_phoneme: "ts",   word: "cats",  word_ipa: "/kæts/",      speak_word: "cats" }
-        - { symbol: "/h/",  speak_phoneme: "h",    word: "hat",   word_ipa: "/hæt/",       speak_word: "hat" }
+        - { symbol: "/p/",  speak_phoneme: "puh-puh-puh", word: "pen",   word_ipa: "/pen/",       speak_word: "pen" }
+        - { symbol: "/t/",  speak_phoneme: "tuh-tuh-tuh", word: "top",   word_ipa: "/tɒp/",       speak_word: "top" }
+        - { symbol: "/k/",  speak_phoneme: "kuh-kuh-kuh", word: "cat",   word_ipa: "/kæt/",       speak_word: "cat" }
+        - { symbol: "/f/",  speak_phoneme: "fff-fff",     word: "fish",  word_ipa: "/fɪʃ/",       speak_word: "fish" }
+        - { symbol: "/θ/",  speak_phoneme: "thhh-thhh",   word: "think", word_ipa: "/θɪŋk/",      speak_word: "think" }
+        - { symbol: "/s/",  speak_phoneme: "sss-sss",     word: "sun",   word_ipa: "/sʌn/",       speak_word: "sun" }
+        - { symbol: "/ʃ/",  speak_phoneme: "shhh-shhh",   word: "she",   word_ipa: "/ʃiː/",       speak_word: "she" }
+        - { symbol: "/tʃ/", speak_phoneme: "chuh-chuh",   word: "chair", word_ipa: "/tʃeər/",     speak_word: "chair" }
+        - { symbol: "/tr/", speak_phoneme: "truh-truh",   word: "tree",  word_ipa: "/triː/",      speak_word: "tree" }
+        - { symbol: "/ts/", speak_phoneme: "ts-ts-ts",    word: "cats",  word_ipa: "/kæts/",      speak_word: "cats" }
+        - { symbol: "/h/",  speak_phoneme: "huh-huh",     word: "hat",   word_ipa: "/hæt/",       speak_word: "hat" }
       consonants_voiced:
-        - { symbol: "/b/",  speak_phoneme: "b",    word: "book",  word_ipa: "/bʊk/",       speak_word: "book" }
-        - { symbol: "/d/",  speak_phoneme: "d",    word: "dog",   word_ipa: "/dɒɡ/",       speak_word: "dog" }
-        - { symbol: "/g/",  speak_phoneme: "g",    word: "go",    word_ipa: "/ɡəʊ/",       speak_word: "go" }
-        - { symbol: "/v/",  speak_phoneme: "v",    word: "very",  word_ipa: "/ˈveri/",     speak_word: "very" }
-        - { symbol: "/ð/",  speak_phoneme: "thh",  word: "this",  word_ipa: "/ðɪs/",       speak_word: "this" }
-        - { symbol: "/z/",  speak_phoneme: "z",    word: "zoo",   word_ipa: "/zuː/",       speak_word: "zoo" }
-        - { symbol: "/ʒ/",  speak_phoneme: "zh",   word: "vision", word_ipa: "/ˈvɪʒən/",   speak_word: "vision" }
-        - { symbol: "/dʒ/", speak_phoneme: "j",    word: "jump",  word_ipa: "/dʒʌmp/",     speak_word: "jump" }
-        - { symbol: "/dr/", speak_phoneme: "dr",   word: "drive", word_ipa: "/draɪv/",     speak_word: "drive" }
-        - { symbol: "/dz/", speak_phoneme: "dz",   word: "beds",  word_ipa: "/bedz/",      speak_word: "beds" }
-        - { symbol: "/r/",  speak_phoneme: "r",    word: "red",   word_ipa: "/red/",       speak_word: "red" }
+        - { symbol: "/b/",  speak_phoneme: "buh-buh-buh", word: "book",  word_ipa: "/bʊk/",       speak_word: "book" }
+        - { symbol: "/d/",  speak_phoneme: "duh-duh-duh", word: "dog",   word_ipa: "/dɒɡ/",       speak_word: "dog" }
+        - { symbol: "/g/",  speak_phoneme: "guh-guh-guh", word: "go",    word_ipa: "/ɡəʊ/",       speak_word: "go" }
+        - { symbol: "/v/",  speak_phoneme: "vvv-vvv",     word: "very",  word_ipa: "/ˈveri/",     speak_word: "very" }
+        - { symbol: "/ð/",  speak_phoneme: "thhh-voiced", word: "this",  word_ipa: "/ðɪs/",       speak_word: "this" }
+        - { symbol: "/z/",  speak_phoneme: "zzz-zzz",     word: "zoo",   word_ipa: "/zuː/",       speak_word: "zoo" }
+        - { symbol: "/ʒ/",  speak_phoneme: "zhhh-zhhh",   word: "vision", word_ipa: "/ˈvɪʒən/",   speak_word: "vision" }
+        - { symbol: "/dʒ/", speak_phoneme: "juh-juh",     word: "jump",  word_ipa: "/dʒʌmp/",     speak_word: "jump" }
+        - { symbol: "/dr/", speak_phoneme: "druh-druh",   word: "drive", word_ipa: "/draɪv/",     speak_word: "drive" }
+        - { symbol: "/dz/", speak_phoneme: "dz-dz-dz",    word: "beds",  word_ipa: "/bedz/",      speak_word: "beds" }
+        - { symbol: "/r/",  speak_phoneme: "rrr-rrr",     word: "red",   word_ipa: "/red/",       speak_word: "red" }
       consonants_nasal:
-        - { symbol: "/m/",  speak_phoneme: "m",    word: "man",   word_ipa: "/mæn/",       speak_word: "man" }
-        - { symbol: "/n/",  speak_phoneme: "n",    word: "no",    word_ipa: "/nəʊ/",       speak_word: "no" }
-        - { symbol: "/ŋ/",  speak_phoneme: "ng",   word: "sing",  word_ipa: "/sɪŋ/",       speak_word: "sing" }
-        - { symbol: "/l/",  speak_phoneme: "l",    word: "like",  word_ipa: "/laɪk/",      speak_word: "like" }
-        - { symbol: "/w/",  speak_phoneme: "w",    word: "we",    word_ipa: "/wiː/",       speak_word: "we" }
-        - { symbol: "/j/",  speak_phoneme: "y",    word: "yes",   word_ipa: "/jes/",       speak_word: "yes" }
+        - { symbol: "/m/",  speak_phoneme: "mmm-mmm",   word: "man",   word_ipa: "/mæn/",       speak_word: "man" }
+        - { symbol: "/n/",  speak_phoneme: "nnn-nnn",   word: "no",    word_ipa: "/nəʊ/",       speak_word: "no" }
+        - { symbol: "/ŋ/",  speak_phoneme: "ng-ng-ng",  word: "sing",  word_ipa: "/sɪŋ/",       speak_word: "sing" }
+        - { symbol: "/l/",  speak_phoneme: "lll-lll",   word: "like",  word_ipa: "/laɪk/",      speak_word: "like" }
+        - { symbol: "/w/",  speak_phoneme: "wuh-wuh",   word: "we",    word_ipa: "/wiː/",       speak_word: "we" }
+        - { symbol: "/j/",  speak_phoneme: "yuh-yuh",   word: "yes",   word_ipa: "/jes/",       speak_word: "yes" }
     examples:
       - input: "name 为什么读 /neɪm/？"
         output: "末尾有 e → 开音节 → a 读 /eɪ/"

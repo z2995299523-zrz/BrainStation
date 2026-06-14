@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import type { Question } from '../../types';
 import SubjectBadge from './SubjectBadge';
+import SpeakButton from './SpeakButton';
+
+interface SpokenWord { text: string; label: string; }
 
 interface QuestionCardProps {
   question: Question;
@@ -39,6 +42,11 @@ export default function QuestionCard({
     return true; // open always submittable
   };
 
+  // 提取口语单词列表
+  const spokenWords: SpokenWord[] = Array.isArray((question.content as Record<string, unknown>).spoken_words)
+    ? (question.content as Record<string, unknown>).spoken_words as SpokenWord[]
+    : [];
+
   return (
     <div className="bg-white dark:bg-gray-900 rounded-xl p-6 border border-gray-200 dark:border-gray-800 space-y-4">
       {/* Header: subject badge + layer + difficulty */}
@@ -56,6 +64,19 @@ export default function QuestionCard({
       <div className="text-gray-800 dark:text-gray-200 text-lg leading-relaxed whitespace-pre-wrap">
         {question.content.stem}
       </div>
+
+      {/* Spoken words — 单词发音按钮 */}
+      {spokenWords.length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          {spokenWords.map((sw, i) => (
+            <div key={i} className="flex items-center gap-1.5 bg-amber-50 dark:bg-amber-900/20 rounded-lg pl-1.5 pr-3 py-1.5 border border-amber-200 dark:border-amber-800">
+              <SpeakButton text={sw.text} label={sw.label} size="sm" variant="word" />
+              <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{sw.text}</span>
+              <span className="text-xs text-amber-600 dark:text-amber-400 font-mono">{sw.label}</span>
+            </div>
+          ))}
+        </div>
+      )}
 
       {/* Input based on q_type */}
       {!submitted && (
