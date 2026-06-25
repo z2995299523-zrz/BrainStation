@@ -1,0 +1,166 @@
+slug: passive-voice
+subject: english
+title: 被动语态
+tier: core
+difficulty: 3
+prerequisites:
+  - tenses-basic
+estimated_min: 25
+trigger:
+  type: story
+  title: 谁做的？——被动语态把'做的人'藏起来
+  content:
+    text: "对比：\n\n\"Tom broke the window.\"（主动——关注谁做的）\n\"The window was broken.\"（被动——关注窗子怎么样了）\n\n在英语中，有时候你不需要（或不想）说出\"是谁做的\"：\n- \"The cake was eaten.\"（蛋糕被吃了——谁吃的不重要！）\n- \"Mistakes were made.\"（错误被犯了——但不说是谁犯的——这是政客最爱用的句型！）\n\n被动语态让你把焦点放在动作的承受者上，而不是执行者。\n科学论文中大量使用被动语态：\"The experiment was conducted...\"\n因为科学关注的是**做了什么**，而不是**谁做的**。\n\n学会被动语态，你就能看懂新闻、论文和官方文件。\n"
+    question: 中文里有被动语态吗？和英语的被动语态有什么异同？
+display:
+  concept:
+    summary: 被动语态表示主语是动作的承受者，而不是执行者。本章学习被动语态的构成（be + 过去分词）、各种时态下的被动形式、主动转被动的规则，以及何时该用/不该用被动语态。
+    sections:
+      - title: 一、被动语态的构成
+        content: "**公式**：be 动词 + 过去分词（past participle）\n\n被动语态 = be + done\n\n| 时态 | 主动 | 被动 |\n|------|------|------|\n| 一般现在 | They make cars. | Cars are made. |\n| 一般过去 | They made cars. | Cars were made. |\n| 现在完成 | They have made cars. | Cars have been made. |\n| 将来 | They will make cars. | Cars will be made. |\n| 情态 | They can make cars. | Cars can be made. |\n\n**规律**：be 动词跟着时态走，过去分词永远不变！\n"
+      - title: 二、主动变被动的步骤
+        content: "以 \"Tom broke the window.\" 为例：\n\n1. 找到主动句的**宾语** → the window（变成被动句的主语）\n2. 找到主动句的**动词** → broke（过去式）\n3. 把动词变成 **be + 过去分词** → was broken（be 跟随原来的时态）\n4. 原来的主语（Tom）变成 **by + 名词** → by Tom（可以省略！）\n\n结果：The window was broken (by Tom).\n\n**关键**：只有及物动词（带宾语的动词）才有被动语态！\n不及物动词（如 happen, arrive, sleep）不能用于被动语态。\n"
+      - title: 三、何时省略 by...
+        content: "以下情况通常省略 by...：\n1. 动作执行者未知：My bike was stolen.（不知道谁偷的）\n2. 动作执行者不重要：The road was built in 2020.（谁建的无关紧要）\n3. 动作执行者很明显：He was arrested.（当然是警察抓的）\n4. 动作执行者是泛指的\"人们\"：English is spoken worldwide.\n\n以下情况保留 by...：\n1. 动作执行者是重要信息：Hamlet was written by Shakespeare.\n2. 动作执行者出人意料：The cake was eaten by the dog!\n"
+      - title: 四、常见被动语态场景
+        content: "| 场景 | 例句 |\n|------|------|\n| 新闻/科学 | A new planet was discovered. |\n| 规则/说明 | Phones must be turned off. |\n| 出生信息 | I was born in 2010. |\n| 被动+情态 | Homework should be finished. |\n\n特别注意中文中没有对应被动语态的表达：\n- \"门开了\" → \"The door was opened.\"（不是 The door opened.）\n- \"据说...\" → \"It is said that...\"\n"
+  examples:
+    - title: 主动变被动
+      problem: 把 'They built this school in 2005.' 变成被动语态。
+      steps:
+        - 第 1 步：宾语 = this school → 变成主语
+        - 第 2 步：动词 built 是过去式 → be 用 was/were（主语 school 是单数 → was）
+        - 第 3 步：过去分词 = built → was built
+        - 第 4 步：by them 可以省略（执行者不重要）→ This school was built in 2005.
+      answer: This school was built in 2005.
+    - title: 各种时态的被动
+      problem: 写出 'clean the room' 在一般现在/一般过去/现在完成/将来时的被动形式。
+      steps:
+        - 一般现在：The room is cleaned.（am/is/are + cleaned）
+        - 一般过去：The room was cleaned.（was/were + cleaned）
+        - 现在完成：The room has been cleaned.（has/have been + cleaned）
+        - 将来时：The room will be cleaned.（will be + cleaned）
+      answer: is cleaned / was cleaned / has been cleaned / will be cleaned
+    - title: 不及物动词无被动
+      problem: "'The accident happened yesterday.' 能变被动吗？"
+      steps:
+        - happen 是不及物动词——没有宾语
+        - 被动语态必须有宾语变成主语——没有宾语就无法被动
+        - ✗ The accident was happened yesterday.（错误！）
+      answer: 不能。happen 是不及物动词，没有被动语态。
+  practice:
+    - id: psv-prac-001
+      stem: 填空（被动）：The letters ___ (send) every day.
+      answer: are sent（一般现在时被动）
+      hints:
+        - 主语 letters 是复数
+        - 一般现在时 be 用 are
+        - 过去分词 send → sent
+    - id: psv-prac-002
+      stem: 变被动：'They speak English in Australia.'
+      answer: English is spoken in Australia.
+      hints:
+        - 宾语 English → 主语
+        - 一般现在时 → is + 过去分词
+        - speak 的过去分词是 spoken
+    - id: psv-prac-003
+      stem: 下列哪个不能变被动？
+      answer: B
+      hints:
+        - 检查每个动词有没有宾语
+        - arrive 后面有宾语吗？
+      q_type: choice
+      options:
+        - A. The boy broke the cup.
+        - B. She arrived at 6.
+        - C. He wrote a letter.
+    - id: psv-prac-004
+      stem: 翻译：'这些书是上周买的。'
+      answer: These books were bought last week.
+      hints:
+        - 书是被买的 → 用被动
+        - 一般过去时 → were + 过去分词
+        - buy → bought
+    - id: psv-prac-005
+      stem: 变被动（现在完成时）：'They have finished the project.'
+      answer: The project has been finished.
+      hints:
+        - 现在完成时被动 = have/has + been + 过去分词
+        - project 是单数 → has
+  test:
+    - id: psv-test-001
+      stem: 填空：The window ___ (break) by the wind last night.
+      answer: was broken（一般过去被动）
+      difficulty: 1
+      layer: operation
+    - id: psv-test-002
+      stem: 变被动：'People grow rice in China.'
+      answer: Rice is grown in China.
+      difficulty: 1
+      layer: operation
+    - id: psv-test-003
+      stem: 下列哪句被动语态是错误的？
+      answer: B
+      difficulty: 2
+      layer: understand
+      q_type: choice
+      options:
+        - A. The book was written by Lu Xun.
+        - B. He was arrived at 6.
+        - C. The cake was eaten.
+    - id: psv-test-004
+      stem: 翻译：'你的作业必须按时交。'
+      answer: Your homework must be handed in on time.
+      difficulty: 2
+      layer: operation
+    - id: psv-test-005
+      stem: 现在完成时被动：The room ___ already ___ (clean).
+      answer: has been cleaned
+      difficulty: 2
+      layer: operation
+    - id: psv-test-006
+      stem: 主动：They gave her a book. → 被动有几种写法？
+      answer: 两种——She was given a book. (间接宾语作主语) / A book was given to her. (直接宾语作主语)
+      difficulty: 4
+      layer: understand
+    - id: psv-test-007
+      stem: 科学报告为什么大量使用被动语态？举两个不是科学场景也应使用被动的例子。
+      answer: 被动语态把焦点放在'被做了什么'上而非'谁做的'——科学关注实验过程而非实验者。非科学场景：(1) 不知道谁做的：My wallet was stolen. (2) 不想指责谁：Mistakes were made in the project.
+      difficulty: 3
+      layer: connect
+    - id: psv-test-008
+      stem: 改错：The flowers are needed water every day.
+      answer: The flowers need watering / need to be watered every day. 或者 The flowers are watered every day.（去掉 need）。原句混淆了主动和被动。
+      difficulty: 4
+      layer: connect
+ai_context:
+  topic_summary: 被动语态（be + 过去分词）是英语中重要的句式变换。核心内容：被动语态在不同时态下的构成（be 随 tense 变 + 过去分词不变）、主动变被动的步骤（宾语→主语，动词→be+done，主语→by...）、及物/不及物动词对被动可能性的影响（只有带宾语的动词才能被动）、何时省略 by...（执行者未知/不重要/明显）。被动语态在科学写作、新闻报道和官方文件中极其常见。
+  key_insights:
+    - 被动语态的 be 动词是'变色龙'——它随主语的人称和数以及时态变化，而过去分词永远不变
+    - 主动变被动的关键是找到宾语——没有宾语的句子（不及物动词）不能变被动
+    - by... 可以省略是被动语态的一大优势——让你可以回避或淡化动作的执行者
+    - 现在完成时的被动最复杂——has/have + been + done（两个'be'相关元素：been 和 done）
+  common_mistakes:
+    - mistake: 不及物动词变被动
+      example: The accident was happened.
+      why: 认为任何句子都可以翻译成被动——忘记被动语态要求有宾语
+      how_to_explain: 变被动的第一步：找主动句的宾语。没有宾语 → 无法被动。像 happen、arrive、sleep 这类词后面不接宾语——所以它们不能变被动。
+    - mistake: 过去分词形式错误
+      example: The window was breaked.
+      why: 不熟悉不规则动词的过去分词形式
+      how_to_explain: 被动语态 = be + 过去分词。过去分词和过去式不同：break-broke-broken（过去式 broke，过去分词 broken）。需要专门记忆常用不规则动词的三形变化。
+    - mistake: be 动词数和时态匹配错误
+      example: The books was written.
+      why: 主语是复数但 be 用了单数——没有根据主语调整 be 动词
+      how_to_explain: 被动语态中 be 动词和普通句子中的 be 一样——必须和主语在数和时态上一致。books 是复数 → were，不是 was。
+  alternate_explanations:
+    - method: 镜头转移法
+      when_to_use: 学生对主动和被动的关系不清晰
+      prompt: 把主动句想象成摄像头对准'做动作的人'。被动句则是把摄像头转向'被影响的那个人或东西'。'Tom broke the window.' = 镜头在 Tom 身上。'The window was broken.' = 镜头在窗户上——Tom 可能根本没在画面里。
+    - method: 公式法（被动时态速查）
+      when_to_use: 学生被各种时态的被动语态搞晕
+      prompt: 被动语态只有一个核心公式：be + done。be 负责时态变化，done 永远不变。一般现在→am/is/are done，一般过去→was/were done，现在完成→have/has been done，将来→will be done。记住：只有 be 在跳舞，done 永远不动。
+  question_templates:
+    difficulty_1_2: 出 2 道转换题：主动句变被动句（一般现在时或一般过去时）
+    difficulty_3: 出 1 道多时态被动题：同一个动词在不同时态下的被动形式填空
+    difficulty_4: 出 1 道诊断题：给错误被动句让学生找出问题并改正（不及物动词误用/过去分词错误等）

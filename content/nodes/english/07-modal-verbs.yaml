@@ -1,0 +1,163 @@
+slug: modal-verbs
+subject: english
+title: 情态动词
+tier: core
+difficulty: 2
+prerequisites:
+  - tenses-basic
+estimated_min: 25
+trigger:
+  type: story
+  title: 英语中的'态度词'——一句话的灵魂
+  content:
+    text: "比较这两句话：\n\n\"You go to school.\"（你去上学。——陈述事实）\n\"You must go to school.\"（你必须去上学。——命令/义务）\n\n多了一个 must，语气从平淡变成了强制。\n这就是情态动词的力量——它不描述动作，而是表达**态度**：\n\n- can = 有能力\n- must = 有义务\n- may = 有可能/被允许\n- should = 应该/建议\n\n情态动词就像调料——同样的句子，换个情态动词就换了味道。\n掌握它们，你的英语才能从\"描述事实\"升级为\"表达立场\"。\n"
+    question: 用中文说'你应该做作业'和'你必须做作业'——区别在哪？英语怎么表达这个区别？
+display:
+  concept:
+    summary: 情态动词表达可能性、能力、允许、义务等态度。本章学习常见情态动词（can/could、may/might、must、should、will/would）的用法、区别，以及情态动词的三个语法特点。
+    sections:
+      - title: 一、情态动词的三大语法特点
+        content: "情态动词和普通动词不同——它们有三条特殊规则：\n\n**1. 后接动词原形**（无 to！）\n✓ She can swim.（can + 动词原形 swim）\n✗ She can to swim. / She can swimming.\n\n**2. 没有人称变化**（第三人称不加 s！）\n✓ He can swim.（不是 He cans swim）\n✗ He cans swim.\n\n**3. 疑问句直接提前**（不需要 do！）\n✓ Can you swim?（can 提前到主语前）\n✗ Do you can swim?\n"
+      - title: 二、五大核心情态动词
+        content: "| 情态动词 | 核心含义 | 例子 |\n|----------|----------|------|\n| can | 能力；允许 | I can speak English. Can I go now? |\n| may | 允许（正式）；可能性 | May I come in? It may rain. |\n| must | 必须（主观义务） | You must finish homework. |\n| should | 应该（建议） | You should see a doctor. |\n| will | 将要；意愿 | I will help you. |\n"
+      - title: 三、can vs could
+        content: "| 用法 | can | could |\n|------|-----|-------|\n| 现在能力 | I can swim.（我会游泳。） | — |\n| 过去能力 | — | I could swim at 5.（我 5 岁就会游泳。） |\n| 请求（现在） | Can you help me?（随意） | Could you help me?（更礼貌） |\n| 可能性 | It can be cold.（有时会冷） | It could be true.（可能是真的） |\n\n**礼貌请求的升级链**：\nCan you... → Could you... → Would you... → Would you mind...\n\ncould 比 can 更委婉——英语中过去式常用来表示礼貌。\n"
+      - title: 四、may vs must——允许 vs 强制
+        content: "| 情态动词 | 含义 | 例句 |\n|----------|------|------|\n| may | 被允许 | You may leave now.（你可以走了。） |\n| must | 必须 | You must leave now.（你必须走！） |\n| mustn't | 禁止 | You mustn't smoke here.（禁止吸烟！） |\n| needn't | 不必 | You needn't come if busy.（忙就不用来了。） |\n\n**重要区分**：\n- must → mustn't（必要 → 禁止）\n- must → needn't（必要 → 不必要）\n\n问：\"Must I go?\" 肯定回答：\"Yes, you must.\" 否定回答：\"No, you needn't.\"\n"
+      - title: 五、must vs have to
+        content: "| | must | have to |\n|--|------|--------|\n| 义务来源 | 主观（说话人认为有必要） | 客观（外部规则/条件） |\n| 时态 | 只有现在式 | 有各种时态（had to, will have to） |\n\n- \"I must study.\"（我自己觉得该学。）\n- \"I have to study. The exam is tomorrow.\"（外部压力——明天考试。）\n\n否定形式：\n- mustn't = 禁止（You mustn't go. 不许去！）\n- don't have to = 不必（You don't have to go. 不用去。）\n"
+  examples:
+    - title: can vs could 请求
+      problem: 如果你想礼貌地请老师帮忙——用 could 还是 can？
+      steps:
+        - 第 1 步：can 表示能力或一般请求——比较直接
+        - 第 2 步：could 是 can 的过去式——但用于现在表示更礼貌
+        - 第 3 步：Could you help me? = 比 Can you help me? 更正式更礼貌
+      answer: Could（更礼貌）——Could you please help me with this problem?
+    - title: mustn't vs needn't
+      problem: 你想告诉朋友'不必带伞'和'不准带伞'——分别用什么？
+      steps:
+        - "'不必带伞' = 不是必要的 → You needn't bring an umbrella."
+        - "'不准带伞' = 被禁止 → You mustn't bring an umbrella."
+        - mustn't = 禁止 ≠ 不必要——小心混淆！
+      answer: 不必：You needn't bring an umbrella. / 不准：You mustn't bring an umbrella.
+    - title: 可能性递减链
+      problem: "'明天可能会下雨'——用 must/may/might 表达不同程度的确定性。"
+      steps:
+        - must = 几乎确定（90%+）→ It must rain tomorrow.（说话人很有把握）
+        - may = 可能（50%）→ It may rain tomorrow.
+        - might = 可能但不太确定（30%）→ It might rain tomorrow.
+      answer: 确定性从高到低：must > may > might
+  practice:
+    - id: mod-prac-001
+      stem: 填空（can / can't）：I ___ swim. I learned it last summer.
+      answer: can
+      hints:
+        - 表示能力——'会'游泳
+        - 不是过去式，是现在的能力
+    - id: mod-prac-002
+      stem: 把句子变礼貌：'Open the window.' → 用 could 礼貌请求。
+      answer: Could you open the window?
+      hints:
+        - Could you + 动词原形...?
+        - Could you 后接动词的什么形式？
+    - id: mod-prac-003
+      stem: Must 的否定形式 mustn't 表示什么？
+      answer: B
+      hints:
+        - Must = 必须 → mustn't = 禁止
+        - "'不必'用 needn't 或 don't have to"
+      q_type: choice
+      options:
+        - A. 不必
+        - B. 禁止
+        - C. 可能不
+    - id: mod-prac-004
+      stem: 改错：He cans speak English very well.
+      answer: He can speak English very well.（情态动词后不加 s）
+      hints:
+        - 情态动词没有人称变化
+        - can 永远不加 s
+    - id: mod-prac-005
+      stem: 用 should 给建议：'我头疼。' (I have a headache.)
+      answer: You should take a rest. / You should see a doctor. / You should drink some water.
+      hints:
+        - should + 动词原形
+        - should 表示建议/'应该'
+  test:
+    - id: mod-test-001
+      stem: 填空：___ I use your pen? (请求允许——正式礼貌)
+      answer: May
+      difficulty: 1
+      layer: operation
+    - id: mod-test-002
+      stem: 用 mustn't 或 needn't 填空：You ___ smoke here. It's against the rules.
+      answer: mustn't（禁止吸烟——有规则禁止）
+      difficulty: 2
+      layer: operation
+    - id: mod-test-003
+      stem: 下面哪句最礼貌？
+      answer: B
+      difficulty: 1
+      layer: understand
+      q_type: choice
+      options:
+        - A. Can you help me?
+        - B. Could you help me?
+        - C. Help me!
+    - id: mod-test-004
+      stem: 翻译：'你必须完成作业才能玩。'
+      answer: You must finish your homework before you can play.
+      difficulty: 2
+      layer: operation
+    - id: mod-test-005
+      stem: 改写：It is necessary for us to wear uniforms at school. (用 must)
+      answer: We must wear uniforms at school.
+      difficulty: 2
+      layer: operation
+    - id: mod-test-006
+      stem: 小红说 'You needn't come.' 和小明说 'You mustn't come.'——谁的话是'不准来'？
+      answer: 小明（mustn't = 禁止——不准来）。小红（needn't = 不必——可以来但没必要）。
+      difficulty: 2
+      layer: understand
+    - id: mod-test-007
+      stem: 为什么 must 的过去式不用 musted？情态动词为什么没有时态变化？
+      answer: 情态动词本身不表示动作，只表示态度——它们更像是'语法工具词'。表达过去必须做要用 had to（must 没有过去式）。这是英语中情态动词作为封闭词类的特征。
+      difficulty: 3
+      layer: understand
+    - id: mod-test-008
+      stem: 用三种不同的情态动词写三句话，分别表达：能力、强烈建议、和禁止。主题：学英语。
+      answer: 能力：I can learn 20 new words every day. / 强烈建议：You should practice speaking English every day. / 禁止：You mustn't give up learning English.
+      difficulty: 3
+      layer: connect
+ai_context:
+  topic_summary: 情态动词是英语中表达态度（能力、可能、允许、义务、建议）的语法工具。核心情态动词：can/could（能力、请求）、may/might（允许、可能性）、must（义务、推断）、should（建议）、will/would（意愿、礼貌请求）。三大语法特点：后接动词原形、无人称变化、疑问句自身提前（不需要 do）。重点区分 mustn't（禁止）vs needn't（不必）以及 must（主观）vs have to（客观）。
+  key_insights:
+    - 情态动词是'态度词'而非'动作词'——它们不描述行为本身，而是给行为加上颜色
+    - could/would 用于现在表示礼貌——英语中'后退一步'（用过去式）即是礼貌
+    - mustn't 和 needn't 的区别是初中英语必考点——禁止 vs 不必，意思截然相反不可混淆
+    - 情态动词没有人称和时态变化——这使它们学起来比普通动词更简单（没有变形负担）
+  common_mistakes:
+    - mistake: 情态动词后加 to
+      example: She can to swim.
+      why: 把情态动词当普通动词——普通动词后跟 to do，但情态动词直接加原形
+      how_to_explain: 情态动词像贴身保镖——直接贴身保护原形动词，中间不容任何东西：can ✓ swim ✗ to swim。
+    - mistake: 情态动词第三人称加 s
+      example: He cans swim.
+      why: 一般现在时的第三人称加 s 的习惯泛化到情态动词
+      how_to_explain: 情态动词是语法世界中'不变'的存在——无论主语是谁，can 永远是 can。它们是英语变位规则的例外，记住了就永远不会错。
+    - mistake: 把 mustn't 当作'不必'
+      example: 学生想表达'你不必来'写成 You mustn't come.
+      why: 按中文习惯'不+必须=不必'——但英语中 mustn't = 禁止 ≠ 不必
+      how_to_explain: mustn't = '一定不许/不准'。要表达'不必'用 needn't 或 don't have to。把 mustn't 想象成红灯——禁止通行。
+  alternate_explanations:
+    - method: 语气阶梯法
+      when_to_use: 学生分不清各种情态动词的用法
+      prompt: 从'禁止'到'强烈建议'画一条线：mustn't（禁止）→ needn't（不必）→ can（可以）→ may（允许）→ should（应该）→ must（必须）。每次用情态动词时，在这条线上找准位置。
+    - method: 角色扮演法（请求礼貌度）
+      when_to_use: 学生对礼貌级别不理解
+      prompt: 设场景：你向朋友借笔记 → Can I borrow your notes? 你向不熟的同事借 → Could I borrow your notes? 你向老板请半天假 → Would it be possible to take half a day off? 对象越正式，语气越委婉。
+  question_templates:
+    difficulty_1_2: 出 2 道填空题：给语境选择正确的情态动词（can/must/should/may）
+    difficulty_3: 出 1 道译写题：给中文句子用正确的情态动词翻译成英文
+    difficulty_4: 出 1 道辨析题：比较 mustn't 和 needn't 在实际场景中的用法

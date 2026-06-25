@@ -1,0 +1,230 @@
+slug: cloze-test
+subject: english
+title: 完形填空技巧
+tier: trunk
+difficulty: 3
+prerequisites:
+  - reading-comprehension
+estimated_min: 30
+trigger:
+  type: story
+  title: 完形填空——给残缺的文章'补全拼图'
+  content:
+    text: "完形填空就像一篇被挖掉了好多块的拼图：一段短文里去掉了若干单词，\n每个空给你四个选项，你要选出最合适的那块\"拼图\"补回去。\n\n很多同学一上来就盯着第一个空，逐空翻选项、逐空蒙——结果前后矛盾、错一片。\n\n高手的做法是：\n- **先通读全文**，跳过空格，搞清楚文章讲了个什么故事（主线）。\n- 再回头**逐空分析**：这里考语法（时态、词形）？还是考词义搭配？还是考上下文逻辑？\n- 选完之后**再读一遍**，看看填进去的词是否让整段通顺、前后一致。\n\n完形填空考的不只是单词，更是\"在语境中用词\"的综合能力。\n掌握\"通读—分析—复读\"三步法，你就能把残缺的文章补得天衣无缝。"
+    question: 做完形填空，你会先看第一个空，还是先把全文读一遍？
+display:
+  concept:
+    summary: 完形填空在一篇短文中挖空，要求从四个选项中选出最符合语境的词。它综合考查词汇、语法和逻辑。核心方法是"通读全文抓大意 → 逐空分析（辨析考点是语法、词义搭配还是上下文逻辑）→ 复读检验前后一致"。关键意识是"不能孤立看一个空，要联系上下文"，因为完形的答案往往藏在空格前后甚至别的段落里。
+    sections:
+      - title: 一、完形填空的三步法
+        content: "**第 1 步：通读全文，跳过空格抓大意**\n- 第一遍快速读，不急着填，先弄清文章讲什么（什么人、什么事、什么态度）\n- 首句通常完整无空，是理解全文的\"钥匙\"，一定要读懂\n\n**第 2 步：逐空分析，判断考点类型**\n- 看每个空考的是：①语法（时态/词形/介词）②词义辨析（近义词区别）③上下文逻辑（因果/转折/并列）\n- 根据考点类型用相应方法\n\n**第 3 步：复读检验，确保前后一致**\n- 把选好的词代入，整段读一遍\n- 检查时态是否统一、逻辑是否通顺、有没有前后矛盾\n\n**口诀**：一读抓大意，二读析考点，三读验通顺。"
+      - title: 二、三大考点类型与对策
+        content: "| 考点类型 | 怎么辨认 | 对策 |\n|----------|----------|------|\n| 语法/词形 | 四个选项是同一词的不同形式，或时态/介词 | 用语法规则判断（时态一致、固定搭配、词性） |\n| 词义辨析 | 四个选项词性相同、意思相近 | 联系上下文，选最贴合语境的那个 |\n| 上下文逻辑 | 需要根据前后句关系判断 | 找逻辑信号词（but, so, because, however） |\n\n**重点**：完形填空大多数空考的是**词义辨析**和**逻辑**，纯语法占比不高。\n这说明：必须读懂上下文，光背单词不够。"
+      - title: 三、解题的四个关键意识
+        content: "**1. 上下文意识**：答案常在空格的前一句或后一句里有\"暗示\"。\n- 看到 but/however，说明前后转折，意思相反\n- 看到 so/therefore，说明前因后果\n\n**2. 复现意识**：文章里常有同义词、反义词或原词的\"复现\"，\n- 同一个意思在别处用别的词说过 → 提示答案方向\n\n**3. 搭配意识**：很多空考固定搭配（动词+介词、形容词+名词）。\n- 如 listen **to**, be interested **in**, make a decision\n\n**4. 情感/逻辑一致意识**：全文的感情色彩要统一。\n- 如果是温暖感人的故事，就不会突然出现负面词"
+      - title: 四、常用排除技巧
+        content: "当不确定时，用排除法缩小范围：\n\n- **代入排除**：把四个选项依次代入，读起来别扭/不通的先排除\n- **逻辑排除**：与上下文逻辑矛盾的排除（如前面说\"高兴\"，这里不能填\"哭\")\n- **搭配排除**：不符合固定搭配的排除（listen 后只能接 to，不接 at）\n- **重复排除**：同义重复或与上文矛盾的排除\n\n**最后提醒**：完形填空选\"最佳\"答案，不是\"唯一正确\"——\n有时两个选项语法都对，要选更符合语境、更地道的那个。"
+  examples:
+    - title: 解题示范——上下文逻辑题
+      problem: "短文：It was raining hard, but Tom didn't have an umbrella. ___ , a kind man gave him a ride home.\nA. However  B. Luckily  C. Sadly  D. Finally"
+      steps:
+        - 第 1 步：先看上下文——下大雨没伞（困境）+ 好心人载他回家（被帮助）
+        - 第 2 步：空格连接"困境"和"得到帮助"，应是"幸运地"
+        - 第 3 步：Luckily（幸运地）符合逻辑；Sadly（悲伤地）情感相反，排除
+      answer: B. Luckily。根据上下文情感和逻辑（得到帮助是幸运的）选 Luckily。
+    - title: 解题示范——词义辨析题
+      problem: "短文：The math problem was very difficult. After thinking for a long time, Lily finally ___ it.\nA. solved  B. answered  C. asked  D. made"
+      steps:
+        - 第 1 步：四个选项词性相同（动词），考词义辨析
+        - 第 2 步：宾语是 problem（难题），与 problem 搭配的是 solve（解决）
+        - 第 3 步：solve a problem 是地道搭配；answer a question 才对，answer a problem 不地道
+      answer: C 错（ask 不通），B 不搭配（answer 配 question），A. solved（solve the problem 解决难题）最佳。
+    - title: 解题示范——固定搭配题
+      problem: "短文：My little brother is very interested ___ playing computer games.\nA. in  B. on  C. at  D. for"
+      steps:
+        - 第 1 步：选项都是介词，考固定搭配
+        - 第 2 步：be interested in（对……感兴趣）是固定搭配
+        - 第 3 步：后面接动名词 playing 也符合 in + doing
+      answer: A. in。be interested in sth/doing 是固定搭配，介词只能用 in。
+  practice:
+    - id: cz-prac-001
+      stem: Tom studied very hard, ___ he passed the exam easily
+      answer: B
+      hints:
+        - 看前后逻辑：努力学习和通过考试是什么关系
+        - 因果用 so，转折用 but
+      q_type: choice
+      options:
+        - A. but
+        - B. so
+        - C. or
+        - D. because
+    - id: cz-prac-002
+      stem: It's cold outside. Please ___ your coat before going out
+      answer: A
+      hints:
+        - 天冷出门应该穿衣还是脱衣
+        - put on=穿上，take off=脱下
+      q_type: choice
+      options:
+        - A. put on
+        - B. take off
+        - C. look at
+        - D. give up
+    - id: cz-prac-003
+      stem: Yesterday I ___ a wonderful film with my friends
+      answer: B
+      hints:
+        - 注意时间词 Yesterday
+        - 过去时间用动词过去式
+      q_type: choice
+      options:
+        - A. see
+        - B. saw
+        - C. seeing
+        - D. seen
+    - id: cz-prac-004
+      stem: The story is so ___ that I want to read it again
+      answer: B
+      hints:
+        - 后文"想再读一遍"暗示什么感情
+        - 选与"想再读"逻辑一致的词
+      q_type: choice
+      options:
+        - A. boring
+        - B. interesting
+        - C. terrible
+        - D. difficult
+    - id: cz-prac-005
+      stem: She was thirsty, ___ she drank a glass of water
+      answer: B
+      hints:
+        - 口渴和喝水是因果还是转折
+        - 因果用 so
+      q_type: choice
+      options:
+        - A. but
+        - B. so
+        - C. though
+        - D. or
+    - id: cz-prac-006
+      stem: 做完形填空时，为什么要先通读全文再填空，而不是看到第一个空就填？
+      answer: 因为完形的答案往往藏在上下文里，先读懂全文才能判断每个空的逻辑和语境；只看局部容易前后矛盾、选错。
+      hints:
+        - 答案常在空格前后或别的句子里
+        - 想想"只看局部"会有什么风险
+  test:
+    - id: cz-test-001
+      stem: He didn't go to school ___ he was ill
+      answer: C
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. but
+        - B. so
+        - C. because
+        - D. and
+    - id: cz-test-002
+      stem: My mother is a teacher. She ___ English in a middle school
+      answer: B
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. teach
+        - B. teaches
+        - C. teaching
+        - D. taught
+    - id: cz-test-003
+      stem: I was very tired, ___ I kept on working
+      answer: B
+      difficulty: 2
+      layer: understand
+      q_type: choice
+      options:
+        - A. so
+        - B. but
+        - C. because
+        - D. or
+    - id: cz-test-004
+      stem: Thank you for ___ me with my homework
+      answer: C
+      difficulty: 2
+      layer: operation
+      q_type: choice
+      options:
+        - A. help
+        - B. helps
+        - C. helping
+        - D. helped
+    - id: cz-test-005
+      stem: The poor boy had no money, ___ he never gave up his dream
+      answer: C
+      difficulty: 3
+      layer: connect
+      q_type: choice
+      options:
+        - A. so
+        - B. and
+        - C. however
+        - D. because
+    - id: cz-test-006
+      stem: Everyone laughed at his joke. It was really ___
+      answer: B
+      difficulty: 2
+      layer: understand
+      q_type: choice
+      options:
+        - A. boring
+        - B. funny
+        - C. sad
+        - D. serious
+    - id: cz-test-007
+      stem: 完形填空里看到选项是同一个词的不同形式（go/goes/going/went），这通常考什么？应该怎么判断？
+      answer: 这通常考语法（时态或词形）。要根据句子的时间状语、主语人称、前面有无助动词/介词来判断该用哪个形式。
+      difficulty: 3
+      layer: understand
+    - id: cz-test-008
+      stem: 请用自己的话说明完形填空"复读检验"这一步的作用，并举一个例子说明不复读会出什么问题。
+      answer: 复读能检查所填词是否让全文时态统一、逻辑通顺、前后一致。例如某空填了过去式，但全文是现在时，复读就能发现时态矛盾并改正。
+      difficulty: 3
+      layer: connect
+ai_context:
+  topic_summary: 完形填空是在挖空的短文中从四个选项里选最符合语境的词，综合考查词汇、语法和逻辑。核心方法是三步法：通读全文抓大意（尤其读懂完整的首句）、逐空分析判断考点类型（语法词形/词义辨析/上下文逻辑）、复读检验前后一致。四大关键意识：上下文意识（答案藏在前后句）、复现意识（同义反义复现给提示）、搭配意识（固定搭配）、情感逻辑一致意识。大多数空考词义辨析和逻辑，纯语法占比小，所以读懂语境比死背单词更重要。
+  key_insights:
+    - 完形填空不能孤立看一个空——答案往往藏在上下文、逻辑信号词或别处的复现里
+    - 先通读全文抓主线再逐空填，是避免前后矛盾的关键；首句完整无空，是理解钥匙
+    - 多数空考"在语境中用词"（词义辨析+逻辑），纯语法题占比不高
+    - 逻辑信号词（but/so/because/however）是判断空格关系的最重要线索
+  common_mistakes:
+    - mistake: 不读全文，逐空孤立地填
+      example: 看到第一个空就盯着四个选项硬选，不管上下文
+      why: 学生把完形当成一个个独立的单选题，没意识到空与空、句与句相互关联
+      how_to_explain: 完形填空是"一篇文章"而不是"一堆填空"。答案常常要靠前后句甚至别的段落才能确定。教学生先花一分钟通读全文抓住故事主线，再回头逐空填——就像拼图要先看完整图案再找每一块。
+    - mistake: 忽略逻辑信号词
+      example: 该填 but（转折）的地方填了 so（因果），导致逻辑矛盾
+      why: 学生没养成关注 but/so/because/however 这类信号词的习惯
+      how_to_explain: 逻辑信号词是上下文的"路标"。教学生看到空格前后，先问：这两句是什么关系？意思相反→转折（but/however）；前因后果→因果（so/because）；并列补充→and。先判断关系，再选对应的词。
+    - mistake: 只看语法不看语境（词义辨析失误）
+      example: 四个近义动词都语法正确，学生随便选了一个不搭配/不贴切的
+      why: 学生以为语法对就行，不知道完形要选"最符合语境"的词
+      how_to_explain: 当四个选项词性相同、语法都对时，比的就是"谁更贴合语境和搭配"。教学生把每个词代入句子读一读，看哪个和上下文意思最配、搭配最地道（solve a problem 而非 answer a problem）。完形选"最佳"不选"勉强对"。
+    - mistake: 填完不复读检验
+      example: 全文用现在时，某空却填了过去式，造成时态不统一
+      why: 学生填完就交，没有回头通读检查一致性
+      how_to_explain: 第三步复读是"质检"环节。把填好的词代回去整段读一遍，重点查三件事：时态统不统一、逻辑通不通顺、情感色彩一不一致。很多低级错误（时态矛盾、前后打架）都能在复读时抓出来。
+  alternate_explanations:
+    - method: 拼图比喻
+      when_to_use: 学生不理解完形为何要通读时
+      prompt: 完形填空像拼一幅被抠掉几块的拼图。如果你不看完整图案就乱塞拼块，很可能塞错。先看清整幅图（通读全文抓大意），再根据周围的图案（上下文）判断每个缺口该补哪一块——这样既快又准。
+    - method: 路标识别法
+      when_to_use: 训练上下文逻辑题时
+      prompt: 教学生把 but, however（转折路标）、so, therefore（因果路标）、because, since（原因路标）、and, also（并列路标）当成"交通路标"。看到空格旁有这些词，立刻判断前后句的逻辑关系，答案方向就明确了一半。
+    - method: 代入朗读检验法
+      when_to_use: 在词义辨析或最后复读阶段
+      prompt: 不确定时，把四个选项一个个代入句子小声读出来（或心里读）。地道的、通顺的句子读起来"顺"；别扭的、不搭配的读起来"卡"。耳朵的语感往往能帮你排除明显不对的选项，剩下最顺的那个通常就是答案。
+  question_templates:
+    difficulty_1_2: 给 1-2 句带 1 个空的语境 + 四选项，考查时态/搭配/简单逻辑（如 because/so）
+    difficulty_3: 给一小段短文带 1-2 个空，考查转折逻辑（but/however）或词义辨析
+    difficulty_4: 给一段完整短文挖 3-5 个空，要求学生填空并标注每个空考的是语法、词义还是逻辑

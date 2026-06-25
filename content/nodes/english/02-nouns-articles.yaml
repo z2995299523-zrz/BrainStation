@@ -1,118 +1,172 @@
 slug: nouns-articles
 subject: english
-title: "名词与冠词"
+title: 名词与冠词
 tier: core
 difficulty: 1
-prerequisites: ["vocabulary-core"]
+prerequisites:
+  - vocabulary-core
 estimated_min: 25
-
 trigger:
   type: story
-  title: "the 是英语中最常用的词——但你用对了吗？"
+  title: the 是英语中最常用的词——但你用对了吗？
   content:
-    text: |
-      英语中最常见的词不是 I、you 或 hello，而是——**the**。
-
-      这个只有三个字母的小词，每天被全球数十亿人使用。
-      但它背后的逻辑却让无数学习者困惑：
-
-      "the sun" 但不说 "a sun"（因为只有一个太阳）
-      "I saw a dog" 但不说 "I saw the dog"（除非你知道是哪只狗）
-
-      中文没有冠词，所以中国学习者尤其需要建立一种新直觉。
-      好消息是：一旦学会，你就再也不会用错了。
-    question: "你能感受到 the 和 a/an 的区别吗？试着用中文解释一下？"
-    spoken_phrases:
-      - { text: "the", label: "定冠词" }
-      - { text: "a book", label: "不定冠词" }
-      - { text: "an apple", label: "元音前用 an" }
-      - { text: "the sun", label: "独一无二" }
-      - { text: "water", label: "不可数名词" }
-
-content:
-  operation:
-    text: |
-      ## 名词分类和冠词使用
-
-      **名词分类**：
-
-      1. **可数名词**：有单复数
-         - book → books, child → children
-         - 单数可数名词不能单独出现 → 必须加 a/an/the
-         - ✗ "I have book" → ✓ "I have a book"
-
-      2. **不可数名词**：没有复数形式
-         - water, information, music, furniture
-         - 不可数名词前面不加 a/an
-         - ✗ "a water" → ✓ "water" 或 "some water"
-
-      **冠词规则**：
-
-      | 冠词 | 用法 | 例子 |
-      |------|------|------|
-      | a/an | 泛指、第一次提到、单数可数 | a book, an apple |
-      | the | 特指、双方都知道的、唯一的 | the sun, the book I bought |
-      | 零冠词 (ø) | 不可数泛指、复数泛指 | ø water, ø books |
-    spoken_examples:
-      - { text: "a book", label: "单数可数" }
-      - { text: "an apple", label: "元音前" }
-      - { text: "the sun", label: "特指" }
-      - { text: "water", label: "不可数" }
-      - { text: "books", label: "复数泛指" }
-    examples:
-      - input: "\"I saw dog in park\" 哪里错？"
-    output: "→ I saw a dog in the park（第一次提到狗用 a，公园是特定的用 the）"
-
-  understand:
-    text: |
-      ## 为什么中文没有冠词而英语必须有？
-
-      英语冠词做了一件事：**标记信息的新旧**。
-
-      - **a/an** = "注意！这是我第一次提到这个东西"（新信息）
-      - **the** = "你应该知道我说的是哪个"（已知信息）
-
-      中文没有这种语法标记，但我们会用"那个"、"一个"来表达类似的含义。
-      区别是：在英语中，这不是可选的——是语法要求。
-
-      **有趣的事实**：
-      英语是少数有冠词的语言。世界上大多数语言（包括汉语、日语、俄语、
-      印地语）都没有冠词。有冠词的语言主要分布在欧洲。
-    highlights:
-      - "a/an 标记'新信息'，the 标记'已知信息'"
-      - "冠词是强制性的——不能用'听起来自然'来判断"
-
-  connect:
-    text: |
-      ## 冠词错误能改变意思
-
-      - "Go to school"（去上学）vs "Go to the school"（去学校那个建筑——可能是去接人）
-      - "in hospital"（住院治疗）vs "in the hospital"（在医院里——可能是访客）
-      - "out of question"（毫无疑问）vs "out of the question"（绝不可能）
-
-      这些细微差别的冠词能让意思完全反转！
-
-      **更深一层**：冠词系统反映了语言如何编码"共有知识"——
-      一个社群中大家都知道的事不需要特别标记，新信息则需要。
-      这其实是人类认知的基本模式。
-    thought_seeds:
-      - "the 用来标记'我们双方都知道的东西'"
-      - "冠词错误是最常见的中式英语特征之一"
-
-feynman:
-  base_prompt: "用你自己的话解释：a/an 和 the 的本质区别是什么？为什么 a water 是错的？"
-  key_elements:
-    - "a/an 用于泛指/第一次提到"
-    - "the 用于特指/已知的"
-    - "不可数名词不加 a/an"
-    - "中文没有冠词系统"
-  deep_questions:
-    - "如果让你教一个外星人学英语冠词，第一个例子你会用什么？"
-    - "你觉得是中文'不需要'冠词，还是中文用其他方式表达了同样的意思？"
-  missing_hints:
-    "a/an 用于泛指/第一次提到": "第一次说一只狗时用 a 还是 the？"
-    "the 用于特指/已知的": "说到太阳时为什么用 the？"
-    "不可数名词不加 a/an": "为什么不能说 a water？water 是什么类型的名词？"
-    "中文没有冠词系统": "中文怎么表达'一个'和'那个'？这和英语冠词有什么不同？"
-
-thought_card: "今天你学会了哪个冠词用法是以前用错的？"
+    text: "英语中最常见的词不是 I、you 或 hello，而是——**the**。\n\n这个只有三个字母的小词，每天被全球数十亿人使用。\n但它背后的逻辑却让无数学习者困惑：\n\n- \"the sun\"（太阳）但不说 \"a sun\"——因为只有一个太阳\n- \"I saw a dog\"（我看见一条狗）但不说 \"I saw the dog\"——除非你和听者都知道是哪条狗\n\n中文没有冠词，所以中国学习者尤其需要建立一种新直觉。\n好消息是：一旦学会，你就再也不会用错了。"
+    question: 你能感受到 the（那个特定的）和 a/an（某一个）的区别吗？试着用中文解释一下？
+display:
+  concept:
+    summary: 名词分可数与不可数，单数可数名词前必须有冠词或限定词。英语有三类冠词：a/an（泛指、第一次提到、单数可数）、the（特指、双方都知道的、独一无二的）、零冠词（不可数名词泛指、复数名词泛指）。中文没有冠词系统，本章核心是建立"信息新旧"的直觉——a/an 标记新信息，the 标记已知信息。
+    sections:
+      - title: 一、名词的分类（可数与不可数）
+        content: "**可数名词**（countable）：可以一个一个数，有单数和复数。\n- book → books（书）, child → children（孩子）, box → boxes（盒子）\n- **单数可数名词不能单独出现**，前面必须加 a/an/the 或 my/this 等限定词。\n- ✗ I have book. → ✓ I have **a** book.（我有一本书。）\n\n**不可数名词**（uncountable）：不能直接数，没有复数形式。\n- water（水）, information（信息）, music（音乐）, furniture（家具）, advice（建议）\n- 不可数名词前**不加 a/an**，要表示数量用 some/much 或\"量词 + of\"。\n- ✗ a water → ✓ some water（一些水）/ a glass of water（一杯水）\n\n**小提醒**：有些词在中文里能数，在英语里却不可数，如 news（新闻）、bread（面包）、homework（作业）——这要靠记忆和语感。"
+      - title: 二、不定冠词 a / an
+        content: "**a/an** 表示\"某一个\"，用于**泛指**或**第一次提到**的单数可数名词。\n\n**a 还是 an？看读音，不看拼写！**\n- 后面单词以**辅音音素**开头 → 用 **a**：a book, a car, a **u**niversity（/juː/ 是辅音开头）\n- 后面单词以**元音音素**开头 → 用 **an**：an apple, an egg, an **h**our（h 不发音，元音开头）\n\n**典型例句**：\n- I bought **a** new phone yesterday.（我昨天买了**一**部新手机。）\n- She is **an** honest girl.（她是**一**个诚实的女孩。honest 的 h 不发音）"
+      - title: 三、定冠词 the
+        content: "**the** 表示\"那个特定的\"，用于**特指**——说话双方都清楚指的是哪一个。\n\n**常见用法**：\n| 用法 | 例子 | 说明 |\n|------|------|------|\n| 上文提过的事物 | I saw a dog. **The** dog was big. | 第二次提到用 the |\n| 独一无二的事物 | **the** sun, **the** moon, **the** earth | 世上只有一个 |\n| 双方都知道的 | Close **the** door, please. | 都知道是哪扇门 |\n| 最高级、序数词前 | **the** tallest, **the** first | 特指唯一 |\n| 乐器、某些方位 | play **the** piano, in **the** east | 固定搭配 |"
+      - title: 四、零冠词与固定搭配
+        content: "**零冠词（不加任何冠词）**的情况：\n- 不可数名词泛指：I like **music**.（我喜欢音乐。）\n- 复数名词泛指：**Dogs** are friendly.（狗很友好。）\n- 三餐、球类、学科前：have **breakfast**, play **football**, study **math**\n\n**冠词影响意思的固定搭配**（要记忆）：\n- go to **school**（去上学）vs go to **the school**（去那所学校建筑，如去接孩子）\n- in **hospital**（住院治疗）vs in **the hospital**（在医院里，如探病）\n- in **bed**（在睡觉/卧床）vs in **the bed**（在那张床上）"
+      - title: 五、常见易错点
+        content: "**1. 单数可数名词漏冠词**（中式英语高频错误）\n- ✗ I am student. → ✓ I am **a** student.\n\n**2. 不可数名词加 a/an**\n- ✗ I have a good news. → ✓ I have **good news**.（news 不可数）\n\n**3. a/an 只看拼写不看读音**\n- ✗ a hour → ✓ **an** hour（h 不发音）\n- ✗ an university → ✓ **a** university（u 读 /juː/，辅音开头）"
+  examples:
+    - title: 第一次提到 vs 特指
+      problem: '"I saw dog in park yesterday." 这句话哪里错了？'
+      steps:
+        - 第 1 步：dog 是单数可数名词，第一次提到——要用 a。
+        - 第 2 步：park（公园）是和听者都清楚的特定地点，且常与 in the 搭配——用 the。
+        - 第 3 步：补全为 I saw **a** dog in **the** park yesterday.
+      answer: I saw **a** dog in **the** park yesterday.（我昨天在公园里看见一条狗。）第一次提到的狗用 a，特定的公园用 the。
+    - title: a 还是 an
+      problem: 横线处该填 a 还是 an？① ___ apple  ② ___ university  ③ ___ hour
+      steps:
+        - 第 1 步：判断标准是后面单词的**读音**，不是字母。
+        - 第 2 步：apple 以元音 /æ/ 开头 → an；university 读 /ˌjuːnɪ.../，j 是辅音音素 → a；hour 的 h 不发音，以元音 /aʊ/ 开头 → an。
+        - 第 3 步：① an apple  ② a university  ③ an hour
+      answer: ① **an** apple  ② **a** university  ③ **an** hour。看读音：元音音素前用 an，辅音音素前用 a。
+    - title: 不可数名词加错冠词
+      problem: '"She gave me a good advice." 哪里有问题？'
+      steps:
+        - 第 1 步：advice（建议）是不可数名词，不能加 a/an。
+        - 第 2 步：要表达"一条建议"，用 a piece of advice。
+        - 第 3 步：改为 She gave me **a piece of advice**. 或 She gave me **good advice**.
+      answer: advice 不可数，不能用 a。正确：She gave me **a piece of advice**.（她给了我一条好建议。）
+  practice:
+    - id: noun-prac-001
+      stem: 选择 a 或 an 填空：① ___ egg  ② ___ book  ③ ___ honest man  ④ ___ European country
+      answer: ① an egg  ② a book  ③ an honest man（h 不发音）④ a European country（European 读 /jʊə/，辅音开头）
+      hints:
+        - 判断标准是读音，不是首字母
+        - honest 的 h 不发音；European 以 /j/ 辅音开头
+    - id: noun-prac-002
+      stem: 判断下列名词是可数还是不可数：water, apple, information, child, music
+      answer: 可数：apple, child；不可数：water, information, music
+      hints:
+        - 能不能说"两个、三个" + 该名词？
+        - 不可数名词没有复数形式
+    - id: noun-prac-003
+      stem: 改错：I have a homework to do tonight.
+      answer: homework 是不可数名词，不能加 a。正确：I have **homework** to do tonight. 或 I have **some homework** to do tonight.
+      hints:
+        - homework 在英语里不可数
+        - 想表达"一些"用 some，不用 a
+    - id: noun-prac-004
+      stem: 填空（用 a/an/the 或不填）：I saw ___ film last night. ___ film was about ___ war.
+      answer: I saw **a** film last night. **The** film was about **a** war.（第一次提到 film 用 a；第二次提到同一部 film 用 the；war 第一次提到且单数可数用 a）
+      hints:
+        - 第一次提到用 a，再次提到同一事物用 the
+        - 留意每个名词是不是第一次出现
+    - id: noun-prac-005
+      stem: 解释区别：He went to school. / He went to the school.
+      answer: go to **school** = 去上学（做学生该做的事）；go to **the school** = 去那所学校（那个建筑物，比如去接孩子或开家长会）。
+      hints:
+        - 零冠词常表示"做该场所本来的事"
+        - 加 the 强调那个具体的建筑/地点
+    - id: noun-prac-006
+      stem: 翻译：太阳从东边升起。
+      answer: The sun rises in the east.（the sun 独一无二，in the east 固定方位搭配）
+      hints:
+        - 太阳独一无二，用 the
+        - 表示"在东边"用 in the east
+  test:
+    - id: noun-test-001
+      stem: 选词填空：This is ___ useful tool
+      answer: A
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. a
+        - B. an
+        - C. the
+    - id: noun-test-002
+      stem: 改错：I want to drink a water.
+      answer: water 是不可数名词，不能加 a。正确：I want to drink **some water**. 或 a glass of water。
+      difficulty: 1
+      layer: operation
+    - id: noun-test-003
+      stem: 用冠词规则解释：为什么说 "the moon" 而不说 "a moon"？
+      answer: 月亮是独一无二的事物，说话双方都知道指哪一个，所以用定冠词 the；a 用于泛指"某一个"，不适用于独一无二的事物。
+      difficulty: 2
+      layer: understand
+    - id: noun-test-004
+      stem: 填空：Yesterday I met ___ old friend. ___ friend told me ___ interesting story.
+      answer: an old friend；The friend；an interesting story（第一次提到用 a/an，old 元音开头用 an；再次提到用 the；story 第一次提到，interesting 元音开头用 an）
+      difficulty: 2
+      layer: operation
+    - id: noun-test-005
+      stem: 比较 "in hospital" 和 "in the hospital" 的意思有什么不同？
+      answer: in hospital = 住院（接受治疗，强调身份）；in the hospital = 在医院这个建筑里（如探病、上班），强调具体地点。冠词改变了句子含义。
+      difficulty: 3
+      layer: understand
+    - id: noun-test-006
+      stem: 改错并说明原因：I am teacher and I love my work.
+      answer: 单数可数名词 teacher 前必须加冠词。正确：I am **a** teacher。表示职业身份时用 a/an；work（工作）在此为不可数，不需冠词，正确。
+      difficulty: 2
+      layer: operation
+    - id: noun-test-007
+      stem: 为什么中文不需要冠词，英语却必须有？用你的话说明冠词的作用。
+      answer: 冠词的作用是标记信息的新旧：a/an 表示"第一次提到的新信息"，the 表示"双方已知的旧信息"。中文用"一个""那个"等词或靠语境表达类似含义，但英语把它做成了强制性的语法规则。
+      difficulty: 3
+      layer: connect
+    - id: noun-test-008
+      stem: 把下列句子补全冠词：___ dog is ___ faithful animal; it is ___ best friend of ___ human beings.
+      answer: The dog is a faithful animal; it is the best friend of human beings.（The dog 泛指整个种类；a faithful animal 表"一种"；the best 最高级用 the；human beings 复数泛指用零冠词）
+      difficulty: 3
+      layer: connect
+ai_context:
+  topic_summary: 名词与冠词是英语的基础。名词分可数（有单复数，单数前必须有限定词）和不可数（无复数，不加 a/an）。冠词系统有三类：a/an（泛指、首次提到、单数可数；按读音选 a 或 an）、the（特指、独一无二、双方已知）、零冠词（不可数与复数泛指）。本章的认知核心是"信息新旧"——a/an 引入新信息，the 指向已知信息。中文没有冠词，因此漏冠词、给不可数名词加 a/an 是中国学生的高频错误。
+  key_insights:
+    - 单数可数名词前必须有冠词或限定词——这是和中文最大的差异，也是漏冠词错误的根源
+    - a 还是 an 取决于后面单词的读音（音素），不是首字母拼写
+    - a/an 标记新信息（第一次提到），the 标记已知信息（双方都知道指哪个）
+    - 不可数名词不加 a/an，要用 some 或"量词 + of"来表数量
+    - 零冠词与加 the 可能改变意思（go to school / go to the school）——属固定搭配，需记忆
+  common_mistakes:
+    - mistake: 单数可数名词漏掉冠词
+      example: '"I am student." / "He has car."'
+      why: 中文"我是学生""他有车"不需要冠词，学生直接照搬中文结构
+      how_to_explain: 告诉学生英语里单数可数名词像"没穿衣服的人不能出门"——前面必须有 a/an/the 或 my/this 等。看到单数可数名词，先问自己"它有冠词吗？"
+    - mistake: 给不可数名词加 a/an 或加复数
+      example: '"a news"、"an advice"、"informations"'
+      why: 中文这些词可以数（一条新闻、两个建议），学生套用中文的可数概念
+      how_to_explain: 强调英语把 news/advice/information 看成"一团整体"，不能切成一个个。要表数量用 a piece of news / a piece of advice，复数也不加 s。
+    - mistake: a/an 只看首字母不看读音
+      example: '"a hour"、"an university"'
+      why: 学生记成"元音字母前用 an"，忽略了实际发音
+      how_to_explain: 纠正规则为"看音不看形"。hour 的 h 不发音（元音开头）→ an hour；university 读 /juː/ 是辅音开头 → a university。让学生大声读出来判断。
+    - mistake: 第一次提到就用 the
+      example: '"I bought the book yesterday."（听者并不知道是哪本）'
+      why: 学生没有建立"新信息 vs 已知信息"的区分意识
+      how_to_explain: 用对话场景演示：第一次提到某物，对方脑中还没有它 → 用 a 引入；再次提到或双方都清楚 → 用 the。让学生想象听者是否"已经知道你指哪一个"。
+  alternate_explanations:
+    - method: 信息新旧法（雷达比喻）
+      when_to_use: 学生不确定该用 a 还是 the 时
+      prompt: 把听者的脑子想成一块雷达屏幕。a/an 是"我现在往屏幕上放一个新点"（新信息）；the 是"屏幕上那个我们都看得见的点"（已知信息）。第一次出现用 a，之后或共知用 the。
+    - method: 读音测试法
+      when_to_use: 学生纠结 a 还是 an 时
+      prompt: 不要看字母，张嘴读出后面的单词。第一个音是元音（嘴张开 a-e-i-o-u 的声音）就用 an，是辅音就用 a。hour 读"aʊə"是元音 → an；university 读"juː"是辅音 → a。
+    - method: 整体 vs 个体法
+      when_to_use: 学生分不清可数与不可数时
+      prompt: 问自己"它能被切开还是原样数？"。water 切一半还是 water（不可数）；apple 是一个完整个体，能一个两个数（可数）。不可数名词像水、沙子、信息——是"一团"，所以不加 a/an。
+  question_templates:
+    difficulty_1_2: 出 2 道选择/填空题：在 a/an/the/零冠词中选择正确冠词，或判断名词可数性
+    difficulty_3: 出 1 道改错题：给漏冠词或给不可数名词加 a/an 的句子让学生改正
+    difficulty_4: 出 1 道解释/翻译题：给一段中文让学生翻译并正确使用各类冠词，或解释 the 与零冠词带来的意思差异

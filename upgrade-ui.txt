@@ -1,0 +1,20 @@
+在 frontend/ 目录执行 npx shadcn@latest init。配置：TypeScript=yes, Tailwind v4=yes, CSS variables=yes, base=neutral, RSC=no, path=src/components/ui, import alias=@/components/ui, components.json 在 frontend/ 下。确认后依次添加这些组件：card button input badge progress toast skeleton sheet tabs separator。
+
+然后逐个升级现有组件，每改一个就 npm run build 验证：
+
+1. Dashboard - SubjectCard 改用 Card/CardHeader/CardContent，进度条改用 Progress，'开始训练'按钮改用 Button variant=default size=lg，整体加圆角和阴影。
+
+2. LearnPage 阶段导航 - 五个阶段按钮改成 Stepper 样式：已完成=绿底白色勾、当前=蓝底白色、待完成=灰底。用 badge 显示数学/英语标签。
+
+3. LearnPage 题目交互 - 选择用 RadioGroup，填空用 Input，反馈用 Toast（正确=绿色、错误=红色带解释）。
+
+4. AI Sidebar - 用 Sheet 组件替代手写侧边栏。快捷按钮用 Button variant=outline size=sm。消息气泡用 Card。
+
+5. Layout 导航栏 - 导航链接用 Button variant=ghost，Logo 加渐变文字。
+
+CRITICAL：
+- 所有用户可见文字保持中文
+- 数学主题色 blue，英语主题色 emerald
+- 每改完一个组件就跑 npm run build
+- 不改 backend 任何代码，不删任何 content/ 文件
+- 保持现有功能逻辑不变，只改 UI 层

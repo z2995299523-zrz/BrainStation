@@ -5,7 +5,8 @@ from sqlalchemy.orm import Session
 from ..config import config
 from ..content.loader import ContentLoader
 from ..database import get_db
-from ..models import DailySession, UserProgress, ThoughtDiary
+from ..models import DailySession, UserProgress, ThoughtDiary, User
+from ..dependencies import get_current_user
 
 router = APIRouter(prefix="/api/progress", tags=["progress"])
 
@@ -21,7 +22,11 @@ def get_loader() -> ContentLoader:
 
 
 @router.get("/summary")
-def get_summary(subject: str | None = None, db: Session = Depends(get_db)):
+def get_summary(
+    subject: str | None = None,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
     """获取进度总览，可指定 subject=math 或 subject=english"""
     loader = get_loader()
     all_nodes_raw = loader.get_all_nodes()
@@ -31,7 +36,9 @@ def get_summary(subject: str | None = None, db: Session = Depends(get_db)):
         all_nodes = all_nodes_raw
     total_nodes = len(all_nodes)
 
-    progress_records = db.query(UserProgress).all()
+    progress_records = db.query(UserProgress).filter(
+        UserProgress.user_id == current_user.id
+    ).all()
     progress_map = {p.node_slug: p for p in progress_records}
 
     mastered = 0
@@ -75,12 +82,18 @@ def get_summary(subject: str | None = None, db: Session = Depends(get_db)):
             "mastery_level": mastery,
             "ef": ef,
             "next_review_at": next_review,
+            "prerequisites": node.get("prerequisites", []),
         })
 
-    total_sessions = db.query(DailySession).count()
+    total_sessions = db.query(DailySession).filter(
+        DailySession.user_id == current_user.id
+    ).count()
     completed_sessions = (
         db.query(DailySession)
-        .filter(DailySession.status == "completed")
+        .filter(
+            DailySession.user_id == current_user.id,
+            DailySession.status == "completed",
+        )
         .count()
     )
 
@@ -93,6 +106,7 @@ def get_summary(subject: str | None = None, db: Session = Depends(get_db)):
         sess = (
             db.query(DailySession)
             .filter(
+                DailySession.user_id == current_user.id,
                 DailySession.session_date == check_date,
                 DailySession.status == "completed",
             )
@@ -105,10 +119,15 @@ def get_summary(subject: str | None = None, db: Session = Depends(get_db)):
 
     # 总答题数
     from ..models import QuestionAttempt
-    total_attempts = db.query(QuestionAttempt).count()
+    total_attempts = db.query(QuestionAttempt).filter(
+        QuestionAttempt.user_id == current_user.id
+    ).count()
     correct_attempts = (
         db.query(QuestionAttempt)
-        .filter(QuestionAttempt.is_correct == True)  # noqa: E712
+        .filter(
+            QuestionAttempt.user_id == current_user.id,
+            QuestionAttempt.is_correct == True,  # noqa: E712
+        )
         .count()
     )
     accuracy = (
@@ -132,7 +151,11 @@ def get_summary(subject: str | None = None, db: Session = Depends(get_db)):
 
 
 @router.get("/tree")
-def get_tree(subject: str | None = None, db: Session = Depends(get_db)):
+def get_tree(
+    subject: str | None = None,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
     """获取掌握树状态，可指定 subject=math 或 subject=english"""
     loader = get_loader()
     all_nodes_raw = loader.get_all_nodes()
@@ -140,7 +163,9 @@ def get_tree(subject: str | None = None, db: Session = Depends(get_db)):
         all_nodes = [n for n in all_nodes_raw if n.get("subject") == subject]
     else:
         all_nodes = all_nodes_raw
-    progress_records = db.query(UserProgress).all()
+    progress_records = db.query(UserProgress).filter(
+        UserProgress.user_id == current_user.id
+    ).all()
     progress_map = {p.node_slug: p for p in progress_records}
 
     from ..engine.mastery import get_unlocked_nodes
@@ -172,10 +197,14 @@ def get_tree(subject: str | None = None, db: Session = Depends(get_db)):
 
 
 @router.get("/diary")
-def get_diary(db: Session = Depends(get_db)):
+def get_diary(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
     """获取思想日记列表（最近 3 条）"""
     diaries = (
         db.query(ThoughtDiary)
+        .filter(ThoughtDiary.user_id == current_user.id)
         .order_by(ThoughtDiary.created_at.desc())
         .limit(3)
         .all()

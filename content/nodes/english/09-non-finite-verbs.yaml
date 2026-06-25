@@ -1,0 +1,157 @@
+slug: non-finite-verbs
+subject: english
+title: 非谓语动词
+tier: trunk
+difficulty: 4
+prerequisites:
+  - tenses-basic
+estimated_min: 30
+trigger:
+  type: story
+  title: 英语的'变形金刚'——一个动词的三种非谓语形态
+  content:
+    text: "英文中，一个句子通常只有一个谓语动词。但如果一个句子里需要两个动作怎么办？\n\n\"我想去游泳\"——有三个动作：想、去、游泳。\n英语不能说 \"I want go swim\"——语法不允许。\n\n解决方案：把多余的动词'变形'成非谓语形式：\n\"I want to go swimming.\"\n\n- want = 谓语（句子的核心动词）\n- to go = 不定式（非谓语——表示目的）\n- swimming = 动名词（非谓语——把游泳变成一个'事物'）\n\n非谓语动词有三种形态：\n1. 不定式 (to do) —— \"要做的事\"\n2. 动名词 (doing) —— \"这件事本身\"\n3. 分词 (doing/done) —— \"正在做/被做\"\n"
+    question: "'I like swimming' 和 'I like to swim' 有区别吗？还是完全一样？"
+display:
+  concept:
+    summary: 非谓语动词是动词不作谓语时的三种形式：不定式（to do）、动名词（doing）和分词（现在分词 doing / 过去分词 done）。本章学习它们的用法区别和固定搭配。
+    sections:
+      - title: 一、为什么需要非谓语
+        content: "英语一条铁律：**一个简单句只有一个谓语动词**。\n\n如果需要第二个动词 → 必须变成非谓语形式：\n\n✗ I want go home.（两个动词 want 和 go 直接叠加——语法错误）\n✓ I want to go home.（go 变成不定式 to go——非谓语）\n\n三种非谓语形式的选择取决于**第一个动词的搭配习惯**：\n- 有些动词后接 to do：want, hope, decide, plan, agree, refuse\n- 有些动词后接 doing：enjoy, finish, mind, suggest, practice\n- 有些动词两可，意思不同：stop, remember, forget, try, mean\n"
+      - title: 二、不定式（to do）
+        content: "**形式**：to + 动词原形\n\n核心含义：将要发生的、目的性的、一次性的动作。\n\n主要用法：\n| 用法 | 例句 |\n|------|------|\n| 作宾语 | I want to learn English. |\n| 表目的 | I came here to see you.（为了见你） |\n| 作主语（形式主语） | It's important to study hard. |\n| 作宾补 | She told me to wait. |\n| 疑问词 + to do | I don't know what to do. |\n"
+      - title: 三、动名词（doing）
+        content: "**形式**：动词 + ing\n\n核心含义：抽象的习惯、一般性的行为（把动作变成'事情'）。\n\n主要用法：\n| 用法 | 例句 |\n|------|------|\n| 作宾语 | I enjoy swimming.（享受游泳这件事） |\n| 作主语 | Swimming is good for health. |\n| 介词后 | Thank you for helping me. |\n| 固定搭配 | be used to doing, look forward to doing |\n\n注意：介词 + doing（不是 to do！）\n✗ I'm looking forward to see you.\n✓ I'm looking forward to seeing you.\n"
+      - title: 四、to do vs doing——意思不同的动词
+        content: "| 动词 | + to do | + doing |\n|------|---------|---------|\n| remember | 记得要做（未做） | 记得做过（已做） |\n| forget | 忘记要做（未做） | 忘记做过（已做） |\n| stop | 停下来去做（目的） | 停止做（停止这个动作） |\n| try | 努力去做 | 尝试做（试试看） |\n| mean | 打算做 | 意味着 |\n\n例如：\n- I remembered to lock the door.（记得要锁门——先去锁了）\n- I remembered locking the door.（记得锁过门——已经锁了）\n"
+      - title: 五、分词（doing / done）
+        content: "**现在分词（doing）**：表示主动、正在进行。\nThe girl standing there is my sister.（= who is standing there）\n\n**过去分词（done）**：表示被动、已经完成。\nThe window broken yesterday is fixed now.（= which was broken）\n\n分词作**宾补**（感官动词后）：\n- see/hear/watch + 宾语 + doing → 正在做\n- see/hear/watch + 宾语 + do → 做了（全过程）\n- see/hear/watch + 宾语 + done → 被做\n\nI saw him crossing the road.（看见他正在过马路）\nI saw him cross the road.（看见他过了马路——全过程）\n"
+  examples:
+    - title: to do vs doing 区别
+      problem: I stopped ___ (to smoke / smoking). 两个都填，意思有区别吗？
+      steps:
+        - I stopped to smoke. = 我停下来（原来的活动），去抽烟。（stopped + to do = 停下去做...）
+        - I stopped smoking. = 我戒烟了。（stopped + doing = 停止做这件事）
+        - 差一个 to，意思完全相反！
+      answer: 两种都对，意思相反。to smoke = 停下来去抽烟；smoking = 停止抽烟（戒烟）。
+    - title: remember to do vs doing
+      problem: "'我记得给你打电话了'——用 remember + ?"
+      steps:
+        - 第 1 步：'已经打过了' → 过去已完成的动作 → doing
+        - 第 2 步：I remember calling you.（remember + calling）
+        - 对比：I remember to call you. = 我记着要给你打电话（还没打）
+      answer: I remember calling you.（已做 → doing）
+    - title: 介词后接 doing
+      problem: 填空：I'm looking forward to ___ (meet) you.
+      steps:
+        - 这里的 to 是介词（不是不定式符号）——look forward to 是固定短语
+        - 介词后接 doing → meeting
+        - ✓ I'm looking forward to meeting you.
+      answer: meeting（to 在这里是介词，不是不定式）
+  practice:
+    - id: nfv-prac-001
+      stem: 填空：I want ___ (learn) English.
+      answer: to learn
+      hints:
+        - want 后接什么？
+        - want + to do
+    - id: nfv-prac-002
+      stem: 填空：She enjoys ___ (read) novels.
+      answer: reading
+      hints:
+        - enjoy 后接什么？
+        - enjoy + doing
+    - id: nfv-prac-003
+      stem: 翻译：'我忘记了锁门。'（后来发现没锁——忘记要做）
+      answer: I forgot to lock the door.
+      hints:
+        - 忘记要做（未做）→ forget + to do
+        - 不是忘记做过
+    - id: nfv-prac-004
+      stem: 改错：I look forward to hear from you.
+      answer: I look forward to hearing from you.（to 是介词 → + doing）
+      hints:
+        - look forward to 中的 to 是介词
+        - 介词后接 doing 不是 to do
+    - id: nfv-prac-005
+      stem: 填空：I saw him ___ (enter) the room.（全过程——他进去了）
+      answer: enter（see + 宾语 + 动词原形 = 目睹全过程）
+      hints:
+        - see 后接 do = 看到全过程
+        - see 后接 doing = 看到正在做
+  test:
+    - id: nfv-test-001
+      stem: 填空：I decided ___ (go) home early.
+      answer: to go（decide + to do）
+      difficulty: 1
+      layer: operation
+    - id: nfv-test-002
+      stem: 填空：Would you mind ___ (open) the window?
+      answer: opening（mind + doing）
+      difficulty: 1
+      layer: operation
+    - id: nfv-test-003
+      stem: 下面哪句正确？
+      answer: B
+      difficulty: 2
+      layer: understand
+      q_type: choice
+      options:
+        - A. I stopped to smoke. = 我戒烟了。
+        - B. I stopped smoking. = 我戒烟了。
+    - id: nfv-test-004
+      stem: 翻译：'我记得我锁了门。'（锁的动作已完成）
+      answer: I remember locking the door.
+      difficulty: 2
+      layer: operation
+    - id: nfv-test-005
+      stem: 改错：He suggested to go to the park.
+      answer: He suggested going to the park.（suggest + doing，不加 to do）
+      difficulty: 2
+      layer: operation
+    - id: nfv-test-006
+      stem: I saw him ___ (cross) the street（正在过） vs I saw him ___ (cross) the street（全过程）。分别填什么？
+      answer: 正在过：crossing；全过程：cross（不加 to——see sb do sth 不带 to）
+      difficulty: 3
+      layer: understand
+    - id: nfv-test-007
+      stem: 为什么不能说 'I want go home' 而必须说 'I want to go home'？从'一个句子只有一个谓语'的角度解释。
+      answer: 英语中一个简单句只能有一个谓语动词（want 已经是谓语），go 作为第二个动词必须变成非谓语形式——to go 是不定式，不再是谓语，所以语法上合法。
+      difficulty: 3
+      layer: understand
+    - id: nfv-test-008
+      stem: 用三种非谓语形式（to do, doing, done）各造一句关于'学英语'的句子。
+      answer: 'to do: I plan to study English every day. / doing: Studying English takes time and effort. / done: The English learned at school is very useful.'
+      difficulty: 3
+      layer: connect
+ai_context:
+  topic_summary: 非谓语动词解决'一个句子多个动词'的语法冲突。三种非谓语形式：不定式（to do——目的/将来/一次）、动名词（doing——抽象/习惯/事情本身）、分词（doing——主动/进行；done——被动/完成）。核心难点在于不同动词对非谓语形式的搭配要求不同——有些只接 to do（want/decide），有些只接 doing（enjoy/mind/suggest），有些两可但意思不同（remember/forget/stop/try）。此外介词后的 to 不是不定式符号而是介词（look forward to doing）。
+  key_insights:
+    - to do 和 doing 的本质区别：to do 指向未来/目的（将要发生），doing 指向一般/习惯（把动作变成事情）
+    - stop/remember/forget + to do 和 + doing 的意思完全不同——这是初中英语阅读理解的高频考点
+    - 介词 + doing 是铁律——包括那些看起来像不定式的短语（look forward to, be used to, devote to）
+    - 感官动词 see/hear/watch 后接 do（全过程）和 doing（正在进行）的区别体现了英语的精确性
+  common_mistakes:
+    - mistake: 介词后接 to do
+      example: I'm looking forward to see you.
+      why: 看到 to 就以为是不定式——没意识到这里的 to 是介词
+      how_to_explain: 短语中的 to 可能是介词！检测方法：如果 to 后面可以放一个名词（如 look forward to the party），那它就是介词 → 接 doing。如果 to 后面必须接动词原形（如 want to），那它是不定式符号。
+    - mistake: suggest/practice + to do
+      example: He suggested to go early.
+      why: 不懂哪些动词后接 doing 哪些后接 to do——没有记固定搭配
+      how_to_explain: 建议(suggest)、练习(practice)、介意(mind)、享受(enjoy)、完成(finish)——统统接 doing。可以编口诀：'建议练习别介意，享受完成都 doing。'
+    - mistake: see sb to do
+      example: I saw him to enter the room.
+      why: 套用了 want sb to do 的模式到 see 上
+      how_to_explain: 感官动词（see/hear/watch/feel）后接宾补时不要 to：see sb do sth（全过程）/ see sb doing sth（正在做）/ see sth done（被做）。但被动语态中要加 to：He was seen to enter the room.
+  alternate_explanations:
+    - method: 时间线法（to do vs doing）
+      when_to_use: 学生不理解为什么有些动词接 to do 有些接 doing
+      prompt: to do 指向未来——在说话时间之后发生。want to go = 想（现在）去（未来）。doing 指向同时或一般——和主要动词同时发生或泛指。enjoy swimming = 享受（现在）游泳（同时/一般）。画一条时间线，to do 向右指（未来），doing 和现在重叠。
+    - method: 角色扮演法（stop to do vs doing）
+      when_to_use: 学生对 stop 的两种搭配混淆不清
+      prompt: 你在走路（这是当前动作）。'I stopped to smoke.' = 你停下走路，从口袋里掏出一根烟，点燃——开始抽烟。'I stopped smoking.' = 你是一个吸烟者，但决定不再吸了——戒烟。前者的烟是新动作，后者的烟是被终止的动作。
+  question_templates:
+    difficulty_1_2: 出 2 道填空题：选择 to do 或 doing（基础搭配：want/enjoy/decide/mind 等）
+    difficulty_3: 出 1 道辨析题：用 stop/remember/forget 的两种搭配各造一句，让学生判断含义
+    difficulty_4: 出 1 道翻译题：含多个动词的中文句子，需要正确使用非谓语形式

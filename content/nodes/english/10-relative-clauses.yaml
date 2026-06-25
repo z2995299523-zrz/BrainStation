@@ -1,0 +1,156 @@
+slug: relative-clauses
+subject: english
+title: 定语从句
+tier: trunk
+difficulty: 4
+prerequisites:
+  - tenses-basic
+estimated_min: 30
+trigger:
+  type: story
+  title: 像俄罗斯套娃一样的句子——定语从句
+  content:
+    text: "看这个句子：\n\n\"The book is interesting.\"（这本书很有趣。）\n\n你想更精确——哪本书？\"我昨天买的\"那本。\n英语不能说两个独立句子，而是把它们嵌套在一起：\n\n\"The book **that I bought yesterday** is interesting.\"\n\n这个加粗的部分就是定语从句——它整个充当\"book\"的定语（修饰语），\n就像形容词一样描述名词。\n\n定语从句让你在一个句子里塞进两层信息：\n外层：这本书很有趣。\n内层：这本书是我昨天买的。\n\n学会了定语从句，你的英语表达就能从\"简单句\"升级为\"复合句\"——\n从只能描述一件事，到能精确表达事物之间的关联。\n"
+    question: 中文里有没有类似的'定语从句'？想想'我昨天买的书很好看'这句话的结构。
+display:
+  concept:
+    summary: 定语从句是用一个句子修饰名词的结构。本章学习关系代词（who/whom/which/that/whose）的用法、限定性和非限定性定语从句的区别，以及关系代词省略的条件。
+    sections:
+      - title: 一、定语从句的结构
+        content: "**公式**：先行词 + 关系词 + 从句\n\n- 先行词 = 被修饰的名词\n- 关系词 = 连接词（who / which / that / whose / whom）\n- 从句 = 修饰先行词的句子\n\n例如：the man **who** lives next door\n先行词 = the man，关系词 = who，从句 = lives next door\n\n整个意思：住在隔壁的那个男人\n\n**关系词在从句中扮演一个句子成分**（主语/宾语/定语等）。\n"
+      - title: 二、关系代词选择指南
+        content: "| 关系词 | 先行词类型 | 在从句中的角色 | 例子 |\n|--------|-----------|---------------|------|\n| who | 人 | 主语/宾语 | the girl who called me |\n| whom | 人 | 宾语（正式） | the man whom I met |\n| which | 物/动物 | 主语/宾语 | the book which I read |\n| that | 人/物 | 主语/宾语 | the book that I read |\n| whose | 人/物 | 定语（...的） | the boy whose mother is a teacher |\n\n**that 是万能代**：可以代替 who/which，但不能用在非限定性定语从句中。\n"
+      - title: 三、关系代词何时可以省略
+        content: "关系代词在从句中作**宾语**时可以省略！\n\n- ✓ The book (that) I read was great.（that 是从句中 read 的宾语 → 可省）\n- ✗ The girl called me is my friend.（who 是从句的主语 → 不可省！）\n- ✓ The girl who called me is my friend.（必须保留 who）\n\n判断方法：看关系词后面有没有动词的主语。\n有主语 → 关系词可能是宾语 → 可省。\n没有主语 → 关系词就是主语 → 不可省。\n"
+      - title: 四、限定性 vs 非限定性
+        content: "| | 限定性 | 非限定性 |\n|--|--------|----------|\n| 作用 | 限定名词的范围——哪个？ | 补充信息——这个...顺便说一下... |\n| 逗号 | 无 | 有逗号隔开 |\n| 关系词 | that 可以用 | 不能用 that |\n| 省略 | 宾语时可省 | 不可省 |\n\n- 限定性：The students **who passed the exam** are happy.（只有通过的那些学生开心——限定范围）\n- 非限定性：The students, **who passed the exam**, are happy.（所有学生都开心——补一句他们通过了考试）\n\n区别巨大！逗号改变意思。\n"
+      - title: 五、关系代词 that 的特殊规则
+        content: "**必须用 that（不用 who/which）的情况**：\n1. 先行词被最高级修饰：the best book that I've ever read\n2. 先行词被序数词修饰：the first person that arrived\n3. 先行词是 all / everything / nothing / anything 等不定代词\n4. 先行词被 the very / the only 修饰\n5. 先行词既有人又有物：the man and his dog that...\n"
+  examples:
+    - title: who vs which
+      problem: 填空：The girl ___ is standing there is my sister.
+      steps:
+        - 先行词 = the girl（人）→ 用 who 或 that
+        - 关系词在从句中作主语（is standing 的主语）→ who/that 不可省略
+      answer: who / that
+    - title: 宾语位置——可省略
+      problem: The movie ___ I watched last night was boring. 关系词可以省略吗？
+      steps:
+        - 先行词 = the movie（物）→ 关系词用 which/that
+        - 关系词在从句中的角色 = watched 的宾语（I watched the movie）
+        - 作宾语 → 可省略 → 'The movie I watched...' 也正确
+      answer: which / that ——可以省略
+    - title: whose 表示所有格
+      problem: 翻译：'那个父亲是医生的男孩'
+      steps:
+        - 先行词 = the boy（人）
+        - 他父亲是医生 = his father is a doctor → whose father is a doctor
+        - 合成：the boy whose father is a doctor
+      answer: the boy whose father is a doctor
+  practice:
+    - id: rel-prac-001
+      stem: 选词（who / which / whose）：The man ___ car was stolen called the police.
+      answer: whose（车是谁的？那个人的车 → 所有格）
+      hints:
+        - 关系词表示'谁的'
+        - car 前面需要一个所有格
+    - id: rel-prac-002
+      stem: The girl ___ you met yesterday is my cousin. 这里用 who/whom/that——能不能省略？
+      answer: who/whom/that 都可以。可以省略——关系词在从句中作 met 的宾语（you met the girl）。
+      hints:
+        - 关系词在从句中是主语还是宾语？
+        - you met ___ → 空白处是宾语
+    - id: rel-prac-003
+      stem: 填空（which / who / whose）：This is the book ___ I told you about.
+      answer: which / that
+      hints:
+        - 先行词是物（book）
+        - 关系词在从句中作 about 的宾语
+    - id: rel-prac-004
+      stem: 改错：The man which is talking to my father is a doctor.
+      answer: The man who/that is talking to my father is a doctor.（人用 who，不用 which）
+      hints:
+        - 先行词 the man 是人
+        - which 只能指物/动物
+    - id: rel-prac-005
+      stem: 合并句子：I have a friend. His brother plays for the NBA.
+      answer: I have a friend whose brother plays for the NBA.
+      hints:
+        - His brother → 所有格用 whose
+        - 先行词是 a friend（人）
+  test:
+    - id: rel-test-001
+      stem: 填空：The woman ___ lives next door is a nurse.
+      answer: who / that
+      difficulty: 1
+      layer: operation
+    - id: rel-test-002
+      stem: 填空：This is the pen ___ I lost yesterday.
+      answer: which / that（可省略）
+      difficulty: 1
+      layer: operation
+    - id: rel-test-003
+      stem: 下面哪句可以省略关系代词？
+      answer: B
+      difficulty: 2
+      layer: understand
+      q_type: choice
+      options:
+        - A. The boy who is standing there.
+        - B. The cake that she made.
+    - id: rel-test-004
+      stem: 合并句子：The girl is my classmate. She won the competition.
+      answer: The girl who/that won the competition is my classmate.
+      difficulty: 2
+      layer: operation
+    - id: rel-test-005
+      stem: 翻译：'这就是我昨天跟你说的那个人。'
+      answer: This is the person (who/that) I told you about yesterday.
+      difficulty: 2
+      layer: operation
+    - id: rel-test-006
+      stem: Chongqing, ___ is known as the 'Mountain City', is my hometown. 用 which 还是 that？
+      answer: which——非限定性定语从句（有逗号）不能用 that。
+      difficulty: 3
+      layer: understand
+    - id: rel-test-007
+      stem: The man and his dog ___ were walking in the park attracted attention. 用 which/who/that？
+      answer: that——先行词既有人（man）又有物（dog）时只能用 that。
+      difficulty: 4
+      layer: connect
+    - id: rel-test-008
+      stem: 写两个句子，一个用限定性定语从句改变其含义，另一个用非限定性定语从句不改变含义。
+      answer: 限定性：My friends who are good at math helped me.（只有数学好的哪些朋友帮了我——部分朋友）/ 非限定性：My friends, who are good at math, helped me.（所有朋友都帮了我——顺便提一句他们数学好）
+      difficulty: 4
+      layer: connect
+ai_context:
+  topic_summary: 定语从句是修饰名词的从句，用关系代词（who/whom/which/that/whose）连接。核心内容：关系代词的选择（who指人、which指物、that通用、whose表所有格）、关系代词在从句中的语法角色（主语/宾语/定语）决定是否可省略（作宾语时可省略）、限定性和非限定性定语从句的区别（逗号改变意思范围）、that 必须使用的特殊情况（最高级/序数词/不定代词/既有人又有物）。定语从句是英语从简单句升级为复合句的标志性结构。
+  key_insights:
+    - 关系代词在从句中扮演句子成分（主语/宾语/定语）——它的选择由三个因素决定：先行词是人还是物、在从句中的角色、限定性还是非限定性
+    - 省略规则：关系代词作宾语时可省略，作主语时不可——区分方法很简单：关系词后面是否有主语
+    - 限定性和非限定性的区别在于逗号——有逗号=补充说明（该知道的都知道），无逗号=限定范围（缩小目标范围）
+    - that 在非限定性定语从句中永远不能用——先看有没有逗号，有逗号就别用 that
+  common_mistakes:
+    - mistake: 人用 which
+      example: The man which is standing there.
+      why: which 只能指物——学生未区分关系代词的人/物属性
+      how_to_explain: who = 人（who are you?），which = 东西/动物（which book?）。人问 who，东西问 which——定语从句中保持一致。
+    - mistake: 关系代词作主语时省略
+      example: The man lives next door is a teacher. (缺少 who)
+      why: 看到关系代词作宾语都能省，以为所有关系代词都能省
+      how_to_explain: 检测省略法：删掉关系代词后，从句还有主语吗？The man ___ lives next door → 删掉关系词后 lives 缺主语 → 不能省略。The book ___ I read → 删掉后 I read 有主语 I → 可以省略。
+    - mistake: 用 that 在非限定性定语从句
+      example: My father, that is a doctor, works hard.
+      why: 不知道非限定性（有逗号的）定语从句不能用 that
+      how_to_explain: 有逗号 = 非限定性 = 只能用 who/which/whose，禁止用 that。逗号是 that 的'禁行标志'。
+  alternate_explanations:
+    - method: 积木法
+      when_to_use: 学生不理解定语从句的结构
+      prompt: 把定语从句想象成两块积木拼在一起。积木 A：The man is a doctor. 积木 B：The man is standing there. 找到重叠的积木块（the man）→ 用关系词替换积木 B 中的重叠块（who = the man）→ 拼在一起：The man who is standing there is a doctor.
+    - method: 省略检测法
+      when_to_use: 学生不知道该不该省略关系代词
+      prompt: 删掉关系代词，看从句是否还有主语。有主语=可省，没主语=不可省。The book (that) I bought → 删 that → I bought → I 是主语 ✓ 可省。The man (who) bought the book → 删 who → bought the book → 没有主语 ✗ 不可省。
+  question_templates:
+    difficulty_1_2: 出 2 道关系词选择题：给定人/物先行词，选择正确的关系代词(who/which/that/whose)
+    difficulty_3: 出 1 道合并题：给两个简单句，让学生用定语从句合并为一个复合句
+    difficulty_4: 出 1 道辨析题：比较限定性和非限定性定语从句在同一场景下的含义差别

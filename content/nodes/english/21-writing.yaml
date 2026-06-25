@@ -1,0 +1,247 @@
+slug: writing
+subject: english
+title: "书面表达"
+tier: trunk
+difficulty: 3
+prerequisites: ["vocabulary-core"]
+estimated_min: 35
+
+trigger:
+  type: story
+  title: 书面表达——把想法'盖成一座漂亮的房子'
+  content:
+    text: |-
+      写英语作文，就像盖房子。
+
+      很多同学一拿到题目就埋头写，想到哪写到哪——结果像一堆砖头乱堆，
+      没有结构、没有重点，还满是 Chinglish（中式英语）。
+
+      真正会写的人，先画好图纸再动工：
+      - **打地基**：审题——这是什么文体？写给谁？要点有哪些？（一个都不能漏）
+      - **搭框架**：分段——开头点题、中间展开、结尾收束（三段式最稳）
+      - **砌砖墙**：用句——简单句打底，再用连词（and, but, because, so）和过渡词（first, then, finally）让句子连成片
+      - **做装修**：升级——适当用一两个高级句型（从句、被动、强调）让文章出彩
+
+      掌握"审题—列纲—成文—检查"四步法，再背几个万能模板和句型，
+      你就能又快又好地"盖"出一篇高分作文。
+    question: "拿到一道作文题，你会马上动笔，还是先列个提纲？哪种更不容易跑题？"
+
+display:
+  concept:
+    summary: 书面表达考查用英语连贯表达思想的能力。高分作文的核心是"四步法"：审题（看清文体、人称、时态和所有要点）、列纲（按三段式列出每段要写什么）、成文（用准确的句子和连接词把要点串起来）、检查（查时态、主谓一致、拼写、要点是否齐全）。关键是要点全、结构清、语句通，并适当使用过渡词和高级句型提升档次，同时避免中式英语。
+    sections:
+    - title: 一、写作四步法
+      content: |-
+        **第 1 步：审题（最重要，决定不跑题）**
+        - 看**文体**：记叙文、说明文、应用文（书信/通知/日记）？
+        - 看**人称和时态**：写自己用 I + 现在/过去；写他人/规则用第三人称
+        - 圈**要点**：把题目要求的每一个内容点都圈出来，**一个都不能漏**（漏点直接丢分）
+
+        **第 2 步：列纲（搭框架）**
+        - 用三段式列提纲：开头段（点题/总起）、主体段（展开要点）、结尾段（总结/升华）
+        - 每个要点对应一两句话
+
+        **第 3 步：成文（砌墙）**
+        - 先用简单句把每个要点表达清楚（宁可简单正确，不要复杂出错）
+        - 用连接词和过渡词把句子连成段
+
+        **第 4 步：检查（验收）**
+        - 查时态是否一致、主谓是否一致、单词拼写、大小写标点
+        - 数一数要点是否都写到了
+    - title: 二、三段式万能结构
+      content: |-
+        | 段落 | 作用 | 常用开头句 |
+        |------|------|-----------|
+        | 开头段 | 点明主题/亮明观点 | As we know, … / I would like to talk about… / In my opinion, … |
+        | 主体段 | 分点展开（要点） | First, … Second, … Besides, … What's more, … |
+        | 结尾段 | 总结/呼吁/希望 | In a word, … / All in all, … / I hope… / Let's… |
+
+        **过渡词清单**（让文章连贯）：
+        - 列举：first, second, then, finally
+        - 递进：besides, what's more, in addition, also
+        - 转折：but, however, on the other hand
+        - 因果：because, so, therefore, as a result
+        - 总结：in a word, all in all, in short
+    - title: 三、应用文常用模板
+      content: |-
+        **书信（Letter）**：
+        - 开头：Dear …, （顶格写，后加逗号）
+        - 正文：I'm writing to tell you… / I'm glad to hear that…
+        - 结尾：Best wishes! / Looking forward to your reply.
+        - 署名：Yours, / Yours sincerely, + 名字
+
+        **通知（Notice）**：
+        - 标题居中：Notice
+        - 正文说清：时间、地点、事件、要求（time, place, event, what to do）
+
+        **日记（Diary）**：
+        - 右上角写日期和天气：Monday, May 1st  Sunny
+        - 用第一人称、过去时记录当天发生的事和感受
+    - title: 四、提分技巧与避坑
+      content: |-
+        **提分技巧**：
+        - **高级句型点缀**（用 1-2 个即可，别堆砌）：
+          - 定语从句：This is the book **that** I like best.
+          - 宾语从句：I think **that** reading is helpful.
+          - 状语从句：**When** I was young, I liked drawing.
+          - 强调句：**It is** practice **that** makes perfect.
+        - **替换常见词**：good → wonderful/excellent；very → quite/really；like → enjoy/be fond of
+
+        **避坑（避免中式英语 Chinglish）**：
+        - ✗ I very like English.（受中文影响）→ ✓ I like English **very much**.
+        - ✗ Open the light.（开灯）→ ✓ **Turn on** the light.
+        - ✗ My body is very healthy.（中式）→ ✓ I am **very healthy / in good health**.
+        - **原则**：拿不准的中文复杂句，换成你有把握的简单地道说法。
+  examples:
+  - title: 写作模板——介绍我的好朋友（记叙/说明文）
+    problem: "写一篇 60 词左右的短文介绍你的好朋友（姓名、外貌、爱好、为什么喜欢他/她）。"
+    steps:
+    - 第 1 步：审题——第三人称、一般现在时，四个要点：姓名、外貌、爱好、原因
+    - 第 2 步：列纲——开头点名（这是我朋友）；主体写外貌+爱好；结尾写原因
+    - 第 3 步：成文用过渡词串联，最后检查时态和要点
+    answer: |-
+      I have a good friend. His name is Mike. He is tall and has short black hair. He likes playing basketball and reading books. He is always ready to help others. That's why I like him very much.
+      （我有一个好朋友。他叫迈克。他个子高，留着黑色短发。他喜欢打篮球和读书。他总是乐于助人。这就是我喜欢他的原因。）
+  - title: 写作模板——书信（应用文）
+    problem: "假设你叫 Li Hua，写一封短信邀请笔友 Tom 来中国过暑假。"
+    steps:
+    - 第 1 步：审题——书信格式，第一/第二人称，邀请的目的+内容
+    - 第 2 步：列纲——称呼 Dear Tom；正文写邀请+理由；结尾期待回复+署名
+    - 第 3 步：套用书信模板，注意问候语和结尾敬语
+    answer: |-
+      Dear Tom,
+      How are you? I'm writing to invite you to spend your summer holiday in China. We can visit many places of interest and taste delicious food. I'm sure you will have a great time. I'm looking forward to your reply.
+      Yours,
+      Li Hua
+      （亲爱的汤姆：你好吗？我写信是想邀请你来中国过暑假。我们可以游览许多名胜，品尝美食。我相信你会玩得很开心。期待你的回复。你的，李华）
+  - title: 写作模板——观点类作文（说明文）
+    problem: "就\"读书的好处\"写一段话，用 first/second/in a word 等过渡词。"
+    steps:
+    - 第 1 步：审题——说明文，第三人称/一般现在时，列举读书的好处
+    - 第 2 步：列纲——开头总起；主体用 first/second 分点；结尾用 in a word 总结
+    - 第 3 步：用过渡词让结构清晰
+    answer: |-
+      Reading has many benefits. First, it helps us learn new knowledge. Second, it can improve our writing skills. Besides, reading makes us relaxed after a busy day. In a word, reading is good for us, so let's read more books.
+      （读书有很多好处。首先，它帮助我们学习新知识。其次，它能提高我们的写作能力。此外，忙碌一天后读书让我们放松。总之，读书对我们有益，所以让我们多读书吧。）
+  practice:
+  - id: wr-prac-001
+    stem: "审题练习：题目\"My Weekend\"要求写上周末做了什么。应该用什么人称和时态？"
+    answer: "用第一人称 I，一般过去时（because 写的是\"上周末\"已发生的事）。如 I went to the park last weekend."
+    hints:
+    - 写自己用第一人称 I
+    - '"上周末"是过去发生的事，用什么时态'
+  - id: wr-prac-002
+    stem: "把中式英语改正：I very like playing football."
+    answer: "I like playing football very much.（very much 放句末修饰动词，不能说 very like）"
+    hints:
+    - very 不能直接修饰动词 like
+    - '"很喜欢"用 like…very much'
+  - id: wr-prac-003
+    stem: "用过渡词连成一段：①读书学知识 ②读书放松 ③总之多读书。"
+    answer: "First, reading helps us learn knowledge. Second, reading makes us relaxed. In a word, let's read more books.（用 first/second/in a word 连接）"
+    hints:
+    - 列举用 first, second
+    - 总结用 in a word
+  - id: wr-prac-004
+    stem: "给这封信补全开头称呼和结尾署名（写给朋友 Anna，落款 Mary）。"
+    answer: "开头：Dear Anna, （顶格，加逗号）结尾：Yours, / Best wishes! 然后另起一行写 Mary。"
+    hints:
+    - 书信开头 Dear + 名字 + 逗号
+    - 结尾敬语后写自己的名字
+  - id: wr-prac-005
+    stem: "把简单句升级为带定语从句的高级句：This is a book. I like it best."
+    answer: "This is the book that I like best.（用 that 引导定语从句修饰 book）"
+    hints:
+    - 用 that/which 把两句合并
+    - 定语从句修饰前面的名词 book
+  - id: wr-prac-006
+    stem: "为什么审题时一定要把题目要求的每个要点都圈出来？漏掉一个会怎样？"
+    answer: "因为书面表达按要点给分，漏掉一个要点就会直接扣分。圈出所有要点能保证写作时逐一覆盖，不遗漏。"
+    hints:
+    - 书面表达是按要点评分的
+    - 漏点会有什么后果
+  - id: wr-prac-007
+    stem: "改正中式英语：Yesterday I open the TV and watch news."
+    answer: "Yesterday I turned on the TV and watched the news.（开电视用 turn on；yesterday 用过去式 turned/watched）"
+    hints:
+    - '"打开电器"用 turn on，不是 open'
+    - 注意时间词 Yesterday 决定时态
+  test:
+  - id: wr-test-001
+    stem: "题目\"A Trip to the Zoo\"（一次动物园之行），应该用什么时态写？为什么？"
+    answer: 一般过去时。因为描述的是已经发生过的一次旅行（a trip），所有动作都已完成。
+    difficulty: 1
+    layer: understand
+  - id: wr-test-002
+    stem: "改正中式英语：My English is very good, I can speak it very fluent."
+    answer: "…I can speak it very fluently.（修饰动词 speak 要用副词 fluently，不是形容词 fluent）"
+    difficulty: 2
+    layer: operation
+  - id: wr-test-003
+    stem: "用三段式列出作文\"How to Keep Healthy\"（怎样保持健康）的提纲（每段写什么即可）。"
+    answer: "开头段：健康很重要（总起）；主体段：分点列方法（如 eat healthy food, do exercise, sleep well）；结尾段：总结呼吁（保持好习惯就能健康）。"
+    difficulty: 2
+    layer: connect
+  - id: wr-test-004
+    stem: "把两句合并成宾语从句：I think. Reading is helpful."
+    answer: I think (that) reading is helpful.（用 that 引导宾语从句，that 可省略）
+    difficulty: 2
+    layer: operation
+  - id: wr-test-005
+    stem: "写一封邀请信的开头两句（邀请笔友 Jack 参加你的生日聚会），注意书信格式。"
+    answer: "Dear Jack,\nHow are you? I'm writing to invite you to my birthday party this Saturday.（顶格 Dear Jack 加逗号，正文说明邀请目的）"
+    difficulty: 3
+    layer: connect
+  - id: wr-test-006
+    stem: "下面这段话只用了简单句，请加入至少一个连接词/过渡词让它更连贯：I like sports. I play football. I feel happy."
+    answer: "I like sports. For example, I often play football, and it makes me feel happy.（加入 for example, and 让句子连贯）"
+    difficulty: 3
+    layer: connect
+  - id: wr-test-007
+    stem: "小明写完作文就交了，没检查。结果\"He go to school\"被扣分。说明检查环节要重点查什么？"
+    answer: 要重点查主谓一致和时态。He 是第三人称单数，一般现在时谓语要用 goes，不是 go。检查能抓出这类低级错误。
+    difficulty: 2
+    layer: understand
+  - id: wr-test-008
+    stem: "请用自己的话说明书面表达\"四步法\"，并指出哪一步最影响是否跑题。"
+    answer: "四步：审题（看文体人称时态、圈要点）、列纲（三段式搭框架）、成文（用句和连接词串要点）、检查（查时态主谓拼写和要点齐全）。其中审题最影响是否跑题——审错文体或漏掉要点就会偏题失分。"
+    difficulty: 3
+    layer: connect
+ai_context:
+  topic_summary: 书面表达考查用英语连贯表达思想的综合能力，是技能而非单一语法点。高分核心是四步法：审题（确定文体、人称、时态，圈出所有要点不漏）、列纲（三段式搭框架）、成文（用准确句子加连接词过渡词把要点串联，简单句打底再点缀1-2个高级句型）、检查（查时态、主谓一致、拼写、要点齐全）。应用文（书信/通知/日记）有固定模板。提分关键是要点全、结构清、语句通、适当升级；最大陷阱是中式英语和漏写要点。
+  key_insights:
+  - 书面表达按要点给分——审题时圈全要点、写作时逐点覆盖，漏点直接失分
+  - '"宁可简单正确，不要复杂出错"——简单句打底保证不出错，再点缀1-2个高级句型加分'
+  - 三段式结构（开头点题—主体展开—结尾收束）+ 过渡词，是让文章连贯清晰的万能框架
+  - 中式英语（Chinglish）是最大扣分点——拿不准的中文复杂句换成有把握的地道简单说法
+  common_mistakes:
+  - mistake: 不审题就动笔，漏写要点或文体搞错
+    example: 题目要求写4个要点，只写了2个；或要求写信却写成了记叙文
+    why: 学生一拿到题就急着写，没分析文体、人称、时态和要点
+    how_to_explain: 书面表达是"按点给分"的——每个要点对应分数，漏一个扣一段分。教学生动笔前先花一分钟审题：圈出文体（记叙/书信/通知）、确定人称和时态、把每个要点都画下来打勾，写完一个勾一个，确保一个不漏。
+  - mistake: 写满中式英语（Chinglish）
+    example: "\"I very like it.\"、\"open the light\"、\"My body is healthy.\""
+    why: 学生用中文思维逐字翻译，不了解英语地道表达
+    how_to_explain: 中式英语是把中文逐字搬进英语造成的。教学生记住几个高频地道替换（like…very much 而非 very like；turn on the light 而非 open the light）。更重要的原则：拿不准怎么用英语说的复杂中文句子，就换成一个你有把握的简单地道句子，宁简勿错。
+  - mistake: 通篇简单句堆砌，没有连接和过渡
+    example: I like sports. I play football. I run. I am happy.（句句独立，像流水账）
+    why: 学生只会用主谓宾简单句，不会用连词和过渡词连接
+    how_to_explain: 好作文要"连成片"而不是"堆成堆"。教学生用连接词（and, but, because, so）和过渡词（first, then, besides, in a word）把孤立的句子串起来。哪怕内容简单，加上几个过渡词，文章立刻显得有条理、连贯。
+  - mistake: 写完不检查，留下时态/主谓/拼写错误
+    example: "\"He go to school yesterday.\"（既有主谓也有时态错误）"
+    why: 学生写完就交，缺少检查习惯
+    how_to_explain: 写完留出时间做"三查"：一查时态是否前后一致（全文该用过去就都用过去）；二查主谓一致（He/She 后动词加 s）；三查拼写、大小写、标点。很多低级错误都是检查能抓住的"送分题"，不查白白丢分。
+  alternate_explanations:
+  - method: 盖房子比喻
+    when_to_use: 学生写作没有结构、想到哪写到哪时
+    prompt: 写作文像盖房子：审题是打地基（定方向），列纲是搭框架（分段落），成文是砌砖墙（写句子），检查是验收装修。没有图纸就砌墙，房子会歪；先画好框架再填内容，文章才稳。
+  - method: 要点打勾清单法
+    when_to_use: 学生总是漏写要点时
+    prompt: 把题目要求的每个要点列成一个"清单"写在草稿纸边上。每写完一个要点，就在清单上打个勾。写完后看清单——全打勾了才算完整。这样就像超市购物清单一样，绝不会漏买（漏写）。
+  - method: 升级一两句而非全篇炫技
+    when_to_use: 学生想用高级句型但容易写错，或全篇堆砌复杂句时
+    prompt: 高级句型是"点缀"不是"主菜"。教学生全篇用有把握的简单句保证不出错，只在合适的地方插入1-2个高级句型（一个定语从句 + 一个宾语从句就够亮眼）。与其写五个错误的复杂句，不如写一个正确的高级句加四个正确的简单句。
+  question_templates:
+    difficulty_1_2: 出审题题或单句改错题（改中式英语/时态/主谓），或让学生确定某作文题的人称和时态
+    difficulty_3: 给一个作文题让学生列三段式提纲，或把简单句升级为含从句的高级句、把流水账加过渡词改连贯
+    difficulty_4: 给一道完整写作任务（含3-4个要点和字数要求），让学生写出短文，重点考查要点齐全、结构清晰和语言地道

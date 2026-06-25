@@ -9,6 +9,13 @@ app:
   data_dir: ./data
   database_path: ./data/training.db
   name: 初中数英思维训练营
+auth:
+  secret_key: "math-english-camp-secret-key-change-in-production"
+  algorithm: HS256
+  token_expire_minutes: 1440
+deepseek:
+  api_key: "sk-aca6e7ced0ff4491a15290b9583c353e"
+  base_url: "https://api.deepseek.com"
 difficulty:
   labels:
     1: ★☆☆☆☆
@@ -28,8 +35,10 @@ feynman:
     min_match_ratio: 0.5
     min_text_length: 20
 interleaving:
-  training:
-    max_variant_per_session: 4
+  checkup:
+    question_count: 3
+  exam:
+    max_variant_per_session: 2
     new_node_layer_ratio:
       connect: 0.15
       operation: 0.6
@@ -38,11 +47,8 @@ interleaving:
     old_node_layer_ratio:
       operation: 0.7
       understand: 0.3
-    question_count: 14
-    variant_injection_rate: 0.25
-  warmup:
-    deep_question_ratio: 0.2
-    question_count: 8
+    question_count: 6
+    variant_injection_rate: 0.2
 sm2:
   first_interval: 1
   initial_ef: 2.5
@@ -56,26 +62,32 @@ training_flow:
   skip_weekends: false
   steps:
   - duration_min: 8
-    id: warmup
-    name: 预热检索
-    optional: false
-  - duration_min: 8
     id: trigger
     name: 思考触发器
     optional: false
-  - duration_min: 22
+    phase: learn
+  - duration_min: 30
     id: learn
     name: 三层讲解
     optional: false
-  - duration_min: 22
-    id: training
-    name: 混合训练
+    phase: learn
+  - duration_min: 6
+    id: checkup
+    name: 随堂小练
     optional: false
+    phase: learn
+  - duration_min: 15
+    id: exam
+    name: 综合测试
+    optional: false
+    phase: test
   - duration_min: 10
     id: feynman
     name: 费曼输出
     optional: false
+    phase: test
   - duration_min: 5
     id: calibration
     name: 自我校准
     optional: false
+    phase: test

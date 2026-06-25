@@ -1,168 +1,217 @@
 slug: vocabulary-core
 subject: english
-title: "初中核心词汇"
+title: 初中核心词汇
 tier: core
 difficulty: 1
-prerequisites: ["phonetics"]
+prerequisites:
+  - phonetics
 estimated_min: 25
-
 trigger:
   type: story
-  title: "掌握这 30 个词，你就有了英语的起点"
+  title: 掌握这 30 个词，你就有了英语的起点
   content:
-    text: |
-      你知道英语有多少单词吗？超过 17 万个。
-
-      但好消息是：最常用的 300 个词覆盖了日常对话的 65%。
-      而初中阶段只需要牢固掌握约 500 个词，就能应对所有考试。
-
-      这里精选了 30 个最核心的初中词汇，分为 6 个主题。
-      每个词都配有音标——你刚刚学过的工具，现在要用上了。
-
-      规则很简单：
-      1. 先听发音（点 🔊 按钮）
-      2. 看音标，和你在音标课上学到的对照
-      3. 记单词 + 记中文意思
-      4. 大声跟读
-
-      当你拿下这 30 个词，你就有了英语的第一块基石。
-    question: "你觉得先学音标再背单词，和直接硬背单词——哪个更高效？"
-    spoken_phrases:
-      - { text: "school", label: "/skuːl/" }
-      - { text: "water", label: "/ˈwɔːtər/" }
-      - { text: "family", label: "/ˈfæməli/" }
-      - { text: "friend", label: "/frend/" }
-      - { text: "beautiful", label: "/ˈbjuːtɪfl/" }
-
-content:
-  operation:
-    text: |
-      ## 初中核心词汇表（30 词）
-
-      按主题分组学习，每组包含单词、音标和中文释义。
-      每学完一组，做相关练习巩固。
-
-    spoken_examples:
-      - { text: "school", label: "/skuːl/ 学校" }
-      - { text: "student", label: "/ˈstjuːdnt/ 学生" }
-      - { text: "teacher", label: "/ˈtiːtʃər/ 老师" }
-      - { text: "book", label: "/bʊk/ 书" }
-      - { text: "water", label: "/ˈwɔːtər/ 水" }
-      - { text: "family", label: "/ˈfæməli/ 家庭" }
-      - { text: "friend", label: "/frend/ 朋友" }
-      - { text: "beautiful", label: "/ˈbjuːtɪfl/ 美丽的" }
-
-    word_groups:
-      - title: "📚 学校与学习"
-        words:
-          - { word: "school", ipa: "/skuːl/", zh: "学校", speak: "school" }
-          - { word: "student", ipa: "/ˈstjuːdnt/", zh: "学生", speak: "student" }
-          - { word: "teacher", ipa: "/ˈtiːtʃər/", zh: "老师", speak: "teacher" }
-          - { word: "book", ipa: "/bʊk/", zh: "书", speak: "book" }
-          - { word: "pen", ipa: "/pen/", zh: "笔", speak: "pen" }
-      - title: "👨‍👩‍👧‍👦 家庭与人"
-        words:
-          - { word: "family", ipa: "/ˈfæməli/", zh: "家庭", speak: "family" }
-          - { word: "father", ipa: "/ˈfɑːðər/", zh: "父亲", speak: "father" }
-          - { word: "mother", ipa: "/ˈmʌðər/", zh: "母亲", speak: "mother" }
-          - { word: "brother", ipa: "/ˈbrʌðər/", zh: "兄弟", speak: "brother" }
-          - { word: "friend", ipa: "/frend/", zh: "朋友", speak: "friend" }
-      - title: "🏠 日常生活"
-        words:
-          - { word: "water", ipa: "/ˈwɔːtər/", zh: "水", speak: "water" }
-          - { word: "food", ipa: "/fuːd/", zh: "食物", speak: "food" }
-          - { word: "time", ipa: "/taɪm/", zh: "时间", speak: "time" }
-          - { word: "money", ipa: "/ˈmʌni/", zh: "钱", speak: "money" }
-          - { word: "house", ipa: "/haʊs/", zh: "房子", speak: "house" }
-      - title: "🏃 身体与动作"
-        words:
-          - { word: "head", ipa: "/hed/", zh: "头", speak: "head" }
-          - { word: "hand", ipa: "/hænd/", zh: "手", speak: "hand" }
-          - { word: "eye", ipa: "/aɪ/", zh: "眼睛", speak: "eye" }
-          - { word: "go", ipa: "/ɡəʊ/", zh: "去", speak: "go" }
-          - { word: "come", ipa: "/kʌm/", zh: "来", speak: "come" }
-          - { word: "eat", ipa: "/iːt/", zh: "吃", speak: "eat" }
-          - { word: "play", ipa: "/pleɪ/", zh: "玩；演奏", speak: "play" }
-      - title: "🌳 自然与世界"
-        words:
-          - { word: "tree", ipa: "/triː/", zh: "树", speak: "tree" }
-          - { word: "sun", ipa: "/sʌn/", zh: "太阳", speak: "sun" }
-          - { word: "rain", ipa: "/reɪn/", zh: "雨", speak: "rain" }
-          - { word: "bird", ipa: "/bɜːrd/", zh: "鸟", speak: "bird" }
-      - title: "✨ 常用描述"
-        words:
-          - { word: "big", ipa: "/bɪɡ/", zh: "大的", speak: "big" }
-          - { word: "small", ipa: "/smɔːl/", zh: "小的", speak: "small" }
-          - { word: "good", ipa: "/ɡʊd/", zh: "好的", speak: "good" }
-          - { word: "new", ipa: "/njuː/", zh: "新的", speak: "new" }
-
-  understand:
-    text: |
-      ## 为什么要在背单词的同时看音标？
-
-      很多同学背单词是这样背的：
-      "school — s-c-h-o-o-l — 学校 — s-c-h-o-o-l — 学校"
-      反复抄写 10 遍，但第二天还是忘。
-
-      问题出在：你只是在记字母排列，没有建立"音-形-义"三者的连接。
-
-      **正确的方法**：
-      1. **听音** → 点击 🔊 听这个单词的发音
-      2. **看音标** → 对照音标理解每个音素
-      3. **看拼写** → 把字母和音标对应起来
-      4. **说意思** → 说出中文含义
-      5. **跟读** → 大声模仿朗读
-
-      比如 `school`：
-      - 音标 `/skuːl/` — s 发 /s/，ch 发 /k/，oo 发 /uː/，l 发 /l/
-      - 知道了音标，你就知道为什么是 s-c-h-o-o-l 而不是 s-k-u-l
-
-      **音标是单词的"拼音"**。就像学会了拼音就能读出任何汉字，
-      学会了音标就能读出任何英语单词——即使你从没见过它。
-    highlights:
-      - "背单词 = 记音+记形+记义，三者缺一不可"
-      - "音标帮你理解'为什么这个单词这样拼'"
-      - "先听再读再写，顺序不能乱"
-
-  connect:
-    text: |
-      ## 词汇是打开英语世界的钥匙
-
-      想象你要建一栋房子：
-      - **词汇** = 砖块（没有砖什么都建不了）
-      - **语法** = 水泥和钢筋（把砖粘在一起形成结构）
-      - **音标** = 图纸（告诉你每块砖怎么放）
-
-      现在你已经有了：
-      - ✅ 音标（图纸）
-      - ✅ 基础词汇（第一批砖）
-
-      接下来要学的是语法——把单词组合成句子的规则。
-      你会用这些新学的词来造句、表达想法。
-
-      **更深一层**：
-      研究发现，要读懂一篇英语文章，你需要认识其中 95% 以上的词。
-      初中 500 词 + 高中 2000 词 = 能看懂大多数日常文本。
-      这 30 个词只是开始，但它们是最重要的 30 个。
-    thought_seeds:
-      - "你不需要认识所有单词才能开始——30 个核心词足够开始造句"
-      - "每个英语高手都是从这几十个词起步的"
-      - "音标 + 单词一起学 = 双重效率"
-
-feynman:
-  base_prompt: "从这 30 个词中任选 3 个你以前不会的，写出它们的音标和中文意思，然后各造一个句子。"
-  key_elements:
-    - "写出单词和音标"
-    - "写出中文意思"
-    - "每个词造一个简单句"
-    - "大声读出单词和句子"
-  deep_questions:
-    - "你觉得在 6 个主题中，哪个主题的单词对你最有实际用处？为什么？"
-    - "如果让你给另一个刚开始学英语的同学推荐学习方法，你会怎么说？"
-  missing_hints:
-    "写出单词和音标": "选 3 个你不熟的词，先听发音再看音标。"
-    "写出中文意思": "单词的中文意思是什么？"
-    "每个词造一个简单句": "用 I ___ 或 This is a ___ 开头造句。"
-    "大声读出单词和句子": "点 🔊 听发音，然后跟读。"
-
-thought_card: "今天你背下了几个新单词？其中哪个词的发音最让你印象深刻？"
+    text: "你知道英语有多少单词吗？超过 17 万个。\n\n但好消息是：最常用的 300 个词覆盖了日常对话的 65%。\n而初中阶段只需要牢固掌握约 500 个词，就能应对所有考试。\n\n这里精选了 30 个最核心的初中词汇，分为 6 个主题。\n每个词都配有音标——你刚刚学过的工具，现在要用上了。\n\n规则很简单：\n1. 先听发音（点 🔊 按钮）\n2. 看音标，和你在音标课上学到的对照\n3. 记单词 + 记中文意思\n4. 大声跟读\n\n当你拿下这 30 个词，你就有了英语的第一块基石。\n"
+    question: 你觉得先学音标再背单词，和直接硬背单词——哪个更高效？
+display:
+  concept:
+    summary: 精选 30 个初中最核心词汇，按 6 个主题分组。每个词配音标、中文释义和例句——让你既会读、又会认、还会用。
+    sections:
+      - title: 一、为什么先学这 30 个词
+        content: "英语超过 17 万个单词——但最常用的 300 个词覆盖了日常对话的 65%。\n\n这 30 个词是初中英语最常见的词，出现在课本、考试和日常对话中。掌握它们，你就能：\n- 读懂大部分初中英语句子\n- 开始用英语表达基本想法\n- 建立\"音-形-义\"三位一体的单词学习习惯\n"
+      - title: 二、主题一：📚 学校与学习（5 词）
+        content: "| 单词 | 音标 | 中文 | 例句 |\n|------|------|------|------|\n| school | /skuːl/ | 学校 | I go to **school** every day.（我每天去上学。） |\n| student | /ˈstjuːdnt/ | 学生 | She is a good **student**.（她是一个好学生。） |\n| teacher | /ˈtiːtʃər/ | 老师 | Our **teacher** is very kind.（我们的老师很和蔼。） |\n| book | /bʊk/ | 书 | I read a **book** before bed.（我睡前读一本书。） |\n| pen | /pen/ | 笔 | Can I borrow your **pen**?（我能借你的笔吗？） |\n"
+      - title: 三、主题二：👨‍👩‍👧‍👦 家庭与人（5 词）
+        content: "| 单词 | 音标 | 中文 | 例句 |\n|------|------|------|------|\n| family | /ˈfæməli/ | 家庭 | I love my **family**.（我爱我的家人。） |\n| father | /ˈfɑːðər/ | 父亲 | My **father** is a doctor.（我父亲是医生。） |\n| mother | /ˈmʌðər/ | 母亲 | Her **mother** cooks very well.（她妈妈做饭很好吃。） |\n| brother | /ˈbrʌðər/ | 兄弟 | I have a younger **brother**.（我有一个弟弟。） |\n| friend | /frend/ | 朋友 | She is my best **friend**.（她是我最好的朋友。） |\n"
+      - title: 四、主题三：🏠 日常生活（5 词）
+        content: "| 单词 | 音标 | 中文 | 例句 |\n|------|------|------|------|\n| water | /ˈwɔːtər/ | 水 | I drink **water** every morning.（我每天早上喝水。） |\n| food | /fuːd/ | 食物 | The **food** here is delicious.（这里的食物很好吃。） |\n| time | /taɪm/ | 时间 | What **time** is it?（现在几点了？） |\n| money | /ˈmʌni/ | 钱 | I need some **money**.（我需要一些钱。） |\n| house | /haʊs/ | 房子 | They live in a big **house**.（他们住在一所大房子里。） |\n"
+      - title: 五、主题四：🏃 身体与动作（7 词）
+        content: "| 单词 | 音标 | 中文 | 例句 |\n|------|------|------|------|\n| head | /hed/ | 头 | I have a **head**ache.（我头疼。） |\n| hand | /hænd/ | 手 | Wash your **hand**s before eating.（吃饭前洗手。） |\n| eye | /aɪ/ | 眼睛 | She has beautiful **eye**s.（她有美丽的眼睛。） |\n| go | /ɡəʊ/ | 去 | Let's **go** to school.（我们去学校吧。） |\n| come | /kʌm/ | 来 | Please **come** here.（请过来。） |\n| eat | /iːt/ | 吃 | I want to **eat** an apple.（我想吃一个苹果。） |\n| play | /pleɪ/ | 玩；演奏 | Let's **play** football.（我们去踢足球吧。） |\n"
+      - title: 六、主题五：🌳 自然与世界（4 词）
+        content: "| 单词 | 音标 | 中文 | 例句 |\n|------|------|------|------|\n| tree | /triː/ | 树 | There is a tall **tree** in the yard.（院子里有一棵高树。） |\n| sun | /sʌn/ | 太阳 | The **sun** is bright today.（今天阳光灿烂。） |\n| rain | /reɪn/ | 雨 | It will **rain** tomorrow.（明天会下雨。） |\n| bird | /bɜːrd/ | 鸟 | A **bird** is singing in the tree.（一只鸟在树上唱歌。） |\n"
+      - title: 七、主题六：✨ 常用描述（4 词）
+        content: "| 单词 | 音标 | 中文 | 例句 |\n|------|------|------|------|\n| big | /bɪɡ/ | 大的 | This is a **big** room.（这是一个大房间。） |\n| small | /smɔːl/ | 小的 | The cat is very **small**.（这只猫很小。） |\n| good | /ɡʊd/ | 好的 | That's a **good** idea!（那是个好主意！） |\n| new | /njuː/ | 新的 | I got a **new** bike.（我得到了一辆新自行车。） |\n"
+      - title: 八、背单词的正确方法
+        content: "很多同学这样背单词——反复抄写 10 遍，但第二天全忘了。\n\n**问题出在哪？** 你只在记字母排列，没有建立\"音-形-义\"三者的连接。\n\n**正确步骤**（五步法）：\n1. **听音** → 点击 🔊 听单词的发音\n2. **看音标** → 对照音标理解每个音素\n3. **看拼写** → 把字母和音标对应起来\n4. **说意思** → 说出中文含义\n5. **跟读** → 大声模仿朗读\n\n以 `school` 为例：\n- 音标 `/skuːl/` → s 发 /s/，ch 发 /k/，oo 发 /uː/，l 发 /l/\n- 知道音标后，你就理解为什么拼成 s-c-h-o-o-l 而不是 s-k-u-l\n\n**音标是单词的\"拼音\"**。有了它，你就能：看到生词 → 看音标 → 读出来——即使从没见过它！\n"
+  examples:
+    - title: 音标辅助记单词
+      problem: 如何利用音标记住单词 'beautiful'？
+      steps:
+        - 第 1 步：看音标 /ˈbjuːtɪfl/——重音在第 1 个音节
+        - 第 2 步：拆解音素——b → /b/，eau → /juː/（法语借词特征），ti → /tɪ/，ful → /fl/
+        - 第 3 步：对应拼写——beau-ti-ful，三个音节，和音标一一对应
+        - 第 4 步：造句巩固——'She has a beautiful smile.'（她有一个美丽的微笑。）
+      answer: 用音标分音节记忆：beau /bjuː/ + ti /tɪ/ + ful /fl/，每个音节对应一个拼写块
+    - title: 语境中记单词
+      problem: 如何记住 'family' 并会用它？
+      steps:
+        - 第 1 步：听音标 /ˈfæməli/——重音在第一个音节，三个音节
+        - 第 2 步：看拼写 fa-mi-ly，和音标 fa /fæ/ + mi /mə/ + ly /li/ 对应
+        - 第 3 步：理解意思——'家庭'，不仅是父母和孩子，也包括所有你爱的人
+        - "第 4 步：用在句子里——'My family has four people: my father, my mother, my brother and me.'"
+      answer: 形音义结合 + 造句：family = /ˈfæməli/ = 家庭 → 'I love my family.'
+    - title: 区分形近词
+      problem: "'food'（食物）和 'foot'（脚）只差一个字母，怎么不搞混？"
+      steps:
+        - 第 1 步：看音标——food = /fuːd/（长音 uː），foot = /fʊt/（短音 ʊ）
+        - 第 2 步：发音区别——/uː/ 嘴巴收圆拉长，/ʊ/ 嘴巴微圆短促
+        - 第 3 步：联想记忆——food 的 oo 像两个鸡蛋（食物），foot 的 oo 像两个脚趾印
+        - 第 4 步：造句区分——'I like this food.' vs 'My foot hurts.'
+      answer: food /fuːd/（长音，食物）≠ foot /fʊt/（短音，脚）——靠音标区分发音，靠联想区分拼写
+  practice:
+    - id: voc-prac-001
+      stem: 写出单词 'school' 的音标和中文意思。
+      answer: /skuːl/，学校
+      hints:
+        - ch 发什么音？提示：不是 /tʃ/
+        - 参考：school 中的 ch 发 /k/
+    - id: voc-prac-002
+      stem: 单词 'beautiful' 有几个音节？重音在哪？
+      answer: 3 个音节：beau-ti-ful。重音在第一个音节 /ˈbjuː/。
+      hints:
+        - 音标中的重音符号 ˈ 标在哪个音节前面？
+        - beau-ti-ful 分成三部分
+    - id: voc-prac-003
+      stem: 用 'friend' 造一个简单的英语句子。
+      answer: （示例）My friend is very nice. / She is my best friend. / I have a good friend.
+      hints:
+        - friend 的意思是'朋友'
+        - 用 'My friend ...' 或 'I have a friend.' 开头
+    - id: voc-prac-004
+      stem: 下列单词中哪个不含 /æ/ 音？
+      answer: C
+      hints:
+        - 先读出每个单词的音标
+        - /æ/ 是 cat 中 a 的发音——嘴巴张大
+      q_type: choice
+      options:
+        - A. cat
+        - B. family
+        - C. food
+        - D. hand
+    - id: voc-prac-005
+      stem: 把下列单词按主题分组：book、rain、mother、pen、sun、brother、tree、teacher
+      answer: 学校与学习：book, pen, teacher；家庭与人：mother, brother；自然与世界：rain, sun, tree
+      hints:
+        - 先回忆每个单词的中文意思
+        - 按六个主题分类：学校、家庭、日常、身体、自然、描述
+    - id: voc-prac-006
+      stem: 用背单词五步法，描述你如何记住新单词 'money'（/ˈmʌni/，钱）。
+      answer: 1. 听音 /ˈmʌni/；2. 看音标：m→/m/, o→/ʌ/, ney→/ni/；3. 看拼写 mon-ey；4. 说中文'钱'；5. 跟读并造句：I need money.
+      hints:
+        - 五步法：听音→看音标→看拼写→说意思→跟读
+        - 每个步骤做了什么？
+    - id: voc-prac-007
+      stem: 翻译句子：'我父亲是一位老师。'
+      answer: My father is a teacher.
+      hints:
+        - 父亲 = father，老师 = teacher
+        - 句型：My ... is a ...
+  test:
+    - id: voc-test-001
+      stem: 写出 'school' 的音标。
+      answer: /skuːl/
+      difficulty: 1
+      layer: operation
+    - id: voc-test-002
+      stem: "'beautiful' 的中文意思是？"
+      answer: B
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. 聪明的
+        - B. 美丽的
+        - C. 勇敢的
+    - id: voc-test-003
+      stem: 下面哪个词的音标是 /frend/？
+      answer: C
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. family
+        - B. father
+        - C. friend
+    - id: voc-test-004
+      stem: 单词 'time' 属于哪个主题？
+      answer: C
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. 学校与学习
+        - B. 自然与世界
+        - C. 日常生活
+    - id: voc-test-005
+      stem: 单词 'eye' 中 ey 发什么音？
+      answer: B
+      difficulty: 2
+      layer: operation
+      q_type: choice
+      options:
+        - A. /eɪ/
+        - B. /aɪ/
+        - C. /iː/
+    - id: voc-test-006
+      stem: 小明把 'house' 读成 /həʊs/，他错在哪里？
+      answer: house 中 ou 发 /aʊ/（双元音，从'啊'滑到'乌'），不是 /əʊ/。正确读音是 /haʊs/。
+      difficulty: 2
+      layer: understand
+    - id: voc-test-007
+      stem: 对比 'food' /fuːd/ 和 'foot' /fʊt/，写出它们的音标区别和意思区别。
+      answer: food /fuːd/（长音 uː）= 食物；foot /fʊt/（短音 ʊ）= 脚。区别：元音长度不同，意思完全不同。
+      difficulty: 3
+      layer: understand
+    - id: voc-test-008
+      stem: 为什么先学音标再背单词比直接硬背更高效？用你自己的话解释。
+      answer: 音标帮助建立发音和拼写之间的连接。知道单词怎么读，拼写就有了依据，不需要死记字母排列。而且会读音标后，任何生词都能自己读出来——不再依赖老师或录音。
+      difficulty: 3
+      layer: understand
+    - id: voc-test-009
+      stem: 用至少 5 个本章学过的单词，写一段 3-5 句英文短文介绍你的家庭。
+      answer: '（示例）My family has four people: my father, my mother, my brother and me. My father is a teacher. My mother is a doctor. I am a student. I love my family.'
+      difficulty: 3
+      layer: connect
+    - id: voc-test-010
+      stem: 小红说：'我只要认识单词的意思就行了，不用学音标。' 你怎么回应她？举一个实际的例子说明音标的重要性。
+      answer: （示例）比如你看到生词 'beautiful'，不认识但旁边有音标 /ˈbjuːtɪfl/——你就能自己读出来。没有音标，你只能猜或者问别人。学会音标就像学会了骑自行车——一旦会了，哪都能去。
+      difficulty: 4
+      layer: connect
+ai_context:
+  topic_summary: 初中核心词汇是英语词汇学习的第一课，精选 30 个最高频的初中词汇，按 6 个生活主题分类（学校、家庭、日常、身体、自然、描述），每个词配 IPA 音标、中文释义和例句。本章的核心理念是'音-形-义'三位一体——让学生在背单词的同时运用音标知识，建立发音和拼写之间的连接，从而摆脱死记硬背的低效学习方式。
+  key_insights:
+    - 背单词 ≠ 记字母排列——真正有效的记忆是'音-形-义'三者的连接，缺一不可
+    - 音标是单词的'拼音'——学生在上一章学了音标，本章直接应用，形成学以致用的正反馈循环
+    - 30 个词虽少，但覆盖 6 个生活主题——学生可以立刻用这些词造句、描述身边的事物，建立成就感
+    - 最常用的 300 词覆盖日常 65% 的对话——这 30 个词是那 300 词的起点，让学生看到'从少到多'的路径
+  common_mistakes:
+    - mistake: 只记中文意思，不读音标
+      example: 学生知道 'beautiful' = 美丽，但读成 /ˈbjuːtɪfʊl/ 或 /ˈbetɪfəl/
+      why: 只看拼写不看音标，凭感觉猜测发音——英语拼写和发音不一致，猜错的概率很高
+      how_to_explain: 先读音标再读单词——这是一种'安全网'。音标永远不会骗你，它告诉你确切的发音。养成习惯：每学一个单词，先看音标，再读出来，再看拼写——顺序不能乱。
+    - mistake: 混淆形近词
+      example: food（食物）和 foot（脚）搞混，或在句子中写错
+      why: 只记了大概的字母轮廓，没有建立精确的拼写记忆——而且没有用音标来区分
+      how_to_explain: 对于形近词，音标是最好的'照妖镜'。food = /fuːd/（长音），foot = /fʊt/（短音）——发音完全不同，不可能混淆。每次遇到形近词，先比音标再比拼写。
+    - mistake: 忽略重音位置
+      example: 把 family 读成 /fæˈmɪli/（重音在第二个音节）
+      why: 中文每个字都有声调但没有重音概念，学生容易忽略重音或随意放置重音
+      how_to_explain: 英语单词的重音像音乐节拍——把重音放错位置，母语者可能听不懂或觉得奇怪。音标中的 ˈ 符号就是告诉你'拍子打在哪'。用手指敲桌子：ˈfam(敲)-i-ly，感受节奏。
+    - mistake: 只抄写不开口
+      example: 学生在纸上抄了 20 遍单词，但让他读的时候读不出来
+      why: 抄写只动用了视觉和手部肌肉记忆，没有动用听觉和口腔肌肉记忆——学习效率只有一半
+      how_to_explain: 大脑记单词需要多渠道输入。眼睛看（视觉）+ 嘴巴读（口腔肌肉）+ 耳朵听（听觉）+ 手写（运动）= 四通道。你只用抄写，等于三条通道关着门。下次试试：先听三遍，再跟读三遍，最后抄两遍——你会发现记得快多了。
+  alternate_explanations:
+    - method: 故事联想记忆法
+      when_to_use: 学生对某些抽象单词总是记不住时
+      prompt: 每个单词都可以编一个小故事。比如 'family' = father and mother I love you（爸爸妈妈我爱你们）——把每个字母拆开！'school' = s-c-h-o-o-l → '蛇吃鸡蛋圆圆的，好快乐在学校'。用中文编故事帮助记忆英文拼写，不是长期办法，但入门阶段很好用。
+    - method: 主题场景法
+      when_to_use: 学生觉得单词零散、不知道学了有什么用
+      prompt: 假设你现在在英国，走进一所学校。你看见什么？school, student, teacher, book, pen。你回到寄宿家庭，看见什么？family, father, mother, brother。你去外面玩——tree, sun, bird, rain。每个单词都不是孤立的，它们在你的生活场景里。试着闭上眼想象那个画面，用英语描述你看到的。
+    - method: 发音→拼写推导法
+      when_to_use: 学生拼写错误多，不知道如何从发音推断拼写
+      prompt: 英语虽然拼写混乱，但有很多规律可循。比如听到 /skuːl/——/s/ 可能是 s 或 c，但这里 s 开头就是 s；/k/ 在 /uː/ 前通常是 ch 或 k，school 用 ch；/uː/ 长音通常是 oo；/l/ 结尾就是 l。每个音素对应一种或几种常见拼写——这就是音标帮你记拼写的秘密。
+  question_templates:
+    difficulty_1_2: 出 2 道选择题：给音标选对应单词，或给单词选对应中文意思（从 30 个核心词中选取）
+    difficulty_3: 出 1 道填空/造句题：给一个场景提示，让学生用指定的核心词汇写出一个完整句子（如 '用 family 和 brother 描述你的家'）
+    difficulty_4: 出 1 道对比/解释题：给两个形近词（如 food/foot 或 head/hand），让学生从音标、拼写、意思三方面对比并说明区分方法

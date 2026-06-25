@@ -1,0 +1,220 @@
+slug: trigonometry
+subject: math
+title: "锐角三角函数"
+tier: core
+difficulty: 3
+prerequisites: ["pythagorean", "similarity"]
+estimated_min: 35
+
+trigger:
+  type: story
+  title: "不爬金字塔，怎么量出它的高度？"
+  content:
+    text: |
+      两千多年前，古希腊学者泰勒斯站在埃及金字塔下。
+      法老问他：能不能不爬上去，就测出这座庞然大物有多高？
+      泰勒斯笑了。他立起一根木杆，等到木杆影子和木杆等长的那一刻，
+      跑去量金字塔影子的长度——那就是金字塔的高度！
+      他用的，正是直角三角形里边与角之间不变的比例关系。
+      今天我们给这种比例起了名字：正弦、余弦、正切。
+    question: "为什么同一个角度，无论三角形画多大，对应的边长比值都不变？"
+
+display:
+  concept:
+    summary: "锐角三角函数 sin、cos、tan 是直角三角形中锐角对应的边长比值，可用来解直角三角形。"
+    sections:
+      - title: "一、三个三角函数的定义"
+        content: |
+          在直角三角形中，设一个锐角为 $A$，则：
+          $$\sin A = \frac{\text{对边}}{\text{斜边}} \qquad \cos A = \frac{\text{邻边}}{\text{斜边}} \qquad \tan A = \frac{\text{对边}}{\text{邻边}}$$
+
+          要点：
+          - 对边：角 $A$ 所对的那条直角边
+          - 邻边：构成角 $A$ 的那条直角边（不是斜边）
+          - 斜边：直角所对的最长边
+
+          口诀：正弦对斜，余弦邻斜，正切对邻。
+          由相似三角形可知：同一个角的这三个比值只与角度有关，与三角形大小无关。
+
+      - title: "二、特殊角的三角函数值"
+        content: |
+          必须熟记 $30^\circ$、$45^\circ$、$60^\circ$ 的值：
+
+          | 角 | $\sin$ | $\cos$ | $\tan$ |
+          |---|---|---|---|
+          | $30^\circ$ | $\frac{1}{2}$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{3}}{3}$ |
+          | $45^\circ$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{2}}{2}$ | $1$ |
+          | $60^\circ$ | $\frac{\sqrt{3}}{2}$ | $\frac{1}{2}$ | $\sqrt{3}$ |
+
+          规律：从 $30^\circ$ 到 $60^\circ$，$\sin$ 递增、$\cos$ 递减、$\tan$ 递增。
+
+      - title: "三、解直角三角形"
+        content: |
+          在直角三角形中（设直角为 $C$），已知足够的元素，求其余所有边和角，叫解直角三角形。
+
+          常用关系（$\angle C = 90^\circ$）：
+          - 两锐角互余：$\angle A + \angle B = 90^\circ$
+          - 勾股定理：$a^2 + b^2 = c^2$
+          - 边角关系：$\sin A = \frac{a}{c}$，$\cos A = \frac{b}{c}$，$\tan A = \frac{a}{b}$
+
+          只要知道一条边和一个锐角，或两条边，就能解出整个三角形。
+
+      - title: "四、实际应用（仰角、俯角）"
+        content: |
+          仰角：视线在水平线上方时，视线与水平线的夹角。
+          俯角：视线在水平线下方时，视线与水平线的夹角。
+
+          解题套路：
+          1. 把实际问题画成直角三角形
+          2. 标出已知的边和角
+          3. 选合适的三角函数列方程（已知和所求分别是哪两条边）
+          4. 求解
+
+          例：测楼高时若已知与楼底水平距离和仰角，则楼高 = 距离 $\times \tan(\text{仰角})$。
+
+  examples:
+    - title: "求三角函数值"
+      problem: '直角三角形中 $\angle C=90^\circ$，$a=3$（$\angle A$ 的对边），$b=4$（邻边），斜边 $c=5$。求 $\sin A$、$\cos A$、$\tan A$。'
+      steps:
+        - '第 1 步：$\sin A = \frac{\text{对边}}{\text{斜边}} = \frac{a}{c} = \frac{3}{5}$'
+        - '第 2 步：$\cos A = \frac{\text{邻边}}{\text{斜边}} = \frac{b}{c} = \frac{4}{5}$'
+        - '第 3 步：$\tan A = \frac{\text{对边}}{\text{邻边}} = \frac{a}{b} = \frac{3}{4}$'
+      answer: "sinA=3/5，cosA=4/5，tanA=3/4"
+
+    - title: "用特殊角求值"
+      problem: '计算 $\sin 30^\circ + \cos 60^\circ + \tan 45^\circ$。'
+      steps:
+        - '第 1 步：$\sin 30^\circ = \frac{1}{2}$'
+        - '第 2 步：$\cos 60^\circ = \frac{1}{2}$'
+        - '第 3 步：$\tan 45^\circ = 1$'
+        - '第 4 步：相加 $\frac{1}{2} + \frac{1}{2} + 1 = 2$'
+      answer: "2"
+
+    - title: "解直角三角形（实际应用）"
+      problem: '小明在距旗杆底部 $10$ 米处测得旗杆顶端的仰角为 $60^\circ$，求旗杆高度（眼睛高度忽略）。'
+      steps:
+        - '第 1 步：画直角三角形，水平距离为邻边 $=10$，旗杆高为对边'
+        - '第 2 步：已知邻边求对边，用正切：$\tan 60^\circ = \frac{\text{高}}{10}$'
+        - '第 3 步：$\text{高} = 10 \times \tan 60^\circ = 10\sqrt{3}$ 米'
+      answer: "10√3 米（约 17.3 米）"
+
+  practice:
+    - id: "trig-prac-001"
+      stem: '$\sin 30^\circ$ 的值是多少？'
+      answer: "1/2"
+      hints: ["背特殊角表", "30° 的正弦最小"]
+
+    - id: "trig-prac-002"
+      stem: '$\tan 45^\circ$ 的值是多少？'
+      answer: "1"
+      hints: ["45° 直角三角形两直角边相等", "对边÷邻边=1"]
+
+    - id: "trig-prac-003"
+      stem: '直角三角形中，$\angle A$ 的对边为 6，斜边为 10，求 $\sin A$。'
+      answer: "3/5"
+      hints: ["sinA = 对边/斜边", "6/10 化简"]
+
+    - id: "trig-prac-004"
+      stem: '计算 $\cos 30^\circ \times 2$。'
+      answer: "√3"
+      hints: ["cos30° = √3/2", "再乘以 2"]
+
+    - id: "trig-prac-005"
+      stem: '直角三角形中 $\angle C=90^\circ$，$\angle A=30^\circ$，斜边 $c=8$，求 $\angle A$ 的对边 $a$。'
+      answer: "4"
+      hints: ["sin30° = a/c", "a = 8 × 1/2"]
+
+    - id: "trig-prac-006"
+      stem: '计算 $\tan 60^\circ - \tan 30^\circ$。'
+      answer: "2√3/3"
+      hints: ["tan60°=√3，tan30°=√3/3", "√3 - √3/3 = 3√3/3 - √3/3"]
+
+    - id: "trig-prac-007"
+      stem: "一斜坡水平距离 20 米，坡角 45°，求上升的垂直高度。"
+      answer: "20 米"
+      hints: ["高 = 水平距离 × tan(坡角)", "tan45°=1"]
+
+  test:
+    - id: "trig-test-001"
+      stem: '$\cos 60^\circ$ 的值是多少？'
+      answer: "1/2"
+      difficulty: 1
+      layer: understand
+
+    - id: "trig-test-002"
+      stem: '直角三角形中 $\angle A$ 的对边 5、邻边 12、斜边 13，求 $\tan A$。'
+      answer: "5/12"
+      difficulty: 1
+      layer: operation
+
+    - id: "trig-test-003"
+      stem: '计算 $\sin 45^\circ \times \cos 45^\circ$。'
+      answer: "1/2（√2/2 × √2/2 = 2/4 = 1/2）"
+      difficulty: 2
+      layer: operation
+
+    - id: "trig-test-004"
+      stem: '计算 $2\sin 30^\circ + \sqrt{3}\tan 30^\circ$。'
+      answer: "2（2×1/2 + √3×√3/3 = 1 + 1 = 2）"
+      difficulty: 3
+      layer: operation
+
+    - id: "trig-test-005"
+      stem: '直角三角形 $\angle C=90^\circ$，$\angle B=30^\circ$，$\angle B$ 的对边 $b=4$，求斜边 $c$ 和另一直角边 $a$。'
+      answer: "c=8（sin30°=b/c，c=4÷(1/2)=8）；a=4√3（由勾股定理 a=√(64-16)=√48=4√3）"
+      difficulty: 3
+      layer: connect
+
+    - id: "trig-test-006"
+      stem: "为什么同一个锐角，无论直角三角形画多大，sin 值都相同？"
+      answer: "因为锐角相同的直角三角形彼此相似，相似三角形对应边成比例，对边与斜边的比值（即 sin）保持不变，只与角度有关，与三角形大小无关。"
+      difficulty: 4
+      layer: understand
+
+    - id: "trig-test-007"
+      stem: "在地面距塔 30 米处测得塔顶仰角 30°，求塔高（精确值）。"
+      answer: "10√3 米（高 = 30 × tan30° = 30 × √3/3 = 10√3）"
+      difficulty: 3
+      layer: connect
+
+    - id: "trig-test-008"
+      stem: '一个锐角 $A$ 满足 $\sin A=\frac{1}{2}$，求 $A$ 的度数和 $\cos A$ 的值。'
+      answer: "A=30°，cosA=√3/2"
+      difficulty: 3
+      layer: understand
+
+ai_context:
+  topic_summary: "锐角三角函数把直角三角形中锐角与边长的比值固定下来：正弦（对边/斜边）、余弦（邻边/斜边）、正切（对边/邻边）。基于相似三角形，比值只与角度有关。必须熟记 30°、45°、60° 的函数值。核心应用是解直角三角形和处理仰角俯角等实际测量问题。"
+  key_insights:
+    - "三角函数本质是直角三角形中固定的边长比值，由相似性保证只与角度有关"
+    - "口诀：正弦对斜（对边/斜边），余弦邻斜（邻边/斜边），正切对邻（对边/邻边）"
+    - "30°、45°、60° 的值必须背熟，是计算和应用的基础"
+    - "解直角三角形：已知一边一锐角或两边，就能求出全部边和角"
+  common_mistakes:
+    - mistake: "混淆对边与邻边"
+      example: "求 sinA 时用了邻边/斜边"
+      why: "没分清相对于角 A 哪条是对边、哪条是邻边"
+      how_to_explain: "站在角 A 的位置看：正对着你、不挨着你的那条直角边是对边；和角 A 挨着的那条直角边是邻边。sin 永远用对边，cos 永远用邻边。"
+
+    - mistake: "记错特殊角函数值，尤其 sin 与 cos 混淆"
+      example: "把 sin30° 记成 √3/2"
+      why: "30° 和 60° 的 sin、cos 值互换容易搞反"
+      how_to_explain: "记住角越大正弦越大：sin30°=1/2 最小，sin60°=√3/2 较大。cos 正好相反，角越大余弦越小。背的时候 sin 按 1/2、√2/2、√3/2 递增即可。"
+
+    - mistake: "实际应用中选错三角函数"
+      example: "已知邻边求对边却用了 sin"
+      why: "没先理清已知和所求分别是三角形的哪两条边"
+      how_to_explain: "先标出已知边和要求的边各是对边、邻边还是斜边。已知邻边求对边用 tan；涉及斜边就用 sin 或 cos。先分类再选函数，不要硬套。"
+  alternate_explanations:
+    - method: "相似三角形缩放"
+      when_to_use: "学生不理解为何比值只与角度有关时"
+      prompt: "画一个 30° 的直角三角形，再把它放大两倍。每条边都翻倍了，但对边÷斜边的比值（分子分母同时翻倍）约掉后还是一样。所以 sin30° 永远是 1/2，与大小无关。"
+
+    - method: "影子测高法"
+      when_to_use: "学生觉得三角函数抽象、没用时"
+      prompt: "回到泰勒斯量金字塔的故事：阳光下你和影子构成一个直角三角形，你的身高是对边，影长是邻边。tan(太阳高度角)=身高/影长。知道角和影子，就能算出任何高大物体的高度。"
+
+  question_templates:
+    difficulty_1_2: "出 2 道基础题，求特殊角函数值或由三边求某锐角的三角函数"
+    difficulty_3: "出 1 道含特殊角的混合计算题，或解直角三角形求未知边的题"
+    difficulty_4: "出 1 道实际应用题（仰角俯角测高测距）或解释比值与大小无关的理解题"

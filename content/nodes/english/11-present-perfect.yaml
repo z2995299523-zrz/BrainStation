@@ -1,121 +1,172 @@
 slug: present-perfect
 subject: english
-title: "现在完成时"
+title: 现在完成时
 tier: trunk
 difficulty: 3
-prerequisites: ["tenses-basic"]
+prerequisites:
+  - tenses-basic
 estimated_min: 25
-
 trigger:
   type: story
-  title: "一种让英语母语者也解释不清的时态"
+  title: 一种让英语母语者也解释不清的时态
   content:
-    text: |
-      如果问一个英国人"现在完成时是什么"，他很可能会说
-      "I have no idea, I just use it."
-
-      这就是母语者的秘密——他们用语法但从不想语法。
-
-      但对学习者来说，现在完成时是英语时态中最微妙的一个：
-      它不是过去，也不是现在——而是过去对现在的影响。
-
-      比如：
-      "I lost my key"（过去某个时候丢了）——可能已经找回来了
-      "I have lost my key"（已经丢了）——现在还在找
-
-      两句话描述的是同一件事，但现在完成时把过去和现在连在了一起。
-    question: "你能感觉到 I lost 和 I have lost 的区别吗？"
-    spoken_phrases:
-      - { text: "I lost my key.", label: "一般过去" }
-      - { text: "I have lost my key.", label: "现在完成" }
-      - { text: "I have been to Beijing.", label: "经历用法" }
-      - { text: "I have lived here for 10 years.", label: "持续用法" }
-
-content:
-  operation:
-    text: |
-      ## 现在完成时（Present Perfect）
-
-      **形式**：have/has + 过去分词（V3）
-
-      **三种核心用法**：
-
-      ### 1. 完成用法（Result）：过去动作对现在有结果/影响
-      - I have lost my key.（现在钥匙还没找到）
-      - She has finished her homework.（现在作业已经完成了）
-
-      ### 2. 经历用法（Experience）：到目前为止的经历
-      - I have been to Beijing three times.（到目前为止去过 3 次）
-      - Have you ever eaten sushi?（你这辈子吃过寿司吗？）
-
-      ### 3. 持续用法（Duration）：从过去持续到现在
-      - I have lived here for 10 years.（10 年前开始住，现在还在住）
-      - She has known him since 2015.（2015 年认识，现在还认识）
-    spoken_examples:
-      - { text: "I have lost my key.", label: "完成/结果" }
-      - { text: "I have been to Beijing three times.", label: "经历" }
-      - { text: "I have lived here for 10 years.", label: "持续" }
-      - { text: "I ate breakfast at 7am.", label: "过去（对比）" }
-    examples:
-      - input: "I lost my key vs I have lost my key"
-        output: "前者=过去丢了（可能找到了），后者=已经丢了（现在还在找）"
-      - input: "for 10 years 用什么时态？"
-        output: "现在完成时 → I have studied English for 10 years."
-
-  understand:
-    text: |
-      ## 现在完成时 vs 一般过去时 —— 终极区别
-
-      | 时态 | 聚焦 | 时间词示例 |
-      |------|------|-----------|
-      | 一般过去时 | 过去的动作 | yesterday, last week, in 2010 |
-      | 现在完成时 | 过去到现在的连接 | just, already, yet, since, for |
-
-      **关键判别法**：问自己 —— 这个动作和现在有关吗？
-
-      - "I ate breakfast at 7am." → 现在中午了，和现在无关 → 一般过去时
-      - "I have already eaten breakfast." → 现在不饿了，和现在有关 → 现在完成时
-
-      **中式英语常见错误**：
-      ✗ "I have seen him yesterday." → 有具体过去时间 yesterday → 必须用一般过去时
-      ✓ "I saw him yesterday."
-    highlights:
-      - "现在完成时 = 过去和现在之间的桥梁"
-      - "有具体过去时间（yesterday/ago）永远不用现在完成时"
-
-  connect:
-    text: |
-      ## 为什么每种语言都需要表达完成的概念？
-
-      几乎每种语言都有完成体（perfective aspect），只是实现方式不同：
-      - 英语：have + V3
-      - 中文：了（动态助词）
-      - 日语：〜た形
-      - 西班牙语：haber + participio
-
-      深层的认知需求：人类需要区分事情本身和事情的后果。
-      我丢了钥匙可以是告诉你一个过去的事件，
-      也可以是在解释为什么我现在进不了门——这是两个完全不同的沟通目的。
-
-      现在完成时就是后者的语法化。
-    thought_seeds:
-      - "现在完成时关注的是结果和影响"
-      - "有具体过去时间 → 绝不能用现在完成时"
-
-feynman:
-  base_prompt: "用你自己的话解释：现在完成时和一般过去时有什么本质区别？什么时候必须用现在完成时？"
-  key_elements:
-    - "have/has + 过去分词"
-    - "强调过去对现在的影响"
-    - "和 already/just/ever/never/for/since 搭配"
-    - "有具体过去时间时不能用"
-  deep_questions:
-    - "如果你来给现在完成时取一个更直觉的中文名字，你会叫什么？"
-    - "你觉得中文的了和英语的现在完成时有什么相同和不同？"
-  missing_hints:
-    "have/has + 过去分词": "现在完成时由什么助动词 + 什么形式？"
-    "强调过去对现在的影响": "I have lost my key 和 I lost my key 感觉有什么不同？"
-    "和 already/just/ever/never/for/since 搭配": "看到哪些词最常用现在完成时？"
-    "有具体过去时间时不能用": "I have seen him yesterday 为什么是错的？"
-
-thought_card: "今天你学会了哪个以前一直混淆的现在完成时用法？"
+    text: "如果问一个英国人\"现在完成时是什么\"，他很可能会说\n\"I have no idea, I just use it.\"\n\n这就是母语者的秘密——他们用语法但从不想语法。\n\n但对学习者来说，现在完成时是英语时态中最微妙的一个：\n它不是过去，也不是现在——而是**过去对现在的影响**。\n\n比如：\n- \"I lost my key.\"（过去某时丢了）——可能已经找回来了\n- \"I have lost my key.\"（已经丢了）——现在还在找\n\n两句描述同一件事，但现在完成时把过去和现在连在了一起。"
+    question: 你能感觉到 I lost 和 I have lost 的区别吗？
+display:
+  concept:
+    summary: 现在完成时的形式是 have/has + 过去分词（V3），核心是连接"过去"与"现在"——强调过去动作对现在产生的结果或影响。三种核心用法：完成/结果（动作已完成且影响现在）、经历（到目前为止做过某事）、持续（从过去持续到现在）。它常与 just/already/yet/ever/never/since/for 搭配。最关键的铁律：**有具体过去时间（yesterday、ago、具体年份）时绝不能用现在完成时**。
+    sections:
+      - title: 一、形式：have/has + 过去分词
+        content: "**基本结构**：主语 + have/has + 过去分词（V3）\n\n- 主语是 I/you/we/they/复数 → 用 **have**\n- 主语是 he/she/it/单数 → 用 **has**\n\n**过去分词（V3）**：\n- 规则动词与过去式同形：work → worked → worked\n- 不规则动词需记忆：go → went → **gone**；see → saw → **seen**；do → did → **done**\n\n**否定与疑问**：\n- 否定：I **have not (haven't)** finished.\n- 疑问：**Have** you finished? **Has** she left?"
+      - title: 二、用法一：完成/结果（Result）
+        content: "表示过去的动作已经完成，并对**现在产生结果或影响**。\n\n- I **have lost** my key.（我把钥匙丢了——现在还没找到，进不了门）\n- She **has finished** her homework.（她写完作业了——现在可以玩了）\n- The train **has left**.（火车开走了——现在赶不上了）\n\n**常搭配**：just（刚刚）、already（已经）、yet（还没/尚未，用于否定和疑问）\n- I have **just** arrived.（我刚到。）\n- Have you finished **yet**?（你写完了吗？）"
+      - title: 三、用法二：经历（Experience）
+        content: "表示从过去到现在的**人生经历**——做过/去过某事。\n\n- I **have been to** Beijing three times.（到目前为止我去过北京三次。）\n- **Have** you **ever eaten** sushi?（你（这辈子）吃过寿司吗？）\n- I **have never seen** a panda.（我从没见过熊猫。）\n\n**常搭配**：ever（曾经）、never（从不）、before（以前）、times（次数）\n\n**注意区分**：\n- have **been** to（去过，已回来）vs have **gone** to（去了，还没回来）"
+      - title: 四、用法三：持续（Duration）
+        content: "表示动作或状态从过去**持续到现在**（并可能继续）。\n\n- I **have lived** here **for** ten years.（我在这住十年了——现在还住着。）\n- She **has known** him **since** 2015.（她从 2015 年认识他至今。）\n\n**for vs since**：\n- **for + 一段时间**：for ten years（十年）、for a week（一周）\n- **since + 时间点**：since 2015、since last Monday、since I was a child"
+      - title: 五、现在完成时 vs 一般过去时
+        content: "这是最核心、也最易混的对比。\n\n| 时态 | 聚焦点 | 典型时间词 |\n|------|--------|-----------|\n| 一般过去时 | 过去的动作本身，和现在无关 | yesterday, last week, in 2010, ago |\n| 现在完成时 | 过去到现在的连接、对现在的影响 | just, already, yet, ever, since, for |\n\n**判别法**：问自己\"这个动作和现在有关吗？\"\n- I **ate** breakfast at 7am.（现在中午了，无关 → 一般过去时）\n- I **have already eaten**.（现在不饿了，有关 → 现在完成时）\n\n**铁律**：句中有具体过去时间（yesterday/ago/具体年份）→ **永远不用现在完成时**。\n- ✗ I have seen him yesterday.  ✓ I **saw** him yesterday."
+  examples:
+    - title: I lost vs I have lost
+      problem: '"I lost my key." 和 "I have lost my key." 有什么不同？'
+      steps:
+        - 第 1 步：I lost my key 是一般过去时，只陈述过去丢钥匙这件事，钥匙现在可能已找到。
+        - 第 2 步：I have lost my key 是现在完成时，强调"丢"对现在的影响——现在还没找到、进不了门。
+        - 第 3 步：区别在于是否关联现在：完成时连接了过去与现在。
+      answer: 前者只说过去的事（可能已找回）；后者强调结果延续到现在（钥匙现在还丢着）。
+    - title: for 还是 since
+      problem: 填空：I have studied English ___ five years. / She has lived here ___ 2018.
+      steps:
+        - 第 1 步：five years 是"一段时间"——用 for。
+        - 第 2 步：2018 是"时间点"——用 since。
+        - 第 3 步：分别填 for 和 since。
+      answer: I have studied English **for** five years. / She has lived here **since** 2018.（for 接时间段，since 接时间点）
+    - title: 识别中式英语错误
+      problem: '"I have seen this film yesterday." 哪里错了？'
+      steps:
+        - 第 1 步：句中有 yesterday——明确的过去时间点。
+        - 第 2 步：有具体过去时间时不能用现在完成时，必须用一般过去时。
+        - 第 3 步：改为 I **saw** this film yesterday.
+      answer: yesterday 是具体过去时间，不能与现在完成时连用。正确：I **saw** this film yesterday.（我昨天看了这部电影。）
+  practice:
+    - id: pp-prac-001
+      stem: 写出下列动词的过去分词：go, see, do, write, eat
+      answer: gone, seen, done, written, eaten（均为不规则动词，需记忆）
+      hints:
+        - 现在完成时用过去分词（V3）
+        - 这些都是不规则动词，与过去式不同
+    - id: pp-prac-002
+      stem: 用现在完成时填空：She ___ (finish) her homework, so she can play now.
+      answer: has finished（主语 She 用 has + 过去分词 finished；强调对现在的结果）
+      hints:
+        - 三单主语用 has
+        - finish 是规则动词，过去分词是 finished
+    - id: pp-prac-003
+      stem: 填 for 或 since：① ___ two months  ② ___ last year  ③ ___ 2010  ④ ___ a long time
+      answer: ① for two months  ② since last year  ③ since 2010  ④ for a long time（for 接时间段，since 接时间点）
+      hints:
+        - for + 一段时间
+        - since + 某个时间点
+    - id: pp-prac-004
+      stem: 改错：I have been to Shanghai last summer.
+      answer: last summer 是具体过去时间，不能用现在完成时。正确：I **was in / went to** Shanghai last summer.（用一般过去时）
+      hints:
+        - 注意 last summer 是过去时间标志
+        - 有具体过去时间要用一般过去时
+    - id: pp-prac-005
+      stem: 区别并翻译：He has been to Japan. / He has gone to Japan.
+      answer: He has been to Japan = 他去过日本（已回来，强调经历）；He has gone to Japan = 他去了日本（人还在那/在路上，没回来）。
+      hints:
+        - been to 表"去过并已回来"
+        - gone to 表"去了还没回来"
+    - id: pp-prac-006
+      stem: 用现在完成时翻译：我已经学英语五年了。
+      answer: I have learned/studied English for five years.（for 接时间段，强调从过去持续到现在）
+      hints:
+        - 表示"学了……年了"是持续，用现在完成时
+        - 五年是一段时间，用 for
+  test:
+    - id: pp-test-001
+      stem: 选择正确形式：He ___ his bike. He can't ride to school now
+      answer: B
+      difficulty: 2
+      layer: operation
+      q_type: choice
+      options:
+        - A. lost
+        - B. has lost
+        - C. loses
+    - id: pp-test-002
+      stem: 填 for 或 since：They have been friends ___ they were children.
+      answer: since（since + 从句/时间点，they were children 是时间起点）
+      difficulty: 2
+      layer: operation
+    - id: pp-test-003
+      stem: 改错：Have you finished your homework already yesterday?
+      answer: yesterday 是具体过去时间，不能用现在完成时。正确：Did you finish your homework yesterday? 或去掉 yesterday：Have you finished your homework yet?
+      difficulty: 3
+      layer: understand
+    - id: pp-test-004
+      stem: 用判别法说明：为什么 "I have seen him yesterday." 是错的？
+      answer: 现在完成时强调动作与现在的联系，而 yesterday 是与现在无关的具体过去时间点，两者矛盾。有具体过去时间必须用一般过去时：I saw him yesterday.
+      difficulty: 3
+      layer: understand
+    - id: pp-test-005
+      stem: 选择并说明：Where is Tom? — He ___ to the library.（has been / has gone）
+      answer: has gone（Tom 现在不在，去了图书馆还没回来，用 has gone to）。has been to 表示"去过已回来"，与问句"他在哪"不符。
+      difficulty: 2
+      layer: operation
+    - id: pp-test-006
+      stem: 现在完成时的三种用法各造一个句子（完成、经历、持续）。
+      answer: 完成：I have finished my work. 经历：I have visited the Great Wall twice. 持续：I have known her for ten years.
+      difficulty: 3
+      layer: connect
+    - id: pp-test-007
+      stem: 各种语言都有"完成"的概念（英语 have+V3，中文"了"，日语"た"）。请说明为什么人类语言需要表达"完成"。
+      answer: 因为人类需要区分"事情本身"和"事情的后果"。说"我丢了钥匙"既可以是讲一个过去事件，也可以是解释"我现在进不了门"——这是两种不同的沟通目的。现在完成时就是把"过去动作对现在的影响"语法化。
+      difficulty: 3
+      layer: connect
+    - id: pp-test-008
+      stem: 用 just/already/yet 各填一句：① I have ___ arrived（刚到）② She has ___ left（已经走了）③ Have you eaten ___?（还没？）
+      answer: ① just（I have just arrived.）② already（She has already left.）③ yet（Have you eaten yet?）。yet 用于疑问/否定，just/already 用于肯定。
+      difficulty: 2
+      layer: operation
+ai_context:
+  topic_summary: 现在完成时（have/has + 过去分词 V3）是英语时态难点，核心是连接"过去"与"现在"，强调过去动作对现在的结果或影响。三大用法：完成/结果（动作完成且影响当下，配 just/already/yet）、经历（人生经历，配 ever/never/before/times）、持续（动作状态从过去延续至今，配 for 时间段 / since 时间点）。最易混的是与一般过去时的区别——判别法是问"这个动作和现在有关吗"。最重要的铁律：句中有具体过去时间（yesterday、ago、具体年份）时绝不用现在完成时。中文用"了/过"表达类似概念，导致学生常把现在完成时和一般过去混用。
+  key_insights:
+    - 现在完成时是连接过去和现在的桥梁，重点不在"过去发生了什么"，而在"对现在有什么影响"
+    - 有具体过去时间（yesterday/ago/具体年份）→ 绝不能用现在完成时，这是最硬的铁律
+    - for 接一段时间，since 接一个时间点——这是持续用法的高频考点
+    - been to（去过已回来）和 gone to（去了没回来）含义不同，不可混用
+    - 过去分词（V3）的不规则形式需要专门记忆，它和过去式可能不同（go-went-gone）
+  common_mistakes:
+    - mistake: 现在完成时与具体过去时间连用
+      example: '"I have finished it yesterday." / "He has come back last week."'
+      why: 学生只记住"做完了 = 完成时"，忽略了 yesterday/last week 是明确过去时间，受中文"做完了"的影响
+      how_to_explain: 立一条红线规则：看到 yesterday、ago、last、具体年份这些"过去时间钉子"，立刻排除现在完成时，改用一般过去时。让学生养成先扫时间词的习惯。
+    - mistake: 混淆 for 和 since
+      example: '"I have lived here since ten years." / "for 2015"'
+      why: 学生没区分"时间段"和"时间点"，把两个词当近义词
+      how_to_explain: 用简单口诀"for 接长度，since 接起点"。for + 多长（ten years, a week）；since + 哪天起（2015, last Monday, I was born）。让学生先判断后面是"段"还是"点"。
+    - mistake: been to 与 gone to 混用
+      example: '"My father has been to work（其实人还在公司）"应为 has gone to'
+      why: 学生只记 been/gone 都表示"去"，没区分"回来没有"
+      how_to_explain: been to = 去过并且已经回来（强调经历）；gone to = 去了还没回来（人不在这里）。用"他现在在不在这里？"来判断：不在用 gone，在（讲经历）用 been。
+    - mistake: 过去分词用成过去式或原形
+      example: '"I have saw it." / "She has go."'
+      why: 学生没掌握不规则动词的三态变化，把过去式或原形当过去分词
+      how_to_explain: 强调现在完成时用第三态（V3）。see-saw-seen、go-went-gone——have/has 后面要用最后那个形式。建议背"原形—过去式—过去分词"三栏表。
+  alternate_explanations:
+    - method: 与现在的关联测试法
+      when_to_use: 学生分不清用现在完成时还是一般过去时
+      prompt: 做一个测试——问自己"这件事现在还有影响吗？"。如果答案是"有"（钥匙现在还丢着、作业现在已写完所以能玩）→ 现在完成时；如果只是讲一个过去的、和现在无关的事 → 一般过去时。
+    - method: 桥梁可视化法
+      when_to_use: 学生难以理解现在完成时"既不是过去也不是现在"时
+      prompt: 把现在完成时画成一座桥：桥的一端是过去（动作发生），另一端是现在（结果存在）。一般过去时只是过去那一端的一个点，不连到现在。现在完成时是连接两端的整座桥。
+    - method: 时间词分类法
+      when_to_use: 学生想快速判断时态时
+      prompt: 把时间词分两组贴墙上。"现在完成组"：just、already、yet、ever、never、since、for、so far、recently。"一般过去组"：yesterday、ago、last、具体年份、just now。看到哪组词，就用对应时态。
+  question_templates:
+    difficulty_1_2: 出 2 道选择/填空题：选择 have/has + 正确过去分词，或在 for/since、been/gone 之间选择
+    difficulty_3: 出 1 道改错题：给现在完成时与具体过去时间连用，或 for/since 用错的句子让学生改正
+    difficulty_4: 出 1 道对比/解释题：让学生用现在完成时三种用法各造句，或解释 I lost 与 I have lost、been to 与 gone to 的区别

@@ -1,0 +1,165 @@
+slug: prepositions-conjunctions
+subject: english
+title: 介词与连词
+tier: core
+difficulty: 2
+prerequisites:
+  - nouns-articles
+estimated_min: 25
+trigger:
+  type: story
+  title: 小词大用——英语中最被低估的词类
+  content:
+    text: "介词和连词是英语中的\"脚手架\"——它们不显眼，但缺了它们整个句子就会倒塌。\n\n介词（in, on, at, to, for, with...）表示事物之间的关系：\n- The book is **on** the desk.（位置关系）\n- I go to school **at** 7:00.（时间关系）\n\n连词（and, but, or, because, although...）连接词、短语和句子：\n- I like apples **and** oranges.（连接词）\n- She is tired **but** she keeps working.（连接句子）\n\n中文里也有类似的词，但英语的介词远比中文灵活——同一个 at 可以表示时间(at 7:00)、地点(at school)、状态(at work)。\n\n这就是为什么介词被称作\"英语学习者的终极挑战\"。"
+    question: 你能说出 in、on、at 在表示时间时的区别吗？
+display:
+  concept:
+    summary: 介词与连词是英语的'连接词'——介词表示关系（at 7:00, on the desk），连词连接成分（and, but, because）。重点规则：at点on天in月季年、because/so 不连用、by+交通工具不加冠词、固定搭配需积累。
+    sections:
+      - title: 一、时间介词（Prepositions of Time）
+        content: "**at**（点时间）：at 7:00, at noon, at night, at the moment\n**on**（具体某天）：on Monday, on June 1st, on my birthday\n**in**（大于天的时间段）：in the morning, in June, in 2025, in summer\n\n**口诀**：at 点、on 天、in 月季年\n\n**其他常见时间介词**：\n| 介词 | 用法 | 例句 |\n|------|------|------|\n| since | 自从（起点） | since 2020, since I was a child |\n| for | 持续（时长） | for two hours, for a long time |\n| during | 在...期间 | during the summer, during class |\n| before | 在...之前 | before 8:00, before lunch |\n| after | 在...之后 | after school, after dinner |\n| until/till | 直到 | until tomorrow, till midnight |"
+      - title: 二、地点介词（Prepositions of Place）
+        content: "**at**（点/小地点）：at the bus stop, at the door, at home\n**on**（表面/线上）：on the table, on the wall, on the street\n**in**（内部/大区域）：in the room, in Beijing, in China\n\n**其他常见地点介词**：\n| 介词 | 用法 | 例句 |\n|------|------|------|\n| above/over | 在...上方 | above the clouds, over the bridge |\n| below/under | 在...下方 | below the surface, under the bed |\n| beside/next to | 在...旁边 | beside the door, next to me |\n| between | 在两者之间 | between you and me |\n| among | 在三者以上之间 | among the students |\n| behind | 在...后面 | behind the house |\n| in front of | 在...前面 | in front of the school |\n| across | 穿过（表面） | across the street |\n| through | 穿过（内部） | through the forest |"
+      - title: 三、其他重要介词
+        content: "**方式介词**：\n- by + 交通工具：by bus, by bike, by plane\n- with + 工具：write with a pen, cut with a knife\n- in + 语言/声音：in English, in a loud voice\n\n**所属/关于**：\n- of：the color of the sky, a friend of mine\n- about：a book about animals, talk about the weather\n- for：a gift for you, wait for me\n\n**固定搭配**（必须硬背）：\n- look **at**（看）、listen **to**（听）、wait **for**（等待）\n- be good **at**（擅长）、be interested **in**（对...感兴趣）\n- be afraid **of**（害怕）、be proud **of**（自豪）\n- agree **with** sb / agree **to** sth（同意）"
+      - title: 四、连词（Conjunctions）
+        content: "**并列连词**（连接对等成分）：\n\n| 连词 | 功能 | 例句 |\n|------|------|------|\n| and | 并列（和） | I like math **and** English. |\n| but | 转折（但是） | It's hard **but** I'll try. |\n| or | 选择（或者） | Tea **or** coffee? |\n| so | 因果（所以） | It was late, **so** I went home. |\n| for | 原因（因为） | I stayed home, **for** it rained. |\n\n**从属连词**（引导状语从句，连接主句和从句）：\n\n| 连词 | 功能 | 例句 |\n|------|------|------|\n| because | 原因 | I stayed home **because** it rained. |\n| although/though | 让步 | **Although** it rained, I went out. |\n| if | 条件 | **If** it rains, I will stay home. |\n| when/while | 时间 | Call me **when** you arrive. |\n| so...that | 结果 | He ran **so** fast **that** I couldn't catch him. |\n| unless | 除非 | You can't enter **unless** you have a ticket. |\n\n**注意**：because 和 so 不能连用！中文说\"因为...所以...\"，英语只能说 because... 或 ...so...\n- ✗ Because it rained, so I stayed home.\n- ✓ Because it rained, I stayed home. / It rained, so I stayed home."
+  examples:
+    - title: at/on/in 时间区别
+      problem: '"I get up in 7:00 every day." 哪里有问题？'
+      steps:
+        - 第 1 步：7:00 是一个"点时间"（具体几点几分）
+        - 第 2 步：点时间用 at，不用 in
+        - 第 3 步：正确：I get up at 7:00 every day.
+      answer: at 用于点时间，7:00 是点→用 at，不是 in
+    - title: because 和 so 不能连用
+      problem: '"Because I was tired, so I went to bed early." 哪里错了？'
+      steps:
+        - 第 1 步：because 和 so 都是表示因果的连词
+        - 第 2 步：英语中一个句子只能用一个因果连词——because 和 so 不能同时出现
+        - 第 3 步：两种改法——①去掉 so：Because I was tired, I went to bed early.  ②去掉 because：I was tired, so I went to bed early.
+      answer: because 和 so 不能连用，选一个即可。
+    - title: between vs among
+      problem: '"The secret is among you and me." 用对了吗？'
+      steps:
+        - 第 1 步：between 用于两者之间，among 用于三者以上
+        - 第 2 步：you and me 只有两个人→用 between
+        - 第 3 步：正确：The secret is between you and me.
+      answer: between 用于两者之间，among 用于三者以上。两人→between。
+  practice:
+    - id: prep-prac-001
+      stem: 用 at/on/in 填空：① ___ Monday  ② ___ 8:00  ③ ___ summer  ④ ___ June 1st
+      answer: ① on  ② at  ③ in  ④ on
+      hints:
+        - Monday 是具体某天→on
+        - 8:00 是点时间→at
+        - summer 是时间段→in
+        - June 1st 是具体某天→on
+    - id: prep-prac-002
+      stem: 改错：Because he is kind, so everyone likes him.
+      answer: 去掉 so。Because he is kind, everyone likes him.
+      hints:
+        - because 和 so 不能同时用
+        - 保留一个即可
+    - id: prep-prac-003
+      stem: 用 between 或 among 填空：She sat ___ her two friends.
+      answer: between
+      hints:
+        - two friends 是两个人
+        - 两人→between
+    - id: prep-prac-004
+      stem: 翻译："我对英语感兴趣。"（用 be interested ___）
+      answer: I am interested in English.
+      hints:
+        - be interested 后面接什么介词？
+        - 固定搭配：be interested in
+    - id: prep-prac-005
+      stem: '"She goes to school by a bus." 哪里错了？'
+      answer: by bus 中间不加冠词。正确：She goes to school by bus.
+      hints:
+        - by + 交通工具 不加 a/an
+        - by bus, by bike, by car
+  test:
+    - id: prep-test-001
+      stem: 填空：I usually go to bed ___ 10:00.
+      answer: at
+      difficulty: 1
+      layer: operation
+    - id: prep-test-002
+      stem: 选择：The cat is sleeping ___ the table
+      answer: B
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. at
+        - B. on
+        - C. in
+    - id: prep-test-003
+      stem: 改错：Although it rained, but we still went out.
+      answer: although 和 but 不能连用。去掉 but。Although it rained, we still went out.
+      difficulty: 2
+      layer: understand
+    - id: prep-test-004
+      stem: '"I have been here since two hours." 哪里错了？'
+      answer: since 后面接时间点（如 since 2020），时间段用 for。正确：I have been here for two hours.
+      difficulty: 3
+      layer: understand
+    - id: prep-test-005
+      stem: 翻译："除非你努力，否则你不会成功。"（用 unless）
+      answer: You will not succeed unless you work hard.
+      difficulty: 3
+      layer: connect
+    - id: prep-test-006
+      stem: 用 across 和 through 说明它们的区别各造一句。
+      answer: I walked across the road.（走过路面，表面）The river flows through the city.（穿过城市，内部）
+      difficulty: 3
+      layer: understand
+    - id: prep-test-007
+      stem: 列出 5 个常见的"动词+介词"固定搭配并造句。
+      answer: look at（看）、listen to（听）、wait for（等）、depend on（依赖）、think about（考虑）
+      difficulty: 2
+      layer: operation
+    - id: prep-test-008
+      stem: 小明说："I go to school by my father’s car." 他说得对吗？为什么？
+      answer: 不对。by 后面直接加交通工具（不加冠词/物主代词）：by car。如果想用 my father’s car，应该说 in my father’s car。
+      difficulty: 4
+      layer: connect
+ai_context:
+  topic_summary: 介词与连词是英语中的功能性词类——它们连接句子的各个部分，建立逻辑关系。介词分为时间介词（at/on/in）、地点介词（at/on/in）、方式介词（by/with/in）和其他固定搭配。连词分为并列连词（and/but/or/so）和从属连词（because/although/if/when）。关键规则包括：at点on天in月季年、because和so/although和but不能连用、by+交通工具不加冠词、since接时间点for接时间段。掌握介词固定搭配是提升英语地道性的关键。
+  key_insights:
+    - at点on天in月季年——时间介词的铁律，7个字解决90%的困惑
+    - because和so、although和but不能连用——这是中式英语最典型的特征之一
+    - by+交通工具不加冠词——by bus, by bike, by plane
+    - 介词固定搭配（look at, listen to, be interested in等）不能推理，只能积累
+  common_mistakes:
+    - mistake: because 和 so 连用
+      example: '"Because it rained, so I stayed home."'
+      why: 中文"因为...所以..."是固定搭配，学生直接翻译成英语
+      how_to_explain: 英语一句话只能有一个"因果连词"。because 和 so 都是因果连词，像两个人同时开车——只要一个就够了。
+    - mistake: since 和 for 混淆
+      example: '"I have been here since two hours."'
+      why: 中文"从两小时前到现在"用同一个表达，学生分不清时间点和时间段
+      how_to_explain: since = 从某个时间点开始（since 2020, since Monday）。for = 持续多长时间（for two hours, for a week）。用"点"和"段"来记。
+    - mistake: at/on/in 时间混淆
+      example: '"I will see you in Monday."'
+      why: 中文用"在"一个词，英语有三个词对应不同的时间尺度
+      how_to_explain: 画一个时间金字塔：塔尖=at（精确点），中间=on（天），底座=in（月季年）。从上到下越来越"大"。
+    - mistake: although 和 but 连用
+      example: '"Although it rained, but we went out."'
+      why: 同 because/so，中文"虽然...但是..."是固定搭配
+      how_to_explain: 同 because/so 规则——英语一句话只能用一个转折连词。用 although 就别用 but，用 but 就别用 although。
+  alternate_explanations:
+    - method: 时间金字塔
+      when_to_use: 学生记不住 at/on/in 的时间用法时
+      prompt: 画一个倒金字塔：最上面的尖是 at（at 8:00, at noon）——精确到点。中间是 on（on Monday, on my birthday）——精确到天。最下面是 in（in June, in 2025）——范围最大。从上到下：at→点，on→天，in→月季年。
+    - method: 因果关系单行道
+      when_to_use: 学生反复犯 because/so 连用错误时
+      prompt: 因果关系是一条单行道——你只能开一辆车（because 或 so）。中文是双车道，英语是单车道。每次写因果句时检查：有没有两辆车同时在跑？
+    - method: 手势记忆法（地点介词）
+      when_to_use: 学生混淆 on/above/over 时
+      prompt: on = 手摸桌子（接触表面），above = 手悬空在桌子上方（不接触），over = 手在桌子上方并覆盖（正上方，有跨越/覆盖含义）。用身体感知比看文字更有效。
+  question_templates:
+    difficulty_1_2: 出 2 道填空题：给句子让学生选择正确的介词（at/on/in 时间或地点）或连词（and/but/or/so）
+    difficulty_3: 出 1 道改错题：给包含 because/so 连用或 since/for 混淆的句子让学生改正
+    difficulty_4: 出 1 道翻译题：给一段中文让学生翻译，要求使用 3 个以上不同的介词固定搭配

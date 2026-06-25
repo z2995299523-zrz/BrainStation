@@ -1,0 +1,240 @@
+slug: comparatives-superlatives
+subject: english
+title: "比较级与最高级专项"
+tier: trunk
+difficulty: 2
+prerequisites: ["adjectives-adverbs"]
+estimated_min: 25
+
+trigger:
+  type: story
+  title: "比较是人类的天性——英语比较级的逻辑"
+  content:
+    text: |
+      人类大脑天生就会比较：
+      "这个苹果比那个大。"
+      "今天比昨天热。"
+      "她是班上最聪明的学生。"
+
+      英语有三种比较方式：
+      1. 比较级（两者比较）：bigger, more interesting
+      2. 最高级（三者及以上比较）：biggest, the most interesting
+      3. 平级比较（一样...）：as big as, as interesting as
+
+      三种比较涵盖了几乎所有比较场景。
+      从"比...更"到"最..."再到"和...一样"——
+      掌握了比较级体系，你就掌握了英语中量化对比的全部工具。
+    question: "中文说'更好'加一个'更'字——英语怎么表达？有几种方式？"
+
+display:
+  concept:
+    summary: "比较级和最高级是形容词和副词的比较形式。本章学习比较级和最高级的构成规则（-er/-est vs more/most）、平级比较（as...as）、特殊变化（good→better→best等），以及常见句型。"
+    sections:
+      - title: "一、比较级的构成规则"
+        content: |
+          **规则 1：单音节词 + er**
+          | 原级 | 比较级 | 最高级 |
+          |------|--------|--------|
+          | tall | taller | the tallest |
+          | small | smaller | the smallest |
+          | big | bigger | the biggest（重读闭音节双写末尾辅音） |
+          | nice | nicer | the nicest（以 e 结尾只加 r/st） |
+          | happy | happier | the happiest（辅音+y 结尾，变 y 为 i） |
+
+          **规则 2：多音节词（≥3 个音节）→ more/most**
+          | 原级 | 比较级 | 最高级 |
+          |------|--------|--------|
+          | beautiful | more beautiful | the most beautiful |
+          | interesting | more interesting | the most interesting |
+
+          **规则 3：双音节词——两者都可能**
+          以 -y, -er, -ow, -le 结尾的通常加 -er/-est：
+          clever → cleverer / more clever（两种都对）
+          narrow → narrower（通常加 -er）
+      - title: "二、不规则变化（必背！）"
+        content: |
+          | 原级 | 比较级 | 最高级 |
+          |------|--------|--------|
+          | good / well | better | the best |
+          | bad / badly | worse | the worst |
+          | many / much | more | the most |
+          | little | less | the least |
+          | far | farther / further | the farthest / furthest |
+          | old | older / elder | the oldest / the eldest |
+
+          关键：
+          - good 和 well 共用 better/best
+          - bad 和 badly 共用 worse/worst
+          - farther = 距离上更远；further = 程度上更深
+          - elder = 家庭中的年长者（只作定语）；older = 更老的（泛指）
+      - title: "三、比较级常用句型"
+        content: |
+          **1. 基本比较句型**：A + be + 比较级 + than + B
+          He is taller than me.（他比我高。）
+
+          **2. 越来越...**：比较级 + and + 比较级
+          It's getting colder and colder.（天越来越冷。）
+
+          **3. 越...就越...**：the + 比较级, the + 比较级
+          The more you practice, the better you get.（练得越多，你就越好。）
+
+          **4. 程度修饰比较级**：much / a lot / far / a little / a bit + 比较级
+          He is much taller than me.（他比我高得多。）
+          She is a little better today.（她今天好了一点。）
+      - title: "四、平级比较（as...as）"
+        content: |
+          **肯定**：as + 原级 + as（和...一样...）
+          He is as tall as me.（他和我一样高。）
+
+          **否定**：not as/so + 原级 + as（不如...）
+          He is not as tall as me.（他没有我高。）
+
+          **倍数表达**：倍数 + as + 原级 + as
+          This room is twice as big as that one.（这个房间是那个的两倍大。）
+      - title: "五、最高级的特殊用法"
+        content: |
+          **one of the + 最高级 + 名词复数**（最...之一）：
+          She is one of the best students in the class.
+
+          **the + 序数词 + 最高级**（第几最...）：
+          The Yangtze is the third longest river in the world.
+
+          **最高级后可省略名词**：
+          Who is the tallest (one) in your class?
+
+  examples:
+    - title: "不规则比较级"
+      problem: "填空：Your English is getting ___ (good) and ___ (good)."
+      steps:
+        - "good 的比较级是不规则的——better（不是 gooder！）"
+        - "越来越... = 比较级 + and + 比较级"
+        - "= better and better"
+      answer: "better, better"
+
+    - title: "平级比较"
+      problem: "翻译：'这本书没有那本书有趣。'"
+      steps:
+        - "'没有...那么...' = not as...as"
+        - "有趣 = interesting（多音节 → more interesting）"
+        - "not as interesting as"
+        - "这本书没有那本书有趣。→ This book is not as interesting as that one."
+      answer: "This book is not as interesting as that one."
+
+    - title: "the more...the more..."
+      problem: "翻译：'你起得越早，你到得就越早。'"
+      steps:
+        - "越...就越... = the + 比较级, the + 比较级"
+        - "早→early→earlier"
+        - "The earlier you get up, the earlier you will arrive."
+      answer: "The earlier you get up, the earlier you will arrive."
+
+  practice:
+    - id: "cmp-prac-001"
+      stem: "写出 big 的比较级和最高级。"
+      answer: "bigger, the biggest（重读闭音节双写 g + er/est）"
+      hints: ["big 是重读闭音节？", "重读闭音节：辅音+元音+辅音——要大写末尾辅音字母"]
+
+    - id: "cmp-prac-002"
+      stem: "填空：This problem is ___ (difficult) than that one."
+      answer: "more difficult"
+      hints: ["difficult 是几个音节？", "多音节（≥3）→ more + 原级"]
+
+    - id: "cmp-prac-003"
+      stem: "改错：My car is more better than yours."
+      answer: "My car is better than yours.（better 已经是比较级，不能再加 more）"
+      hints: ["better 本身就是比较级", "more + better = 双重比较——语法错误"]
+
+    - id: "cmp-prac-004"
+      stem: "写出 good 和 bad 的比较级和最高级。"
+      answer: "good → better, the best；bad → worse, the worst"
+      hints: ["good 和 bad 是不规则变化", "这两个是最常用的不规则比较级"]
+
+    - id: "cmp-prac-005"
+      stem: "翻译：'上海是中国最大的城市之一。'"
+      answer: "Shanghai is one of the largest cities in China.（one of the + 最高级 + 复数名词）"
+      hints: ["one of the + 最高级 + 名词复数", "large → largest"]
+
+  test:
+    - id: "cmp-test-001"
+      stem: "写出 hot 的比较级和最高级。"
+      answer: "hotter, the hottest（重读闭音节双写 t）"
+      difficulty: 1
+      layer: operation
+
+    - id: "cmp-test-002"
+      stem: "填空：Who is ___ (tall), Tom or Jack?"
+      answer: "taller（两者比较用比较级）"
+      difficulty: 1
+      layer: operation
+
+    - id: "cmp-test-003"
+      stem: "填空：This is ___ (exciting) movie I've ever seen."
+      answer: "the most exciting（最高级——其中 ever seen 暗示是'所有看过的电影中'最...的）"
+      difficulty: 2
+      layer: operation
+
+    - id: "cmp-test-004"
+      stem: "改错：She is the most tallest girl in our class."
+      answer: "She is the tallest girl in our class.（tallest 已经是最高级，不能再加 most）"
+      difficulty: 2
+      layer: operation
+
+    - id: "cmp-test-005"
+      stem: "翻译：'我的房间比你房间大三倍。'"
+      answer: "My room is three times as big as yours. / My room is three times bigger than yours."
+      difficulty: 3
+      layer: operation
+
+    - id: "cmp-test-006"
+      stem: "The ___(hard) you work, the ___(good) grades you will get."
+      answer: "harder, better（the + 比较级, the + 比较级——注意 good → better 是不规则变化）"
+      difficulty: 3
+      layer: operation
+
+    - id: "cmp-test-007"
+      stem: "elder 和 older 有什么区别？各举一例。"
+      answer: "elder 仅用于家庭中表示年长，只能作定语：my elder brother（我哥哥）。older 用于一般比较：He is older than me.（他比我年纪大）。不能说我比他 elder。"
+      difficulty: 3
+      layer: understand
+
+    - id: "cmp-test-008"
+      stem: "比较 little 的两个比较级形式（less 和 smaller）——什么时候用 less 什么时候用 smaller？"
+      answer: "less 是 little（少、小量）的比较级，用于不可数名词或程度：less water, less important。smaller 是 small（体积小）的比较级：a smaller box。little 有两个含义 → 对应两种比较级。"
+      difficulty: 4
+      layer: connect
+
+ai_context:
+  topic_summary: "比较级和最高级是形容词和副词的比较形式。比较级构成规则：单音节+er、多音节+more、不规则变化（good→better、bad→worse等）。三大句型：比较级（A is taller than B）、最高级（A is the tallest）、平级比较（as...as）。特殊句型：比较级+and+比较级（越来越...）、the more...the more...（越...就越...）。重点警示：不能双标（more better❌），不规则必须背记，most 前加 the 是最常见的最高级错误。"
+  key_insights:
+    - "比较级的构成选 -er 还是 more 只有一个标准：音节数——单音节加 -er，≥3 音节加 more，双音节看词尾"
+    - "双重比较是入门错误——better 已经是比较级了，不能加 more；tallest 已经是最高级了，不能加 most"
+    - "the + 最高级是英语里少数必须用 the 的情况之一——最高级前面永远有 the"
+    - "as...as 表示平级——两边都是原级。否定时 not as...as 表示'不如'"
+  common_mistakes:
+    - mistake: "双标错误（more + 比较级 / most + 最高级）"
+      example: "more better, most tallest"
+      why: "不知道 better 和 tallest 本身就是比较级/最高级，再加 more/most 是画蛇添足"
+      how_to_explain: "比较级和最高级只需一种标记。加了 -er/-est 就不能再加 more/most。两者就像两扇门——走左边的（加词缀）就不能走右边的（加 more）。永远不能同时走两扇门。"
+
+    - mistake: "最高级忘记加 the"
+      example: "She is tallest girl in class."
+      why: "中文没有冠词，学生不习惯加 the"
+      how_to_explain: "最高级前面必须有 the——这是英语的绝对规则。最高级 = the + -est / the most...。想象 the 是最高级的'皇冠👑'——戴皇冠的最顶级。"
+
+    - mistake: "不规则比较级记错"
+      example: "good → gooder / bad → badder"
+      why: "把规则变化套用到不规则词上"
+      how_to_explain: "good/well→better→best, bad/badly→worse→worst。这两组是不规则的'明星'——大脑需要把它们当单独单词记，而不是'good+er'的组合。"
+  alternate_explanations:
+    - method: "音节节奏法"
+      when_to_use: "学生不确定用 -er 还是 more"
+      prompt: "读出这个单词，感受它的节奏。如果用 -er，单词只加一个音节——tall→taller（2 个音），nice→nicer（2 个音）。如果用 more，单词前面多一个词——more beautiful（5+2=7 个音节）。规则其实是：如果加 -er 后不超过 2-3 个音节，加 -er；否则用 more。英语不喜欢一个单词太长——这是音韵学决定的。"
+
+    - method: "比赛排名法（最高级场景）"
+      when_to_use: "学生觉得最高级枯燥"
+      prompt: "把最高级想象成比赛排名——the tallest = 身高比赛第一名，the most hardworking = 勤奋比赛第一名。在你班上，谁是 the tallest？谁是 the most hardworking？把你认识的人用最高级排名——这是最有趣的最高级练习。"
+
+  question_templates:
+    difficulty_1_2: "出 2 道比较级/最高级填空：规则变化（单音节+er/est 或多音节+more/most）"
+    difficulty_3: "出 1 道句型转换题：给两个简单句让学生用比较级合并（如 as...as 否定句或 the more...the more）"
+    difficulty_4: "出 1 道改错题：含双重比较、不规则错误、或缺少 the 的句子"

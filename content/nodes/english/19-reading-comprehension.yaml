@@ -1,0 +1,189 @@
+slug: reading-comprehension
+subject: english
+title: 阅读理解技巧
+tier: trunk
+difficulty: 3
+prerequisites:
+  - vocabulary-core
+estimated_min: 30
+trigger:
+  type: story
+  title: 阅读理解——不是'读完'，而是'读懂'
+  content:
+    text: "很多同学做阅读理解，习惯从第一个单词读到最后一个单词，遇到生词就卡住，\n读完一遍脑子里一片空白，再回头一句句找答案——又慢又错。\n\n其实，做阅读理解像侦探破案：\n- 你不需要认识每一个\"嫌疑人\"（生词），关键是抓住\"案情主线\"（主旨）。\n- 题目就是你的\"线索清单\"，带着问题去文章里\"定位\"答案。\n- 遇到生词不慌，根据上下文\"推断\"它的意思，就像根据脚印推断身高。\n\n四类核心题型——主旨题、细节题、推断题、词义猜测题——各有破解套路。\n掌握\"先看题、再定位、后推断\"的方法，你的阅读速度和正确率会同时提升。"
+    question: 你做阅读理解时，是先看文章还是先看题目？哪种更高效？
+display:
+  concept:
+    summary: 阅读理解考查的是快速获取信息和理解文意的能力。核心方法是"先看题干、带问题读文、定位关键句"。常见四类题型——主旨大意题（抓首尾段和主题句）、细节理解题（回原文定位）、推理判断题（基于事实合理推断，不能过度）、词义猜测题（用上下文、构词法推断）。掌握每类题的解题套路，比逐字翻译更高效。
+    sections:
+      - title: 一、阅读的基本流程
+        content: "高效阅读分三步走：\n\n**第 1 步：略读（Skimming）抓主旨**\n- 快速看标题、首段、各段首句、尾段，了解文章\"讲什么\"\n- 不纠结生词，目标是抓住整体框架\n\n**第 2 步：看题干，圈关键词**\n- 先读题目和选项，圈出题干里的关键词（人名、地点、数字、时间）\n- 带着问题回到文章，目标明确\n\n**第 3 步：寻读（Scanning）定位 + 精读**\n- 用题干关键词在文中\"定位\"到相关句子\n- 精读那一两句，比对选项，选出答案\n\n**口诀**：先看题、再读文、定位句、比选项。"
+      - title: 二、主旨大意题
+        content: "**提问方式**：What is the main idea? / The best title is… / The passage is mainly about…\n\n**解题技巧**：\n- 找**主题句**：通常在首段或末段，常在段首\n- 看**高频词**：反复出现的词往往是主题\n- 标题特征：概括全文、范围适中（不能太大也不能太小）\n\n**排除错误选项**：\n- 太宽泛（超出文章范围）✗\n- 太狭窄（只讲某个细节）✗\n- 偏离主题（文中没提）✗"
+      - title: 三、细节理解题与推理判断题
+        content: "**细节理解题**（答案在原文）：\n- 提问：According to the passage…? / When/Where/Who/Why…?\n- 方法：用题干关键词定位原文，答案往往是原句的**同义改写**\n- 警惕\"偷换概念\"：选项把原文的某个词悄悄换掉\n\n**推理判断题**（答案需推断）：\n- 提问：We can infer that… / The writer implies… / What can we learn…?\n- 方法：基于原文事实做**合理**推断，不能凭空想象，也不能照抄原文\n- 原则：\"跳一步\"——比原文多想一点点，但有依据"
+      - title: 四、词义猜测题
+        content: "遇到生词或题目问某词/某句含义，用以下线索推断：\n\n| 线索 | 说明 | 例子 |\n|------|------|------|\n| 定义/解释 | 词后常有 is, means, that is, or 解释 | A \"puppy\", or a baby dog, … |\n| 同义/反义 | 上下文有近义词或 but/however 引出的反义 | He was generous, not stingy. |\n| 举例 | such as, like, for example 后的例子 | fruits such as apples and pears |\n| 构词法 | 前缀后缀拆解 | un-（不）+ happy → unhappy（不开心） |\n| 上下文逻辑 | 根据情节、因果合理推测 | 看人物动作和结果倒推词义 |\n\n**提醒**：猜出的意思代入原句，读一读是否通顺合理。"
+  examples:
+    - title: 解题示范——细节定位题
+      problem: "短文：Lucy gets up at six every morning. She has breakfast at six thirty and goes to school at seven. School begins at eight.\n问题：When does Lucy have breakfast?\nA. At six.  B. At six thirty.  C. At seven.  D. At eight."
+      steps:
+        - 第 1 步：圈题干关键词 have breakfast（吃早餐）
+        - 第 2 步：用关键词定位原文——"She has breakfast at six thirty"
+        - 第 3 步：找到时间 six thirty，比对选项
+      answer: B. At six thirty。细节题答案直接在原文，定位 breakfast 一词即可。
+    - title: 解题示范——主旨大意题
+      problem: "短文：Water is very important. We drink it, we cook with it, and plants need it to grow. Without water, no living thing could survive.\n问题：What is the main idea of the passage?\nA. How to drink water.  B. Water is important for life.  C. Plants need water."
+      steps:
+        - 第 1 步：看首句 "Water is very important"——这是主题句
+        - 第 2 步：全文都在举例说明水的重要性（喝、做饭、植物生长）
+        - 第 3 步：A、C 太狭窄（只是细节），B 概括全文
+      answer: B. Water is important for life。主旨题选概括全文且范围适中的选项。
+    - title: 解题示范——词义猜测题
+      problem: "句子：My grandfather is very thrifty; he never wastes money and saves every coin.\n问题：The word \"thrifty\" probably means ___.\nA. 浪费的  B. 节俭的  C. 富有的"
+      steps:
+        - 第 1 步：找 thrifty 后面的解释线索——"never wastes money and saves every coin"（从不浪费钱，省下每一枚硬币）
+        - 第 2 步：这是对 thrifty 的同义解释，指向"节约"
+        - 第 3 步：代入验证：我爷爷很节俭，从不浪费钱——通顺合理
+      answer: B. 节俭的。利用上下文解释线索（never wastes money）推断词义。
+  practice:
+    - id: rc-prac-001
+      stem: "短文：Tom likes playing basketball. He plays it every Saturday afternoon with his friends in the school playground.\n问题：Where does Tom play basketball?"
+      answer: In the school playground（在学校操场）。细节题，定位 where + play basketball。
+      hints:
+        - 这是细节题，答案在原文
+        - 圈关键词 where 和 play basketball，回原文定位
+    - id: rc-prac-002
+      stem: "短文：The little bird couldn't fly because its wing was hurt. The kind girl took it home and looked after it carefully.\n问题：We can infer that the girl was ___ (kind / cruel / angry)."
+      answer: kind（善良的）。从"took it home and looked after it carefully"可推断女孩善良。这是推理题。
+      hints:
+        - 这是推理题，看女孩的行为
+        - 照顾受伤小鸟的人通常是善良的
+    - id: rc-prac-003
+      stem: 句子：She felt exhausted after running ten kilometers and fell asleep at once. "exhausted" 最可能的意思是？
+      answer: 非常疲惫的（极度劳累）。线索：跑了十公里后立刻睡着——说明很累。用上下文逻辑推断。
+      hints:
+        - 看后文 fell asleep at once（立刻睡着）
+        - 跑完长跑后的状态是什么？
+    - id: rc-prac-004
+      stem: "短文：Reading books has many benefits. It helps us learn new things, improves our writing, and makes us relaxed.\n问题：What is the best title？"
+      answer: B
+      hints:
+        - 找反复出现/概括全文的词
+        - benefits 是主题词
+      q_type: choice
+      options:
+        - A. How to Write
+        - B. The Benefits of Reading
+        - C. A Relaxing Day
+    - id: rc-prac-005
+      stem: 做阅读理解遇到一个不认识的单词，最好的做法是？
+      answer: B
+      hints:
+        - 考试时不能查字典
+        - 生词不一定影响整体理解
+      q_type: choice
+      options:
+        - A. 立刻查字典
+        - B. 跳过它继续读，根据上下文猜
+        - C. 停下来反复纠结
+    - id: rc-prac-006
+      stem: 解释"先看题再读文"为什么比"逐字读完再做题"更高效？
+      answer: 先看题能让你带着目标读文，知道要找什么信息，在文中快速定位，避免无目的地通读，节省时间且更准。
+      hints:
+        - 想想"带着问题找答案"和"读完再回头找"的区别
+        - 哪种方式更有方向性
+  test:
+    - id: rc-test-001
+      stem: "短文：Jenny was born in 2010 in London. She moved to Beijing with her parents in 2018.\n问题：When was Jenny born?"
+      answer: In 2010（2010 年）。细节题，定位 born + 时间。
+      difficulty: 1
+      layer: operation
+    - id: rc-test-002
+      stem: "短文：It was raining hard. Mike forgot to bring his umbrella, so he got all wet on his way home.\n问题：Why did Mike get wet?"
+      answer: 因为他忘了带伞，而外面下着大雨（He forgot his umbrella and it was raining hard）。
+      difficulty: 2
+      layer: understand
+    - id: rc-test-003
+      stem: "短文：The old man smiled and gave his seat to the pregnant woman on the bus.\n问题：We can learn that the old man was ___.（推断他的品质）"
+      answer: 体贴/有礼貌/善良（kind / polite / considerate）。从让座行为推断。这是推理题。
+      difficulty: 2
+      layer: connect
+    - id: rc-test-004
+      stem: 句子：Unlike his talkative sister, Jack is rather reticent and seldom speaks in class. "reticent" 意思接近？
+      answer: B
+      difficulty: 3
+      layer: understand
+      q_type: choice
+      options:
+        - A. 健谈的
+        - B. 沉默寡言的
+        - C. 聪明的
+    - id: rc-test-005
+      stem: "短文：Exercise is good for health. Running, swimming and playing ball games can all make us stronger and happier.\n问题：The passage mainly tells us ___"
+      answer: B
+      difficulty: 2
+      layer: operation
+      q_type: choice
+      options:
+        - A. how to swim
+        - B. exercise benefits our health
+        - C. ball games are fun
+    - id: rc-test-006
+      stem: 做推理判断题时，下列哪种做法是错误的？
+      answer: B
+      difficulty: 3
+      layer: understand
+      q_type: choice
+      options:
+        - A. 基于原文事实推断
+        - B. 照抄原文原句当答案
+        - C. 比原文多想一步但有依据
+    - id: rc-test-007
+      stem: "短文：When the teacher entered, the noisy classroom suddenly became silent. Everyone sat up straight.\n问题：How did the students probably feel about the teacher?  "
+      answer: 敬畏/尊敬/有点害怕（They respected or were a little afraid of the teacher）。从"突然安静、坐直"推断。
+      difficulty: 3
+      layer: connect
+    - id: rc-test-008
+      stem: 请用自己的话说明做阅读理解的三步流程，并各举一个目的。
+      answer: 第一步略读抓主旨（了解文章讲什么）；第二步看题干圈关键词（明确要找什么）；第三步定位精读比选项（找到并核对答案）。
+      difficulty: 2
+      layer: connect
+ai_context:
+  topic_summary: 阅读理解技巧是一套获取和理解英文信息的方法体系，而非语法知识。核心流程是"略读抓主旨 → 看题圈关键词 → 定位精读比选项"。四大题型各有套路：主旨题抓主题句和高频词、范围适中；细节题回原文定位、警惕同义改写和偷换概念；推理题基于事实"跳一步"、不照抄不臆想；词义猜测题用定义、同义反义、举例、构词法、上下文逻辑等线索。培养"不必认识每个生词也能读懂"的能力是关键。
+  key_insights:
+    - 阅读理解的高效流程是"先看题再读文"，带着问题定位，而不是逐字通读再回头找
+    - 不同题型有不同方法：主旨题看整体、细节题回原文、推理题跳一步、词义题靠线索
+    - 生词不可怕——根据上下文和构词法推断，抓主线比抠细节重要
+    - 细节题答案常是原文的同义改写，推理题答案绝不能照抄原文原句
+  common_mistakes:
+    - mistake: 逐字逐句翻译式阅读
+      example: 从第一个词读到最后一个词，遇生词就卡住，读完不知所云
+      why: 学生把阅读当成翻译练习，追求认识每个单词，忽略整体理解
+      how_to_explain: 阅读理解考的是"获取信息"，不是"翻译每个词"。教学生像看新闻一样略读——先抓大意框架，再带着题目精读相关句子。生词跳过也能懂大意，就像中文文章里有个别不认识的字也不影响理解。
+    - mistake: 推理判断题照抄原文
+      example: 推理题（infer/imply）选了一个原文里直接出现的句子
+      why: 学生分不清细节题和推理题，习惯在原文里找一模一样的话
+      how_to_explain: 推理题的答案"在原文里找不到原话"——它要你根据原文事实"多想一步"。如果某个选项是原文的原句照搬，它八成不是推理题的答案。教学生问："文章没直说，但根据线索能推出什么？"
+    - mistake: 主旨题选了细节选项
+      example: 主旨题选了只涉及文章某一句的选项
+      why: 学生看到选项里有原文出现过的内容就选，没判断范围大小
+      how_to_explain: 主旨题要选"覆盖全文"的选项，不是"文中出现过"的选项。教学生用"太宽/太窄/刚好"三把尺子量：超出文章范围太宽✗，只讲一个细节太窄✗，恰好概括全文✓。
+    - mistake: 遇到生词就放弃或乱猜
+      example: 看到一个不认识的词直接蒙答案，或停下来反复纠结
+      why: 学生没有掌握词义猜测的方法，对生词产生恐慌
+      how_to_explain: 生词是可以"破译"的。教五种线索：①词后的解释（is/means/or）；②上下文的同义词或 but 引出的反义词；③such as 后的例子；④前后缀（un-=不，-less=没有）；⑤情节逻辑。猜出后代入句子检验是否通顺。
+  alternate_explanations:
+    - method: 侦探破案比喻
+      when_to_use: 学生觉得阅读无从下手时
+      prompt: 把做阅读想象成侦探破案：文章是案发现场，题目是线索清单，你不需要审问每个"嫌疑人"（生词），只要顺着线索（关键词）找到"真凶"（答案）。带着问题去现场定位，比把现场每个角落都翻一遍高效得多。
+    - method: 关键词定位训练
+      when_to_use: 学生做细节题总是找不到对应句子时
+      prompt: 教学生在题干里圈出"独特"的关键词——人名、地名、数字、时间、专有名词，这些词在原文里通常只出现一两次，最容易定位。圈好后，眼睛在文章里快速扫描这个词，找到它所在的句子，答案就在附近。
+    - method: 跳一步思维（推理题）
+      when_to_use: 训练推理判断题时
+      prompt: 推理题就是"原文说 A，问你能推出什么"。教学生做"原文 + 1"：原文说"她让座给孕妇"（事实），推一步→"她很有礼貌/善良"（推断）。但不能推太远（如"她是护士"——无依据）。合理的推断像踮脚够东西，够得着但不悬空。
+  question_templates:
+    difficulty_1_2: 给一段 3-4 句的短文 + 1 道细节题或主旨题，让学生练习定位和概括
+    difficulty_3: 给一段短文 + 1 道推理判断题或词义猜测题，要求学生写出推断依据
+    difficulty_4: 给一段较长短文 + 2-3 道混合题型，要求学生标注每题属于哪类、用什么方法解

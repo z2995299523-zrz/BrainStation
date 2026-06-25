@@ -1,0 +1,165 @@
+slug: adjectives-adverbs
+subject: english
+title: 形容词与副词
+tier: core
+difficulty: 2
+prerequisites:
+  - nouns-articles
+estimated_min: 25
+trigger:
+  type: story
+  title: 英语的形容词和副词——一句话的'装饰品'
+  content:
+    text: "如果英语句子是一个房间，名词和动词是家具，那形容词和副词就是墙纸、灯光和窗帘。\n\n没有它们，一切看起来光秃秃的：\n- \"I have a car.\" → 什么车？\n- \"I have a beautiful red car.\" → 画面感立刻有了！\n\n形容词修饰名词，副词修饰动词、形容词或其他副词。\n\n但英语的形容词有比较级和最高级——这就像给装饰品分了档次：\n好 → 更好 → 最好 (good → better → best)\n美丽 → 更美丽 → 最美丽 (beautiful → more beautiful → most beautiful)\n\n一旦掌握比较级规则，你就能精确表达任何程度和对比。"
+    question: 你能说出'他比我高'和'他是我们班最高的'的英语吗？
+display:
+  concept:
+    summary: 形容词与副词是英语修饰语的两大支柱。形容词修饰名词（a big house），副词修饰动词/形容词/其他副词（run quickly）。本章重点掌握比较级和最高级规则：单音节加 er/est，多音节用 more/most，六个不规则变化需硬背。
+    sections:
+      - title: 一、形容词（Adjectives）
+        content: "**形容词**用来修饰名词，说明事物的性质、状态、特征。\n\n**位置**：\n- 放在名词前（定语）：a **beautiful** flower, an **interesting** book\n- 放在 be 动词后（表语）：The flower is **beautiful**. He looks **happy**.\n\n**多个形容词的顺序口诀**：\n\"美小圆旧黄，法国木书房\" → 观点(beautiful) + 大小(big) + 形状(round) + 年龄(old) + 颜色(yellow) + 国籍(French) + 材料(wooden) + 用途\n\n例：a beautiful big old Chinese wooden house"
+      - title: 二、副词（Adverbs）
+        content: "**副词**修饰动词、形容词或其他副词，说明方式、程度、时间、地点等。\n\n**常见副词类型**：\n| 类型 | 例词 | 例句 |\n|------|------|------|\n| 方式副词 | quickly, slowly, carefully | She runs **quickly**. |\n| 程度副词 | very, quite, too, almost | It is **very** cold. |\n| 时间副词 | now, then, yesterday, soon | I will call you **tomorrow**. |\n| 地点副词 | here, there, everywhere | Come **here**. |\n| 频率副词 | always, often, sometimes, never | I **always** get up early. |\n\n**形容词变副词的规则**：\n- 一般情况：形容词 + ly → quick→quickly, careful→carefully\n- 辅音 + y 结尾：去 y + ily → easy→easily, happy→happily\n- le 结尾：去 e + y → simple→simply, gentle→gently\n\n**注意**：有些词本身就是副词（fast, hard, early），不需要加 ly。"
+      - title: 三、比较级和最高级（Comparative & Superlative）
+        content: "**规则变化**：\n\n| 类型 | 比较级 | 最高级 | 例词 |\n|------|--------|--------|------|\n| 单音节 | -er | -est | tall → taller → tallest |\n| 单音节（辅元辅） | 双写尾字母 + er/est | | big → bigger → biggest |\n| 辅音+y | 去 y + ier/iest | | happy → happier → happiest |\n| 不发音 e 结尾 | + r/st | | large → larger → largest |\n| 多音节 | more/most + 原级 | | beautiful → more/most beautiful |\n\n**不规则变化**（必须硬背）：\n| 原级 | 比较级 | 最高级 |\n|------|--------|--------|\n| good/well | better | best |\n| bad/badly/ill | worse | worst |\n| many/much | more | most |\n| little | less | least |\n| far | farther/further | farthest/furthest |\n| old | older/elder | oldest/eldest |\n\n**句式**：\n- 比较级 + than：He is taller **than** me.\n- as + 原级 + as：She is as tall **as** her sister.\n- the + 最高级 + 范围：He is **the** tallest in our class."
+      - title: 四、常见易错点
+        content: "**1. 比较对象要一致**：\n- ✗ His bag is bigger than me.（bag 和 me 比较——逻辑错误）\n- ✓ His bag is bigger than **mine**.（bag 和 bag 比较）\n\n**2. 双音节词的处理**：\n- 以 -y, -er, -ow, -le 结尾的双音节词 → 加 er/est\n  - narrow → narrower → narrowest\n  - clever → cleverer → cleverest\n- 其他双音节词 → more/most\n  - famous → more famous → most famous\n\n**3. the + 比较级, the + 比较级**（越...就越...）：\n- **The more** you practice, **the better** you become.\n\n**4. 比较级的修饰语**：\n- much/a lot/far + 比较级（...得多）：much bigger（大得多）\n- a little/a bit + 比较级（...一点）：a little taller（高一点）"
+  examples:
+    - title: 比较级规则变化
+      problem: big 的比较级为什么是 bigger 而不是 biger？
+      steps:
+        - 第 1 步：big 是单音节，结尾是辅音-元音-辅音结构（b-i-g）
+        - 第 2 步：辅元辅结构→双写末尾辅音字母 g，再加 er
+        - 第 3 步：big → bigger → biggest
+      answer: big 是辅元辅结构→双写 g + er → bigger
+    - title: 比较对象一致
+      problem: '"The weather in Beijing is colder than Shanghai." 哪里有问题？'
+      steps:
+        - 第 1 步：比较的是 weather（天气）——北京的天气 vs 上海的天气
+        - 第 2 步：但句子写的是 weather vs Shanghai（城市）——比较对象不一致
+        - 第 3 步：修正：The weather in Beijing is colder than that in Shanghai.
+      answer: 要加 that（指代 weather），确保比较的是天气 vs 天气
+    - title: 副词位置
+      problem: '"He runs fastly." 对吗？'
+      steps:
+        - 第 1 步：fast 本身既是形容词也是副词，不需要加 ly
+        - 第 2 步：fastly 不是标准英语单词
+        - 第 3 步：正确：He runs fast.
+      answer: fast 本身就是副词，不需要加 ly。He runs fast.
+  practice:
+    - id: adj-prac-001
+      stem: 写出下列形容词的比较级和最高级：① tall ② big ③ happy ④ beautiful
+      answer: ① taller, tallest ② bigger, biggest ③ happier, happiest ④ more beautiful, most beautiful
+      hints:
+        - tall 单音节直接加 er/est
+        - big 辅元辅双写 g
+        - happy 去 y 加 ier/iest
+        - beautiful 多音节用 more/most
+    - id: adj-prac-002
+      stem: 填空：good → ___ → ___
+      answer: better, best
+      hints:
+        - good 是不规则变化
+        - better 是比较级，best 是最高级
+    - id: adj-prac-003
+      stem: 改错：She is more taller than me.
+      answer: 去掉 more。taller 本身已经是比较级了，不能和 more 一起用。正确：She is taller than me.
+      hints:
+        - more 和 -er 不能同时用
+        - 单音节词加 er，不用 more
+    - id: adj-prac-004
+      stem: 用 as...as 翻译："她和她姐姐一样聪明。"
+      answer: She is as clever as her sister.
+      hints:
+        - as...as 中间用原级
+        - 聪明的：clever 或 smart
+    - id: adj-prac-005
+      stem: '"He is the tallest in his class." 翻译成中文并指出最高级的结构。'
+      answer: 他是他们班最高的。结构：the + 最高级 + in/of + 范围。
+      hints:
+        - tallest 是最高级
+        - the + 最高级 是固定搭配
+  test:
+    - id: adj-test-001
+      stem: 写出 beautiful 的比较级
+      answer: B
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. beautifuler
+        - B. more beautiful
+        - C. beautifuller
+    - id: adj-test-002
+      stem: bad 的比较级和最高级是？
+      answer: worse, worst
+      difficulty: 1
+      layer: operation
+    - id: adj-test-003
+      stem: 改错：She sings beautiful.
+      answer: beautiful 是形容词，不能修饰动词 sings。应该用副词 beautifully。
+      difficulty: 2
+      layer: understand
+    - id: adj-test-004
+      stem: 用 the+比较级, the+比较级 翻译："你越努力，你就越幸运。"
+      answer: The harder you work, the luckier you get.
+      difficulty: 3
+      layer: connect
+    - id: adj-test-005
+      stem: '"This apple is bigger than that one." 这里的 that one 指的是什么？为什么要加？'
+      answer: that one 指代"那个苹果"。不加的话比较对象不一致（apple vs that）。
+      difficulty: 3
+      layer: understand
+    - id: adj-test-006
+      stem: 列出 4 个不规则比较级变化的形容词，并写出它们的比较级和最高级。
+      answer: good→better→best; bad→worse→worst; many/much→more→most; little→less→least
+      difficulty: 2
+      layer: operation
+    - id: adj-test-007
+      stem: 翻译："这是我读过的最有趣的书。"
+      answer: This is the most interesting book (that) I have ever read.
+      difficulty: 3
+      layer: connect
+    - id: adj-test-008
+      stem: 小明说："My bag is more bigger than yours." 他说错了什么？为什么？
+      answer: bigger 本身已经表示比较级，more 是多余的。单音节词直接加 er，不用 more。正确：My bag is bigger than yours.
+      difficulty: 3
+      layer: understand
+ai_context:
+  topic_summary: 形容词与副词是英语修饰语的两大支柱。形容词修饰名词（a big house），副词修饰动词/形容词/其他副词（run quickly）。本章的核心是形容词比较级和最高级的构成规则（单音节加 er/est，多音节用 more/most，不规则变化需要硬背）以及比较句式（than、as...as、the+比较级）。掌握这些，学生就能进行精确的程度表达和对比描述。
+  key_insights:
+    - 形容词修饰名词，副词修饰动词/形容词/副词——这是区分的根本标准
+    - 比较级变化规则取决于音节数：单音节加 er/est，多音节用 more/most，双音节看结尾
+    - 六个不规则变化（good, bad, many, little, far, old）必须硬背——它们是高频词
+    - 比较对象必须一致——这是中国学生最常犯的逻辑错误之一
+  common_mistakes:
+    - mistake: more 和 -er 同时使用
+      example: '"more bigger"、"more taller"'
+      why: 学生知道 more 表示"更"，又知道 bigger 表示"更大"，以为两者可以叠加
+      how_to_explain: more 和 -er 都是比较级的标记，就像一个人不能同时穿两双鞋。单音节词用 -er，多音节用 more——选一个就够了。
+    - mistake: 用形容词修饰动词
+      example: '"She sings beautiful."'
+      why: 中文"她唱得很美"中"美"不需要变形，学生直接用形容词修饰动词
+      how_to_explain: 形容词只能修饰名词。修饰动词必须用副词（加 ly 或本身就是副词）。判断方法：看被修饰的词——如果是动词/形容词→用副词；如果是名词→用形容词。
+    - mistake: 比较对象不一致
+      example: '"My hair is longer than you."'
+      why: 中文说"我的头发比你长"是自然的，但英语必须严格一致
+      how_to_explain: 英语的比较逻辑非常严格——你只能比较同类事物。hair vs you 是"头发"和"人"比较→逻辑错误。用 that/those 或名词性物主代词来保持一致。
+    - mistake: 混淆 good 和 well
+      example: '"He plays football good."'
+      why: 只知道 good 是"好"，不知道修饰动词要用 well
+      how_to_explain: good 是形容词（a good player），well 是副词（play well）。唯一例外：谈论身体健康时 well 也可以做形容词——"I am well."
+  alternate_explanations:
+    - method: 音节数判断法
+      when_to_use: 学生不确定一个词加 er/est 还是 more/most 时
+      prompt: 拍手数音节：tall = 1 拍 → taller；happy = 2 拍（hap-py）且以 y 结尾 → happier；beautiful = 3 拍（beau-ti-ful）→ more beautiful。超过 2 拍且不以 y/er/ow/le 结尾 → 用 more/most。
+    - method: 感官动词 + 形容词（不是副词）
+      when_to_use: 学生纠结"feel bad"还是"feel badly"时
+      prompt: 感官动词（look, smell, taste, sound, feel）+ 形容词，不是副词！因为描述的是主语的状态。The flower smells good（花闻起来香=花本身香），不是 The flower smells well（花嗅觉很好=花在闻东西）。
+    - method: 生活场景对比法
+      when_to_use: 学生对最高级使用场景感到抽象时
+      prompt: 最高级就是"世界之最"。想象你在写吉尼斯世界纪录：The tallest man（最高的人），The fastest car（最快的车）。每个最高级背后都有一个排他性的"第一名"——这就是 the 存在的意义（特指那个唯一的）。
+  question_templates:
+    difficulty_1_2: 出 2 道选择题：给形容词选择正确的比较级/最高级形式，或判断副词使用是否正确
+    difficulty_3: 出 1 道改错题：给包含比较对象不一致或形容词/副词混淆的句子让学生改正
+    difficulty_4: 出 1 道翻译/解释题：给一段中文描述让学生用至少 2 个比较级和 1 个最高级翻译成英语

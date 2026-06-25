@@ -1,0 +1,157 @@
+slug: congruent-triangles
+subject: math
+title: 全等三角形
+tier: core
+difficulty: 3
+prerequisites:
+  - triangles
+estimated_min: 30
+trigger:
+  type: story
+  title: 两片完全相同的树叶——全等的世界
+  content:
+    text: "哲学家莱布尼茨说：\"世界上没有两片完全相同的树叶。\"\n\n但数学家说：\"如果有——我们就叫它们全等。\"\n\n全等（Congruent）意味着两个图形完全重合：形状相同，大小相同。\n把其中一个平移、旋转、翻转——它能和另一个完全重叠。\n\n全等三角形是几何证明的基石。\n当你证明两个三角形全等时，你就证明了它们的所有边和角都对应相等——\n一条信息瞬间传递出六条信息。\n\n这就是为什么全等是数学中最有力的工具之一：\n它让你用一个事实撬动一系列结论。\n"
+    question: 你能只量 3 个数据就确定一个三角形的全部形状吗？试试看。
+display:
+  concept:
+    summary: 全等三角形是完全重合的两个三角形。本章学习四种全等判定方法（SSS、SAS、ASA、AAS，以及直角三角形专用的 HL），并学习如何用全等做几何证明。
+    sections:
+      - title: 一、什么是全等
+        content: "**定义**：两个三角形能够完全重合 → 全等。记作 △ABC ≅ △DEF。\n\n全等 → 三个角对应相等 + 三条边对应相等（共 6 个条件）。\n\n**对应**是关键——两个三角形中\"同一位置\"的顶点/边/角互相对应。\n\n例如：△ABC ≅ △DEF 意味着 A↔D、B↔E、C↔F 是对应顶点。\n"
+      - title: 二、全等判定定理
+        content: "判断全等不需要 6 个条件——以下条件各只需 3 个：\n\n| 判定法 | 条件 | 说明 |\n|--------|------|------|\n| SSS | 三边对应相等 | 边确定→形状唯一确定 |\n| SAS | 两边及其夹角对应相等 | 注意：角必须在两边\"之间\" |\n| ASA | 两角及其夹边对应相等 | 角-边-角 |\n| AAS | 两角及一角的对边对应相等 | 相当于 ASA（通过内角和） |\n| HL | 斜边+直角边（仅直角三角形）| 直角三角形的特殊判定 |\n\n**关键警告**：SSA（两边一角，角不在两边之间）不能判定全等！\n\n因为 SSA 可能对应两个不同的三角形（\"ambiguous case\"）。\n"
+      - title: 三、全等证明的基本格式
+        content: "几何证明的标准格式：\n\n```\n在 △ABC 和 △DEF 中，\n\n∵ AB = DE  （已知）\n   ∠A = ∠D （已知）\n   AC = DF （已知）\n\n∴ △ABC ≅ △DEF （SAS）\n```\n\n证明全等后可以推出更多结论：\n∵ △ABC ≅ △DEF\n∴ BC = EF，∠B = ∠E，∠C = ∠F（全等三角形的对应边/角相等）\n"
+      - title: 四、常见辅助线技巧
+        content: "| 辅助线 | 目的 | 常见场景 |\n|--------|------|----------|\n| 连接两点 | 制造全等三角形 | 需要证明某两边相等 |\n| 作中垂线 | 利用对称性 | 等腰三角形问题 |\n| 作角平分线 | 得到等角 | 证明角相等 |\n| 作高线 | 得到直角 | 需要直角的判定中 |\n\n核心思路：如果一个条件不够，加辅助线创造新条件。\n"
+  examples:
+    - title: SSS 判定
+      problem: AB = 5, BC = 6, AC = 7；DE = 5, EF = 6, DF = 7。全等吗？
+      steps:
+        - 第 1 步：AB=DE=5, BC=EF=6, AC=DF=7
+        - 第 2 步：三边对应相等 → SSS 判定 → 全等
+      answer: 全等，SSS
+    - title: SAS 判定（注意夹角的含义）
+      problem: AB=DE=4, AC=DF=5, ∠A=∠D=60°。全等吗？
+      steps:
+        - 第 1 步：AB=DE, AC=DF——两边对应相等
+        - 第 2 步：∠A 是 AB 和 AC 的夹角；∠D 是 DE 和 DF 的夹角——角在两边之间
+        - 第 3 步：SAS——两边及其夹角 → 全等
+      answer: 全等，SAS
+    - title: 为什么 SSA 不行
+      problem: 给定 AB=DE=5, BC=EF=4, ∠A=∠D=30°。这里角不在 AB 和 BC 之间——这是 SSA。
+      steps:
+        - 第 1 步：已知两边（AB 和 BC）和一个非夹角（∠A）
+        - 第 2 步：以 B 为圆心、BC=4 为半径画弧——与对边可能交于两点
+        - 第 3 步：这意味着有两种可能的三角形形状→不全等
+      answer: SSA 不能判定全等——因为可能有两个不同的三角形满足同样条件
+  practice:
+    - id: cong-prac-001
+      stem: 下列哪组条件可以判定两个三角形全等？
+      answer: C
+      hints:
+        - SAS 中角必须在两边之间
+        - SSA 为什么不行？
+      q_type: choice
+      options:
+        - A. SSA
+        - B. AAA
+        - C. SAS
+        - D. ASS
+    - id: cong-prac-002
+      stem: 两个三角形三个角都对应相等（60°, 60°, 60°），它们全等吗？
+      answer: 不一定。AAA 只能证明相似（形状相同），不能证明大小相同。
+      hints:
+        - 全等要求形状和大小都相同
+        - AAA 只保证形状相同
+    - id: cong-prac-003
+      stem: 写出 SSS 的完整中文名称。
+      answer: 边边边——三边对应相等的两个三角形全等
+      hints:
+        - S = Side（边）
+        - 三个 S → 三条边
+    - id: cong-prac-004
+      stem: 等腰三角形顶角的角平分线也是底边的中线——如何用全等证明？
+      answer: 设 AD 平分 ∠A 交 BC 于 D。在 △ABD 和 △ACD 中：AB=AC（等腰），∠BAD=∠CAD（角平分线），AD=AD（公共边）→ SAS → △ABD≅△ACD → BD=CD（D 是 BC 中点）→ AD 也是中线。
+      hints:
+        - 用 S：等腰的两边 AB=AC
+        - 用 A：角平分线给出 ∠BAD=∠CAD
+        - 公共边 AD = AD
+    - id: cong-prac-005
+      stem: 直角三角形的斜边相等，一条直角边也相等——这两个直角三角形全等吗？用什么判定？
+      answer: 全等。用 HL（Hypotenuse-Leg，斜边-直角边）判定——直角三角形专用。
+      hints:
+        - 直角三角形有直角这个已知条件
+        - HL 是 SAS 在直角三角形中的特例
+  test:
+    - id: cong-test-001
+      stem: △ABC 和 △DEF 中，AB=DE, ∠A=∠D, AC=DF。用什么判定？
+      answer: SAS（两边及其夹角）
+      difficulty: 1
+      layer: operation
+    - id: cong-test-002
+      stem: 三边分别是 3,4,5 的两个三角形，是否一定全等？
+      answer: 是。SSS——三边确定的三角形形状和大小唯一确定。
+      difficulty: 1
+      layer: operation
+    - id: cong-test-003
+      stem: 已知 AB=EF, ∠A=∠E, ∠B=∠F——能判定全等吗？用什么方法？
+      answer: 能。ASA——两角及其夹边。注意 AB 在 ∠A 和 ∠B 之间，EF 在 ∠E 和 ∠F 之间。
+      difficulty: 2
+      layer: operation
+    - id: cong-test-004
+      stem: 两个三角形中，∠A=∠D=90°, AB=DE, BC=EF。能判定全等吗？用什么？
+      answer: 能。HL——直角三角形斜边+直角边。这里 AB 和 DE 是直角边，BC 和 EF 是斜边。
+      difficulty: 2
+      layer: operation
+    - id: cong-test-005
+      stem: 在 △ABC 和 △DEF 中，AB=DE, BC=EF, ∠C=∠F。能判定全等吗？为什么？
+      answer: 不一定。这是 SSA——已知两边和一个非夹角。角 C 不在边 AB 和 BC 之间。可能对应两个不同的三角形。
+      difficulty: 3
+      layer: understand
+    - id: cong-test-006
+      stem: △ABC ≅ △DEF，点 A 对应 D，点 B 对应 E。则边 BC 对应哪条边？
+      answer: EF（B 对应 E，C 对应 F）
+      difficulty: 1
+      layer: operation
+    - id: cong-test-007
+      stem: 已知 AC=DF, ∠A=∠D, ∠C=∠F。写出完整的全等证明过程。
+      answer: 在 △ABC 和 △DEF 中，∠A=∠D（已知），AC=DF（已知），∠C=∠F（已知）→ △ABC≅△DEF（ASA）。
+      difficulty: 2
+      layer: operation
+    - id: cong-test-008
+      stem: 证明：等腰三角形两底角的角平分线相等。（写出完整推理过程）
+      answer: 设等腰 △ABC，AB=AC，BD 和 CE 分别是两底角的角平分线。证明 △ABD≅△ACE（ASA：AB=AC，∠BAD=∠CAE（顶角平分线），∠ABD=∠ACE（底角一半且底角相等））→ BD=CE。
+      difficulty: 5
+      layer: connect
+ai_context:
+  topic_summary: 全等三角形是几何逻辑证明的核心工具。五种判定方法：SSS（三边）、SAS（两边夹角）、ASA（两角夹边）、AAS（两角对边）、HL（直角三角形斜边直角边）。重点警示 SSA 不能判定全等（ambiguity case）。全等证明是初中几何训练的思维跳板——学生学习如何从已知条件出发，运用判定定理推导结论，建立严谨的因果关系链条。
+  key_insights:
+    - 全等证明是演绎推理的实践——从条件到结论的严格逻辑链，每一步都要有定理支撑
+    - 对应顶点/边/角的确定是全等证明的第一步——写错了对应就等于写错了整个证明
+    - SSA 的歧义性揭示了'角的位置'的重要性——角在两边'之间'(SAS)和角在一边'之外'(SSA)完全不同
+    - 公共边/公共角是全等证明中最容易被忽略的条件——看到两个三角形共享某元素时立刻想到它
+  common_mistakes:
+    - mistake: 写错对应顶点的顺序
+      example: △ABC≅△DEF 但证明中把 A 对应了 E
+      why: 写判定条件时没有保持对应顺序一致
+      how_to_explain: 写全等符号 ≅ 时，A↔D, B↔E, C↔F——顺序必须一一对应。如果 AB 对应 DE，那么 A 一定对应 D，B 一定对应 E。
+    - mistake: 用 SSA 判定全等
+      example: AB=DE, BC=EF, ∠A=∠D → 学生说 SAS 全等
+      why: 角 A 不在 AB 和 BC 之间——这不是 SAS，是 SSA
+      how_to_explain: SAS 要求角的两条边就是给定的两条边——角被两条边'夹'在中间。画图：从角 A 出发的两条边是 AB 和 AC，不是 AB 和 BC。
+    - mistake: AAA 误当全等判定
+      example: 三个角相等 → 学生说全等
+      why: AAA 只能保证形状相同（相似），不能保证大小相同（全等）
+      how_to_explain: 一张小照片和一张放大照片——三个角都一样，但大小完全不同。全等 = 同样形状 + 同样大小。AAA 缺'同样大小'这条。
+  alternate_explanations:
+    - method: 剪纸验证法
+      when_to_use: 学生对全等概念感到抽象
+      prompt: 在纸上画一个三角形，剪下来。现在在另一张纸上画同样边长的三角形（用直尺和量角器确保数据一致），剪下来。把两个叠在一起——如果能完全重合就是全等。如果有一角没对齐——就是数据出了问题。全等不是抽象概念，是物理事实。
+    - method: 密室逃脱法（SSA 歧义解释）
+      when_to_use: 学生不理解 SSA 为什么不行
+      prompt: 你被困在一个房间里，只知道两堵墙的长度和一个非夹角。能确定房间的形状吗？不能——那堵没量过的墙可能有两种位置。SSA 就像只知道两条边和一个不相关的角——三角形有两种可能的摆法。
+  question_templates:
+    difficulty_1_2: 出 2 道判定题：给三组条件，判断能否用哪种判定法证明全等（或不能证明）
+    difficulty_3: 出 1 道半开放证明题：给出已知条件，让学生补全证明过程（填∵∴格式中的空缺步骤）
+    difficulty_4: 出 1 道完整证明题：需要添加辅助线，用全等证明线段相等或角相等

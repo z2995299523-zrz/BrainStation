@@ -1,0 +1,165 @@
+slug: pronouns
+subject: english
+title: 代词与数词
+tier: core
+difficulty: 2
+prerequisites:
+  - nouns-articles
+estimated_min: 25
+trigger:
+  type: story
+  title: 英语为什么需要这么多代词？
+  content:
+    text: "你有没有想过——如果没有\"我\"\"你\"\"他\"\"她\"\"它\"，每一句话都要重复名字？\n\n\"小明说小明今天要去小明的朋友家，小明的朋友住在小明的朋友家附近。\"\n\n听起来像绕口令对吧？代词就是来解决这个问题的——它让语言简洁、流畅。\n\n英语的代词系统比中文更复杂：人称代词有主格、宾格、形容词性物主代词、名词性物主代词、反身代词五种形式。\n\n而数词呢？从 one 到 million，从 first 到 hundredth——它们是英语中的\"数字语言\"。\n\n掌握代词和数词，你的英语表达会从\"结巴\"变成\"流利\"。"
+    question: 你能用英语说出'这是我的书，那是他的'吗？试着翻译一下。
+display:
+  concept:
+    summary: 代词与数词是英语表达的基础工具。代词包括人称代词（主格/宾格）、物主代词（形容词性/名词性）、反身代词、指示代词和疑问代词五种类型。数词包括基数词和序数词，重点掌握 hundred/thousand 不加 s 的规则以及几十几的序数词构成。
+    sections:
+      - title: 一、人称代词（Personal Pronouns）
+        content: "**人称代词**代替人或事物的名称，分为主格和宾格：\n\n| 人称 | 主格 | 宾格 | 中文 |\n|------|------|------|------|\n| 第一人称单数 | I | me | 我 |\n| 第二人称单数 | you | you | 你 |\n| 第三人称单数 | he | him | 他 |\n| 第三人称单数 | she | her | 她 |\n| 第三人称单数 | it | it | 它 |\n| 第一人称复数 | we | us | 我们 |\n| 第二人称复数 | you | you | 你们 |\n| 第三人称复数 | they | them | 他们/她们/它们 |\n\n**规则**：主格做主语，宾格做宾语。\n\n- ✓ I like her.（主格 I 做主语，宾格 her 做宾语）\n- ✗ Me like she.（错误——主格和宾格搞反了）"
+      - title: 二、物主代词（Possessive Pronouns）
+        content: "**物主代词**表示所有关系，分为形容词性和名词性：\n\n| 人称 | 形容词性 | 名词性 | 中文 |\n|------|---------|--------|------|\n| 我的 | my | mine | 我的 |\n| 你的 | your | yours | 你的 |\n| 他的 | his | his | 他的 |\n| 她的 | her | hers | 她的 |\n| 它的 | its | its | 它的 |\n| 我们的 | our | ours | 我们的 |\n| 你们的 | your | yours | 你们的 |\n| 他们的 | their | theirs | 他们的 |\n\n**关键区别**：\n- 形容词性物主代词 = 形容词，后面必须接名词：my book, your pen\n- 名词性物主代词 = 名词，单独使用：This book is mine. (= my book)\n\n**口诀**：形物后面加名词，名物独立当名词。"
+      - title: 三、反身代词（Reflexive Pronouns）
+        content: "**反身代词**表示\"自己\"，以 -self（单数）或 -selves（复数）结尾：\n\n| 人称 | 反身代词 | 中文 |\n|------|---------|------|\n| 我自己 | myself | 我自己 |\n| 你自己 | yourself | 你自己 |\n| 他自己 | himself | 他自己 |\n| 她自己 | herself | 她自己 |\n| 它自己 | itself | 它自己 |\n| 我们自己 | ourselves | 我们自己 |\n| 你们自己 | yourselves | 你们自己 |\n| 他们自己 | themselves | 他们自己 |\n\n**常见用法**：\n- 反身：He hurt himself.（他伤到了自己。）\n- 强调：I did it myself.（我自己做的！）\n\n**注意**：反身代词不能单独做主语——✗ Myself went there. → ✓ I went there myself."
+      - title: 四、指示代词与疑问代词
+        content: "**指示代词**（this/that/these/those）：\n\n| 单数 | 复数 | 距离 |\n|------|------|------|\n| this（这个） | these（这些） | 近 |\n| that（那个） | those（那些） | 远 |\n\n**疑问代词**（wh-词做代词）：who（谁）、whom（谁/宾格）、whose（谁的）、what（什么）、which（哪一个）\n\n- Who is that girl?（那个女孩是谁？）\n- Whose book is this?（这是谁的书？）"
+      - title: 五、数词（Numerals）
+        content: "**基数词**（表示数量）：one, two, three, ... hundred, thousand, million\n\n**序数词**（表示顺序）：first, second, third, fourth, ... hundredth\n\n**规则**：\n- 1-3 特殊：one→first, two→second, three→third\n- 4-19：基数词 + th（注意：five→fifth, eight→eighth, nine→ninth, twelve→twelfth）\n- 20-90（整十）：去 y 加 ieth：twenty→twentieth\n- 几十几：十位基数 + 个位序数：twenty-first, thirty-second\n\n**易错点**：\n- 几百：two hundred（不加 s）→ ✗ two hundreds\n- 几百几十几：英语用 and 连接：one hundred and twenty-three\n- 序数词前通常加 the：the first lesson"
+  examples:
+    - title: 主格 vs 宾格
+      problem: '"Her likes I" 哪里错了？'
+      steps:
+        - 第 1 步：找主语——谁在"喜欢"？应该是"她"→ 主格 she
+        - 第 2 步：找宾语——谁被喜欢？应该是"我"→ 宾格 me
+        - 第 3 步：正确句子：She likes me.
+      answer: She likes me.（主格 she 做主语，宾格 me 做宾语）
+    - title: 形容词性 vs 名词性物主代词
+      problem: '"This is my book. That is your." 哪里有问题？'
+      steps:
+        - 第 1 步：my book 正确——my（形容词性）+ book（名词）
+        - 第 2 步：your 后面没有名词，应该用名词性物主代词 yours
+        - 第 3 步：正确句子：This is my book. That is yours.
+      answer: yours（名词性物主代词独立使用，= your book）
+    - title: 数词 hundred 不加 s
+      problem: '"There are three hundreds students." 哪里错？'
+      steps:
+        - 第 1 步：hundred 前有具体数字 three 时，hundred 不加 s
+        - 第 2 步：hundreds of（成百上千的）才加 s——表示不具体的数量
+        - 第 3 步：正确句子：There are three hundred students.
+      answer: three hundred（具体数字 + hundred 不加 s）
+  practice:
+    - id: pro-prac-001
+      stem: 用正确的人称代词填空：___ (她) is my sister. I like ___ (她) very much.
+      answer: She, her
+      hints:
+        - 第一个空是主语位置→主格
+        - 第二个空在动词 like 后面→宾格
+    - id: pro-prac-002
+      stem: This is not ___ (我的) book. ___ (我的) is on the desk.
+      answer: my, Mine
+      hints:
+        - 第一个空后面有名词 book→形容词性
+        - 第二个空后面没有名词→名词性
+    - id: pro-prac-003
+      stem: They enjoyed ___ (他们自己) at the party.
+      answer: themselves
+      hints:
+        - they 对应的反身代词
+        - 以 -selves 结尾
+    - id: pro-prac-004
+      stem: 写出 twenty-two 的序数词形式。
+      answer: twenty-second
+      hints:
+        - 几十几：十位基数 + 个位序数
+        - two 的序数词是 second
+    - id: pro-prac-005
+      stem: '"I have two hundreds yuan." 这句哪里错了？'
+      answer: hundred 前面有具体数字时不加 s，应该是 two hundred
+      hints:
+        - 具体数字 + hundred 不加 s
+        - hundreds of 才加 s
+  test:
+    - id: pro-test-001
+      stem: 填空：Please give ___ (我) a pen.
+      answer: me
+      difficulty: 1
+      layer: operation
+    - id: pro-test-002
+      stem: This pen is not ___. It is ___
+      answer: B
+      difficulty: 2
+      layer: operation
+      q_type: choice
+      options:
+        - A. my, her
+        - B. mine, hers
+        - C. my, hers
+    - id: pro-test-003
+      stem: '"Himself went to the store." 哪里错？'
+      answer: 反身代词不能单独做主语。正确：He went to the store himself.
+      difficulty: 2
+      layer: understand
+    - id: pro-test-004
+      stem: 写出 123 的英语表达（基数词）。
+      answer: one hundred and twenty-three
+      difficulty: 2
+      layer: operation
+    - id: pro-test-005
+      stem: 把句子改成正确的英语："她是我最好的朋友，我每天和她一起上学。"
+      answer: She is my best friend. I go to school with her every day.
+      difficulty: 3
+      layer: connect
+    - id: pro-test-006
+      stem: 小明说："This is my book and that is your." 他说得对吗？为什么？
+      answer: 不对。your 后面没有名词，要用名词性物主代词 yours。正确：This is my book and that is yours.
+      difficulty: 3
+      layer: understand
+    - id: pro-test-007
+      stem: 用英语写出你的年龄、班级里的第几名、以及你家里有几口人（用数词）。
+      answer: （示例）I am thirteen years old. I am the third in my class. There are four people in my family.
+      difficulty: 3
+      layer: connect
+    - id: pro-test-008
+      stem: 为什么英语的代词系统比中文复杂？举三个例子说明。
+      answer: 英语代词区分主格和宾格（I/me、he/him），区分形容词性和名词性物主代词（my/mine），还有反身代词（myself）。中文只用同一个字或加"的"来表示。
+      difficulty: 4
+      layer: connect
+ai_context:
+  topic_summary: 代词与数词是英语词法的基础模块。代词系统包括人称代词（主格/宾格）、物主代词（形容词性/名词性）、反身代词、指示代词和疑问代词——共五种类型。数词包括基数词和序数词，重点掌握 hundred/thousand/million 加不加 s 的规则以及几十几的序数词构成。代词和数词的正确使用是英语表达流畅度的关键标志。
+  key_insights:
+    - 人称代词区分主格和宾格——这是中文没有的概念，需要刻意练习
+    - 物主代词分"形容词性"（后接名词）和"名词性"（独立使用），记住口诀"形物加名，名物独立"
+    - hundred/thousand/million 前面有具体数字时不加 s——这是中国学生最常见的数词错误之一
+    - 反身代词不能单独做主语——它用来"反射"主语或强调主语
+  common_mistakes:
+    - mistake: 主格和宾格混淆
+      example: '"Her likes he."'
+      why: 中文"她喜欢他"不需要变形，学生不知道要用主格 she 和宾格 him
+      how_to_explain: 给每个代词标"角色"：主语位→主格，动词/介词后→宾格。把表格画出来贴在书桌上，每天看一遍。
+    - mistake: my 和 mine 混淆
+      example: '"This is mine book."'
+      why: 不知道 my 是形容词（后接名词）、mine 是名词（独立用）
+      how_to_explain: 测试方法：如果代词后面还有名词，用 my/your/her 等；如果句子到此为止，用 mine/yours/hers。This is my ___(名词) vs This is mine.(句号)
+    - mistake: hundred 加 s
+      example: '"three hundreds"'
+      why: 中文说"三百"没有任何变化，学生下意识在所有数字后加 s
+      how_to_explain: 具体数字=不加 s（three hundred），模糊数量=加 s+of（hundreds of）。就像中文"三百"不加"们"，但"成百上千"加。
+    - mistake: your 和 yours 在句末用错
+      example: '"That pen is your."'
+      why: 不知道 be 动词后需要用名词性物主代词
+      how_to_explain: be 动词后的物主代词永远用名词性：It is mine/yours/his/hers/ours/theirs。因为 be 动词后跟名词或形容词作表语，名词性物主代词就是"名词"。
+  alternate_explanations:
+    - method: 角色扮演法
+      when_to_use: 学生记不住主格/宾格表格时
+      prompt: 每次用人称代词时问自己两个问题：这个代词在句子里是"做动作的人"（主语=主格）还是"被动作影响的人"（宾语=宾格）？比如"I saw her."——"看"的人是 I（主格），被看的人是 her（宾格）。
+    - method: 替换测试法（物主代词）
+      when_to_use: 学生不确定用 my 还是 mine 时
+      prompt: 把代词替换成"我的书"或"我的"。如果能说"我的书"→用 my；如果只能说"我的"→用 mine。This is my book = 这是我的书。This book is mine = 这本书是我的。
+    - method: 数词公式记忆法
+      when_to_use: 学生记不住序数词变化规则时
+      prompt: 给出三条铁律：1) 1,2,3 特殊记（first, second, third）；2) 5,8,9,12 变拼写（fifth, eighth, ninth, twelfth）；3) 整十去 y 加 ieth（twentieth）。其他的都是基数+th。记住这三条就够了。
+  question_templates:
+    difficulty_1_2: 出 2 道填空题：给中文意思让学生填写正确的主格/宾格代词，或基数词转序数词（如 five→?）
+    difficulty_3: 出 1 道改错题：给一个包含物主代词错误或数词错误的句子，让学生找出并改正（如"This is mine pen"）
+    difficulty_4: 出 1 道翻译/解释题：给一段中文让学生翻译成英语，要求用到人称代词、物主代词和数词

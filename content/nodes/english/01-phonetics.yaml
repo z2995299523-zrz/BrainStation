@@ -1,161 +1,191 @@
 slug: phonetics
 subject: english
-title: "音标与拼读"
+title: 音标与拼读
 tier: core
 difficulty: 1
 prerequisites: []
 estimated_min: 25
-
 trigger:
   type: story
-  title: "你为什么能读出没见过的单词？"
+  title: 你为什么能读出没见过的单词？
   content:
-    text: |
-      英语有 44 个音素，但只有 26 个字母。
-
-      这意味着同一个字母在不同单词里读不同的音——
-      "ghoti" 完全可以读成 "fish"：
-      - gh 像 enough 里的 /f/
-      - o 像 women 里的 /ɪ/
-      - ti 像 nation 里的 /ʃ/
-
-      这就是为什么你需要音标——它是英语发音的"拼音系统"。
-      一旦掌握，你就能读任何不认识的单词。
-    question: "为什么英语的拼写和发音常常不一致？"
-    spoken_phrases:
-      - { text: "enough", label: "gh → /f/" }
-      - { text: "women", label: "o → /ɪ/" }
-      - { text: "nation", label: "ti → /ʃ/" }
-      - { text: "fish", label: "ghoti = fish" }
-
-content:
-  operation:
-    text: |
-      ## 国际音标（IPA）基础
-
-      **48 个音标 = 20 个元音 + 28 个辅音**
-
-      **元音（Vowels）**：
-      - 单元音：/iː/ (see)、/ɪ/ (sit)、/e/ (bed)、/æ/ (cat)、/ʌ/ (cup)、/ɑː/ (car)、/ɒ/ (hot)、/ɔː/ (door)、/ʊ/ (book)、/uː/ (too)、/ɜː/ (bird)、/ə/ (about)
-      - 双元音：/aɪ/ (my)、/eɪ/ (day)、/ɔɪ/ (boy)、/aʊ/ (now)、/əʊ/ (go)、/ɪə/ (here)、/eə/ (hair)、/ʊə/ (tour)
-
-      **辅音（Consonants）**：
-      - 清辅音：/p/ /t/ /k/ /f/ /θ/ /s/ /ʃ/ /tʃ/ /tr/ /ts/ /h/
-      - 浊辅音：/b/ /d/ /g/ /v/ /ð/ /z/ /ʒ/ /dʒ/ /dr/ /dz/ /r/
-      - 鼻音和半元音：/m/ /n/ /ŋ/ /l/ /w/ /j/
-
-      **拼读规则**：
-      - 开音节（以元音结尾）：元音读本音，如 go、she、hi
-      - 闭音节（以辅音结尾）：元音读短音，如 cat、bed、sit
-    phonemes:
-      monophthongs:
-        - { symbol: "/iː/", speak_phoneme: "ee-ee-ee", word: "see",   word_ipa: "/siː/",       speak_word: "see" }
-        - { symbol: "/ɪ/",  speak_phoneme: "ih-ih-ih", word: "sit",   word_ipa: "/sɪt/",       speak_word: "sit" }
-        - { symbol: "/e/",  speak_phoneme: "eh-eh-eh", word: "bed",   word_ipa: "/bed/",       speak_word: "bed" }
-        - { symbol: "/æ/",  speak_phoneme: "a-a-a",    word: "cat",   word_ipa: "/kæt/",       speak_word: "cat" }
-        - { symbol: "/ʌ/",  speak_phoneme: "uh-uh-uh", word: "cup",   word_ipa: "/kʌp/",       speak_word: "cup" }
-        - { symbol: "/ɑː/", speak_phoneme: "ah-ah-ah", word: "car",   word_ipa: "/kɑːr/",      speak_word: "car" }
-        - { symbol: "/ɒ/",  speak_phoneme: "o-o-o",    word: "hot",   word_ipa: "/hɒt/",       speak_word: "hot" }
-        - { symbol: "/ɔː/", speak_phoneme: "aw-aw-aw", word: "door",  word_ipa: "/dɔːr/",      speak_word: "door" }
-        - { symbol: "/ʊ/",  speak_phoneme: "oo-oo-oo", word: "book",  word_ipa: "/bʊk/",       speak_word: "book" }
-        - { symbol: "/uː/", speak_phoneme: "ooo-ooo",  word: "too",   word_ipa: "/tuː/",       speak_word: "too" }
-        - { symbol: "/ɜː/", speak_phoneme: "er-er-er", word: "bird",  word_ipa: "/bɜːrd/",     speak_word: "bird" }
-        - { symbol: "/ə/",  speak_phoneme: "uh",       word: "about", word_ipa: "/əˈbaʊt/",    speak_word: "about" }
-      diphthongs:
-        - { symbol: "/aɪ/", speak_phoneme: "eye-eye",  word: "my",   word_ipa: "/maɪ/",       speak_word: "my" }
-        - { symbol: "/eɪ/", speak_phoneme: "ay-ay",    word: "day",  word_ipa: "/deɪ/",       speak_word: "day" }
-        - { symbol: "/ɔɪ/", speak_phoneme: "oy-oy",    word: "boy",  word_ipa: "/bɔɪ/",       speak_word: "boy" }
-        - { symbol: "/aʊ/", speak_phoneme: "ow-ow",    word: "now",  word_ipa: "/naʊ/",       speak_word: "now" }
-        - { symbol: "/əʊ/", speak_phoneme: "oh-oh",    word: "go",   word_ipa: "/ɡəʊ/",       speak_word: "go" }
-        - { symbol: "/ɪə/", speak_phoneme: "ear-ear",  word: "here", word_ipa: "/hɪər/",      speak_word: "here" }
-        - { symbol: "/eə/", speak_phoneme: "air-air",  word: "hair", word_ipa: "/heər/",      speak_word: "hair" }
-        - { symbol: "/ʊə/", speak_phoneme: "oor-oor",  word: "tour", word_ipa: "/tʊər/",      speak_word: "tour" }
-      consonants_voiceless:
-        - { symbol: "/p/",  speak_phoneme: "puh-puh-puh", word: "pen",   word_ipa: "/pen/",       speak_word: "pen" }
-        - { symbol: "/t/",  speak_phoneme: "tuh-tuh-tuh", word: "top",   word_ipa: "/tɒp/",       speak_word: "top" }
-        - { symbol: "/k/",  speak_phoneme: "kuh-kuh-kuh", word: "cat",   word_ipa: "/kæt/",       speak_word: "cat" }
-        - { symbol: "/f/",  speak_phoneme: "fff-fff",     word: "fish",  word_ipa: "/fɪʃ/",       speak_word: "fish" }
-        - { symbol: "/θ/",  speak_phoneme: "thhh-thhh",   word: "think", word_ipa: "/θɪŋk/",      speak_word: "think" }
-        - { symbol: "/s/",  speak_phoneme: "sss-sss",     word: "sun",   word_ipa: "/sʌn/",       speak_word: "sun" }
-        - { symbol: "/ʃ/",  speak_phoneme: "shhh-shhh",   word: "she",   word_ipa: "/ʃiː/",       speak_word: "she" }
-        - { symbol: "/tʃ/", speak_phoneme: "chuh-chuh",   word: "chair", word_ipa: "/tʃeər/",     speak_word: "chair" }
-        - { symbol: "/tr/", speak_phoneme: "truh-truh",   word: "tree",  word_ipa: "/triː/",      speak_word: "tree" }
-        - { symbol: "/ts/", speak_phoneme: "ts-ts-ts",    word: "cats",  word_ipa: "/kæts/",      speak_word: "cats" }
-        - { symbol: "/h/",  speak_phoneme: "huh-huh",     word: "hat",   word_ipa: "/hæt/",       speak_word: "hat" }
-      consonants_voiced:
-        - { symbol: "/b/",  speak_phoneme: "buh-buh-buh", word: "book",  word_ipa: "/bʊk/",       speak_word: "book" }
-        - { symbol: "/d/",  speak_phoneme: "duh-duh-duh", word: "dog",   word_ipa: "/dɒɡ/",       speak_word: "dog" }
-        - { symbol: "/g/",  speak_phoneme: "guh-guh-guh", word: "go",    word_ipa: "/ɡəʊ/",       speak_word: "go" }
-        - { symbol: "/v/",  speak_phoneme: "vvv-vvv",     word: "very",  word_ipa: "/ˈveri/",     speak_word: "very" }
-        - { symbol: "/ð/",  speak_phoneme: "thhh-voiced", word: "this",  word_ipa: "/ðɪs/",       speak_word: "this" }
-        - { symbol: "/z/",  speak_phoneme: "zzz-zzz",     word: "zoo",   word_ipa: "/zuː/",       speak_word: "zoo" }
-        - { symbol: "/ʒ/",  speak_phoneme: "zhhh-zhhh",   word: "vision", word_ipa: "/ˈvɪʒən/",   speak_word: "vision" }
-        - { symbol: "/dʒ/", speak_phoneme: "juh-juh",     word: "jump",  word_ipa: "/dʒʌmp/",     speak_word: "jump" }
-        - { symbol: "/dr/", speak_phoneme: "druh-druh",   word: "drive", word_ipa: "/draɪv/",     speak_word: "drive" }
-        - { symbol: "/dz/", speak_phoneme: "dz-dz-dz",    word: "beds",  word_ipa: "/bedz/",      speak_word: "beds" }
-        - { symbol: "/r/",  speak_phoneme: "rrr-rrr",     word: "red",   word_ipa: "/red/",       speak_word: "red" }
-      consonants_nasal:
-        - { symbol: "/m/",  speak_phoneme: "mmm-mmm",   word: "man",   word_ipa: "/mæn/",       speak_word: "man" }
-        - { symbol: "/n/",  speak_phoneme: "nnn-nnn",   word: "no",    word_ipa: "/nəʊ/",       speak_word: "no" }
-        - { symbol: "/ŋ/",  speak_phoneme: "ng-ng-ng",  word: "sing",  word_ipa: "/sɪŋ/",       speak_word: "sing" }
-        - { symbol: "/l/",  speak_phoneme: "lll-lll",   word: "like",  word_ipa: "/laɪk/",      speak_word: "like" }
-        - { symbol: "/w/",  speak_phoneme: "wuh-wuh",   word: "we",    word_ipa: "/wiː/",       speak_word: "we" }
-        - { symbol: "/j/",  speak_phoneme: "yuh-yuh",   word: "yes",   word_ipa: "/jes/",       speak_word: "yes" }
-    examples:
-      - input: "name 为什么读 /neɪm/？"
-        output: "末尾有 e → 开音节 → a 读 /eɪ/"
-      - input: "cat 为什么读 /kæt/？"
-        output: "以辅音 t 结尾 → 闭音节 → a 读 /æ/"
-
-  understand:
-    text: |
-      ## 为什么"音标"和"字母"不是一回事？
-
-      英语在历史上被多次"入侵"——日耳曼语、拉丁语、法语、希腊语——
-      每次入侵都带来新的单词和拼写规则。
-
-      结果就是：英语的拼写大约定型于 15 世纪（印刷术出现），
-      但发音一直在变化。所以写和读脱节了。
-
-      **Great Vowel Shift（元音大推移）**：
-      14-18 世纪，英语长元音的发音发生了系统性变化：
-      - name 原本读 /naːmə/ → 现在读 /neɪm/
-      - feet 原本读 /feːt/ → 现在读 /fiːt/
-
-      拼写没跟上发音的变化——这就是一切混乱的根源。
-    highlights:
-      - "英语拼写混乱是因为拼写在 500 年前就定型了，发音却一直在变"
-      - "音标是'作弊码'——学会就能读任何单词"
-
-  connect:
-    text: |
-      ## 音标不只是学英语的工具
-
-      - **语言学**：所有语言都可以用 IPA 来记音
-      - **演戏/播音**：演员和播音员需要音标来学习方言和外语口音
-      - **AI 语音**：Siri/Alexa 用音素序列来合成语音
-      - **语言康复**：听力障碍者通过音标视觉线索学习发音
-
-      **更深一层**：音标让你意识到——发音是可以被看见的。
-      把声音变成视觉符号，这是人类的一大发明。
-    thought_seeds:
-      - "国际音标可以标注世界上任何一种语言的发音"
-      - "你的手机里的语音助手就是一个音标引擎"
-
-feynman:
-  base_prompt: "用你自己的话解释：什么是音标？为什么英语需要音标而中文不需要？"
-  key_elements:
-    - "音标记录发音"
-    - "英语拼写和发音不一致"
-    - "开音节/闭音节规律"
-    - "学会音标能读任何新单词"
-  deep_questions:
-    - "如果要你设计一套新的英语拼写系统（完全照读音写），你会怎么设计？会遇到什么问题？"
-    - "你觉得中文为什么不需要音标（拼音是后来发明的）？"
-  missing_hints:
-    "音标记录发音": "音标的作用是什么？和字母有什么区别？"
-    "英语拼写和发音不一致": "同一个字母在不同单词里读法一样吗？举例。"
-    "开音节/闭音节规律": "结尾的 e 会影响前面的元音发音吗？"
-    "学会音标能读任何新单词": "遇到不认识单词，你有音标就能做到什么？"
-
-thought_card: "你今天学到了什么以前不知道的发音规律？"
+    text: "英语有 44 个音素，但只有 26 个字母。\n\n这意味着同一个字母在不同单词里读不同的音——\n\"ghoti\" 完全可以读成 \"fish\"：\n- gh 像 enough 里的 /f/\n- o 像 women 里的 /ɪ/\n- ti 像 nation 里的 /ʃ/\n\n这就是为什么你需要音标——它是英语发音的\"拼音系统\"。\n一旦掌握，你就能读任何不认识的单词。\n"
+    question: 为什么英语的拼写和发音常常不一致？
+display:
+  concept:
+    summary: 音标是英语发音的'拼音系统'——48 个音标包含了英语所有的发音。学会音标，你就能读出任何不认识的单词。
+    sections:
+      - title: 一、什么是国际音标（IPA）
+        content: "**48 个音标 = 20 个元音 + 28 个辅音**\n\n国际音标（International Phonetic Alphabet）是为全世界所有语言的发音设计的符号系统。英语用了其中 48 个符号来标注 44 个音素。\n\n**元音和辅音的根本区别**：\n- 元音：气流从喉咙出来不受阻碍，声带振动\n- 辅音：气流在口腔某处受到阻碍（唇、齿、舌等）\n"
+      - title: 二、元音（20 个）
+        content: "**12 个单元音**（发音时舌头位置不变）：\n\n| 音标 | 例词 | 中文提示 |\n|------|------|----------|\n| /iː/ | see（看见） | 长音\"衣\" |\n| /ɪ/ | sit（坐下） | 短音，介于\"衣\"和\"诶\"之间 |\n| /e/ | bed（床） | 短音\"诶\" |\n| /æ/ | cat（猫） | 嘴巴张大，像\"哎\" |\n| /ʌ/ | cup（杯子） | 短音\"啊\" |\n| /ɑː/ | car（汽车） | 长音\"啊——\" |\n| /ɒ/ | hot（热的） | 短音\"哦\" |\n| /ɔː/ | door（门） | 长音\"哦——\" |\n| /ʊ/ | book（书） | 短音\"乌\" |\n| /uː/ | too（也） | 长音\"乌——\" |\n| /ɜː/ | bird（鸟） | 长音\"呃——\" |\n| /ə/ | about（关于） | 最轻声的\"呃\"，永远不重读 |\n\n**8 个双元音**（从一个元音滑向另一个）：\n\n| 音标 | 例词 | 发音提示 |\n|------|------|----------|\n| /aɪ/ | my（我的） | 从\"啊\"滑到\"衣\" |\n| /eɪ/ | day（天） | 从\"诶\"滑到\"衣\" |\n| /ɔɪ/ | boy（男孩） | 从\"哦\"滑到\"衣\" |\n| /aʊ/ | now（现在） | 从\"啊\"滑到\"乌\" |\n| /əʊ/ | go（去） | 从\"呃\"滑到\"乌\" |\n| /ɪə/ | here（这里） | 从\"衣\"滑到\"呃\" |\n| /eə/ | hair（头发） | 从\"诶\"滑到\"呃\" |\n| /ʊə/ | tour（旅行） | 从\"乌\"滑到\"呃\" |\n"
+      - title: 三、辅音（28 个）
+        content: "**清辅音与浊辅音**：用手摸喉咙——发声时声带振动的是浊辅音，不振动的是清辅音。\n\n| 清辅音（声带不振动） | 浊辅音（声带振动） |\n|---------------------|-------------------|\n| /p/ pen（笔） | /b/ book（书） |\n| /t/ top（顶部） | /d/ dog（狗） |\n| /k/ cat（猫） | /ɡ/ go（去） |\n| /f/ fish（鱼） | /v/ very（非常） |\n| /θ/ think（想） | /ð/ this（这个） |\n| /s/ sun（太阳） | /z/ zoo（动物园） |\n| /ʃ/ she（她） | /ʒ/ vision（视觉） |\n| /tʃ/ chair（椅子） | /dʒ/ jump（跳） |\n| /tr/ tree（树） | /dr/ drive（开车） |\n| /ts/ cats（猫们） | /dz/ beds（床们） |\n| /h/ hat（帽子） | /r/ red（红色） |\n\n**鼻音和半元音**（气流从鼻腔或半通）：\n\n| 音标 | 例词 | 发音提示 |\n|------|------|----------|\n| /m/ | man（男人） | 闭嘴唇，气流从鼻子出 |\n| /n/ | no（不） | 舌尖顶上颚，气流从鼻子出 |\n| /ŋ/ | sing（唱） | 舌后部顶上颚，像\"嗯——\" |\n| /l/ | like（喜欢） | 舌尖顶上颚，气流从两边出 |\n| /w/ | we（我们） | 双唇收圆，像\"乌\"但更短 |\n| /j/ | yes（是） | 像\"衣\"但更短，快速过渡 |\n"
+      - title: 四、拼读规则
+        content: "**开音节**（以元音字母结尾，或以不发音的 e 结尾）：\n元音字母读它的\"本音\"（即字母本身的发音）\n\n例：\n- go → /ɡəʊ/（o 读本音）\n- she → /ʃiː/（e 读本音）\n- name → /neɪm/（末尾 e 不发音，a 读本音 /eɪ/）\n\n**闭音节**（以辅音字母结尾）：\n元音字母读\"短音\"\n\n例：\n- cat → /kæt/（a 读短音 /æ/）\n- bed → /bed/（e 读短音 /e/）\n- sit → /sɪt/（i 读短音 /ɪ/）\n\n**一句话口诀**：开音读本音，闭音读短音\n"
+  examples:
+    - title: 开音节识别
+      problem: name 为什么读 /neɪm/？
+      steps:
+        - 第 1 步：看单词结构——n-a-m-e，末尾有不发音的 e
+        - 第 2 步：末尾 e 不发音 → a 和 m 之间形成了开音节
+        - 第 3 步：开音节中 a 读本音 /eɪ/，m 读 /m/ → /neɪm/
+      answer: 末尾有 e → 开音节 → a 读本音 /eɪ/
+    - title: 闭音节识别
+      problem: cat 为什么读 /kæt/？
+      steps:
+        - 第 1 步：看单词结构——c-a-t，以辅音 t 结尾
+        - 第 2 步：以辅音结尾 → 这是闭音节
+        - 第 3 步：闭音节中 a 读短音 /æ/ → /kæt/
+      answer: 以辅音 t 结尾 → 闭音节 → a 读短音 /æ/
+    - title: 拼写与发音不一致
+      problem: ghoti 为什么可以读成 fish？
+      steps:
+        - 第 1 步：gh → 在 enough 中读 /f/
+        - 第 2 步：o → 在 women 中读 /ɪ/
+        - 第 3 步：ti → 在 nation 中读 /ʃ/
+        - 第 4 步：拼起来 → /fɪʃ/ = fish！这说明英语拼写和发音可以严重脱节——音标就是来解决这个问题的。
+      answer: gh=/f/ + o=/ɪ/ + ti=/ʃ/ → /fɪʃ/
+  practice:
+    - id: ph-prac-001
+      stem: 判断 /iː/ 和 /ɪ/ 哪个是长音、哪个是短音？各举一个例词。
+      answer: /iː/ 是长音（如 see），/ɪ/ 是短音（如 sit）
+      hints:
+        - '音标后面有冒号 : 的代表什么？'
+        - 长音发音时间更长，短音快速短促
+    - id: ph-prac-002
+      stem: 单词 'go' 属于开音节还是闭音节？为什么？
+      answer: 开音节。因为以元音字母 o 结尾，o 读本音 /əʊ/。
+      hints:
+        - go 以什么字母结尾？
+        - 以元音结尾 → 开音节，元音读本音
+    - id: ph-prac-003
+      stem: 用手摸喉咙，发 /s/ 和 /z/ 两个音。哪个声带振动？
+      answer: /z/ 声带振动（浊辅音），/s/ 声带不振动（清辅音）
+      hints:
+        - 发 /z/ 的时候喉咙有嗡嗡的感觉吗？
+        - 清辅音不振动，浊辅音振动
+    - id: ph-prac-004
+      stem: 单词 'bed' 中的 e 发什么音？/iː/、/e/ 还是 /æ/？
+      answer: /e/
+      hints:
+        - bed 以辅音 d 结尾 → 闭音节
+        - 闭音节中 e 读短音 /e/
+    - id: ph-prac-005
+      stem: 双元音 /aɪ/ 是从什么音滑到什么音？例词是什么？
+      answer: 从 /a/（啊）滑到 /ɪ/（衣）。例词：my /maɪ/。
+      hints:
+        - 双元音是两个单元音的组合
+        - /aɪ/ 听起来像'爱'
+    - id: ph-prac-006
+      stem: 写出 /θ/ 和 /ð/ 的区别，各举一个例词。
+      answer: /θ/ 是清辅音，声带不振动（如 think）；/ð/ 是浊辅音，声带振动（如 this）。
+      hints:
+        - 两个都是咬舌音，舌尖放在上下齿之间
+        - 区别在于声带是否振动
+    - id: ph-prac-007
+      stem: 单词 'cat' 和 'cake' 中的 a 发音一样吗？为什么？
+      answer: 不一样。cat 是闭音节，a 读 /æ/（短音）；cake 末尾有不发音的 e，是开音节，a 读 /eɪ/（本音）。
+      hints:
+        - cat 以辅音结尾，cake 末尾有 e
+        - 开音节读本音，闭音节读短音
+  test:
+    - id: ph-test-001
+      stem: 英语有多少个音标？
+      answer: 48 个（20 个元音 + 28 个辅音）
+      difficulty: 1
+      layer: operation
+    - id: ph-test-002
+      stem: 判断：/p/ 是清辅音还是浊辅音？
+      answer: 清辅音（声带不振动）
+      difficulty: 1
+      layer: operation
+    - id: ph-test-003
+      stem: 下列哪个是双元音？
+      answer: C
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. /iː/
+        - B. /æ/
+        - C. /aɪ/
+        - D. /p/
+    - id: ph-test-004
+      stem: 开音节中元音字母读什么？
+      answer: B
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. 短音
+        - B. 本音
+        - C. 不发音
+    - id: ph-test-005
+      stem: 为什么英语拼写和发音常常不一致？简要回答。
+      answer: 英语拼写大约在 500 年前随印刷术定型，但发音一直在变化（如元音大推移），拼写没有跟上发音的变化。
+      difficulty: 2
+      layer: understand
+    - id: ph-test-006
+      stem: 小明看到单词 'hop' 和 'hope'，说它们读音一样。他说得对吗？为什么？
+      answer: 不对。hop（/hɒp/）是闭音节，o 读短音；hope（/həʊp/）末尾有不发音的 e，是开音节，o 读本音。
+      difficulty: 2
+      layer: understand
+    - id: ph-test-007
+      stem: 把 /θ/ 和 /s/ 在发音方法上区分开来（舌头位置有什么区别）。
+      answer: /θ/ 舌尖放在上下齿之间（咬舌），/s/ 舌尖靠近上齿龈但不接触牙齿。
+      difficulty: 3
+      layer: understand
+    - id: ph-test-008
+      stem: 音标 /ʃ/ 在哪些常见单词中出现？写出 2 个例词。
+      answer: she /ʃiː/、fish /fɪʃ/（也接受：ship、wish、English 等）
+      difficulty: 2
+      layer: operation
+    - id: ph-test-009
+      stem: 如果你在阅读中遇到一个从未见过的单词但旁边有音标，你如何利用音标读出它？描述你的步骤。
+      answer: 先识别元音（看单元音还是双元音），再识别辅音（分清浊），然后从左到右逐个音素拼读，最后连起来自然读出。
+      difficulty: 3
+      layer: connect
+    - id: ph-test-010
+      stem: 中文拼音和英语国际音标有什么相同点和不同点？
+      answer: 相同点：都是用符号标注发音。不同点：拼音是专门为汉语设计的（约 60 个音节组合），IPA 是国际通用的可以标注任何语言；拼音用字母组合表示音，IPA 一个符号对应一个音素。
+      difficulty: 4
+      layer: connect
+ai_context:
+  topic_summary: 音标与拼读是英语学习的'元技能'——它教会学生英语发音的底层规则。本章涵盖 IPA 国际音标的 48 个符号（20 元音 + 28 辅音）、清浊辅音的区分、开音节与闭音节的拼读规律，以及英语拼写与发音脱节的历史原因（元音大推移）。掌握音标后，学生看到任何生词都能根据音标读出来，不再依赖'老师读一遍我模仿一遍'的被动学习方式。
+  key_insights:
+    - 音标是英语的'拼音'——就像学会了汉语拼音就能读出任何汉字，学会音标就能读出任何英语单词
+    - 英语拼写混乱的根本原因是历史性的：拼写在 500 年前随印刷术定型，但发音一直在变化，拼写没跟上
+    - 清浊辅音的区别是声带振动与否——让学生用手摸喉咙感受是最直观的教学方法
+    - 开音节/闭音节规律覆盖了绝大多数英语单词的发音规则——这是从'死记硬背'到'理解规律'的关键转折
+  common_mistakes:
+    - mistake: 混淆 /θ/ 和 /s/——把 think 读成 sink
+      example: think /θɪŋk/ 读成 /sɪŋk/
+      why: 中文里没有咬舌音 /θ/，学生习惯用最接近的 /s/ 替代
+      how_to_explain: 把舌尖放在上下牙齿之间，轻轻咬住，然后吹气——这就是 /θ/。/s/ 则舌尖靠近上齿龈但不接触牙齿。对着镜子练，看到舌尖在牙齿中间才是 /θ/。
+    - mistake: 不分长元音和短元音——sheet 和 shit 混淆
+      example: sheet /ʃiːt/（床单）和 shit /ʃɪt/（脏话）读成一样
+      why: 中文没有长短元音的对立，学生意识不到长度差异会改变词义
+      how_to_explain: 长元音 /iː/ 像微笑拉长，嘴角向两边拉开，持续一秒；短元音 /ɪ/ 像快速点一下，嘴角放松，半秒。虽然听起来差不多，但在英语母语者耳里完全是两个词——就像'妈'和'马'对你来说完全不同。
+    - mistake: 以为末尾 e 都发音
+      example: name 读成 /neɪmə/ 或 /næm/
+      why: 没有理解末尾不发音 e 的作用——它不是多余的，而是标记前面的元音读本音
+      how_to_explain: 末尾的 e 是个'信号灯'——它在说：'前面的元音读本音！'。它自己不发音，但改变了前面元音的读法。就像'name'里的 e 告诉你 a 要读 /eɪ/ 而不是 /æ/。
+    - mistake: 用中文近似音代替英语音标
+      example: 把 /e/ 读成'哎'，把 /ʌ/ 读成'啊'
+      why: 中文里没有完全对应的音，学生用最接近的中文音替代，但英语音标的口型和舌位不同
+      how_to_explain: 英语的 /e/ 口型比中文'哎'小，嘴唇微微张开而不是张大。每个音标都有特定的口型和舌位——不能简单地用中文音代替。多听原声、多模仿，让嘴巴肌肉形成记忆。
+  alternate_explanations:
+    - method: 口腔体操（身体感知）
+      when_to_use: 学生区分不清几个相近的元音时
+      prompt: 我们来做个口腔体操。发 /iː/：嘴角用力向两边拉，像在假笑，舌头抬高。发 /ɪ/：嘴角放松，舌头稍微低一点。发 /e/：嘴巴张开一点，舌头再低一点。发 /æ/：嘴巴张大到能塞两根手指，舌头最低。你发现了吗——舌头从上到下在移动！
+    - method: 最小对立对（对比法）
+      when_to_use: 学生反复混淆两个音时
+      prompt: 我们只做对比练习。跟我读：/iː/ vs /ɪ/——sheep vs ship, beat vs bit, leave vs live。你听出区别了吗？一个长一个短，一个紧一个松。现在你来说，我判断你说的哪个。
+    - method: 历史故事（文化理解）
+      when_to_use: 学生对'为什么拼写和发音不一致'感到困惑和沮丧时
+      prompt: 别沮丧——这不是你的问题，是历史留下的'烂摊子'。想象一下：500 年前英国人用鹅毛笔写字，name 读作 /naːmə/。后来发音变了（元音大推移），a 从 /aː/ 变成了 /eɪ/，末尾的 e 不发音了——但拼写早就印在书上了，改不了。你现在的困惑，全世界的英语学习者都经历过。
+  question_templates:
+    difficulty_1_2: 出 2 道识别题：给音标让学生判断是元音还是辅音，或给单词让学生判断是开音节还是闭音节（如 go、cat、she、bed）
+    difficulty_3: 出 1 道对比题：给两个发音相近的音标（如 /θ/ vs /s/、/iː/ vs /ɪ/），让学生说明区别并举出例词
+    difficulty_4: 出 1 道应用场景题：给一个不常见的英语单词和它的音标，让学生根据音标规则解释每个音素的发音方式

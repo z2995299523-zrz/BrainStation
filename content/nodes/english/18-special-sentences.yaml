@@ -1,0 +1,185 @@
+slug: special-sentences
+subject: english
+title: 特殊句式
+tier: core
+difficulty: 3
+prerequisites:
+  - subject-verb-agreement
+estimated_min: 25
+trigger:
+  type: story
+  title: 特殊句式——给句子'变个魔术'
+  content:
+    text: "正常的英语句子是\"主语 + 谓语 + 其他\"，老老实实排队。\n但有时候，作家和说话者想要**强调**、想要**渲染情绪**，就会让句子\"变魔术\"——\n把语序打乱，或者加上特殊结构。\n\n看这三类魔术：\n- **倒装**：把谓语提到主语前。\"Here **comes** the bus!\"（公交来啦！比 The bus comes here 生动得多）\n- **强调**：用 It is…that… 框住想突出的部分。\"It was **John** that broke the window.\"（是约翰打破的，不是别人！）\n- **感叹**：用 What / How 开头抒发强烈情感。\"**What** a beautiful day!\"（多美的一天啊！）\n\n这些句式让英语更有表现力，也是中考写作和阅读的高分点。\n学会它们，你的英语就从\"会说\"升级到\"说得漂亮\"。"
+    question: 你能把 "The bus comes here." 改成更生动的倒装句吗？
+display:
+  concept:
+    summary: 特殊句式是为强调、渲染情感或满足语法要求而改变常规语序的句型，初中阶段重点掌握三类：倒装句（把谓语或助动词提到主语前，分全部倒装和部分倒装）、强调句（It is/was + 被强调部分 + that/who…）、感叹句（What 和 How 引导，抒发强烈情感）。
+    sections:
+      - title: 一、倒装句（Inversion）
+        content: "把谓语（或助动词）放到主语前面，叫倒装。分两种：\n\n**1. 全部倒装**（整个谓语提到主语前），常见于：\n- here/there/now/then 等开头：**Here comes** the bus!  **There goes** the bell!\n- 表地点的介词短语开头：**On the hill stands** a tower.\n- （注意：主语是代词时不倒装——Here **it comes**.）\n\n**2. 部分倒装**（只把助动词/be/情态动词提到主语前），常见于：\n| 触发词 | 例句 |\n|--------|------|\n| 否定词开头（never, hardly, not until, little） | **Never have** I seen such a film. |\n| so/neither/nor 开头表\"也\" | I like it. — **So do** I.  /  He can't swim. — **Neither can** I. |\n| only + 状语开头 | **Only then did** I understand. |"
+      - title: 二、强调句（Emphatic Sentence）
+        content: "用 **It is / It was + 被强调部分 + that / who…** 来突出句子的某个成分。\n\n**基本结构**：It is/was + 强调部分 + that（强调人时可用 who）+ 其余部分\n\n原句：Tom met Mary in the park yesterday.\n- 强调主语 Tom：**It was Tom that/who** met Mary in the park yesterday.\n- 强调宾语 Mary：**It was Mary that/who** Tom met in the park yesterday.\n- 强调地点：**It was in the park that** Tom met Mary yesterday.\n- 强调时间：**It was yesterday that** Tom met Mary in the park.\n\n**要点**：\n- 可强调主语、宾语、状语，但**不能强调谓语动词**\n- 强调人用 that 或 who 都行；强调物只能用 that\n- 判断是不是强调句：去掉 It is…that…，剩下的仍是完整句子"
+      - title: 三、感叹句（Exclamatory Sentence）
+        content: "用来表达惊讶、赞美、喜悦等强烈感情，用 **What** 或 **How** 引导。\n\n**What 引导**（强调名词）：\n- What + a/an + 形容词 + 可数名词单数 + (主语+谓语)!\n  - **What a** clever boy (he is)!（他真是个聪明的男孩！）\n- What + 形容词 + 可数名词复数/不可数名词 + (主语+谓语)!\n  - **What** beautiful flowers (they are)!\n  - **What** delicious food (it is)!\n\n**How 引导**（强调形容词/副词）：\n- How + 形容词/副词 + (主语+谓语)!\n  - **How** clever (the boy is)!（这男孩真聪明！）\n  - **How** fast (he runs)!（他跑得真快！）\n\n**口诀**：What 后面跟名词（带不带 a 看可数与否），How 后面跟形容词或副词。"
+      - title: 四、易混点与互相转换
+        content: "**1. What 与 How 感叹句的互换**（中考高频）：\n- What a tall tree it is! = How tall the tree is!（树多高啊）\n- 互换关键：What 句\"名词为核心\"，How 句\"形容词为核心\"\n\n**2. 强调句 vs 普通 It is…that…**：\n- 强调句：去掉 It is…that 后句子完整 → It was **here** that we met.（去掉后：We met here.✓）\n- 主语从句：去掉后不完整 → It is true **that** he left.（去掉后：he left 与 true 失去联系）\n\n**3. 倒装句主谓一致**：倒装后动词仍与**真正的主语**一致——\n- **There is** a book and two pens.（就近，看 a book）\n- **On the table are** two books.（真正主语 two books → 用 are）"
+  examples:
+    - title: 否定词开头的部分倒装
+      problem: 把 "I have never seen such a beautiful place." 改成 never 开头的倒装句。
+      steps:
+        - 第 1 步：never 是否定词，提到句首要引起**部分倒装**
+        - 第 2 步：部分倒装把助动词 have 提到主语 I 前面
+        - 第 3 步：Never + have + I + seen…
+      answer: '**Never have I seen** such a beautiful place.（我从未见过如此美丽的地方）'
+    - title: 强调句的构造
+      problem: 用强调句突出 "in 2008"：China held the Olympic Games in 2008.
+      steps:
+        - 第 1 步：被强调部分是时间状语 in 2008
+        - 第 2 步：套入结构 It was + in 2008 + that + 其余部分
+        - 第 3 步：It was in 2008 that China held the Olympic Games.
+      answer: '**It was in 2008 that** China held the Olympic Games.（正是在 2008 年中国举办了奥运会）'
+    - title: What 与 How 感叹句互换
+      problem: 把 "What an interesting book it is!" 改写成 How 引导的感叹句。
+      steps:
+        - 第 1 步：原句核心形容词是 interesting，名词是 book
+        - 第 2 步：How 引导强调形容词，结构 How + 形容词 + 主语 + 谓语
+        - 第 3 步：把核心形容词 interesting 提到 How 后：How interesting the book is!
+      answer: '**How interesting the book is!**（这本书真有趣！）'
+  practice:
+    - id: ss-prac-001
+      stem: 用 here 改写成倒装句：The taxi comes here.
+      answer: Here comes the taxi!（注意：主语是名词 taxi，全部倒装；若是代词则不倒装）
+      hints:
+        - here 开头用全部倒装
+        - 把动词 comes 提到主语前
+    - id: ss-prac-002
+      stem: 选择：— I can't ride a bike. — ___
+      answer: B
+      hints:
+        - 前句否定，"我也不"用 neither/nor
+        - neither 引导部分倒装
+      q_type: choice
+      options:
+        - A. So can I
+        - B. Neither can I
+    - id: ss-prac-003
+      stem: 用强调句强调主语 Lucy：Lucy helped me yesterday.
+      answer: It was Lucy that/who helped me yesterday.（强调人可用 that 或 who）
+      hints:
+        - 结构 It was + 强调部分 + that/who…
+        - 强调人时 that/who 都可
+    - id: ss-prac-004
+      stem: 完成感叹句：___ (多么好的天气啊) it is! 用 What 引导。
+      answer: What fine weather it is!（weather 是不可数名词，不加 a）
+      hints:
+        - weather 是不可数名词
+        - What + 形容词 + 不可数名词，不加 a/an
+    - id: ss-prac-005
+      stem: 改错：Never I have been to Beijing.
+      answer: Never have I been to Beijing。否定词 never 开头要部分倒装，把助动词 have 提到主语前。
+      hints:
+        - never 开头必须部分倒装
+        - 助动词要提到主语 I 前面
+    - id: ss-prac-006
+      stem: 判断是否为强调句：It is a fact that he passed the exam. 是强调句吗？
+      answer: 不是。去掉 It is…that 后，"a fact" 和 "he passed the exam" 无法构成完整句子，这是主语从句，不是强调句。
+      hints:
+        - 强调句去掉 It is…that 后剩余部分仍完整
+        - 这里去掉后 a fact 无所依附
+  test:
+    - id: ss-test-001
+      stem: 选择：Here ___ the bus
+      answer: A
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. comes
+        - B. coming
+        - C. come
+    - id: ss-test-002
+      stem: 选择：— He doesn't like coffee. — ___
+      answer: B
+      difficulty: 2
+      layer: operation
+      q_type: choice
+      options:
+        - A. So do I
+        - B. Neither do I
+    - id: ss-test-003
+      stem: 用强调句改写并强调时间状语：We will start the meeting at 9 o'clock.
+      answer: It is at 9 o'clock that we will start the meeting.（强调时间状语 at 9 o'clock）
+      difficulty: 2
+      layer: connect
+    - id: ss-test-004
+      stem: 选择：___ delicious the cake is!
+      answer: B
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. What
+        - B. How
+    - id: ss-test-005
+      stem: 把 "How brave the soldier is!" 改成 What 引导的感叹句。
+      answer: What a brave soldier he is!（soldier 可数单数，加 a）
+      difficulty: 3
+      layer: connect
+    - id: ss-test-006
+      stem: 改错：Not until midnight he went to bed.
+      answer: not until 开头要部分倒装：Not until midnight **did he go** to bed.
+      difficulty: 3
+      layer: understand
+    - id: ss-test-007
+      stem: 小华把 "It was Tom that broke the cup." 理解成"汤姆打破了那个杯子，没有强调"。他理解对吗？
+      answer: 不完全对。这是强调句，强调的是"是汤姆（而不是别人）"打破了杯子，带有强烈的强调语气。
+      difficulty: 3
+      layer: understand
+    - id: ss-test-008
+      stem: 选择并说明：On the wall ___ many pictures
+      answer: B
+      difficulty: 3
+      layer: connect
+      q_type: choice
+      options:
+        - A. is
+        - B. are
+ai_context:
+  topic_summary: 特殊句式是为强调、渲染情感或语法需要而改变常规语序的句型。初中三大重点：倒装句（here/there 开头全部倒装，否定词/so/neither/only 状语开头部分倒装）、强调句（It is/was + 被强调部分 + that/who，可强调主语宾语状语但不能强调谓语）、感叹句（What 引导强调名词，How 引导强调形容词副词，二者可互换）。难点在于判断强调句与主语从句、What/How 的选择、倒装后的主谓一致。
+  key_insights:
+    - 倒装的本质是"提前"——把想突出的内容（地点、否定、谓语）放句首，再调整语序
+    - 部分倒装只提助动词/be/情态动词，全部倒装提整个谓语——别把整个谓语都提错
+    - 强调句的检验法：去掉 It is…that…后句子仍完整 → 是强调句；否则是主语从句
+    - 感叹句选 What 还是 How，关键看核心词：名词为核心用 What，形容词/副词为核心用 How
+  common_mistakes:
+    - mistake: 否定词开头忘记部分倒装
+      example: '"Never I have seen it."（应为 Never have I seen it.）'
+      why: 学生记得把否定词提到句首，却忘了同时要把助动词提到主语前
+      how_to_explain: 否定词开头是"双动作"：第一步把否定词提到句首，第二步必须把助动词（have/do/can 等）也提到主语前面。记住口诀"否定提头，助动跟上"。如果句子里没有助动词，就借一个 do/does/did。
+    - mistake: What/How 感叹句混用
+      example: '"How a nice day!"（应为 What a nice day!）'
+      why: 学生没分清后面跟的是名词还是形容词
+      how_to_explain: 看感叹的核心落在哪个词上。如果落在名词上（a nice day——核心是 day）用 What；如果落在形容词/副词上（how nice——核心是 nice）用 How。一个简单判断：后面紧跟 a/an 或名词 → What；紧跟形容词/副词 → How。
+    - mistake: 把强调句和主语从句搞混
+      example: 把 "It is important that…" 误认为强调句
+      why: 两者都有 It is…that 的外壳，学生只看表面结构
+      how_to_explain: 做"删除测试"：把 It is 和 that 都删掉。如果剩下的词能拼成一个完整句子，就是强调句；如果剩下的部分散架了（如 important + he left 接不上），就是主语从句。强调句的 that 后是完整句去掉被强调成分。
+    - mistake: 倒装后主谓不一致
+      example: '"On the desk is two books."（应为 are）'
+      why: 学生被提前的状语迷惑，按状语或就近的词配动词
+      how_to_explain: 倒装只是改变语序，不改变主谓一致。先找出真正的主语（动词后面那个名词），再让动词与它一致。On the desk __ two books → 真主语是 two books（复数）→ 用 are。
+  alternate_explanations:
+    - method: 语序还原法
+      when_to_use: 学生面对倒装句不理解或不会改时
+      prompt: 先把句子还原成正常语序（主语+谓语+其他）理解意思，再做倒装。Never have I seen… 还原为 I have never seen…；理解后，把否定词提前、助动词跟到主语前，就完成倒装了。
+    - method: 强调句"探照灯"比喻
+      when_to_use: 讲解强调句作用时
+      prompt: It is…that… 就像一束探照灯，照亮你最想突出的那个成分。想强调谁，就把谁放进 It is 和 that 之间的"光圈"里。It was JOHN that…（灯打在 John 身上）。其余部分留在 that 后面的暗处。
+    - method: 核心词圈出法
+      when_to_use: 选择 What 还是 How 引导感叹句时
+      prompt: 把要感叹的句子里最关键的那个词圈出来。如果圈出的是名词（boy, day, weather）→ 用 What；如果圈出的是形容词或副词（clever, fast, beautiful）→ 用 How。再根据可数/不可数决定 What 后加不加 a/an。
+  question_templates:
+    difficulty_1_2: 出 2 道选择题：选择倒装句的正确动词形式，或 What/How 感叹句的正确引导词
+    difficulty_3: 出 1 道句型转换题：把普通句改成倒装句/强调句，或 What 与 How 感叹句互换
+    difficulty_4: 出 1 道辨析题：给若干 It is…that 句子让学生判断哪些是强调句、哪些是主语从句并说明理由

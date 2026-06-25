@@ -1,0 +1,184 @@
+slug: subject-verb-agreement
+subject: english
+title: 主谓一致
+tier: core
+difficulty: 2
+prerequisites:
+  - tenses-basic
+estimated_min: 25
+trigger:
+  type: story
+  title: 主谓一致——谓语动词要'听'主语的话
+  content:
+    text: "英语里有一条铁律：谓语动词必须和主语在\"数\"上保持一致。\n主语是单数，动词就用单数形式；主语是复数，动词就用复数形式。\n\n就像照镜子：\n- He **likes** music.（他喜欢——单数，动词加 s）\n- They **like** music.（他们喜欢——复数，动词原形）\n\n听起来简单，但麻烦在于：英语里很多主语\"看起来\"是这个数，\"实际上\"却是另一个数。\n- \"The news **is** good.\"（news 看着像复数，其实是单数！）\n- \"Twenty years **is** a long time.\"（一段时间看作整体——单数）\n- \"Either you or he **is** right.\"（就近原则——看 he）\n\n这些\"陷阱\"正是中考高频考点。掌握主谓一致的三大原则，你就能避开它们。"
+    question: 你能判断 "Maths is/are my favorite subject." 该用 is 还是 are 吗？
+display:
+  concept:
+    summary: 主谓一致指谓语动词在人称和数上与主语保持一致。核心是三大原则：语法一致（看主语单复数的语法形式）、意义一致（看主语实际表达的单复数概念）、就近一致（动词与最靠近的主语一致）。难点集中在不可数名词、集合名词、就近原则以及 each/every/none 等特殊词。
+    sections:
+      - title: 一、语法一致原则
+        content: "谓语动词的单复数由主语的**语法形式**决定。\n\n**基本规则**：\n- 单数主语（含不可数名词）+ 单数动词：The boy **runs** fast.\n- 复数主语 + 复数动词：The boys **run** fast.\n\n**常考\"看着像复数其实是单数\"的词**：\n| 词 | 含义 | 谓语 |\n|------|------|------|\n| news | 新闻 | is/was（单数） |\n| maths/physics/politics | 学科名 | is（单数） |\n| the United States | 美国（国名） | is（单数） |\n\n**and 连接的并列主语 → 复数**：\n- Tom **and** Jerry **are** good friends.\n- 但若指同一人/物（一个整体）→ 单数：Bread and butter **is** my breakfast.（面包加黄油是一道）"
+      - title: 二、意义一致原则
+        content: "看主语**实际表达的概念**是单数还是复数。\n\n**1. 集合名词（family, class, team, group）**：\n- 强调整体 → 单数：My family **is** large.（家庭这个整体很大）\n- 强调成员 → 复数：My family **are** all music lovers.（家里每个人都……）\n\n**2. 时间/距离/金钱/重量作整体 → 单数**：\n- Ten years **is** a long time.（十年是一段时间）\n- Five dollars **is** enough.（五美元是一笔钱）\n\n**3. \"the + 形容词\"表一类人 → 复数**：\n- The rich **are** not always happy.（富人们）\n- The young **have** their own dreams.（年轻人们）"
+      - title: 三、就近一致原则
+        content: "当主语由 or, either…or, neither…nor, not only…but also, there be 等连接时，\n谓语动词与**最靠近它的那个主语**保持一致。\n\n| 结构 | 例句 | 看哪个 |\n|------|------|--------|\n| either…or… | Either you or he **is** right. | he（近） |\n| neither…nor… | Neither he nor they **are** here. | they（近） |\n| not only…but also… | Not only the students but also the teacher **likes** it. | the teacher（近） |\n| there be… | There **is** a pen and two books. | a pen（近） |\n\n**口诀**：or 类连接讲\"就近\"，动词跟着离它最近的主语走。"
+      - title: 四、特殊词的主谓一致
+        content: "**永远用单数动词**：\n- each, every, everyone, everybody, everything, someone, nobody, anything\n  - **Everyone is** here.  **Each of us has** a book.\n- one of + 复数名词（主语是 one）：**One of** the students **is** absent.\n\n**看 of 后面的名词决定单复数**：\n- some/most/half/the rest/all + of + 名词\n  - **Half of** the apple **is** bad.（apple 单数 → is）\n  - **Half of** the apples **are** bad.（apples 复数 → are）\n\n**a number of（许多）+ 复数 + 复数动词**；**the number of（……的数量）+ 复数 + 单数动词**：\n- **A number of** students **are** late.（许多学生迟到了）\n- **The number of** students **is** 50.（学生的数量是 50）"
+  examples:
+    - title: 不可数/学科名词作主语
+      problem: '"Maths ___ my favorite subject." 用 is 还是 are？'
+      steps:
+        - 第 1 步：识别主语 Maths（数学）——以 s 结尾，看着像复数
+        - 第 2 步：但学科名（maths, physics, politics）是**不可数名词**，作单数处理
+        - 第 3 步：单数主语 → 单数动词 is
+      answer: Maths **is** my favorite subject.（数学是我最喜欢的科目）
+    - title: 就近原则（either…or）
+      problem: '"Either my parents or my brother ___ coming." 用 is 还是 are？'
+      steps:
+        - 第 1 步：either…or 连接两个主语 → 用就近原则
+        - 第 2 步：找离动词最近的主语：my brother（单数）
+        - 第 3 步：动词跟着 brother → 单数 is
+      answer: Either my parents or my brother **is** coming.（要么我父母要么我弟弟来）
+    - title: a number of vs the number of
+      problem: 区分 "A number of students ___ here." 和 "The number of students ___ 40."
+      steps:
+        - 第 1 步：a number of = 许多，主语是后面的 students（复数）→ 用 are
+        - 第 2 步：the number of = ……的数量，主语是 number（单数）→ 用 is
+        - 第 3 步：A number of students **are** here.（许多学生在这里）／The number of students **is** 40.（学生数量是 40）
+      answer: a number of → are（看 students）；the number of → is（看 number）
+  practice:
+    - id: sva-prac-001
+      stem: 选择：The news ___ (is/are) very exciting today.
+      answer: is。news 是不可数名词，作单数。
+      hints:
+        - news 虽然以 s 结尾，但它是不可数名词
+        - 不可数名词用单数动词
+    - id: sva-prac-002
+      stem: 选择：Each of the students ___ (has/have) a dictionary.
+      answer: has。each 引导的主语永远用单数。
+      hints:
+        - each / every 后面的主语作单数
+        - 真正的主语是 each，不是 students
+    - id: sva-prac-003
+      stem: 选择：Neither he nor I ___ (am/is/are) wrong.
+      answer: am。neither…nor 用就近原则，离动词最近的是 I，所以用 am。
+      hints:
+        - neither…nor 看就近原则
+        - 离动词最近的主语是 I
+    - id: sva-prac-004
+      stem: 改错：Twenty kilometers are not a short distance.
+      answer: are → is。二十公里是一段距离，作整体看，用单数。Twenty kilometers **is** not a short distance.
+      hints:
+        - 距离/时间/金钱作整体看
+        - 整体概念用单数动词
+    - id: sva-prac-005
+      stem: 选择：There ___ (is/are) a book and two pens on the desk.
+      answer: is。there be 用就近原则，离它最近的是 a book（单数），用 is。
+      hints:
+        - there be 看就近原则
+        - 最近的名词是 a book
+    - id: sva-prac-006
+      stem: 翻译并填空：富人不总是快乐的。The rich ___ (is/are) not always happy.
+      answer: are。"the + 形容词"表一类人（富人们），作复数。
+      hints:
+        - the rich = 富人们（一类人）
+        - 这类主语用复数动词
+  test:
+    - id: sva-test-001
+      stem: 选择：Physics ___ difficult for me
+      answer: A
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. is
+        - B. are
+    - id: sva-test-002
+      stem: 选择：My family ___ all fond of traveling
+      answer: B
+      difficulty: 2
+      layer: understand
+      q_type: choice
+      options:
+        - A. is
+        - B. are
+    - id: sva-test-003
+      stem: 选择：Not only the teacher but also the students ___ excited
+      answer: B
+      difficulty: 2
+      layer: operation
+      q_type: choice
+      options:
+        - A. is
+        - B. are
+    - id: sva-test-004
+      stem: 改错：One of my friends are a doctor.
+      answer: are → is。主语是 one（一个），不是 friends。One of my friends **is** a doctor.
+      difficulty: 3
+      layer: understand
+    - id: sva-test-005
+      stem: 选择：___ of the milk has gone bad
+      answer: A
+      difficulty: 2
+      layer: operation
+      q_type: choice
+      options:
+        - A. Half
+        - B. Two
+    - id: sva-test-006
+      stem: 翻译：学生的数量是五十。（用 the number of）
+      answer: The number of students is fifty.（the number of 看 number → is）
+      difficulty: 2
+      layer: connect
+    - id: sva-test-007
+      stem: 小明写："Five years are a long time." 他错在哪？
+      answer: 五年作为一段时间是一个整体概念，应该用单数 is。正确：Five years **is** a long time.
+      difficulty: 3
+      layer: understand
+    - id: sva-test-008
+      stem: 选择并说明理由：Either you or she ___ to blame
+      answer: A
+      difficulty: 3
+      layer: connect
+      q_type: choice
+      options:
+        - A. is
+        - B. are
+ai_context:
+  topic_summary: 主谓一致是谓语动词在人称和数上与主语保持一致的规则。三大原则为语法一致（按主语语法形式）、意义一致（按主语实际概念）、就近一致（动词跟最近的主语）。高频陷阱包括以 s 结尾的不可数名词（news/maths）、集合名词（family/team）、表整体的时间金钱距离、each/every/one of 引导的单数主语、a number of 与 the number of 的区别，以及 or/either…or/there be 的就近原则。
+  key_insights:
+    - 主谓一致的本质是动词要"听主语的话"——先准确判断主语到底是单数还是复数
+    - 很多陷阱在于"形式"与"意义"不一致：news 像复数其实单数，family 可单可复看意义
+    - or 类连接（or/either…or/neither…nor/not only…but also/there be）一律用就近原则
+    - each/every/one of/the number of 引导的主语永远是单数——这是必背的固定考点
+  common_mistakes:
+    - mistake: 看到以 s 结尾就用复数动词
+      example: '"The news are good."、"Maths are easy."'
+      why: 学生只看单词末尾的 s，没注意到 news/maths 等是不可数名词
+      how_to_explain: 末尾的 s 不一定代表复数。news（新闻）、maths（数学）、physics（物理）这类词是"形似复数、实为单数"的不可数名词，永远配单数动词。判断标准不是看 s，而是看这个词能不能数。
+    - mistake: 并列主语 either…or 用就远或硬套复数
+      example: '"Either you or he are right."'
+      why: 学生默认两个主语相加就是复数，忽略了就近原则
+      how_to_explain: or 类连接词（or, either…or, neither…nor, not only…but also）不是"相加"，而是"二选一/择其近"。动词只跟离它最近的那个主语走。把手指放在动词前最近的主语上，它单数就单数，复数就复数。
+    - mistake: 时间/金钱/距离当复数处理
+      example: '"Ten years are a long time."'
+      why: 看到 years 是复数形式，就用了 are
+      how_to_explain: 当时间、金钱、距离、重量被看作"一个整体单位"时，要用单数。Ten years 不是"十个年"，而是"十年这一段时间"——是一个整体，所以用 is。
+    - mistake: 混淆 a number of 和 the number of
+      example: '"The number of students are increasing."'
+      why: 两个短语长得像，学生分不清谁是真正的主语
+      how_to_explain: 看冠词！a number of = 许多，重点在后面的复数名词 → 用复数动词；the number of = ……的数量，重点在 number 这个单数词 → 用单数动词。记住：the number（那个数量）本身就是一个数，当然是单数。
+  alternate_explanations:
+    - method: 找主语核心词法
+      when_to_use: 主语很长或带有 of 短语，学生抓不住真正主语时
+      prompt: 把主语后面的修饰成分（of 短语、定语从句等）暂时盖住，找最核心的那个词。"One of the students" → 盖住 of the students → 核心是 One（单数）。"A number of students" → 核心是 students（复数）。核心词决定动词。
+    - method: 整体 vs 个体测试法
+      when_to_use: 集合名词（family/team/class）拿不准用单数还是复数时
+      prompt: 问自己：这句话在说"这个集体作为一个整体"还是"集体里的每个成员"？整体 → 单数（My family is big = 家庭规模大）；强调成员各自 → 复数（My family are watching TV = 家里人都在看电视）。
+    - method: 手指就近法
+      when_to_use: 处理 or / either…or / there be 等就近一致结构时
+      prompt: 用手指指向谓语动词正前方、离它最近的那个名词。忽略前面所有其他主语，只看手指指的这个词是单数还是复数，动词就跟它一致。Either the books or the pen __ → 手指指 pen（单数）→ is。
+  question_templates:
+    difficulty_1_2: 出 2 道选择题：给含不可数名词或集合名词的句子选择正确动词形式（is/are, has/have）
+    difficulty_3: 出 1 道改错题：给违反就近原则或时间金钱整体规则的句子让学生改正并说明理由
+    difficulty_4: 出 1 道综合题：给一段含多个主谓一致考点（each/one of/a number of/就近）的语境，让学生逐句判断动词形式

@@ -50,6 +50,14 @@ class Config:
         return self._data.get("difficulty", {})
 
     @property
+    def auth(self) -> dict:
+        return self._data.get("auth", {})
+
+    @property
+    def deepseek(self) -> dict:
+        return self._data.get("deepseek", {})
+
+    @property
     def data(self) -> dict:
         return self._data
 

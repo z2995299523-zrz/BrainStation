@@ -127,6 +127,7 @@ class SessionBuilder:
                 "operation": content.get("operation", {}),
                 "understand": content.get("understand", {}),
                 "connect": content.get("connect", {}),
+                "interactives": target_node.get("interactives", []),
             }
             feynman = target_node.get("feynman", {})
             feynman_data = {
@@ -245,6 +246,7 @@ class SessionBuilder:
                 "operation": content.get("operation", {}),
                 "understand": content.get("understand", {}),
                 "connect": content.get("connect", {}),
+                "interactives": target_node.get("interactives", []),
             }
             feynman = target_node.get("feynman", {})
             feynman_data = {
@@ -272,11 +274,15 @@ class SessionBuilder:
                 "tier": target_node.get("tier", ""),
             },
             "steps": {
-                "warmup": {"questions": mix["warmup"]},
                 "trigger": trigger_data,
                 "learn": learn_data,
-                "training": {"questions": mix["training"]},
+                "checkup": {"questions": mix["checkup"]},
+                "exam": {"questions": mix["exam"]},
                 "feynman": feynman_data,
                 "calibration": calibration_data,
+            },
+            "phases": {
+                "learn": ["trigger", "learn", "checkup"],
+                "test": ["exam", "feynman", "calibration"],
             },
         }

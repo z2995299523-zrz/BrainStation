@@ -1,123 +1,172 @@
 slug: tenses-basic
 subject: english
-title: "四大基础时态"
+title: 四大基础时态
 tier: core
 difficulty: 2
-prerequisites: ["nouns-articles"]
+prerequisites:
+  - nouns-articles
 estimated_min: 25
-
 trigger:
   type: story
-  title: "中文没有时态——那你怎么知道事情发生在什么时候？"
+  title: 中文没有时态——那你怎么知道事情发生在什么时候？
   content:
-    text: |
-      中文用了、过、正在、将来表示时间，但动词本身不变：
-      - 我吃了饭 / 我吃过饭 / 我正在吃饭 / 我要吃饭
-
-      英语完全不同——动词本身要变形：
-      - I ate / I have eaten / I am eating / I will eat
-
-      这意味着说英语时，你每说一个动词就要考虑时间。
-      听起来很累？但一旦内化，你就有了一个时间GPS，
-      能精确表达任何时刻的动作。
-    question: "你觉得中文用时间词、英语用动词变形——哪种更聪明？为什么？"
-    spoken_phrases:
-      - { text: "I ate", label: "过去式" }
-      - { text: "I have eaten", label: "完成时" }
-      - { text: "I am eating", label: "进行时" }
-      - { text: "I will eat", label: "将来时" }
-
-content:
-  operation:
-    text: |
-      ## 四大基础时态
-
-      ### 1. 一般现在时（Present Simple）
-      - 用法：习惯、事实、规律
-      - 形式：do/does + 动词原形（三单+s/es）
-      - 标志：always, usually, every day
-      - 例：I go to school every day. She goes to school every day.
-
-      ### 2. 一般过去时（Past Simple）
-      - 用法：过去完成的动作
-      - 形式：动词过去式（规则+ed、不规则变化）
-      - 标志：yesterday, last week, in 2020
-      - 例：I went to school yesterday.
-
-      ### 3. 现在进行时（Present Continuous）
-      - 用法：正在进行的动作
-      - 形式：am/is/are + V-ing
-      - 标志：now, at the moment
-      - 例：I am studying now.
-
-      ### 4. 一般将来时（Future Simple）
-      - 用法：将要发生的动作
-      - 形式：will + 动词原形 / be going to + 动词原形
-      - 标志：tomorrow, next week
-      - 例：I will go to school tomorrow.
-    spoken_examples:
-      - { text: "I go to school every day.", label: "一般现在时" }
-      - { text: "She goes to school every day.", label: "三单+s" }
-      - { text: "I went to school yesterday.", label: "一般过去时" }
-      - { text: "I am studying now.", label: "现在进行时" }
-      - { text: "I will go to school tomorrow.", label: "一般将来时" }
-    examples:
-      - input: "every day 用哪个时态？"
-        output: "一般现在时 → I play basketball every day."
-      - input: "yesterday + 动作 → 什么时态？"
-        output: "一般过去时 → I played basketball yesterday."
-
-  understand:
-    text: |
-      ## will 和 be going to 有什么区别？
-
-      两者都表示将来，但细微区别很重要：
-
-      - **will**：说话时当场决定的、预测的
-        - "It's cold" → "I will close the window."（刚才决定的）
-
-      - **be going to**：事先计划好的、有迹象的
-        - "I am going to visit my grandma tomorrow."（已经计划好了）
-        - "Look at the clouds! It is going to rain."（有迹象）
-
-      为什么英语需要这么多时态？
-      因为英语缺少中文那样的时间状语灵活性——
-      中文说我明天去学校，动词去不需要变。
-      英语必须在动词上体现时间信息。
-    highlights:
-      - "will = 当场决定，be going to = 事先计划"
-      - "时间标志词是判断时态的最快方法"
-
-  connect:
-    text: |
-      ## 时间语法与思维方式
-
-      语言学家发现：语言如何表达时间，会影响人们如何感知时间。
-
-      英语强制标记时间（每个动词都要有时态），英语母语者
-      普遍对时间的点和段更敏感。
-
-      而中文不必标记时间，中文母语者更容易看到事件的关联性而不是先后性。
-
-      这不是谁好谁坏——而是不同的思维工具。
-    thought_seeds:
-      - "语言影响思维——强制标记时间的语言使用者在时间感知上更精确"
-      - "12 种时态其实只有 3 个时间×4 个状态，记忆时用矩阵法更高效"
-
-feynman:
-  base_prompt: "用你自己的话解释：四大基础时态分别什么时候用？will 和 be going to 有什么区别？"
-  key_elements:
-    - "一般现在时表习惯和事实"
-    - "一般过去时表过去的动作"
-    - "现在进行时表正在发生"
-    - "一般将来时表将要发生"
-  deep_questions:
-    - "如果英语取消时态，改用时间词（like 中文），你觉得会更简单还是更复杂？"
-    - "你觉得时态最难的地方在哪里？你用什么方法克服？"
-  missing_hints:
-    "一般现在时表习惯和事实": "I ___ (get) up at 7 every day. 用什么时态？"
-    "一般过去时表过去的动作": "yesterday 出现通常用什么时态？"
-    "现在进行时表正在发生": "look!/now 出现通常用什么时态？"
-    "一般将来时表将要发生": "tomorrow/next week 出现通常用什么时态？"
-
-thought_card: "今天学到的哪个时态细节是你以前没注意到的？"
+    text: "中文用\"了、过、正在、将要\"表示时间，但动词本身不变：\n- 我吃**了**饭 / 我吃**过**饭 / 我**正在**吃饭 / 我**要**吃饭\n\n英语完全不同——**动词本身要变形**：\n- I **ate** / I **have eaten** / I **am eating** / I **will eat**\n\n这意味着说英语时，你每说一个动词就要考虑时间。\n听起来很累？但一旦内化，你就有了一个\"时间 GPS\"，\n能精确表达任何时刻的动作。"
+    question: 你觉得中文用时间词、英语用动词变形——哪种更聪明？为什么？
+display:
+  concept:
+    summary: 英语动词靠变形表达时间。四大基础时态是：一般现在时（习惯/事实，do/does + 动词原形，三单加 s/es）、一般过去时（过去的动作，动词过去式）、现在进行时（正在进行，am/is/are + V-ing）、一般将来时（将要发生，will/be going to + 动词原形）。每种时态都有标志词，是最快的判断方法；will 与 be going to 在"当场决定"与"事先计划"上有细微差别。
+    sections:
+      - title: 一、一般现在时（Present Simple）
+        content: "**用法**：表示习惯、客观事实、普遍规律。\n\n**形式**：动词用原形；主语是第三人称单数（he/she/it/单数名词）时，动词加 **-s/-es**。\n- 一般加 s：work → works；play → plays\n- 以 s/x/ch/sh/o 结尾加 es：go → goes；watch → watches\n- 辅音 + y 结尾：去 y 加 ies：study → studies\n\n**标志词**：always, usually, often, every day, on Sundays\n\n**例句**：\n- I **go** to school every day.（我每天去上学。）\n- She **goes** to school every day.（她每天去上学。——三单加 es）\n- The sun **rises** in the east.（太阳从东边升起。——客观事实）"
+      - title: 二、一般过去时（Past Simple）
+        content: "**用法**：表示过去某个时间发生并已完成的动作。\n\n**形式**：动词用**过去式**。\n- 规则变化加 -ed：play → played；want → wanted\n- 不规则变化需记忆：go → went；eat → ate；see → saw；have → had\n\n**标志词**：yesterday, last week, two days ago, in 2020, just now\n\n**例句**：\n- I **went** to school yesterday.（我昨天去上学了。）\n- We **watched** a film last night.（我们昨晚看了一场电影。）"
+      - title: 三、现在进行时（Present Continuous）
+        content: "**用法**：表示此刻正在进行的动作。\n\n**形式**：**am/is/are + 动词的 -ing 形式**。\n- 一般直接加 ing：read → reading\n- 以不发音 e 结尾去 e 加 ing：write → writing\n- 重读闭音节双写末尾辅音：run → running；swim → swimming\n\n**标志词**：now, right now, at the moment, Look!, Listen!\n\n**例句**：\n- I **am studying** now.（我现在正在学习。）\n- Look! The children **are playing** football.（看！孩子们正在踢足球。）"
+      - title: 四、一般将来时（Future Simple）
+        content: "**用法**：表示将要发生的动作或将来的状态。\n\n**形式**：\n- **will + 动词原形**：I will call you.\n- **be going to + 动词原形**：I am going to call you.\n\n**标志词**：tomorrow, next week, soon, in the future\n\n**例句**：\n- I **will go** to school tomorrow.（我明天会去上学。）\n- It **is going to rain**.（要下雨了。——有迹象）"
+      - title: 五、will 与 be going to 的区别
+        content: "两者都表将来，但侧重不同：\n\n| 形式 | 含义 | 例句 |\n|------|------|------|\n| **will** | 说话时**当场决定**的、纯预测 | \"It's cold.\" → \"I **will** close the window.\"（刚决定的） |\n| **be going to** | **事先计划好**的、有**迹象**的 | I **am going to** visit my grandma tomorrow.（早计划好了） |\n\n**记忆口诀**：临时起意用 will，计划已定用 be going to。\n- Look at the clouds! It **is going to** rain.（乌云密布，有迹象 → be going to）"
+  examples:
+    - title: 用标志词判断时态
+      problem: 横线该用什么时态？I ___ (play) basketball every day.
+      steps:
+        - 第 1 步：找标志词——every day（每天）表示习惯。
+        - 第 2 步：习惯性动作用一般现在时。
+        - 第 3 步：主语 I 不是三单，动词用原形 play。
+      answer: I **play** basketball every day.（我每天打篮球。）every day 是一般现在时的标志词。
+    - title: 三单动词变化
+      problem: 把 "She (go) to bed at nine." 补充完整。
+      steps:
+        - 第 1 步：主语 She 是第三人称单数，且无过去时间词，用一般现在时。
+        - 第 2 步：三单动词要变形，go 以 o 结尾，加 es。
+        - 第 3 步：go → goes。
+      answer: She **goes** to bed at nine.（她九点睡觉。）三单 + 以 o 结尾 → 加 es。
+    - title: will 还是 be going to
+      problem: 选词：Look at the dark clouds! It ___ (rain).
+      steps:
+        - 第 1 步：句中有"Look at the dark clouds"——这是即将下雨的迹象。
+        - 第 2 步：有迹象、可预见的将来，用 be going to 更自然。
+        - 第 3 步：主语 It → is going to rain。
+      answer: It **is going to rain**.（要下雨了。）有明显迹象时用 be going to，而非临时决定的 will。
+  practice:
+    - id: tense-prac-001
+      stem: 用所给动词的正确时态填空：I ___ (get) up at seven every morning.
+      answer: get（every morning 表习惯，一般现在时；主语 I 用原形）
+      hints:
+        - 找标志词 every morning
+        - 主语 I 不是三单，动词用原形
+    - id: tense-prac-002
+      stem: 填空：She ___ (watch) TV yesterday evening.
+      answer: watched（yesterday 表过去，一般过去时；watch 规则变化加 ed）
+      hints:
+        - yesterday 是过去时间标志
+        - watch 是规则动词，加 ed
+    - id: tense-prac-003
+      stem: 填空：Listen! Someone ___ (sing) in the next room.
+      answer: is singing（Listen! 表示此刻正在发生，现在进行时；someone 用 is + V-ing）
+      hints:
+        - Listen!/Look! 提示现在进行时
+        - 结构是 am/is/are + 动词ing
+    - id: tense-prac-004
+      stem: 写出下列动词的过去式：go, eat, see, play, study
+      answer: went, ate, saw, played, studied（前三个不规则，play 加 ed，study 去 y 加 ied）
+      hints:
+        - go/eat/see 是不规则动词，需记忆
+        - 辅音+y 结尾的 study 去 y 加 ied
+    - id: tense-prac-005
+      stem: 用 will 翻译：明天我会给你打电话。
+      answer: I will call you tomorrow.（tomorrow 表将来，will + 动词原形）
+      hints:
+        - tomorrow 是将来标志词
+        - will 后面跟动词原形
+    - id: tense-prac-006
+      stem: 改错：He go to school by bus every day.
+      answer: 主语 He 是三单，动词要加 s。正确：He **goes** to school by bus every day.
+      hints:
+        - every day 用一般现在时
+        - 三单主语动词加 s/es
+  test:
+    - id: tense-test-001
+      stem: 选择正确形式：My father ___ to work by car every day
+      answer: B
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. go
+        - B. goes
+        - C. went
+    - id: tense-test-002
+      stem: 填空：They ___ (visit) the museum last Sunday.
+      answer: visited（last Sunday 表过去，规则动词加 ed）
+      difficulty: 1
+      layer: operation
+    - id: tense-test-003
+      stem: 改错：Look! The baby is cry.
+      answer: 现在进行时结构是 be + 动词ing，cry 要变 crying。正确：Look! The baby **is crying**.
+      difficulty: 2
+      layer: operation
+    - id: tense-test-004
+      stem: 判断时态并填空：I ___ (study) English for many years and I still love it.（提示：习惯性事实）
+      answer: study（每天习惯/长期事实用一般现在时，主语 I 用原形 study）
+      difficulty: 2
+      layer: understand
+    - id: tense-test-005
+      stem: 比较：用 will 和 be going to 分别造句表达"我打算明年去日本"和"我（刚决定）帮你拿包"，并说明区别。
+      answer: 计划已定 → I am going to go to Japan next year. 临时决定 → I will help you with your bag. 区别：be going to 表事先计划，will 表说话时当场决定。
+      difficulty: 3
+      layer: understand
+    - id: tense-test-006
+      stem: 用四种时态各造一句关于"吃早餐（eat breakfast）"的句子。
+      answer: 一般现在：I eat breakfast at 7 every day. 一般过去：I ate breakfast at 7 this morning. 现在进行：I am eating breakfast now. 一般将来：I will eat breakfast in ten minutes.
+      difficulty: 3
+      layer: connect
+    - id: tense-test-007
+      stem: 为什么英语需要四种（乃至更多）时态，而中文只用一个动词加时间词？用你的话说明。
+      answer: 因为英语把时间信息编码在动词变形里——动词本身必须体现动作发生的时间和状态；中文不在动词上标记，而是靠"了/过/正在/将要"等词和上下文表达。两种方式都能表达时间，只是分工不同。
+      difficulty: 3
+      layer: connect
+    - id: tense-test-008
+      stem: 改错：She is go to the park now.
+      answer: 现在进行时不能用 is + 动词原形。正确：She **is going** to the park now.（is + going）
+      difficulty: 2
+      layer: operation
+ai_context:
+  topic_summary: 英语靠动词变形表达时间，本章覆盖四大基础时态。一般现在时（习惯/事实，三单加 s/es）、一般过去时（已完成的过去动作，动词过去式，含不规则变化）、现在进行时（此刻正在进行，am/is/are + V-ing）、一般将来时（将要发生，will / be going to）。每种时态都有标志词，是最快的判断入口。难点在于三单动词变形、不规则过去式、现在进行时的 be + ing 结构，以及 will 与 be going to 的语用差异（当场决定 vs 事先计划）。中文不在动词上标时间，因此学生常忘记动词变形。
+  key_insights:
+    - 时态的本质是把"时间信息"编码进动词——这是与中文最大的不同
+    - 标志词是判断时态的最快方法：every day→现在；yesterday→过去；now/Look!→进行；tomorrow→将来
+    - 一般现在时的三单加 s/es 是高频易漏点，因为中文动词不随人称变化
+    - 现在进行时必须是 be + 动词ing，缺一不可，不能用 be + 动词原形
+    - will 表当场决定/预测，be going to 表事先计划/有迹象——两者并非完全等同
+  common_mistakes:
+    - mistake: 一般现在时三单动词忘记加 s/es
+      example: '"He go to school." / "She like music."'
+      why: 中文动词不随人称变化（他去/我去 都是"去"），学生没有变形习惯
+      how_to_explain: 提醒学生口诀"三单一定要加 s"。主语换成 he/she/it 或单数名词时，动词尾巴要"长出 s/es"。可让学生看到主语先停顿问自己"是不是三单？"
+    - mistake: 现在进行时用 be + 动词原形或漏掉 be
+      example: '"She is go." / "I reading a book."'
+      why: 学生只记住了"进行 = ing"或"有 be 就行"，没掌握 be + ing 的完整结构
+      how_to_explain: 强调现在进行时是"两件套"：be 动词（am/is/are）和动词ing 必须同时出现，缺一个都不对。像锁需要钥匙和锁孔配套。
+    - mistake: 有明确过去时间却用错时态
+      example: '"I have eaten breakfast at 7 yesterday."（应为 ate）'
+      why: 学生混淆了完成与一般过去，或忽略了 yesterday/last 等过去标志
+      how_to_explain: 教学生先扫描标志词。出现 yesterday、last、ago、具体过去时间 → 锁定一般过去时，动词用过去式。
+    - mistake: 不规则动词过去式套用 ed
+      example: '"I goed / eated / seed."'
+      why: 学生把规则变化（加 ed）当成万能公式
+      how_to_explain: 说明英语有一批高频不规则动词（go-went、eat-ate、see-saw），它们必须单独记忆，不能加 ed。建议做"原形—过去式"对照卡片反复背。
+  alternate_explanations:
+    - method: 标志词扫描法
+      when_to_use: 学生面对填空题不知用哪个时态时
+      prompt: 做题先当"侦探"，扫一遍句子找时间线索。every day→一般现在；yesterday/last/ago→一般过去；now/Look!/Listen!→现在进行；tomorrow/next→一般将来。找到标志词，时态基本就定了。
+    - method: 时间轴画图法
+      when_to_use: 学生分不清各时态的时间位置时
+      prompt: 在纸上画一条时间线，左过去、中现在、右将来。把动作放到对应位置：一般过去放左边的点；现在进行放"现在"上方一段正在发生的弧；一般将来放右边。视觉化能帮助选对时态。
+    - method: 决定时机法（will vs be going to）
+      when_to_use: 学生纠结 will 还是 be going to 时
+      prompt: 问自己"这个决定是什么时候做的？"。如果是说话这一刻才决定的（看到情况临时反应）→ will；如果之前就计划好了，或眼前有明显迹象 → be going to。
+  question_templates:
+    difficulty_1_2: 出 2 道选择/填空题：根据标志词选择正确时态，或写出动词的三单/过去式/ing 形式
+    difficulty_3: 出 1 道改错题：给三单漏 s、现在进行时结构错误或时态选错的句子让学生改正
+    difficulty_4: 出 1 道综合/对比题：让学生用四种时态各造一句，或用 will 与 be going to 造句并解释区别

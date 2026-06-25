@@ -1,0 +1,158 @@
+slug: reported-speech
+subject: english
+title: 间接引语
+tier: trunk
+difficulty: 3
+prerequisites:
+  - tenses-basic
+estimated_min: 25
+trigger:
+  type: story
+  title: 转述的艺术——你在说的每一句话都可能被转述
+  content:
+    text: "想一想，你一天中有多少次在转述别人的话：\n\n\"妈妈说今晚要下雨。\"\n\"老师说作业明天交。\"\n\"小明说他昨天看到了一只猫。\"\n\n这些都是间接引语——你不是逐字引用原话，\n而是用自己的句子转述别人的意思。\n\n英语中转述别人的话需要做三件事：\n1. 时态后退（现在→过去）\n2. 人称调整（我→他/她）\n3. 时间/地点词调整（今天→那天，这里→那里）\n\n间接引语是英语最实用的技能之一——日常对话、写报告、\n讲故事的每时每刻都在使用。\n"
+    question: 老师说'I am happy today'——你转述时应该怎么改？
+display:
+  concept:
+    summary: 间接引语是转述他人话语的语法工具。核心规则：时态后退（现在→过去、过去→过去完成）、人称转换、时间/地点状语调整。特别关注疑问句和祈使句的转换，以及客观真理时态不后退的例外。
+    sections:
+      - title: 一、引语的两个版本
+        content: "**直接引语**：逐字引用，加引号。\nHe said, \"I am tired.\"\n\n**间接引语**：转述意思，去掉引号，调整时态、人称等。\nHe said that he was tired.\n\n核心变化三要素：\n1. **时态后退**：am → was\n2. **人称转换**：I → he\n3. **连接词 that**（可以省略）：He said (that)...\n"
+      - title: 二、时态后退规则
+        content: "| 直接引语时态 | → 间接引语时态 | 例句 |\n|-------------|---------------|------|\n| 一般现在 | 一般过去 | \"I like dogs.\" → He said he liked dogs. |\n| 一般过去 | 过去完成 | \"I saw her.\" → He said he had seen her. |\n| 现在完成 | 过去完成 | \"I have finished.\" → He said he had finished. |\n| 一般将来 | 过去将来 | \"I will come.\" → He said he would come. |\n| 现在进行 | 过去进行 | \"I am reading.\" → He said he was reading. |\n| can | could | \"I can swim.\" → He said he could swim. |\n| may | might | \"I may go.\" → He said he might go. |\n\n口诀：时态向后推一格——现在→过去，过去→过去完成，将来→过去将来。\n"
+      - title: 三、人称和状语的调整
+        content: "**人称调整**（站在转述者视角）：\n\n| 直接引语 | → 间接引语 |\n|----------|-----------|\n| I / we | he / she / they（看说话者是谁） |\n| you | I / we / he / she（看听者是谁） |\n| my | his / her |\n| our | their |\n\n**时间/地点调整**：\n\n| 直接引语 | → 间接引语 |\n|----------|-----------|\n| now | then |\n| today | that day |\n| yesterday | the day before |\n| tomorrow | the next day |\n| here | there |\n| this | that |\n| these | those |\n"
+      - title: 四、疑问句的转述
+        content: "**一般疑问句**（yes/no 问句）：\n用 **if / whether** 引导，变回陈述语序。\n\n\"Do you like music?\" → He asked if I liked music.\n（不是 do I like——要变回陈述语序 + 时态后退）\n\n**特殊疑问句**（wh- 问句）：\n保留疑问词，变回陈述语序。\n\n\"Where do you live?\" → He asked where I lived.\n（不是 where did I live——do 被删掉，live 后退为 lived）\n\n关键：间接引语中的问句是**陈述语序**（主语在动词前），不是疑问语序！\n"
+      - title: 五、祈使句转述 + 例外
+        content: "**祈使句**（命令/请求）→ 用 tell/ask + 宾语 + to do：\n\"Sit down.\" → He told me to sit down.\n\"Don't be late.\" → He told me not to be late.\n\n**客观真理/事实——时态不后退！**\n\"The earth goes around the sun.\" → He said the earth goes around the sun.（不用 went！）\n\n**仍然真实的事情——时态可以不后退：**\n\"I am a teacher.\"（说话者仍然是老师）→ He said he is a teacher.（was 也可以）\n"
+  examples:
+    - title: 基础转述——人称+时态+状语
+      problem: 转述：Mary said, 'I will visit my grandmother tomorrow.'
+      steps:
+        - 第 1 步：时态后退——will → would
+        - 第 2 步：人称——I(指 Mary) → she，my → her
+        - 第 3 步：时间状语——tomorrow → the next day
+      answer: Mary said (that) she would visit her grandmother the next day.
+    - title: 疑问句转述
+      problem: 转述：He asked, 'What are you doing?'
+      steps:
+        - 第 1 步：保留疑问词 what
+        - 第 2 步：变回陈述语序——are you doing → I was doing
+        - 第 3 步：时态后退——现在进行 → 过去进行
+        - 第 4 步：人称——you → I（听者是'我'）
+      answer: He asked what I was doing.
+    - title: 客观真理例外
+      problem: 转述：The teacher said, 'Water boils at 100°C.'
+      steps:
+        - 这是一个客观真理——时态不后退！
+        - 保持一般现在时：boils（不是 boiled）
+      answer: The teacher said (that) water boils at 100°C.
+  practice:
+    - id: rsp-prac-001
+      stem: 转述：He said, 'I am hungry.'
+      answer: He said (that) he was hungry.
+      hints:
+        - am 是什么时态？后退到？
+        - I 变成什么人称？
+    - id: rsp-prac-002
+      stem: 转述：She said, 'I saw the movie yesterday.'
+      answer: She said (that) she had seen the movie the day before.
+      hints:
+        - saw（一般过去）→ 过去完成 had seen
+        - yesterday → the day before
+    - id: rsp-prac-003
+      stem: 转述（疑问句）：He asked, 'Do you like coffee?'
+      answer: He asked if/whether I liked coffee.
+      hints:
+        - 一般疑问句 → if/whether
+        - 变陈述语序+时态后退
+        - do you like → I liked
+    - id: rsp-prac-004
+      stem: 转述（祈使句）：The teacher said, 'Open your books.'
+      answer: The teacher told us to open our books.
+      hints:
+        - 祈使句 → tell/ask + to do
+        - your → our（听者是'我们'）
+    - id: rsp-prac-005
+      stem: "'She said she is a doctor.' 这句话的时态没有后退——为什么可以？"
+      answer: 因为她现在仍然是医生（事实仍然成立），时态可以不后退。但也可以说 was a doctor。
+      hints:
+        - 说话时她是不是还是医生？
+        - 仍然真实的事实时态可以不后退
+  test:
+    - id: rsp-test-001
+      stem: 转述：He said, 'I am 14 years old.'
+      answer: He said (that) he was 14 years old.
+      difficulty: 1
+      layer: operation
+    - id: rsp-test-002
+      stem: 转述：She said, 'I have finished my homework.'
+      answer: She said (that) she had finished her homework.
+      difficulty: 2
+      layer: operation
+    - id: rsp-test-003
+      stem: 转述（疑问句）：He asked, 'When will the meeting start?'
+      answer: He asked when the meeting would start.
+      difficulty: 3
+      layer: operation
+    - id: rsp-test-004
+      stem: 转述（祈使句）：Mother said to me, 'Don't play in the street.'
+      answer: Mother told me not to play in the street.
+      difficulty: 2
+      layer: operation
+    - id: rsp-test-005
+      stem: "下面哪句转述正确？原句 Tom: 'I will come tomorrow.' /？"
+      answer: B
+      difficulty: 2
+      layer: understand
+      q_type: choice
+      options:
+        - A. Tom said he will come tomorrow.
+        - B. Tom said he would come the next day.
+    - id: rsp-test-006
+      stem: 转述：The guide said, 'The sun rises in the east.'
+      answer: The guide said (that) the sun rises in the east.（客观真理——不后退！）
+      difficulty: 2
+      layer: understand
+    - id: rsp-test-007
+      stem: 转述：Peter said, 'I was reading when you called me.'
+      answer: Peter said (that) he had been reading when I called him.
+      difficulty: 4
+      layer: operation
+    - id: rsp-test-008
+      stem: 为什么英语转述需要时态后退而中文不需要？从语言对比的角度分析。
+      answer: 中文没有时态标记（动词不变形），转述时只需改人称和时间词。英语的动词有时态标注——必须用后退表示'这不是现在发生的事，而是某人之前说过的'。时态后退是英语过去时语法一致性要求的自然结果。
+      difficulty: 4
+      layer: connect
+ai_context:
+  topic_summary: 间接引语是转述他人话语的语法工具，核心是三要素变化：时态后退（现在→过去、过去→过去完成、将来→过去将来）、人称转换（根据说话者和听者调整视角）、时间/地点状语调整（now→then、today→that day等）。疑问句转述需变回陈述语序（用if/whether或保留疑问词），祈使句转述用tell/ask+to do。客观真理时态不后退。间接引语是日常生活中使用最频繁的语法结构之一。
+  key_insights:
+    - 时态后退是间接引语最核心的规则——所有时态统一向'过去'方向退一格
+    - 疑问句转述 = 去do + 变陈述语序 + 时态后退——三步缺一不可
+    - 客观真理不后退——因为真理在转述时仍然是真理（the earth goes around the sun）
+    - 中文不需要时态后退（没有动词变形），这是中国学生最容易漏掉的步骤
+  common_mistakes:
+    - mistake: 忘记时态后退
+      example: He said he is tired.
+      why: 中文思维——'他说他累了'完全没问题，学生没有时态后退的意识
+      how_to_explain: 引语中的时态后退 = 给动词贴上'这是转述'的标签。He said he was tired 中 was 告诉读者'我是在转述他之前说的话'。is 则意味着'他现在还累着'。时态后退提供了时间信息。
+    - mistake: 疑问句转述保留疑问语序
+      example: He asked where did I live.
+      why: 把直接引语的倒装语序保留到了间接引语中
+      how_to_explain: 间接引语中的问句不再是问句——它是一个名词性从句。名词性从句用陈述语序：where I lived（不是 where did I live）。当间接引语时，do/does/did 必须被删除。
+    - mistake: 时间状语忘记调整
+      example: She said she would visit me tomorrow.
+      why: 只记得时态后退，忘了时间词也要调整
+      how_to_explain: today/tomorrow/yesterday 是相对于'说话时刻'的——但转述时'说话时刻'已经变了。She said she would visit me the next day. 这里的 the next day 是相对于 said 那天——而不是相对于今天。
+  alternate_explanations:
+    - method: 时间轴法
+      when_to_use: 学生不理解为什么时态要后退
+      prompt: 画一条时间轴。标记三个点：现在（你正在转述）、过去某刻（某人说了原话）、更早的时刻（原话中描述的事件）。比如：现在=现在→过去1='他说'→过去2='我很累'（在他说话那一刻，累是'现在'的）。但你转述时'现在'变成了你的现在——原来的'现在'（他的累）到了你的视角就是'过去'了。时态后退就是把视角从原说话者切换到转述者。
+    - method: 记者报道法
+      when_to_use: 学生觉得间接引语不实用
+      prompt: 想象你是记者——每句话都在转述别人说的。'市长说：'我们会在下个月启动项目。''→'市长表示他们会在下个月启动项目。'记者的工作就是间接引语的连续练习——转述、总结、调整时间视角。试着把今天家人跟你说的话全部转述一遍。
+  question_templates:
+    difficulty_1_2: 出 2 道转述题：陈述句转述（时态后退+人称转换）
+    difficulty_3: 出 1 道疑问句转述题：wh-问句或 yes/no 问句（变语序+去do+时态后退）
+    difficulty_4: 出 1 道综合转述题：含多个变化要素（人称+时态+时间状语+情态动词）的句子

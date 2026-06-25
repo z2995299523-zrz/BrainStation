@@ -1,0 +1,156 @@
+slug: adverbial-clauses
+subject: english
+title: 状语从句
+tier: trunk
+difficulty: 3
+prerequisites:
+  - tenses-basic
+estimated_min: 30
+trigger:
+  type: story
+  title: 给句子加上'背景信息'——状语从句的力量
+  content:
+    text: "如果一句话只是一个简单的陈述，它就像一张没有背景的照片。\n状语从句就是给句子加上\"背景画布\"：\n\n- 时间（when, while, after, before）\n- 原因（because, since, as）\n- 条件（if, unless）\n- 让步（although, even though）\n- 目的（so that, in order that）\n- 结果（so...that, such...that）\n\n状语从句告诉你**为什么、什么时候、在什么条件下**发生了某件事。\n从\"I went home\"升级到\"I went home because it was raining.\"\n\n如果说简单句是一张证件照，加了状语从句的复合句就像一张电影截图——\n有背景、有前因后果、有画面感。\n"
+    question: 中文的状语从句和英语的状语从句——结构上有何异同？
+display:
+  concept:
+    summary: 状语从句是描述动作发生的时间、原因、条件、让步、目的、结果等的从句。本章学习六种常见状语从句的连接词和时态规则，特别关注'主将从现'（主句将来时，从句现在时）原则。
+    sections:
+      - title: 一、时间状语从句
+        content: "| 连接词 | 含义 | 例句 |\n|--------|------|------|\n| when | 当...的时候 | When I arrived, he was sleeping. |\n| while | 当...期间（持续） | While I was cooking, the phone rang. |\n| after | 在...之后 | After she left, I cleaned up. |\n| before | 在...之前 | Before you go, call me. |\n| as soon as | 一...就... | I'll call you as soon as I arrive. |\n| until | 直到...为止 | Wait here until I come back. |\n\n**主将从现**：时间状语从句中，主句将来时 → 从句用**一般现在时**。\n✓ I will call you when I arrive.（不是 will arrive！）\n✗ I will call you when I will arrive.\n"
+      - title: 二、原因状语从句
+        content: "| 连接词 | 语气 | 例句 |\n|--------|------|------|\n| because | 直接原因（最强） | I stayed home because it rained. |\n| since | 既然...（已知事实） | Since you're here, let's start. |\n| as | 由于...（附带说明） | As it was late, we left. |\n\n**because vs because of**：\n- because + 从句：because it rained\n- because of + 名词：because of the rain\n"
+      - title: 三、条件状语从句
+        content: "| 连接词 | 含义 | 例句 |\n|--------|------|------|\n| if | 如果 | If it rains, I'll stay home. |\n| unless | 除非（= if...not） | Unless you hurry, you'll be late. |\n| as long as | 只要 | You can go as long as you finish. |\n\n同样遵循**主将从现**：\n✓ If I have time tomorrow, I will visit you.（从句用现在时！）\n✗ If I will have time...\n"
+      - title: 四、让步状语从句
+        content: "表示\"虽然...但是...\"（注意：英语不能 although...but...！）\n\n| 连接词 | 例句 |\n|--------|------|\n| although / though | Although it rained, we went out. |\n| even though | Even though he's young, he's mature. |\n| while（对比） | While I like coffee, she prefers tea. |\n\n✗ Although it rained, but we went out.（中英文混用——although 和 but 不能共存）\n正确：Although it rained, we went out. / It rained, but we went out.\n"
+      - title: 五、目的与结果状语从句
+        content: "**目的状语从句**（为了...）：\n- so that + 从句：I got up early so that I could catch the bus.\n- in order that + 从句：She studies hard in order that she can pass.\n\n**结果状语从句**（如此...以至于...）：\n- so + 形容词/副词 + that...：He ran so fast that nobody could catch him.\n- such + 名词 + that...：It was such a good movie that I watched it twice.\n\n区别：so 后接形容词/副词，such 后接名词（短语）。\n"
+  examples:
+    - title: 主将从现
+      problem: 改错：I will go out if it will stop raining.
+      steps:
+        - if 引导条件状语从句——遵循'主将从现'
+        - 主句将来时（I will go out）→ 从句必须用现在时
+        - 正确：I will go out if it stops raining.
+      answer: I will go out if it stops raining.
+    - title: although...but 错误
+      problem: 翻译：'虽然下雨了，但我们还是去了。'——用 although
+      steps:
+        - 英语中 although 和 but 不能同时出现——选一个用
+        - 用 although：Although it rained, we went out.
+        - 用 but：It rained, but we went out.
+      answer: Although it rained, we went out.（不用 but）
+    - title: so...that vs such...that
+      problem: 填空：The test was ___ hard that many students failed.
+      steps:
+        - hard 是形容词 → 用 so（so + 形容词 + that）
+        - 如果是名词结构：It was such a hard test that...
+      answer: so
+  practice:
+    - id: adv-prac-001
+      stem: 填空：I ___ (call) you when I ___ (get) home.
+      answer: will call, get（主将从现）
+      hints:
+        - 主句将来时，从句现在时
+        - when 从句用一般现在时代替将来
+    - id: adv-prac-002
+      stem: 改错：Although she was tired, but she kept working.
+      answer: 去掉 but——Although she was tired, she kept working.
+      hints:
+        - although 和 but 不能同时出现
+        - 选一个保留
+    - id: adv-prac-003
+      stem: 填空：I stayed up late ___ I had a lot of work. (because / because of)
+      answer: because（后面接的是完整从句 I had a lot of work）
+      hints:
+        - because + 从句
+        - because of + 名词
+    - id: adv-prac-004
+      stem: 选词（so / such）：She is ___ a good teacher that everyone likes her.
+      answer: such（such + a + 名词短语 good teacher）
+      hints:
+        - 后面有名词 teacher
+        - such + 名词，so + 形容词
+    - id: adv-prac-005
+      stem: 翻译：'除非你努力，否则你不会成功。'用 unless
+      answer: Unless you work hard, you won't succeed.
+      hints:
+        - unless = if...not
+        - unless 从句用现在时代替将来
+  test:
+    - id: adv-test-001
+      stem: 填空：He was late ___ the traffic was bad.
+      answer: because
+      difficulty: 1
+      layer: operation
+    - id: adv-test-002
+      stem: 改错：I will go shopping when my mother will come back.
+      answer: I will go shopping when my mother comes back.（主将从现）
+      difficulty: 2
+      layer: operation
+    - id: adv-test-003
+      stem: 下面哪句正确？
+      answer: B
+      difficulty: 1
+      layer: understand
+      q_type: choice
+      options:
+        - A. Although it's cold, but I went out.
+        - B. Although it's cold, I went out.
+    - id: adv-test-004
+      stem: 用 so...that 或 such...that：The box was ___ heavy that I couldn't lift it.
+      answer: so（heavy 是形容词）
+      difficulty: 2
+      layer: operation
+    - id: adv-test-005
+      stem: 翻译：'我完成作业后就去玩。'
+      answer: I will play after I finish my homework.（主将从现：will play 是将来，finish 用现在时）
+      difficulty: 2
+      layer: operation
+    - id: adv-test-006
+      stem: He rushed to the station ___ he could catch the train.（填目的连接词）
+      answer: so that / in order that
+      difficulty: 2
+      layer: operation
+    - id: adv-test-007
+      stem: 判断对错：'Unless you don't hurry, you will be late.' 这句话对吗？为什么？
+      answer: 不对。unless 已经包含否定含义（= if...not），不能再用 don't。应改为：Unless you hurry, you will be late. 或 If you don't hurry, you will be late.
+      difficulty: 3
+      layer: understand
+    - id: adv-test-008
+      stem: 用四种不同的状语从句各写一句，描述你一天的生活。标注每句的类型。
+      answer: 时间：When I woke up, it was already 7 o'clock. / 原因：I ate quickly because I was late. / 条件：If I have time after school, I will play basketball. / 让步：Although I was tired, I finished my homework.
+      difficulty: 3
+      layer: connect
+ai_context:
+  topic_summary: 状语从句是描述动作发生背景信息（时间、原因、条件、让步、目的、结果）的从句。六种类型及其核心连接词：时间（when/while/after/before/until/as soon as）、原因（because/since/as）、条件（if/unless/as long as）、让步（although/even though）、目的（so that/in order that）、结果（so...that/such...that）。两条核心规则：主将从现（时间/条件状语从句中用现在时代替将来时）和 although/but 不能共存。so vs such 的区分是高频考点（so+形/副，such+名词）。
+  key_insights:
+    - 主将从现是最重要的时态规则——时间/条件状语从句中，主句将来时，从句永远用现在时
+    - although...but 不能共存的原因：一个是从属连词一个是并列连词——一句话只能用一个连接结构
+    - so...that 和 such...that 的区别看最后一个词的词性——so 后是形/副，such 后是名词
+    - unless = if...not，但 unless 句子中不能再用否定词——自己已带否定义
+  common_mistakes:
+    - mistake: although...but 连用
+      example: Although it rained, but I went.
+      why: 中文思维——中文'虽然...但是...'成对出现，学生直接翻译成英文
+      how_to_explain: 英语中从属连词（although）和并列连词（but）只能选一个。although 从句 = 从属句 + 主句。but = 并列句。结构不同不能混用。
+    - mistake: 时间/条件从句用将来时
+      example: When I will arrive, I'll call you.
+      why: 把主句的将来时复制到了从句——忘记主将从现规则
+      how_to_explain: 时间/条件状语从句中，从句不用 will。用一般现在时代替将来——when I arrive（不是 will arrive），if it rains（不是 will rain）。这是英语独有的时态简化规则。
+    - mistake: so 和 such 混淆
+      example: It was so good weather that...
+      why: weather 是名词——应该用 such 而非 so
+      how_to_explain: so + 形容词/副词，such + （形容词）+ 名词。It was so hot that...（hot 是形容词）。It was such hot weather that...（weather 是名词）。什么时候用 so → 后面直接跟形容词。什么时候用 such → 后面跟 a/an + 形容词 + 名词。
+  alternate_explanations:
+    - method: 时间线法（主将从现）
+      when_to_use: 学生不理解为什么 when/if 从句不能用将来时
+      prompt: 画一条时间线——标记'现在'和'将来'。when/if 从句描述的是'将来条件满足的那一刻'——在那一刻，句子中的动作是'现在'发生的。所以用现在时描述从句中的动作——它在你设想的那个未来时刻就是'现在'。
+    - method: 配对游戏法（连接词）
+      when_to_use: 学生记不住各种状语从句的连接词
+      prompt: 把连接词和含义配对做成卡片：when=时间⏰, because=原因🎯, if=条件🍀, although=让步💪, so that=目的🎯, so...that=结果💥。每种连接词后面跟的时态和结构是不一样的——先配对再归类记忆。
+  question_templates:
+    difficulty_1_2: 出 2 道连接词填空题：给上下文选择正确的状语从句连接词（because/if/when/although）
+    difficulty_3: 出 1 道改错题：包含主将从现错误或 although...but 连用错误
+    difficulty_4: 出 1 道翻译题：含多层逻辑的中文句子，需要正确使用状语从句

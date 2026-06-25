@@ -1,127 +1,172 @@
 slug: object-clause
 subject: english
-title: "宾语从句"
+title: 宾语从句
 tier: trunk
 difficulty: 3
-prerequisites: ["tenses-basic"]
+prerequisites:
+  - tenses-basic
 estimated_min: 25
-
 trigger:
   type: story
-  title: "把一句话塞进另一句话里"
+  title: 把一句话塞进另一句话里
   content:
-    text: |
-      人类语言最神奇的能力之一是**递归**——无限嵌套：
-      "他说..."
-      "他说她认为..."
-      "他说她认为我知道..."
-      "他说她认为我知道你在想..."
-      可以一直嵌套下去！
-
-      宾语从句就是这种嵌套能力的语法体现。
-      它让你能把一个完整的句子变成另一个句子的"宾语"——
-      就像俄罗斯套娃。
-
-      中文也做同样的事："他说她明天会来。"
-      但英语的玩法不同——你必须处理词序、时态、连接词。
-    question: "你觉得语言为什么需要嵌套句子的能力？如果禁止嵌套会怎样？"
-    spoken_phrases:
-      - { text: "I know that he is right.", label: "that从句" }
-      - { text: "I don't know if he will come.", label: "whether/if" }
-      - { text: "Do you know where he lives?", label: "wh-从句" }
-      - { text: "She said she was tired.", label: "时态呼应" }
-
-content:
-  operation:
-    text: |
-      ## 宾语从句：用句子做宾语
-
-      **结构**：主句 + that/whether/wh-词 + 从句
-
-      ### 三种连接词
-
-      1. **that**（陈述事实，常可省略）
-         - I know **(that)** he is right.
-         - She said **(that)** she would come.
-
-      2. **whether / if**（是否，不确定）
-         - I don't know **whether/if** he will come.
-         - He asked me **if** I liked music.
-
-      3. **wh-词**（what/who/when/where/why/how）
-         - Do you know **where** he lives?
-         - I wonder **what** she wants.
-
-      ### 关键规则
-      - **词序**：从句永远用**陈述句语序**（主语+谓语）
-        - ✗ "I don't know where does he live."
-        - ✓ "I don't know where he lives."
-      - **时态呼应**：主句过去时 → 从句也过去时
-        - She said she **was** tired.
-    spoken_examples:
-      - { text: "I know that he is right.", label: "that陈述" }
-      - { text: "I don't know whether he will come.", label: "whether/if" }
-      - { text: "Do you know where he lives?", label: "wh-词" }
-      - { text: "She said she was tired.", label: "时态呼应" }
-    examples:
-      - input: "\"Do you know where does she live?\" 哪里错？"
-    output: "→ Do you know where she lives?（从句用陈述语序）"
-
-  understand:
-    text: |
-      ## 为什么从句不能用疑问句语序？
-
-      英语有一个铁律：**从句永远用陈述句语序**。
-
-      这其实很合理——从句是"嵌套在另一个句子里的陈述"，
-      它不是真正的问句，只是在提供信息。
-
-      对比：
-      - 直接问句：**Where does** he live? ← 主语和助动词倒装
-      - 宾语从句：I don't know **where he lives**. ← 陈述语序
-
-      **为什么英语要区分？**
-      因为英语用词序来标记句子类型。问句倒装是一个"信号"——
-      告诉听者"这是一个问题"。而从句是陈述的一部分，不需要这个信号。
-
-      **时态呼应的逻辑**：
-      She **said** she **was** tired.（主句过去 → 从句过去）
-      逻辑：她说话的时候是过去，她累也是当时——所以从句也用过去。
-    highlights:
-      - "从句永远用陈述语序 = 英语最铁的铁律之一"
-      - "主句过去 → 从句也过去（时态呼应）"
-
-  connect:
-    text: |
-      ## 嵌套句子的能力是语言进化的重要一步
-
-      人类是唯一能用语言递归嵌套的物种。动物可以发出警告信号，
-      但没有任何动物能说"我昨天看到的那个人告诉我明天会下雨"——
-      因为这需要在一个句子中嵌套时间、空间、和另一个人的视角。
-
-      **宾语从句的本质**：在说话者的视角中嵌入另一个人的视角。
-      这是人类独有的认知能力——心理理论（Theory of Mind）。
-
-      你能理解"他以为我不知道他知道"吗？
-      这就是三层嵌套——而你对宾语从句的掌握，正是这种认知能力的语言基础。
-    thought_seeds:
-      - "宾语从句 = 把一个完整句子当成一个名词来用"
-      - "从句用陈述语序，永远记住"
-
-feynman:
-  base_prompt: "用你自己的话解释：宾语从句有哪三种连接词？为什么从句不能用问句语序？"
-  key_elements:
-    - "that 连接陈述"
-    - "whether/if 表示'是否'"
-    - "wh-词引导特殊疑问"
-    - "从句用陈述语序"
-  deep_questions:
-    - "如果英语规则改成'从句也用问句语序'，你觉得会更容易还是更难？"
-    - "你能造一个三层嵌套的宾语从句吗？（例：I think that she knows that he said that...）"
-  missing_hints:
-    "that 连接陈述": "表达一个确定的事实时用什么连接词？可以省略吗？"
-    "whether/if 表示'是否'": "表达不确定/选择时用什么连接词？"
-    "wh-词引导特殊疑问": "要问'在哪里'/'什么时候'/'为什么'，用什么词引导从句？"
-    "从句用陈述语序": "主语和谓语在从句中应该是什么顺序？"
-
-thought_card: "今天学到的宾语从句规则中，哪一条你最需要记住？"
+    text: "人类语言最神奇的能力之一是**递归**——无限嵌套：\n- 他说……\n- 他说她认为……\n- 他说她认为我知道……\n- 他说她认为我知道你在想……\n可以一直嵌套下去！\n\n宾语从句就是这种嵌套能力的语法体现。\n它让你能把一个完整的句子变成另一个句子的\"宾语\"——\n就像俄罗斯套娃。\n\n中文也做同样的事：\"他说她明天会来。\"\n但英语的玩法不同——你必须处理**词序、时态、连接词**。"
+    question: 你觉得语言为什么需要嵌套句子的能力？如果禁止嵌套会怎样？
+display:
+  concept:
+    summary: 宾语从句就是用一个完整的句子充当主句动词的宾语，结构是"主句 + 连接词 + 从句"。三种连接词：that（陈述事实，常可省略）、whether/if（表示"是否"）、wh-词（what/who/when/where/why/how，引导特殊疑问内容）。两条铁律必须牢记：从句永远用**陈述句语序**（主语 + 谓语，不倒装）；当主句是过去时，从句要做**时态呼应**（一般也用过去时）。
+    sections:
+      - title: 一、什么是宾语从句
+        content: "**宾语从句**就是一个**句子**充当另一个句子的**宾语**。\n\n- 普通宾语：I know **the answer**.（the answer 是名词宾语）\n- 宾语从句：I know **that he is right**.（一整个句子当宾语）\n\n**结构**：主句（主语 + 谓语）+ 连接词 + 从句（主语 + 谓语 + ……）\n\n能接宾语从句的常见动词：know, think, say, believe, hope, wonder, ask, tell 等。"
+      - title: 二、连接词一：that（陈述事实）
+        content: "**that** 引导陈述性的内容，表示一个确定的事实，本身**没有意义**，在口语和非正式书面语中**常可省略**。\n\n- I know **(that)** he is right.（我知道他是对的。）\n- She said **(that)** she would come.（她说她会来。）\n- I think **(that)** you are wrong.（我认为你错了。）\n\n**注意**：that 在 think/know/say 等动词后常省略；但在正式文体或为避免歧义时保留。"
+      - title: 三、连接词二：whether / if（是否）
+        content: "**whether / if** 表示\"是否\"，用于不确定、需要选择\"是或不是\"的内容。\n\n- I don't know **whether/if** he will come.（我不知道他是否会来。）\n- He asked me **whether/if** I liked music.（他问我是否喜欢音乐。）\n\n**whether 与 if 的差别**：\n- 多数情况可互换。\n- 但 whether 更正式，且和 or not 连用、放句首、介词后时只能用 whether：\n  - I don't know **whether or not** to go.（去不去我还没想好。）"
+      - title: 四、连接词三：wh-词（特殊疑问内容）
+        content: "**wh-词**（what, who, when, where, why, how）引导含特殊疑问含义的从句。\n\n- Do you know **where** he lives?（你知道他住哪里吗？）\n- I wonder **what** she wants.（我想知道她想要什么。）\n- Can you tell me **how** I can get to the station?（你能告诉我怎么去车站吗？）\n\nwh-词在从句中既是连接词，又充当句子成分（主语、宾语、状语等）。"
+      - title: 五、两条铁律：陈述语序 + 时态呼应
+        content: "**铁律 1：从句永远用陈述句语序（主语 + 谓语，不倒装）**\n\n从句不是真正的问句，只是在提供信息，所以**不能用疑问句的倒装语序**。\n- ✗ I don't know where **does he live**.\n- ✓ I don't know where **he lives**.\n- 对比直接问句：Where **does** he live?（直接问句才倒装）\n\n**铁律 2：时态呼应（主句过去 → 从句也过去）**\n\n当主句谓语是过去时，从句谓语一般也要用相应的过去时态。\n- She **said** she **was** tired.（她说她累了。——主句过去，从句也过去）\n- He **told** me he **had finished**.（他告诉我他已经做完了。）\n- **例外**：从句是客观真理时仍用一般现在时——The teacher said the earth **is** round."
+  examples:
+    - title: 修正疑问句语序
+      problem: '"Do you know where does she live?" 哪里错了？'
+      steps:
+        - 第 1 步：where 引导的是宾语从句，不是直接问句。
+        - 第 2 步：铁律 1——从句要用陈述句语序，不能有助动词 does 的倒装。
+        - 第 3 步：去掉 does，把动词还原为陈述形式 lives：where she lives。
+      answer: Do you know where **she lives**?（你知道她住哪里吗？）从句用陈述语序，不倒装。
+    - title: 时态呼应
+      problem: 把直接引语改为宾语从句：He said, "I am busy."
+      steps:
+        - 第 1 步：主句 said 是过去时，从句要做时态呼应。
+        - 第 2 步：直接引语里的 am（现在时）要相应变为过去时 was。
+        - 第 3 步：人称也相应调整 I → he：He said (that) he was busy.
+      answer: He said **(that) he was busy**.（他说他很忙。）主句过去 → 从句也用过去时 was。
+    - title: 选择正确连接词
+      problem: 填连接词：I'm not sure ___ he will agree. / Tell me ___ you want.
+      steps:
+        - 第 1 步：第一句表达"是否同意"——不确定、二选一，用 whether/if。
+        - 第 2 步：第二句"你想要什么"——含"什么"的疑问内容，用 wh-词 what。
+        - 第 3 步：分别填 whether/if 和 what。
+      answer: I'm not sure **whether/if** he will agree. / Tell me **what** you want.（"是否"用 whether/if，"什么"用 what）
+  practice:
+    - id: oc-prac-001
+      stem: 判断下列连接词该用 that、whether/if 还是 wh-词：① 我知道他来了 ② 我不知道他是否来 ③ 我不知道他什么时候来
+      answer: ① that（I know that he came）② whether/if（I don't know whether/if he will come）③ when（I don't know when he will come）
+      hints:
+        - 确定的事实用 that
+        - 表示"是否"用 whether/if；含疑问词意义用 wh-词
+    - id: oc-prac-002
+      stem: 改错：Could you tell me where is the bank?
+      answer: 从句要用陈述语序。正确：Could you tell me where **the bank is**?
+      hints:
+        - 宾语从句不能用疑问句倒装
+        - 把 is 移到主语 the bank 后面
+    - id: oc-prac-003
+      stem: 把直接引语改为宾语从句：She said, "I will help you."
+      answer: She said (that) she **would** help me.（主句过去，will 变 would；I 变 she，you 变 me）
+      hints:
+        - 主句过去时，从句要时态呼应
+        - will → would，注意人称变化
+    - id: oc-prac-004
+      stem: 合并为一句宾语从句：I don't know. + Does he like English?
+      answer: I don't know whether/if he likes English.（用 whether/if 连接；从句用陈述语序 he likes，不用 does）
+      hints:
+        - 一般疑问句变从句用 whether/if
+        - 去掉 does，动词加回三单 likes
+    - id: oc-prac-005
+      stem: 改错：He asked me what did I want.
+      answer: 从句用陈述语序，去掉助动词 did。正确：He asked me what **I wanted**.（主句 asked 过去，从句呼应用 wanted）
+      hints:
+        - wh-从句也用陈述语序
+        - 主句过去，从句动词也用过去 wanted
+    - id: oc-prac-006
+      stem: 翻译：你能告诉我图书馆在哪里吗？
+      answer: Can you tell me where the library is?（where 引导从句，用陈述语序 the library is）
+      hints:
+        - 表示"在哪里"用 where 引导从句
+        - 从句语序是 主语 + be 动词（the library is）
+  test:
+    - id: oc-test-001
+      stem: 选择正确语序：I don't know ___
+      answer: B
+      difficulty: 1
+      layer: operation
+      q_type: choice
+      options:
+        - A. where does he work
+        - B. where he works
+        - C. where works he
+    - id: oc-test-002
+      stem: 填连接词：I wonder ___ it will rain tomorrow.（提示：是否）
+      answer: whether/if（表示"是否"，用 whether 或 if）
+      difficulty: 1
+      layer: operation
+    - id: oc-test-003
+      stem: 改错：Do you know when will the meeting begin?
+      answer: 从句用陈述语序，不倒装。正确：Do you know when the meeting **will begin**?
+      difficulty: 2
+      layer: operation
+    - id: oc-test-004
+      stem: 把直接引语改为宾语从句：The teacher said, "The earth moves around the sun."
+      answer: The teacher said (that) the earth **moves** around the sun.（客观真理，即使主句过去，从句仍用一般现在时）
+      difficulty: 3
+      layer: understand
+    - id: oc-test-005
+      stem: 用你的话解释：为什么宾语从句不能用疑问句的倒装语序？
+      answer: 因为从句不是真正在提问，它只是嵌在主句里"提供信息"的陈述部分。英语用倒装语序来标记"这是一个问句"的信号，而从句不需要这个信号，所以用陈述语序（主语 + 谓语）。
+      difficulty: 3
+      layer: understand
+    - id: oc-test-006
+      stem: 把直接引语改为宾语从句：He said, "I bought a new car yesterday."
+      answer: He said (that) he had bought a new car the day before.（主句过去，从句过去的动作用过去完成时 had bought；yesterday 改为 the day before）
+      difficulty: 3
+      layer: connect
+    - id: oc-test-007
+      stem: 造一个三层嵌套的宾语从句（例：I think that … knows that … said that …）。
+      answer: 示例：I think that she knows that he said that the exam would be hard.（我认为她知道他说过考试会很难。）三层从句层层嵌套，每层都用陈述语序。
+      difficulty: 3
+      layer: connect
+    - id: oc-test-008
+      stem: 合并为宾语从句：Please tell me. + How can I improve my English?
+      answer: Please tell me how I can improve my English.（wh-词 how 引导，从句用陈述语序 I can，不用 can I）
+      difficulty: 2
+      layer: operation
+ai_context:
+  topic_summary: 宾语从句是用一个完整句子充当主句动词的宾语，体现语言的递归嵌套能力。结构是"主句 + 连接词 + 从句"，三类连接词：that（陈述事实，常可省略）、whether/if（表示"是否"）、wh-词（what/who/when/where/why/how，含特殊疑问内容）。两条核心规则：从句永远用陈述句语序（主语 + 谓语，绝不倒装），以及时态呼应（主句过去时则从句也用相应过去时，但客观真理仍用现在时）。中文也有句子嵌套，但不需处理倒装和时态呼应，所以中国学生最常犯"从句仍用疑问句倒装"和"忘记时态呼应"两类错误。
+  key_insights:
+    - 宾语从句的本质是"把一个完整句子当成一个名词（宾语）来用"
+    - 铁律一：从句永远用陈述语序——它在提供信息，不是真的在提问，所以不倒装
+    - 铁律二：主句过去时则从句时态呼应（也用过去），但客观真理例外（仍用现在时）
+    - 连接词的选择取决于内容性质：陈述事实→that；是否→whether/if；含疑问词意义→wh-词
+    - 直接问句倒装是"我是问句"的信号；从句不需要这个信号，这解释了为什么语序不同
+  common_mistakes:
+    - mistake: 从句沿用疑问句倒装语序
+      example: "\"I don't know where does he live.\" / \"Tell me what did you buy.\""
+      why: 学生看到 where/what 等疑问词就条件反射地用问句倒装，没意识到这是从句
+      how_to_explain: 强调"从句不是问句，是陈述"。教学生先把从句单独拎出来按陈述句写（he lives / you bought），再接到主句后面。看到 does/did/is 跑到主语前面就是警报。
+    - mistake: 忘记时态呼应
+      example: '"He said he is busy."（主句过去却用现在时 is）'
+      why: 中文没有时态呼应（"他说他很忙"动词不变），学生直接照搬
+      how_to_explain: 立规则"主句往后退一步，从句也跟着退"。主句 said 是过去，从句的 is 要退成 was，will 退成 would。例外只有客观真理。让学生先确认主句时态，再调从句。
+    - mistake: 连接词选错（that/whether/wh-混用）
+      example: "\"I don't know that he will come.\"（应为 whether/if，表\"是否\"）"
+      why: 学生不清楚每个连接词对应的语义场景
+      how_to_explain: 按含义对号入座：陈述确定事实→that（且常可省）；"是否"二选一→whether/if；句中缺"什么/哪里/何时"等信息→对应 wh-词。先判断从句要表达的是哪一类内容。
+    - mistake: 一般疑问句变从句时漏掉 whether/if
+      example: "\"I don't know he will come or not.\"（缺 whether/if）"
+      why: 学生把陈述句和一般疑问句的转换规则混淆，忘了一般疑问句需要连接词
+      how_to_explain: 提醒：陈述句用 that（可省），但一般疑问句（Yes/No 问句）变从句必须加 whether/if，不能省。判断依据是原句能否用"是/否"回答。
+  alternate_explanations:
+    - method: 先单独写从句法
+      when_to_use: 学生在从句语序上反复出错时
+      prompt: 把从句当成一个独立的陈述句先写出来（他住哪里→he lives there→去掉 there 留 where：where he lives），确认是"主语 + 谓语"的正常语序后，再把它整体接到主句后面。这样能避免倒装错误。
+    - method: 套娃可视化法
+      when_to_use: 学生不理解什么是"句子当宾语"时
+      prompt: 把宾语从句想成俄罗斯套娃——大娃娃（主句）肚子里装着一个完整的小娃娃（从句）。小娃娃本身是完整的一句话，但它整体被当成大句子的一个宾语。能装好几层，就是多重嵌套。
+    - method: 信号灯比喻（解释语序）
+      when_to_use: 学生问"为什么从句不倒装"时
+      prompt: 倒装语序是英语的"问句信号灯"——亮起来就告诉听者"这是一个问题"。从句只是在陈述、提供信息，不是真的在问，所以不开这盏灯，保持陈述语序（主语在前，谓语在后）。
+  question_templates:
+    difficulty_1_2: 出 2 道选择/填空题：选择正确的从句语序，或在 that/whether/if/wh-词中选连接词
+    difficulty_3: 出 1 道改错题：给从句倒装或时态不呼应的句子让学生改正
+    difficulty_4: 出 1 道转换/综合题：让学生把直接引语改为宾语从句（含人称、时态、时间词调整），或合并两句、造多重嵌套从句

@@ -27,22 +27,26 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# CORS — 允许前端开发服务器
+# CORS — 允许所有来源（局域网手机访问 + 本地开发）
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:8000"],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 
 # ── 注册路由 ──
-from .routers import session, progress, admin
+from .routers import content, progress, admin, ai, auth, chat, exam
 
-app.include_router(session.router)
+app.include_router(auth.router)
+app.include_router(chat.router)
+app.include_router(content.router)
 app.include_router(progress.router)
 app.include_router(admin.router)
+app.include_router(ai.router)
+app.include_router(exam.router)
 
 
 @app.get("/api/health")

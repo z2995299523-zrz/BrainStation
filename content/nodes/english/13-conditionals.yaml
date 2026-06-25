@@ -1,0 +1,232 @@
+slug: conditionals
+subject: english
+title: "条件句"
+tier: trunk
+difficulty: 3
+prerequisites: ["tenses-basic"]
+estimated_min: 25
+
+trigger:
+  type: story
+  title: "如果...——人类思维的核心模式"
+  content:
+    text: |
+      人类大脑有一种独特的能力：想象不存在的场景。
+
+      "如果明天不下雨，我们就去野餐。"（真实可能的未来）
+      "如果我是你，我会接受那份工作。"（不可能——你不能变成别人）
+      "如果我昨晚没熬夜，我今天就不会困了。"（过去无法改变）
+
+      这三种"如果"对应英语中三种条件句：
+
+      第一种：If it doesn't rain, we will go.（真实条件）
+      第二种：If I were you, I would accept.（虚拟现在）
+      第三种：If I hadn't stayed up, I wouldn't be tired now.（虚拟过去）
+
+      条件句是英语中最能体现逻辑思维的结构。
+      学会条件句，你就能表达假设、后悔、建议和幻想。
+    question: "用中文说'如果我是你'和'如果明天下雨'——这两个'如果'有区别吗？"
+
+display:
+  concept:
+    summary: "条件句分为真实条件句（第一类）和虚拟条件句（第二、三类）。本章学习三类条件句的时态搭配、虚拟语气的用法（were 代替 was、过去完成式），以及与中文表达习惯的差异。"
+    sections:
+      - title: "一、第一类条件句（真实条件）"
+        content: |
+          **结构**：If + 一般现在时, will/can/may + 动词原形
+
+          用法：描述**真实可能**的未来。
+
+          - If it rains tomorrow, I will stay home.（真的可能下雨）
+          - If you study hard, you will pass.（真的能通过）
+
+          **主将从现**：if 从句用现在时（即使指未来），主句用将来时。
+
+          ✗ If it will rain tomorrow, I will stay home.
+          ✓ If it rains tomorrow, I will stay home.
+      - title: "二、第二类条件句（虚拟现在/将来）"
+        content: |
+          **结构**：If + 一般过去时, would/could/might + 动词原形
+
+          用法：描述**不太可能**或**完全不可能**的现在/将来假设。
+
+          - If I were rich, I would travel the world.（现在不富——虚拟）
+          - If I had wings, I could fly.（没有翅膀——不可能）
+
+          **关键**：if 从句中用**were**代替 was（虚拟语气）！
+          ✓ If I were you, I would accept.（不是 was！）
+          ✗ If I was you...（口语中有人用但正式语法要求 were）
+
+          记忆：if 从句用过去式（表示与现在事实相反），主句用 would + 原形。
+      - title: "三、第三类条件句（虚拟过去）"
+        content: |
+          **结构**：If + 过去完成时（had + 过去分词）, would have + 过去分词
+
+          用法：描述**与过去事实相反**的假设——已经无法改变。
+
+          - If I had studied harder, I would have passed the exam.（实际：没好好学，没通过）
+          - If she had left earlier, she wouldn't have missed the train.
+
+          这是表达**后悔**的经典句型——"要是当初...就好了"。
+      - title: "四、三类条件句对比"
+        content: |
+          | | 第一类 | 第二类 | 第三类 |
+          |--|--------|--------|--------|
+          | 时间 | 将来 | 现在/将来 | 过去 |
+          | 可能性 | 真实可能 | 不太可能 | 完全不可能 |
+          | if 从句时态 | 一般现在 | 一般过去 | 过去完成 |
+          | 主句 | will + 原形 | would + 原形 | would have + 过去分词 |
+          | 例句 | If it rains, I will... | If I were you, I would... | If I had known, I would have... |
+
+          记忆口诀：
+          第一类：If + 现在, will + 原（可能发生）
+          第二类：If + 过去, would + 原（现在做不到）
+          第三类：If + had done, would have done（过去已来不及）
+      - title: "五、虚拟语气的特殊用法"
+        content: |
+          **wish 后的虚拟**（表示愿望——实际上不是这样）：
+          - 对现在的愿望：wish + 过去式
+            I wish I knew the answer.（实际：我不知道）
+          - 对过去的愿望（后悔）：wish + had done
+            I wish I had listened to my parents.（实际：当时没听）
+
+          **as if / as though**（好像——实际不是）：
+          He talks as if he knew everything.（实际：他并不是什么都知道）
+
+          **It's time...**（该做...了——实际还没做）：
+          It's time you went to bed.（你该睡觉了——实际还没睡）
+
+  examples:
+    - title: "第一类 vs 第二类"
+      problem: "比较：(1) If it rains, I will stay home. (2) If it rained, I would stay home."
+      steps:
+        - "第 1 句：if 从句用现在时 rains → 第一类——真的可能下雨"
+        - "第 2 句：if 从句用过去时 rained → 第二类——事实上现在没下雨，只是一种假设"
+        - "关键：从句时态决定了真实程度。现在时=可能真；过去时=实际不真。"
+      answer: "第 1 句：真实可能——'如果下雨（真可能下），我就待在家。' 第 2 句：虚拟——'要是在下雨（实际没下），我就待在家了。'"
+
+    - title: "第二类——If I were you"
+      problem: "翻译：'如果我是你，我会先完成作业。'"
+      steps:
+        - "对现在的虚拟假设——我不可能是你 → 第二类条件句"
+        - "If I were you（不是 was），I would finish homework first."
+      answer: "If I were you, I would finish homework first."
+
+    - title: "第三类——后悔"
+      problem: "翻译：'如果我早上没睡懒觉，我就不会迟到了。'（实际：睡懒觉了，迟到了）"
+      steps:
+        - "过去的事实无法改变 → 第三类条件句"
+        - "if 从句：hadn't overslept（过去完成时）"
+        - "主句：wouldn't have been late（would have done）"
+      answer: "If I hadn't overslept, I wouldn't have been late."
+
+  practice:
+    - id: "cond-prac-001"
+      stem: "填空：If it ___ (rain) tomorrow, we ___ (cancel) the picnic."
+      answer: "rains, will cancel（第一类条件句）"
+      hints: ["明天有可能发生 → 第一类", "if 从句用一般现在时，主句用 will"]
+
+    - id: "cond-prac-002"
+      stem: "填空：If I ___ (be) you, I ___ (take) the job."
+      answer: "were, would take"
+      hints: ["我不可能是你 → 第二类（虚拟现在）", "if 从句中用 were 不是 was"]
+
+    - id: "cond-prac-003"
+      stem: "填空：If he ___ (study) harder last year, he ___ (pass) the exam."
+      answer: "had studied, would have passed"
+      hints: ["去年的事，已经无法改变 → 第三类", "过去完成时 + would have done"]
+
+    - id: "cond-prac-004"
+      stem: "判断类别：'If I have time, I will help you.'——第几类？"
+      answer: "第一类（真实条件——可能真的有 time）"
+      hints: ["if 从句是什么时态？", "现在时 → 第一类"]
+
+    - id: "cond-prac-005"
+      stem: "改错：If I will see him, I will tell him."
+      answer: "If I see him, I will tell him.（if 从句不用 will）"
+      hints: ["if 从句中不能用 will", "主将从现"]
+
+  test:
+    - id: "cond-test-001"
+      stem: "填空：If she ___ (come) to the party, she will have fun."
+      answer: "comes（第一类——一般现在时）"
+      difficulty: 1
+      layer: operation
+
+    - id: "cond-test-002"
+      stem: "填空：If I ___ (know) her number, I would call her."
+      answer: "knew（第二类——一般过去时，虚拟语气）"
+      difficulty: 2
+      layer: operation
+
+    - id: "cond-test-003"
+      stem: "判断并填空：If I ___ (be) a bird, I could fly."
+      answer: "were（第二类——虚拟语气，用 were 不用 was）"
+      difficulty: 2
+      layer: operation
+
+    - id: "cond-test-004"
+      stem: "翻译：'如果我昨天知道这个消息，我就会告诉你了。'"
+      answer: "If I had known the news yesterday, I would have told you."
+      difficulty: 3
+      layer: operation
+
+    - id: "cond-test-005"
+      stem: "辨析：If it rains vs If it rained——两句含义有何不同？"
+      answer: "If it rains（第一类）= 可能真的会下雨，在讨论真实应对方案。If it rained（第二类）= 实际上现在没下雨，在谈论一个假想的场景——'要是在下雨...'"
+      difficulty: 3
+      layer: understand
+
+    - id: "cond-test-006"
+      stem: "改错：If I was you, I would go to see a doctor."
+      answer: "If I were you, I would go to see a doctor.（虚拟语气中 was → were）"
+      difficulty: 2
+      layer: operation
+
+    - id: "cond-test-007"
+      stem: "填空：I wish I ___ (not waste) so much time playing games last year."
+      answer: "hadn't wasted（wish 后对过去的虚拟——过去完成时）"
+      difficulty: 4
+      layer: connect
+
+    - id: "cond-test-008"
+      stem: "用第三类条件句写一个你人生中的'后悔'，再用第二类写一个你现在的'幻想'。"
+      answer: "（示例）第三类：If I had practiced more, I would have won the competition. / 第二类：If I could speak perfect English, I would travel around the world."
+      difficulty: 3
+      layer: connect
+
+ai_context:
+  topic_summary: "英语条件句分为三类：第一类（真实条件——If+现在时, will+原形）、第二类（虚拟现在——If+过去时, would+原形）、第三类（虚拟过去——If+had done, would have done）。核心区别在于可能性和时间：第一类=真实可能（将来），第二类=不太可能/不可能（现在），第三类=完全不可能（过去已无法改变）。虚拟语气关键规则：第二类中 be 动词用 were 代替 was；第三类用过去完成时表达对过去的后悔。wish 后的虚拟用法和条件句规则一致。"
+  key_insights:
+    - "三类条件句的本质区别：从'可能真'→'实际不真（现在）'→'实际不真（过去，已无法改变）'——时态每退一步，可能性就降一级"
+    - "If I were you 中的 were 是虚拟语气的标志——永远用 were 不用 was（即使主语是 I/he/she/it）"
+    - "第三类条件句是表达后悔的标准句型——If I had done..., I would have done... 对应中文'要是当初...就好了'"
+    - "主将从现也适用于第一类条件句——if 从句不用 will"
+  common_mistakes:
+    - mistake: "if 从句中用 will/would"
+      example: "If it will rain, I will stay home."
+      why: "把主句的将来时标记泛化到从句"
+      how_to_explain: "if 从句中永远不用 will/would。第一类用现在时，第二类用过去时，第三类用过去完成时。will 只能出现在主句中。"
+
+    - mistake: "第二类条件句用 was 而非 were"
+      example: "If I was you..."
+      why: "认为主语 I 应该搭配 was——忘记虚拟语气要求用 were"
+      how_to_explain: "在'如果我是你'这种完全不可能的情况下，英语要求用 were 表示'这是假的'。如果讲'昨天如果我在家'→ If I was at home yesterday（可能是真的，第一类或过去真实条件）。正常过去 vs 虚拟语气的对抗：was=可能真，were=肯定假。"
+
+    - mistake: "三类条件句时态搭配混乱"
+      example: "If I was rich, I will buy a car."
+      why: "从句用了过去时（虚拟），但主句用了 will（真实）——真假混搭"
+      how_to_explain: "条件句的时态是成套搭配的——第一类：现在+will、第二类：过去+would、第三类：had done+would have done。不能混搭。选了一类就整套照搬。"
+  alternate_explanations:
+    - method: "时间穿越法"
+      when_to_use: "学生对虚拟语气的时态'倒退'不理解"
+      prompt: "英语的虚拟语气规则：从句时态'往后退一步'表示'这不是真的'。讨论现在的不可能→退一步到过去时（If I knew...）。讨论过去的不可能→退两步到过去完成时（If I had known...）。时态退得越远，现实度越低——就像一个'可能性温度计'。"
+
+    - method: "后悔日记法（第三类练习）"
+      when_to_use: "学生对第三类条件句缺乏使用场景"
+      prompt: "写下三件你过去后悔的事，用 If I had done... I would have done... 表达。比如 If I had studied more last semester, my grades would have been better. 第三类条件句本质上是'后悔语法'——一旦你把它和后悔情绪绑定，就永远不会忘了。"
+
+  question_templates:
+    difficulty_1_2: "出 2 道时态填空题：第一类条件句（简单真实条件）或第二类条件句（If I were）"
+    difficulty_3: "出 1 道分类题：给三个条件句让学生判断各属第几类并解释理由"
+    difficulty_4: "出 1 道翻译题：含后悔语义的中文句子，要求用第三类条件句翻译"

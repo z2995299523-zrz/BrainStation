@@ -1,0 +1,217 @@
+slug: similarity
+subject: math
+title: "相似"
+tier: core
+difficulty: 3
+prerequisites: ["congruent-triangles"]
+estimated_min: 32
+
+trigger:
+  type: story
+  title: "泰勒斯如何只用一根木棍量出金字塔"
+  content:
+    text: |
+      公元前 6 世纪，希腊智者泰勒斯站在埃及金字塔脚下，被问到一个难题：
+      没有任何工具能爬上去，怎么量出这座庞然大物的高度？
+      泰勒斯不慌不忙，在地上竖起一根木棍，等到木棍影子的长度正好等于木棍高度的那一刻，
+      他指着金字塔的影子说：现在，金字塔影子的长度，就等于金字塔的高度。
+      他靠的不是魔法，而是相似——木棍和金字塔在同一时刻、同一太阳下，
+      构成了两个形状相同的三角形，对应边成相同的比例。
+      用小三角形去丈量大三角形，这就是相似的全部威力。
+    question: "为什么两个三角形只要三个角分别相等，就一定'形状相同'，哪怕大小差很多？"
+
+display:
+  concept:
+    summary: "相似图形形状相同、大小可以不同，对应角相等、对应边成比例，比值叫相似比。"
+    sections:
+      - title: "一、相似的定义"
+        content: |
+          形状相同的两个图形叫相似图形。对相似三角形而言：
+          - 对应角相等
+          - 对应边成比例
+
+          $$\triangle ABC \sim \triangle A'B'C' \Rightarrow \frac{AB}{A'B'} = \frac{BC}{B'C'} = \frac{CA}{C'A'} = k$$
+
+          这个比值 $k$ 叫相似比。当 $k = 1$ 时，相似就变成了全等——全等是相似的特例。
+
+      - title: "二、相似三角形的判定"
+        content: |
+          证两个三角形相似，常用三种方法：
+          - 两角对应相等（AA）：两个角相等就足够了，最常用
+          - 两边对应成比例且夹角相等（SAS）
+          - 三边对应成比例（SSS）
+
+          其中 AA 最方便：因为三角形内角和固定，找到两组等角即可。
+
+      - title: "三、平行线分线段成比例"
+        content: |
+          平行于三角形一边的直线，截另两边（或其延长线），所得对应线段成比例：
+
+          $$DE \parallel BC \Rightarrow \frac{AD}{DB} = \frac{AE}{EC}$$
+
+          并且 $\triangle ADE \sim \triangle ABC$。这是相似最常见的来源——出现平行线就要想到相似。
+
+      - title: "四、相似比与面积比、周长比"
+        content: |
+          设两个相似三角形的相似比为 $k$，则：
+          - 对应边之比 = 周长之比 = $k$
+          - 对应高、中线、角平分线之比 = $k$
+          - 面积之比 = $k^2$（注意是平方！）
+
+          $$\frac{S_1}{S_2} = k^2$$
+
+          面积比是相似比的平方，这是最容易出错也最常考的一点。
+
+      - title: "五、相似的实际应用"
+        content: |
+          相似把"测不到的"变成"算得出的"：
+          - 测高：用影子或标杆构造相似三角形（如泰勒斯量金字塔）
+          - 测距：隔河测宽，靠相似把河对岸的距离折算到岸上
+          - 位似图形：放大缩小（如投影、地图比例尺）本质都是相似
+
+  examples:
+    - title: "用 AA 判定并求边长"
+      problem: '$\triangle ABC$ 中 $DE \parallel BC$，$AD = 2$，$DB = 3$，$DE = 4$，求 $BC$。'
+      steps:
+        - '第 1 步：$DE \parallel BC$，所以 $\triangle ADE \sim \triangle ABC$。'
+        - '第 2 步：相似比 $\frac{AD}{AB} = \frac{2}{2+3} = \frac{2}{5}$。'
+        - '第 3 步：对应边成比例 $\frac{DE}{BC} = \frac{2}{5}$，即 $\frac{4}{BC} = \frac{2}{5}$。'
+        - '第 4 步：$BC = 4\times\frac{5}{2} = 10$。'
+      answer: "10"
+
+    - title: "影子测高"
+      problem: '同一时刻，一根 $1.5$ 米的标杆影长 $2$ 米，一棵树影长 $10$ 米，求树高。'
+      steps:
+        - '第 1 步：同一时刻太阳角度相同，标杆和树各自与影子构成相似三角形。'
+        - '第 2 步：列比例 $\frac{\text{树高}}{\text{树影}} = \frac{\text{杆高}}{\text{杆影}}$，即 $\frac{h}{10} = \frac{1.5}{2}$。'
+        - '第 3 步：$h = 10\times\frac{1.5}{2} = 7.5$。'
+      answer: "7.5米"
+
+    - title: "面积比是相似比的平方"
+      problem: '两个相似三角形的相似比为 $2:3$，较小三角形面积为 $8$，求较大三角形面积。'
+      steps:
+        - '第 1 步：相似比 $k = \frac{2}{3}$，面积比 $= k^2 = \frac{4}{9}$。'
+        - '第 2 步：设大三角形面积 $S$，则 $\frac{8}{S} = \frac{4}{9}$。'
+        - '第 3 步：$S = 8\times\frac{9}{4} = 18$。'
+      answer: "18"
+
+  practice:
+    - id: "sim-prac-001"
+      stem: '两个相似三角形相似比为 $1:4$，它们的周长比是多少？'
+      answer: "1:4"
+      hints: ["周长比等于相似比", "不是平方"]
+
+    - id: "sim-prac-002"
+      stem: '两个相似三角形相似比为 $3:5$，它们的面积比是多少？'
+      answer: "9:25"
+      hints: ["面积比是相似比的平方", "3²:5²"]
+
+    - id: "sim-prac-003"
+      stem: '$\triangle ABC \sim \triangle DEF$，$AB = 6$，$DE = 9$，$BC = 8$，求 $EF$。'
+      answer: "12"
+      hints: ["相似比 AB:DE=6:9=2:3", "BC:EF 也等于 2:3"]
+
+    - id: "sim-prac-004"
+      stem: '$DE \parallel BC$，$AD = 3$，$DB = 6$，$AE = 4$，求 $EC$。'
+      answer: "8"
+      hints: ["AD/DB = AE/EC", "3/6 = 4/EC"]
+
+    - id: "sim-prac-005"
+      stem: '相似比为 $1$ 的两个三角形是什么关系？'
+      answer: "全等"
+      hints: ["对应边相等说明什么", "全等是相似的特例"]
+
+    - id: "sim-prac-006"
+      stem: '一根 $2$ 米标杆影长 $3$ 米，同一时刻楼影长 $30$ 米，求楼高。'
+      answer: "20米"
+      hints: ["高/影长 比例相同", "h/30 = 2/3"]
+
+    - id: "sim-prac-007"
+      stem: '两个相似三角形面积比为 $16:25$，相似比是多少？'
+      answer: "4:5"
+      hints: ["相似比是面积比的算术平方根", "√16:√25"]
+
+  test:
+    - id: "sim-test-001"
+      stem: '两相似三角形相似比 $2:7$，对应边比是多少？'
+      answer: "2:7"
+      difficulty: 1
+      layer: operation
+
+    - id: "sim-test-002"
+      stem: '$\triangle ABC \sim \triangle DEF$，相似比 $1:2$，$AB=5$，求 $DE$。'
+      answer: "10"
+      difficulty: 1
+      layer: operation
+
+    - id: "sim-test-003"
+      stem: '两相似三角形相似比 $2:3$，面积比是多少？'
+      answer: "4:9"
+      difficulty: 2
+      layer: understand
+
+    - id: "sim-test-004"
+      stem: '$DE \parallel BC$，$AD=4$，$AB=10$，$DE=6$，求 $BC$。'
+      answer: "15"
+      difficulty: 3
+      layer: operation
+
+    - id: "sim-test-005"
+      stem: "判定两个三角形相似至少需要几组角相等？为什么？"
+      answer: "2组。因为三角形内角和180°固定，两角相等则第三角必然相等（AA）。"
+      difficulty: 3
+      layer: understand
+
+    - id: "sim-test-006"
+      stem: '两相似三角形面积比 $9:16$，较大三角形周长 $48$，求较小三角形周长。'
+      answer: "36（相似比3:4，周长比3:4，48×3/4=36）"
+      difficulty: 4
+      layer: connect
+
+    - id: "sim-test-007"
+      stem: "同一时刻 1 米标杆影长 0.8 米，旗杆影长 6 米，求旗杆高度。"
+      answer: "7.5米（h/6 = 1/0.8）"
+      difficulty: 3
+      layer: connect
+
+    - id: "sim-test-008"
+      stem: "为什么面积比是相似比的平方，而周长比只是相似比一次方？"
+      answer: "周长是长度（一维），随相似比一次方变化；面积是二维，长和宽都按相似比放大，所以是平方。"
+      difficulty: 4
+      layer: connect
+
+ai_context:
+  topic_summary: "相似是初中几何的高级工具，把全等三角形从'大小相等'推广到'形状相同'。它的核心是对应边成比例，能将无法直接测量的高度、距离转化为可计算的比例问题。相似比与面积比的平方关系、平行线分线段成比例，是中考几何与函数综合题的重要工具。"
+  key_insights:
+    - "相似 = 形状相同（对应角相等）+ 对应边成比例，全等是相似比为 1 的特例"
+    - "AA 是最省力的判定：两角相等即可，因为内角和固定第三角自动相等"
+    - "周长比、对应线段比都等于相似比 k，但面积比是 k²，维度不同结果不同"
+    - "见到平行线就联想相似——平行线分线段成比例是相似最常见的入口"
+  common_mistakes:
+    - mistake: "把面积比当成相似比"
+      example: "相似比2:3，直接说面积比也是2:3"
+      why: "忘了面积是二维量，要平方"
+      how_to_explain: "面积涉及长和宽两个方向，每个方向都放大 k 倍，所以面积放大 k×k 倍。相似比2:3，面积比是4:9。"
+
+    - mistake: "对应边找错，比例写颠倒"
+      example: "把大三角形的边比上小三角形对应边时分子分母放反"
+      why: "没有先把对应顶点一一对应清楚"
+      how_to_explain: "先按相似记号 △ABC∼△DEF 把对应顶点对齐：A↔D、B↔E、C↔F。然后对应边一律按同一方向写比，避免颠倒。"
+
+    - mistake: "由面积比反求相似比时忘了开平方"
+      example: "面积比9:16，说相似比也是9:16"
+      why: "知道正向要平方，却忘了反向要开方"
+      how_to_explain: "面积比是相似比的平方，反过来求相似比就要开平方。9:16 开方得 3:4。"
+  alternate_explanations:
+    - method: "照片放大模型"
+      when_to_use: "学生不理解'形状相同、大小不同'时"
+      prompt: "把一张照片等比例放大，里面每个人变高了也变胖了，但谁也没被拉变形——角度全没变，每条边都按同一倍数放大。这就是相似。"
+
+    - method: "影子测高情境"
+      when_to_use: "学生不知道相似有什么用时"
+      prompt: "同一时刻，所有竖直物体和它的影子都构成相似三角形（太阳角度一样）。所以'物高:影长'对谁都相等，用小标杆就能算出大楼高，相似就是'以小量大'。"
+
+  question_templates:
+    difficulty_1_2: "出 2 道直接用相似比求对应边或周长比的基础题"
+    difficulty_3: "出 1 道平行线分线段成比例或面积比与相似比换算的题"
+    difficulty_4: "出 1 道影子测高、隔河测距等实际应用或综合推理题"
