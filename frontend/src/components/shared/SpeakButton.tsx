@@ -1,7 +1,8 @@
-import { useState, useCallback, useRef } from 'react';
+import { useState, useRef, useCallback } from 'react';
 
 interface SpeakButtonProps {
-  text: string;
+  audioSrc?: string;         // 预录音频文件路径（优先使用）
+  text?: string;             // 文字，用浏览器 TTS 朗读（fallback）
   label?: string;
   size?: 'sm' | 'md' | 'lg';
   variant?: 'phoneme' | 'word';
@@ -9,13 +10,13 @@ interface SpeakButtonProps {
 }
 
 const ICONS: Record<string, { idle: string; playing: string }> = {
-  phoneme: { idle: '🗣️', playing: '🔊' },   // 音素本身
-  word:    { idle: '📢', playing: '🔊' },   // 完整单词
+  phoneme: { idle: '🗣️', playing: '🔊' },
+  word:    { idle: '📢', playing: '🔊' },
 };
 
-export default function SpeakButton({ text, label, size = 'sm', variant = 'word', className = '' }: SpeakButtonProps) {
+export default function SpeakButton({ audioSrc, text, label, size = 'sm', variant = 'word', className = '' }: SpeakButtonProps) {
   const [playing, setPlaying] = useState(false);
-  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const icons = ICONS[variant] || ICONS.word;
 
@@ -25,39 +26,58 @@ export default function SpeakButton({ text, label, size = 'sm', variant = 'word'
     lg: 'w-11 h-11 text-base',
   };
 
-  const speak = useCallback(() => {
-    if (!('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
+  const play = useCallback(() => {
+    // 停止之前的播放
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    window.speechSynthesis?.cancel();
+
+    setPlaying(true);
+
+    if (audioSrc) {
+      // 优先用预录音频文件
+      const audio = new Audio(audioSrc);
+      audioRef.current = audio;
+
+      audio.onended = () => { setPlaying(false); audioRef.current = null; };
+      audio.onerror = () => { setPlaying(false); audioRef.current = null; };
+
+      audio.play().catch(() => {
+        // 文件播放失败，尝试 TTS fallback
+        if (text) speakWithTTS();
+        else setPlaying(false);
+      });
+    } else if (text) {
+      speakWithTTS();
+    } else {
+      setPlaying(false);
+    }
+  }, [audioSrc, text]);
+
+  const speakWithTTS = useCallback(() => {
+    if (!('speechSynthesis' in window)) { setPlaying(false); return; }
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
-    // 音素用更慢的速度 + 稍低音调，让细节更清晰
-    utterance.rate = variant === 'phoneme' ? 0.5 : 0.85;
-    utterance.pitch = variant === 'phoneme' ? 0.85 : 1;
+    utterance.rate = variant === 'phoneme' ? 0.6 : 0.9;
+    utterance.pitch = variant === 'phoneme' ? 0.9 : 1;
 
-    setPlaying(true);
-    if (timerRef.current) clearTimeout(timerRef.current);
-    // 音素播放时间更长（重复发音）
-    const timeout = variant === 'phoneme' ? 15000 : 10000;
-    timerRef.current = setTimeout(() => setPlaying(false), timeout);
+    utterance.onend = () => setPlaying(false);
+    utterance.onerror = () => setPlaying(false);
 
-    utterance.onend = () => {
-      setPlaying(false);
-      if (timerRef.current) clearTimeout(timerRef.current);
-    };
-    utterance.onerror = () => {
-      setPlaying(false);
-      if (timerRef.current) clearTimeout(timerRef.current);
-    };
+    // 超时保护
+    setTimeout(() => setPlaying(false), 10000);
 
     window.speechSynthesis.speak(utterance);
-  }, [text]);
+  }, [text, variant]);
 
   return (
     <button
-      onClick={speak}
+      onClick={play}
       disabled={playing}
-      title={label || `朗读: ${text}`}
+      title={label || (audioSrc ? '播放预录音频' : `朗读: ${text}`)}
       className={`inline-flex items-center justify-center rounded-full transition-all
         ${sizeClasses[size]}
         ${playing

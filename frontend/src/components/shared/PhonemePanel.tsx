@@ -9,6 +9,20 @@ interface PhonemeEntry {
   word_ipa: string;
 }
 
+// Map IPA symbol to audio file slug
+const SLUG_MAP: Record<string, string> = {
+  '/iː/': 'ee', '/ɪ/': 'ih', '/e/': 'eh', '/æ/': 'ae', '/ʌ/': 'uh',
+  '/ɑː/': 'ah', '/ɒ/': 'o', '/ɔː/': 'aw', '/ʊ/': 'oo', '/uː/': 'ooo',
+  '/ɜː/': 'er', '/ə/': 'schwa',
+  '/aɪ/': 'ai', '/eɪ/': 'ei', '/ɔɪ/': 'oi', '/aʊ/': 'au',
+  '/əʊ/': 'ou', '/ɪə/': 'ia', '/eə/': 'ea', '/ʊə/': 'ua',
+  '/p/': 'p', '/t/': 't', '/k/': 'k', '/f/': 'f', '/θ/': 'th',
+  '/s/': 's', '/ʃ/': 'sh', '/tʃ/': 'ch', '/tr/': 'tr', '/ts/': 'ts', '/h/': 'h',
+  '/b/': 'b', '/d/': 'd', '/g/': 'g', '/v/': 'v', '/ð/': 'dh',
+  '/z/': 'z', '/ʒ/': 'zh', '/dʒ/': 'dzh', '/dr/': 'dr', '/dz/': 'dz', '/r/': 'r',
+  '/m/': 'm', '/n/': 'n', '/ŋ/': 'ng', '/l/': 'l', '/w/': 'w', '/j/': 'y',
+};
+
 interface PhonemeGroup {
   title: string;
   phonemes: PhonemeEntry[];
@@ -153,13 +167,13 @@ export default function PhonemePanel() {
                         className="flex items-center gap-1.5 px-2 py-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
                       >
                         <SpeakButton
-                          text={p.speak_phoneme}
+                          audioSrc={`/audio/phonemes/${SLUG_MAP[p.symbol] || 'ee'}.mp3`}
                           label={`音素: ${p.symbol}`}
                           size="sm"
                           variant="phoneme"
                         />
                         <SpeakButton
-                          text={p.speak_word}
+                          audioSrc={`/audio/words/${SLUG_MAP[p.symbol] || 'ee'}.mp3`}
                           label={`单词: ${p.word}`}
                           size="sm"
                           variant="word"
